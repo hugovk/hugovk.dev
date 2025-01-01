@@ -1,0 +1,27 @@
+html.dark {
+  code.language-diff {
+    span.gd {
+      color: #ff8b8b;
+    }
+    span.gi {
+      color: #00c900;
+    }
+  }
+}
+
+html:not(.dark) {
+  code.language-diff {
+    span.gd {
+      color: #e60000;
+    }
+    span.gi {
+      color: green;
+    }
+  }
+}
+
+/* Remove backticks around inline code */
+.prose :where(code):not(:where([class~=not-prose],[class~=not-prose] *))::before,
+.prose :where(code):not(:where([class~=not-prose],[class~=not-prose] *))::after {
+  content: "";
+}
