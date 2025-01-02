@@ -1,4 +1,4 @@
-module github.com/hugovk/hugovk.github.io
+module github.com/hugovk/hugovk.dev
 
 go 1.23.4
 
