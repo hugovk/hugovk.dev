@@ -59,7 +59,7 @@
 
 [[main]]
   name = "Bluesky"
-  url = "https://bsky.app/profile/hugovk.bsky.social"
+  url = "https://bsky.app/profile/hugovk.dev"
   weight = 130
   [main.params]
     icon = "bluesky"
@@ -104,7 +104,7 @@
 
 [[footer]]
   name = "Bluesky"
-  url = "https://bsky.app/profile/hugovk.bsky.social"
+  url = "https://bsky.app/profile/hugovk.dev"
   weight = 130
   [footer.params]
     icon = "bluesky"
