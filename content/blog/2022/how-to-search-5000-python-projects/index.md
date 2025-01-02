@@ -58,7 +58,7 @@ Downloaded 5000 projects in 1602.4 seconds
 
 With colour:
 
-![Tail end of downloading files: successful downloads in green, unsuccessful downloads in red](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v41t4zfbxoybdfxuhg6m.png)
+![Tail end of downloading files: successful downloads in green, unsuccessful downloads in red](v41t4zfbxoybdfxuhg6m.png)
 
 ⏳ This will take a bit of time. Some projects don't have sdists, nothing to worry
 about, we will still end up with a good number. At the time of writing (2022-12-09), it
@@ -124,7 +124,7 @@ Found 32 matching lines in 12 projects
 
 With colour:
 
-![Same output as above but with the source filename in purple and LegacyInterpolation in orange](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ele6hbe4kix8s0pb6ngu.png)
+![Same output as above but with the source filename in purple and LegacyInterpolation in orange](ele6hbe4kix8s0pb6ngu.png)
 
 Answer: very little, mostly backports and type stubs. This told us it's a good candidate
 for removal, so a proper `DeprecationWarning` was

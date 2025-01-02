@@ -10,13 +10,13 @@ Python 3.7 was first released on 2018-06-27 and recently reached end-of-life on
 This means it is no longer receiving security updates and you should upgrade to a newer
 version (at least 3.8, but preferably 3.11):
 
-![Chart showing when different Python versions reached end-of-life](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nzjga7b8p4eo1t4ja9qd.png)
+![Chart showing when different Python versions reached end-of-life](nzjga7b8p4eo1t4ja9qd.png)
 
 <center><small>Source: <a href="https://devguide.python.org/versions/">Python Developer's Guide</a></small></center>
 
 <P>However, if you look at download numbers from PyPI, 3.7 still accounts for a large share. 3.7 accounted for 25% of all downloads from PyPI in July 2023, compared with 27% for 3.8:
 
-![Python download share over time](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fkoa8vurrwrj71jde2f3.png)
+![Python download share over time](fkoa8vurrwrj71jde2f3.png)
 
 <center><small>Source: <a href="https://hugovk.github.io/pypi-tools/charts.html">pypi-tools</a></small></center>
 

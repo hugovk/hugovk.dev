@@ -18,7 +18,7 @@ files at [Top PyPI Packages](https://hugovk.github.io/top-pypi-packages/). This 
 However, as more packages and releases are uploaded to PyPI, and there are more and more
 downloads logged, the amount of billed data increases too.
 
-![BigQuery TB billed](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sego7uxbpslifzd791ee.png)
+![BigQuery TB billed](sego7uxbpslifzd791ee.png)
 
 This chart shows the amount of data billed per month.
 
@@ -207,13 +207,13 @@ ORDER BY
 LIMIT 8000
 ```
 
-![Cost and bytes for 1 day with different package limits are the same](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/03tmt980ypp67qryra26.png)
+![Cost and bytes for 1 day with different package limits are the same](03tmt980ypp67qryra26.png)
 
 **Result:** Interestingly, the cost is the same for all limits (1000-8000): $0.31.
 
 Repeating with one day but filtering for pip only:
 
-![Cost and bytes for 1 day still the same for pip](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/al96xqbescc64lavi4y7.png)
+![Cost and bytes for 1 day still the same for pip](al96xqbescc64lavi4y7.png)
 
 **Result:** Cost increased to $0.39 but again the same for all limits.
 
@@ -221,7 +221,7 @@ Let's repeat with all installers, but for 30 days, and this time query in decrea
 limits, in case we were only paying for incremental changes: 8000, 7000, 6000, 5000,
 4000, 3000, 2000, 1000:
 
-![Cost and bytes for 30 day still the same no matter how many packages](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jhci1bcxrgncb34wwldm.png)
+![Cost and bytes for 30 day still the same no matter how many packages](jhci1bcxrgncb34wwldm.png)
 
 **Result:** Again, the cost is the same regardless of package limit: $4.89 per query.
 
@@ -239,7 +239,7 @@ This last one fetches data for all 531,022 packages on PyPI:
 | 100000  | 100,000        | 0.20           | 43,447,746,560 | 43,447,720,943  |
 | 1000000 | 531,022        | 0.20           | 43,447,746,560 | 43,447,720,943  |
 
-![Still same flat cost and bytes for 1 or 10 or 1,000 or 1,000,000 packages](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3pitkptggoit9xdypjp2.png)
+![Still same flat cost and bytes for 1 or 10 or 1,000 or 1,000,000 packages](3pitkptggoit9xdypjp2.png)
 
 **Result:** Again, same cost, whether for 1 package or 531,022 packages!
 
@@ -252,7 +252,7 @@ Here's the estimated cost and bytes billed (for one package, all installers) bet
 and 30 days (`f"pypinfo --all --json --indent 0 --days {days} --limit 1 '' project"`),
 showing a roughly linear increase:
 
-![Cost and bytes increase as the number of days increase](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/aa4kq8d5neuxj9mf1g2v.png)
+![Cost and bytes increase as the number of days increase](aa4kq8d5neuxj9mf1g2v.png)
 
 ## Conclusion
 

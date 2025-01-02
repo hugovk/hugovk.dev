@@ -15,73 +15,73 @@ how much different Python versions have been used over the past three years.
 Here’s the pip installs for all packages from the
 [Python Package Index (PyPI)](https://pypi.org/), between January 2016 and March 2019:
 
-![pypi](https://thepracticaldev.s3.amazonaws.com/i/4wqa702ngppsv6dxh3zq.png)
+![pypi](4wqa702ngppsv6dxh3zq.png)
 
 ### [pip](https://github.com/pypa/pip)
 
 The package installer
 
-![pip](https://thepracticaldev.s3.amazonaws.com/i/2kncm0d1gnytc8dox1vr.png)
+![pip](2kncm0d1gnytc8dox1vr.png)
 
 ### [six](https://github.com/benjaminp/six)
 
 Python 2 and 3 compatibility library
 
-![six](https://thepracticaldev.s3.amazonaws.com/i/2s8ienw3purly7d563g3.png)
+![six](2s8ienw3purly7d563g3.png)
 
 ### [NumPy](https://github.com/numpy/numpy)
 
 Scientific computing library
 
-![NumPy](https://thepracticaldev.s3.amazonaws.com/i/slcl0es81ltkdlduthea.png)
+![NumPy](slcl0es81ltkdlduthea.png)
 
 ### [pytest](https://github.com/pytest-dev/pytest)
 
 Testing framework
 
-![pytest](https://thepracticaldev.s3.amazonaws.com/i/x9u45cebj930u52lhob2.png)
+![pytest](x9u45cebj930u52lhob2.png)
 
 ### [Coverage.py](https://github.com/nedbat/coveragepy)
 
 Code coverage testing
 
-![coverage](https://thepracticaldev.s3.amazonaws.com/i/lacortkwvi92z4zw0m6b.png)
+![coverage](lacortkwvi92z4zw0m6b.png)
 
 ### [Pillow](https://github.com/python-pillow/Pillow)
 
 Imaging library
 
-![pillow](https://thepracticaldev.s3.amazonaws.com/i/msqm643wek2w0qmgdxlu.png)
+![pillow](msqm643wek2w0qmgdxlu.png)
 
 ### [Django](https://github.com/python-pillow/Pillow)
 
 Web framework
 
-![django](https://thepracticaldev.s3.amazonaws.com/i/omjea829j1h83fxp65ge.png)
+![django](omjea829j1h83fxp65ge.png)
 
 ### [Matplotlib](https://github.com/matplotlib/matplotlib)
 
 2D plotting library
 
-![matplotlib](https://thepracticaldev.s3.amazonaws.com/i/7kqrb64d2lmrnm2jw2lu.png)
+![matplotlib](7kqrb64d2lmrnm2jw2lu.png)
 
 ### [Flake8](https://gitlab.com/pycqa/flake8)
 
 Linter
 
-![flake8](https://thepracticaldev.s3.amazonaws.com/i/102lu27lpme6gtdb3q9i.png)
+![flake8](102lu27lpme6gtdb3q9i.png)
 
 ### [Pylint](https://github.com/PyCQA/pylint/)
 
 Linter
 
-![pylint](https://thepracticaldev.s3.amazonaws.com/i/yxc1911cdltvfrjs0eop.png)
+![pylint](yxc1911cdltvfrjs0eop.png)
 
 ### [pylast](https://github.com/pylast/pylast)
 
 Interface to Last.fm
 
-![pylast](https://thepracticaldev.s3.amazonaws.com/i/ulztdisgv3zmuzif8nbf.png)
+![pylast](ulztdisgv3zmuzif8nbf.png)
 
 ## How
 

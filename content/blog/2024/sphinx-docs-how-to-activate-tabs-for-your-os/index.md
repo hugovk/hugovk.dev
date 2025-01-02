@@ -8,7 +8,7 @@ On the [Python Developer's Guide](https://devguide.python.org/) and
 [Pillow documentation](https://pillow.readthedocs.io/en/latest/installation/basic-installation.html)
 we have some pages with tabs for different operating systems:
 
-![Screenshot showing instructions how to build Python. Some parts have Unix, macOS and Windows tabs. The macOS tab is active, showing a configure command to run in your terminal. Underneath is a second step with its own tabs and a macOS command. There's a macOS-specific note underneath.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/knze2ghlj0qmjucz354t.png)
+![Screenshot showing instructions how to build Python. Some parts have Unix, macOS and Windows tabs. The macOS tab is active, showing a configure command to run in your terminal. Underneath is a second step with its own tabs and a macOS command. There's a macOS-specific note underneath.](knze2ghlj0qmjucz354t.png)
 
 It's possible to add some JavaScript so that the matching tab is activated based on the
 visitor's operating system.

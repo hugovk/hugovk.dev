@@ -20,49 +20,49 @@ https://botsin.space/@bitsofpluto
 
 <center>https://botsin.space/@bitsofpluto/109854013035140138</center>
 
-![Dark shadows caused by mountains](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r78gpvcyl5ai09z93cds.png)
+![Dark shadows caused by mountains](r78gpvcyl5ai09z93cds.png)
 
 ---
 
 <center>https://botsin.space/@bitsofpluto/109878078918934666</center>
 
-![Red cratered area to the left giving way to creamy pale plain to the right](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7zlvfcqdh1nj4nlgpl9p.png)
+![Red cratered area to the left giving way to creamy pale plain to the right](7zlvfcqdh1nj4nlgpl9p.png)
 
 ---
 
 <center>https://botsin.space/@bitsofpluto/109882325572738354</center>
 
-![Long ridges causing shadows](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fr8oxtml9trqb7kg1ptj.png)
+![Long ridges causing shadows](fr8oxtml9trqb7kg1ptj.png)
 
 ---
 
 <center>https://botsin.space/@bitsofpluto/109872416513104327</center>
 
-![Reddish area with many craters, including a large crater with a central peak](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ys3xv8itck0jpjfttqjq.png)
+![Reddish area with many craters, including a large crater with a central peak](ys3xv8itck0jpjfttqjq.png)
 
 ---
 
 <center>https://botsin.space/@bitsofpluto/109869584884331747</center>
 
-![Mostly space with a sliver of surface in the corner](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tevx5s0kxjsq1kwlm847.png)
+![Mostly space with a sliver of surface in the corner](tevx5s0kxjsq1kwlm847.png)
 
 ---
 
 <center>https://botsin.space/@bitsofpluto/109835610772369900</center>
 
-![Deep red with ridges, and the curve of Pluto against deep black space](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wscpk9b699sexhly1es7.png)
+![Deep red with ridges, and the curve of Pluto against deep black space](wscpk9b699sexhly1es7.png)
 
 ---
 
 <center>https://botsin.space/@bitsofpluto/109828532816033685</center>
 
-![Mostly pale surface with mountainous areas and craters](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/144ix05imzd5dv3qvmpr.png)
+![Mostly pale surface with mountainous areas and craters](144ix05imzd5dv3qvmpr.png)
 
 ---
 
 <center>https://botsin.space/@bitsofpluto/109845519798723221</center>
 
-![Mixed white and red surface pocked with many craters](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/68l14un3lt032llpcnl7.png)
+![Mixed white and red surface pocked with many craters](68l14un3lt032llpcnl7.png)
 
 ### Description
 
@@ -83,7 +83,7 @@ For decades, Pluto had only been a speck of light until the NASA's Hubble Space
 Telescope captured it in
 [never-before-seen detail](https://hubblesite.org/contents/news-releases/2010/news-2010-06.html):
 
-![NASA: "Hubble's view isn't sharp enough to see craters or mountains, if they exist on the surface, but Hubble reveals a complex-looking and variegated world with white, dark-orange, and charcoal-black terrain."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tvnfv986pgdognhevi3j.jpg)
+![NASA: "Hubble's view isn't sharp enough to see craters or mountains, if they exist on the surface, but Hubble reveals a complex-looking and variegated world with white, dark-orange, and charcoal-black terrain."](tvnfv986pgdognhevi3j.jpg)
 
 Just a few years later, I followed the journey of NASA's New Horizons spacecraft in awe
 as it flew past Pluto, in the far depths of our solar system.
@@ -91,7 +91,7 @@ as it flew past Pluto, in the far depths of our solar system.
 Like many others I was especially struck by the beautiful photographs it shot,
 especially this large, detailed image:
 
-![Pluto in enhanced colour](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x3cu2253wz13viuoyg3y.png)
+![Pluto in enhanced colour](x3cu2253wz13viuoyg3y.png)
 
 As NASA describe it:
 
@@ -155,7 +155,7 @@ the top. I came up with these figures of 10 and 7 through trial-and-error. It's 
 nice to sometimes get an image with a
 [corner of Pluto's curvature against the darkness of space](https://botsin.space/@bitsofpluto/109880910091459752):
 
-![Light surface of Pluto with a few cratered, the darkness of space behind](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sh69yjordzcx0q0p20o1.png)
+![Light surface of Pluto with a few cratered, the darkness of space behind](sh69yjordzcx0q0p20o1.png)
 
 #### 2. Post to Mastodon
 
@@ -183,7 +183,7 @@ need expensive or high-end hosting. I created a Linode using the cheapest option
 $5/month the "Nanode 1 GB" plan gives 1 GB RAM, 1 CPU and 25 GB storage, more than
 enough for our needs.
 
-![Linode 24-hour usage stats: average 0.43% CPU usage, and about ~1 Kb/s average network both inbound and outbound](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6oiwss0gys3ndhlnsksj.png)
+![Linode 24-hour usage stats: average 0.43% CPU usage, and about ~1 Kb/s average network both inbound and outbound](6oiwss0gys3ndhlnsksj.png)
 
 I chose a Ubuntu 22.04 LTS image: LTS means "long-term support", it will be supported
 for 5 years, until April 2027. And I chose the Frankfurt, DE region because it's closest

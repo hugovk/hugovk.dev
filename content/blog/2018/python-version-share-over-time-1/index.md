@@ -17,8 +17,6 @@ Here's the pip installs for all packages from the
 
 <center><small>pip installs from PyPI over time, by Python version</small></center>
 
-For the [NumPy](https://github.com/numpy/numpy) scientific computing library:
-
 And for the [Pillow](https://github.com/python-pillow/Pillow) imaging library:
 
 ![pillow](pillow.png)

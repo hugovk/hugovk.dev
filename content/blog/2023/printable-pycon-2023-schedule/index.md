@@ -7,7 +7,7 @@ tags: ["pycon", "python", "print", "css"]
 Want to print out the PyCon US 2023 schedule? Paper doesn't run out of batteries, is
 easy to scribble on, and stuff into a pocket.
 
-![Printed PyCons schedule](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2mjm7whei9m178ljcrhx.jpg)
+![Printed PyCons schedule](2mjm7whei9m178ljcrhx.jpg)
 
 Here's some custom CSS and JavaScript to make it nicely printable.
 
@@ -65,4 +65,4 @@ individual presentation pages such as
 Once printed, you can click the Styler icon and the `x` button to disable Styler for the
 site so you can browse the original version.
 
-![Printed PyCons schedule](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/59l815p02j0yk0jy377c.jpg)
+![Printed PyCons schedule](59l815p02j0yk0jy377c.jpg)

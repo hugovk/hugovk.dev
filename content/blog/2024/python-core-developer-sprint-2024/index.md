@@ -12,7 +12,7 @@ same room for a week. It's hugely beneficial and productive, we held many in-dep
 discussions that just don't happen when we're all remote and async, and got to work on
 many different things together.
 
-![A panoramic shot of a room of people, some sitting at desks, some standing, some working on laptops, some in discussion.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5rpkesswa2xbczkuwoq7.jpeg)
+![A panoramic shot of a room of people, some sitting at desks, some standing, some working on laptops, some in discussion.](5rpkesswa2xbczkuwoq7.jpg)
 
 <center><small>The sprint room</small></center>
 
@@ -50,7 +50,7 @@ We had a Q&A session with the Steering Council:
 [Barry Warsaw](https://mastodon.social/@pumpichank), Emily Morehouse,
 [Gregory P. Smith](https://infosec.exchange/@gpshead), Pablo Galindo Salgado and Thomas.
 
-![The steering council: Barry, Emily, Greg with a microphone, Pablo and Thomas sitting on high stools.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g7yyzyqtztoednyacr1r.jpg)
+![The steering council: Barry, Emily, Greg with a microphone, Pablo and Thomas sitting on high stools.](g7yyzyqtztoednyacr1r.jpg)
 
 <center><small>The Python Steering Council</small></center>
 
@@ -84,7 +84,7 @@ The whole room discussed including
 We had a Q&A session with two of the three Developers-in-Residence, Łukasz and
 [Petr Viktorin](https://mastodon.social/@encukou).
 
-![Łukasz (with a microphone) and Petr sitting on high stools.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vbn0yvsz7t9t2j7yfd2j.jpg)
+![Łukasz (with a microphone) and Petr sitting on high stools.](vbn0yvsz7t9t2j7yfd2j.jpg)
 
 <center><small>Q&A with Łukasz and Petr</small></center>
 
@@ -95,7 +95,7 @@ with [Mariatta](https://fosstodon.org/@mariatta), Greg and Thomas.
 Larry Hastings handed out, in return for _oohs_ and _aahs_, some nice P.C.D.S. 2024
 stickers he generously designed and printed up for us. Thanks!
 
-![Two stickers. One yellow snake with its body looping and spelling out the letters PCDS (for Python Core Dev Sprint), one blue snake spelling 2024.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/arqsq2qg7h1giiko2g40.jpg)
+![Two stickers. One yellow snake with its body looping and spelling out the letters PCDS (for Python Core Dev Sprint), one blue snake spelling 2024.](arqsq2qg7h1giiko2g40.jpg)
 
 <center><small>PCDS 2024 stickers by Larry</small></center>
 
@@ -118,7 +118,7 @@ answer was a pleasant surprise: we've had ~400 not ~80 new contributors to Pytho
 
 Pablo performed card tricks!
 
-![Pablo splaying open a deck of PyCon US playing cards and Greg picking one.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tlusli7ylxa3di48nmct.jpg)
+![Pablo splaying open a deck of PyCon US playing cards and Greg picking one.](tlusli7ylxa3di48nmct.jpg)
 
 <center><small>Magic from Pablo</small></center>
 
@@ -143,13 +143,13 @@ CPython docs using the
 Along with around 25 others, I was on Łukasz and Pablo's
 [core.py podcast](https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc).
 
-![Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/obqejp8n5acztsb8knaq.jpg)
+![Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room.](obqejp8n5acztsb8knaq.jpg)
 
 <center><small>Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room</small></center>
 
 Itamar gave us cake for the podcast's first birthday!
 
-![A big white cake, with decorations of Łukasz and Pablo's faces, along with the Core.py logo, a big digit 1, headphones, microphone, bananas, and "emosido engañado" graffiti.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8gz97wzjn5khsjg4anln.jpg)
+![A big white cake, with decorations of Łukasz and Pablo's faces, along with the Core.py logo, a big digit 1, headphones, microphone, bananas, and "emosido engañado" graffiti.](8gz97wzjn5khsjg4anln.jpg)
 
 <center><small>cake.py. Photo by Itamar Oren.</small></center>
 

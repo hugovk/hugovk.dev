@@ -28,11 +28,11 @@ But if a contributor has enabled GitHub Actions on their fork (which I recommend
 your contributions before opening a PR), it also runs the cron on their fork. This not
 only uses up extra CI resources on the fork:
 
-![A list of daily GitHub Actions runs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tc2y55vsrfl3ulss4629.png)
+![A list of daily GitHub Actions runs](tc2y55vsrfl3ulss4629.png)
 
 It also sends a regular email to the contributor when the workflow fails:
 
-![A daily email from GitHub: "hugovk/packaging.python.org Run failed: Test - main"](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eqdmv5m766yif5qgjols.png)
+![A daily email from GitHub: "hugovk/packaging.python.org Run failed: Test - main"](eqdmv5m766yif5qgjols.png)
 
 Instead, we only need to run the cron for the upstream. For example, for a
 `https://github.com/octocat/hello-world` repo, add:
