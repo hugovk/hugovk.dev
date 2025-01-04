@@ -14,9 +14,9 @@ title = "Hugo van Kemenade"
 
 [params.author]
    name = "Hugo van Kemenade"
-  # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
+   image = "author.png"
+   # headline = "my headline"
+   # bio = "my bio"
    links = [
      { github = "https://github.com/hugovk" },
      { mastodon = "https://mastodon.social/@hugovk" },
