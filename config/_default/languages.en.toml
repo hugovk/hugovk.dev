@@ -4,7 +4,7 @@ languageDirection = "ltr"
 weight = 1
 
 title = "Hugo van Kemenade"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/">{{< icon "cc" >}}&hairsp;{{< icon "cc-by" >}}&hairsp;{{< icon "cc-sa" >}}</a>&nbsp;Hugo van Kemenade<br><p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo</a></p>'
 
 [params]
   dateFormat = "2 January 2006"
