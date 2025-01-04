@@ -4645,10 +4645,12 @@ chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank
 the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
 &lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-1/">Python version share over time, 1&lt;/a>
-(January 2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-2/">Python version share over time, 2&lt;/a>
-(January 2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
 &lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
 (January 2016 — December 2018)&lt;/li>
 &lt;li>&lt;a href="../../2019/python-version-share-over-time-4/">Python version share over time, 4&lt;/a>
@@ -4846,10 +4848,12 @@ chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank
 the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
 &lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-1/">Python version share over time, 1&lt;/a>
-(January 2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-2/">Python version share over time, 2&lt;/a>
-(January 2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
 &lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
 (January 2016 — December 2018)&lt;/li>
 &lt;li>&lt;a href="../../2019/python-version-share-over-time-4/">Python version share over time, 4&lt;/a>
@@ -5654,10 +5658,12 @@ a chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_bla
 in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
 &lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-1/">Python version share over time, 1&lt;/a>
-(January 2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-2/">Python version share over time, 2&lt;/a>
-(January 2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
 &lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
 (January 2016 — December 2018)&lt;/li>
 &lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
@@ -6202,10 +6208,12 @@ a chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_bla
 in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
 &lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-1/">Python version share over time, 1&lt;/a>
-(January 2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-2/">Python version share over time, 2&lt;/a>
-(January 2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
 &lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
 without needing to sign up for BigQuery&lt;/li>
 &lt;li>&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a>: A command-line tool to access data
@@ -6556,8 +6564,9 @@ a chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_bla
 in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
 &lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../../2018/python-version-share-over-time-1/">Python version share over time, 1&lt;/a>
-(January 2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
 &lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
 without needing to sign up for BigQuery&lt;/li>
 &lt;li>&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a>: A command-line tool to access data
