@@ -1,1 +1,334 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pycon on Hugo van Kemenade</title><link>https://hugovk.dev/tags/pycon/</link><description>Recent content in pycon on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 13 Jun 2024 14:41:55 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/pycon/index.xml" rel="self" type="application/rss+xml"/><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description/></item><item><title>Printable PyCon 2024 schedule</title><link>https://hugovk.dev/blog/2024/printable-pycon-2024-schedule/</link><pubDate>Sat, 11 May 2024 11:01:33 +0000</pubDate><guid>https://hugovk.dev/blog/2024/printable-pycon-2024-schedule/</guid><description/></item><item><title>Printable PyCon 2023 schedule</title><link>https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/</link><pubDate>Sat, 15 Apr 2023 10:10:02 +0000</pubDate><guid>https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pycon on Hugo van Kemenade</title><link>https://hugovk.dev/tags/pycon/</link><description>Recent content in pycon on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 13 Jun 2024 14:41:55 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/pycon/index.xml" rel="self" type="application/rss+xml"/><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description>&lt;p>If you read just one, check
+&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html" target="_blank" rel="noreferrer">Kati&amp;rsquo;s thorough recap&lt;/a>!&lt;/p>
+&lt;p>22nd May 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html" target="_blank" rel="noreferrer">Echos of the People API user guide&lt;/a>
+by &lt;a href="https://mastodon.social/@nedbat@hachyderm.io/112479219635272740" target="_blank" rel="noreferrer">Ned Batchelder&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>24th May 2024&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://wagtail.org/blog/pycon-2024/" target="_blank" rel="noreferrer">Wagtailers spread their wings at PyCon 2024&lt;/a> by
+&lt;a href="https://fosstodon.org/@vossisboss" target="_blank" rel="noreferrer">Meagen Voss&lt;/a> (@vossisboss)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://flet.dev/blog/flet-at-pycon-us-2024/" target="_blank" rel="noreferrer">Flet at PyCon US 2024&lt;/a> by Feodor
+Fitsner&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>27th May 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.tomy.me/en/posts/pycon-us-2024/" target="_blank" rel="noreferrer">PyCon US 2024: My First PyCon in US 🫶🏻&lt;/a>
+by &lt;a href="https://mastodon.social/@tomyhsieh" target="_blank" rel="noreferrer">Tomy Hsieh&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>28th May 2024&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://treyhunner.com/2024/05/pycon-2024-reflection/" target="_blank" rel="noreferrer">PyCon 2024 Reflection&lt;/a> by
+&lt;a href="https://mastodon.social/@treyhunner/112520554890667118" target="_blank" rel="noreferrer">Trey Hunner&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://simonwillison.net/2024/May/28/weeknotes/" target="_blank" rel="noreferrer">Weeknotes: PyCon US 2024&lt;/a> by
+&lt;a href="https://fedi.simonwillison.net/@simon/112520529116346191" target="_blank" rel="noreferrer">Simon Willison&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://stacklok.com/blog/3-key-takeaways-from-pycon-us-2024" target="_blank" rel="noreferrer">3 key takeaways from PyCon US 2024&lt;/a>
+by Luis Juncal &amp;amp; Yolanda Robla&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>30th May 2024&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.pyopensci.org/blog/recap-pyos-pyconus-2024.html" target="_blank" rel="noreferrer">pyOpenSci at PyCon US 2024 - Python packaging and community &lt;/a>
+by &lt;a href="https://fosstodon.org/@leahawasser/112554205196871020" target="_blank" rel="noreferrer">Leah Wasser&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://kafkai.com/en/blog/our-experience-at-pycon-us-2024-in-pittsburgh/" target="_blank" rel="noreferrer">Our Experience at PyCon US 2024 in Pittsburgh&lt;/a>
+by &lt;a href="https://hachyderm.io/@muheuenga/112530136789502549" target="_blank" rel="noreferrer">Ngazetungue Muheue&lt;/a>
+(@ngazetungue)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>1st June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html" target="_blank" rel="noreferrer">PyCon US 2024 Recap&lt;/a>
+by &lt;a href="https://fosstodon.org/@kati/112542145378019538" target="_blank" rel="noreferrer">Kati Michel&lt;/a> (@katherinemichel)&lt;/li>
+&lt;/ul>
+&lt;p>4th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://mangoumbrella.com/post/pycon-us-2024" target="_blank" rel="noreferrer">PyCon US 2024&lt;/a> by
+&lt;a href="https://mastodon.social/@y2mango/112556835094650562" target="_blank" rel="noreferrer">Yilei Yang&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>13th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://sethmlarson.dev/security-developer-in-residence-report-37" target="_blank" rel="noreferrer">PyCon US 2024 as Security Developer-in-Residence&lt;/a>
+by &lt;a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noreferrer">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
+&lt;/ul>
+&lt;p>14th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html" target="_blank" rel="noreferrer">The Python Language Summit 2024&lt;/a>
+by &lt;a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noreferrer">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
+&lt;/ul>
+&lt;p>16th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://dafoster.net/articles/2024/06/16/pycon-us-2024-highlights/" target="_blank" rel="noreferrer">PyCon US 2024 Highlights&lt;/a>
+by &lt;a href="https://mastodon.world/@davidfstr" target="_blank" rel="noreferrer">David Foster&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>19th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/@monicaoyugi/from-pittsburgh-to-new-york-a-pycon-us-2024-adventure-1727c952509c" target="_blank" rel="noreferrer">From Pittsburgh to New York: A PyCon US 2024 Adventure&lt;/a>
+by &lt;a href="https://mastodon.social/@monics" target="_blank" rel="noreferrer">Monica Oyugi&lt;/a> (@monicaoyugi)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;small>Header photo: Downtown Pittsburgh seen between the Andy Warhol Bridge and Roberto
+Clemente Bridge&lt;/small>&lt;/p></description></item><item><title>Printable PyCon 2024 schedule</title><link>https://hugovk.dev/blog/2024/printable-pycon-2024-schedule/</link><pubDate>Sat, 11 May 2024 11:01:33 +0000</pubDate><guid>https://hugovk.dev/blog/2024/printable-pycon-2024-schedule/</guid><description>&lt;p>Want to print out the PyCon US schedule? Paper doesn&amp;rsquo;t run out of batteries, is easy to
+scribble on, and stuff into a pocket (technical term: &lt;em>the affordances of paper&lt;/em>).&lt;/p>
+&lt;p>Here&amp;rsquo;s some custom CSS and JavaScript to make it nicely printable.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Install the
+&lt;a href="https://chrome.google.com/webstore/detail/styler/bogdgcfoocbajfkjjolkmcdcnnellpkb?hl=en" target="_blank" rel="noreferrer">Styler browser extension&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>View a PyCon schedule page such as &lt;a href="https://us.pycon.org/2024/schedule/talks/" target="_blank" rel="noreferrer">https://us.pycon.org/2024/schedule/talks/&lt;/a> and
+click the Styler extension&amp;rsquo;s S icon&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Paste this CSS into the upper box:&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-CSS" data-lang="CSS">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">div&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">internal-page-header&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">div&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">panel-heading&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">footer&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">div&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">badges&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nc">container&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">margin&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">max-width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">fit-content&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">content&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">margin&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nc">calendar&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">left&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">auto&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nc">slot&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">padding&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">media&lt;/span> &lt;span class="nt">print&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">a&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">a&lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nt">href&lt;/span>&lt;span class="o">]&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">none&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Paste this JavaScript into the lower box:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">$&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">document&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">ready&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kd">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">location&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">pathname&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;2024/schedule/&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">!&lt;/span>&lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">location&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">pathname&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;2024/schedule/presentation/&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">$&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;body&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">addClass&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;pycon-schedule&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Print!&lt;/li>
+&lt;/ol>
+&lt;p>It&amp;rsquo;ll run on any of the &lt;code>https://us.pycon.org/2024/schedule/*&lt;/code> pages, but not the
+individual presentation pages such as
+&lt;code>https://us.pycon.org/2024/schedule/presentation/61/&lt;/code>&lt;/p>
+&lt;p>It&amp;rsquo;s not perfect, the right edge is slightly cut off, but it&amp;rsquo;s more printable than the
+original.&lt;/p>
+&lt;p>Once printed, you can click the Styler icon and the &lt;code>x&lt;/code> button to disable Styler for the
+site so you can browse the original version.&lt;/p>
+&lt;p>See also:&lt;/p>
+&lt;ul>
+&lt;li>
+ 
+ &lt;a href="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/">Printable PyCon 2023 schedule&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Printable PyCon 2023 schedule</title><link>https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/</link><pubDate>Sat, 15 Apr 2023 10:10:02 +0000</pubDate><guid>https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/</guid><description>&lt;p>Want to print out the PyCon US 2023 schedule? Paper doesn&amp;rsquo;t run out of batteries, is
+easy to scribble on, and stuff into a pocket.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu9700584616418493274.webp 330w,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu13775982213532534423.webp 660w
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu4210198414677676652.webp 1024w
+ 
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu14651582198646946669.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="3000"
+ height="3753"
+ class="mx-auto my-0 rounded-md"
+ alt="Printed PyCons schedule"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu13974143194544455367.jpg"
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu15840687101948714029.jpg 330w,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu13974143194544455367.jpg 660w
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu16503700326334677003.jpg 1024w
+ 
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu17204611524436912176.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>Here&amp;rsquo;s some custom CSS and JavaScript to make it nicely printable.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Install the
+&lt;a href="https://chrome.google.com/webstore/detail/styler/bogdgcfoocbajfkjjolkmcdcnnellpkb?hl=en" target="_blank" rel="noreferrer">Styler browser extension&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>View a PyCon schedule page such as &lt;a href="https://us.pycon.org/2023/schedule/talks/" target="_blank" rel="noreferrer">https://us.pycon.org/2023/schedule/talks/&lt;/a> and
+click the Styler extension&amp;rsquo;s S icon&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Paste this CSS into the upper box:&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-CSS" data-lang="CSS">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">aside&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">sidebar&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">div&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">badges&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">button&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">menu-button&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">open-menu&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">button&lt;/span>&lt;span class="p">#&lt;/span>&lt;span class="nn">theme-switch&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">footer&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">14&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="nt">main&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">padding&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nc">pycon-schedule&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nc">calendar&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="k">left&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">auto&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">@&lt;/span>&lt;span class="k">media&lt;/span> &lt;span class="nt">print&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">a&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">a&lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nt">href&lt;/span>&lt;span class="o">]&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">after&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">none&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Paste this JavaScript into the lower box:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">$&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">document&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">ready&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kd">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">location&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">pathname&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;2023/schedule/&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">!&lt;/span>&lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">location&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">pathname&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;2023/schedule/presentation/&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">$&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;body&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">addClass&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;pycon-schedule&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Print!&lt;/li>
+&lt;/ol>
+&lt;p>It&amp;rsquo;ll run on any of the &lt;code>https://us.pycon.org/2023/schedule/*&lt;/code> pages, but not the
+individual presentation pages such as
+&lt;code>https://us.pycon.org/2023/schedule/presentation/88/&lt;/code>&lt;/p>
+&lt;p>Once printed, you can click the Styler icon and the &lt;code>x&lt;/code> button to disable Styler for the
+site so you can browse the original version.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu4314895293858645646.webp 330w,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu12499753314251917225.webp 660w
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu16856264157155671375.webp 1024w
+ 
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu1183141510410706252.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="3000"
+ height="3725"
+ class="mx-auto my-0 rounded-md"
+ alt="Printed PyCons schedule"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu13708067118798853599.jpg"
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu3899553956701030337.jpg 330w,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu13708067118798853599.jpg 660w
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu18029687746099976681.jpg 1024w
+ 
+ 
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu15980773464463287369.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p></description></item></channel></rss>

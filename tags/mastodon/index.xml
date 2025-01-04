@@ -1,1 +1,914 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mastodon on Hugo van Kemenade</title><link>https://hugovk.dev/tags/mastodon/</link><description>Recent content in mastodon on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 18 Feb 2023 13:16:49 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/mastodon/index.xml" rel="self" type="application/rss+xml"/><item><title>Bits of Pluto on Mastodon</title><link>https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/</link><pubDate>Sat, 18 Feb 2023 13:16:49 +0000</pubDate><guid>https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mastodon on Hugo van Kemenade</title><link>https://hugovk.dev/tags/mastodon/</link><description>Recent content in mastodon on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 18 Feb 2023 13:16:49 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/mastodon/index.xml" rel="self" type="application/rss+xml"/><item><title>Bits of Pluto on Mastodon</title><link>https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/</link><pubDate>Sat, 18 Feb 2023 13:16:49 +0000</pubDate><guid>https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/</guid><description>&lt;h2 id="what-i-built" class="relative group">What I built &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-i-built" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I built a Mastodon bot that posts a a different bit of Pluto every six hours.&lt;/p>
+&lt;h3 id="category-submission" class="relative group">Category Submission &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#category-submission" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Wacky Wildcard&lt;/p>
+&lt;h3 id="app-link" class="relative group">App Link &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#app-link" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>&lt;a href="https://botsin.space/@bitsofpluto" target="_blank" rel="noreferrer">https://botsin.space/@bitsofpluto&lt;/a>&lt;/p>
+&lt;h3 id="screenshots" class="relative group">Screenshots &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#screenshots" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;center>https://botsin.space/@bitsofpluto/109854013035140138&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu13013606807986872.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu13799908972607881619.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu8301071606134170714.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu5284173940797319092.webp 1142w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1142"
+ height="1150"
+ class="mx-auto my-0 rounded-md"
+ alt="Dark shadows caused by mountains"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu13600806685200271068.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu7458460252715450339.png 330w,/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu13600806685200271068.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds_hu9592510727308332703.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/r78gpvcyl5ai09z93cds.png 1142w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;center>https://botsin.space/@bitsofpluto/109878078918934666&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu1558277377867169878.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu4686369660634544177.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu7330986270481574824.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu13335839705846424478.webp 1146w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1146"
+ height="1126"
+ class="mx-auto my-0 rounded-md"
+ alt="Red cratered area to the left giving way to creamy pale plain to the right"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu17944234881835025895.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu1837388443617617303.png 330w,/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu17944234881835025895.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p_hu5069670974031786781.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/7zlvfcqdh1nj4nlgpl9p.png 1146w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;center>https://botsin.space/@bitsofpluto/109882325572738354&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu10218968891523089671.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu16708773974313927252.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu2566553314125234245.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu8197944343739751697.webp 1148w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1148"
+ height="1130"
+ class="mx-auto my-0 rounded-md"
+ alt="Long ridges causing shadows"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu5611988672641016349.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu412456283410890532.png 330w,/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu5611988672641016349.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj_hu6329792302397193011.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/fr8oxtml9trqb7kg1ptj.png 1148w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;center>https://botsin.space/@bitsofpluto/109872416513104327&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu9474148282976587922.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu2276179180738659986.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu9914851317308694800.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu15585738384942378299.webp 1142w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1142"
+ height="1130"
+ class="mx-auto my-0 rounded-md"
+ alt="Reddish area with many craters, including a large crater with a central peak"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu790678803814385990.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu17399396504668554262.png 330w,/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu790678803814385990.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq_hu2715498821294027822.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/ys3xv8itck0jpjfttqjq.png 1142w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;center>https://botsin.space/@bitsofpluto/109869584884331747&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu7656477202858202994.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu3389465620012065770.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu5739397032450348353.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu17961513296655294732.webp 1156w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1156"
+ height="1138"
+ class="mx-auto my-0 rounded-md"
+ alt="Mostly space with a sliver of surface in the corner"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu17536984765991189767.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu10738162612260464160.png 330w,/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu17536984765991189767.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847_hu17962384054676740669.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tevx5s0kxjsq1kwlm847.png 1156w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;center>https://botsin.space/@bitsofpluto/109835610772369900&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu11372565248686486025.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu17699392229313084117.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu8892203545071408949.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu16970587227597269562.webp 1128w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1128"
+ height="1138"
+ class="mx-auto my-0 rounded-md"
+ alt="Deep red with ridges, and the curve of Pluto against deep black space"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu17737472821271627432.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu15692315087646447044.png 330w,/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu17737472821271627432.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7_hu12654971958552899679.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/wscpk9b699sexhly1es7.png 1128w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;center>https://botsin.space/@bitsofpluto/109828532816033685&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu11646423515757117416.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu7050938511281708920.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu10787893965094761124.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu8712180676323233930.webp 1140w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1140"
+ height="1128"
+ class="mx-auto my-0 rounded-md"
+ alt="Mostly pale surface with mountainous areas and craters"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu74589632601918210.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu13764215196743639279.png 330w,/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu74589632601918210.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr_hu17487119619686234460.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/144ix05imzd5dv3qvmpr.png 1140w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;center>https://botsin.space/@bitsofpluto/109845519798723221&lt;/center>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu10757420021457197459.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu10672184556951274217.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu10180894612734037618.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu9067978568788572971.webp 1134w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1134"
+ height="1128"
+ class="mx-auto my-0 rounded-md"
+ alt="Mixed white and red surface pocked with many craters"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu6159210427649520618.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu2120279984758343040.png 330w,/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu6159210427649520618.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7_hu9508584111634666233.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/68l14un3lt032llpcnl7.png 1134w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="description" class="relative group">Description &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#description" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Bits of Pluto posts a different bit of Pluto to Mastodon every six hours. Each is a crop
+from an image by NASA&amp;rsquo;s New Horizons spacecraft.&lt;/p>
+&lt;h3 id="link-to-source-code" class="relative group">Link to Source Code &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#link-to-source-code" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>&lt;a href="https://github.com/hugovk/bitsofpluto" target="_blank" rel="noreferrer">https://github.com/hugovk/bitsofpluto&lt;/a>&lt;/p>
+&lt;h3 id="permissive-license" class="relative group">Permissive License &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#permissive-license" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>MIT&lt;/p>
+&lt;h2 id="background" class="relative group">Background &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#background" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>For decades, Pluto had only been a speck of light until the NASA&amp;rsquo;s Hubble Space
+Telescope captured it in
+&lt;a href="https://hubblesite.org/contents/news-releases/2010/news-2010-06.html" target="_blank" rel="noreferrer">never-before-seen detail&lt;/a>:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu10145364106846517402.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu6146810079732165020.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu5046557089430349141.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu4371475018740632101.webp 1280w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1280"
+ height="1280"
+ class="mx-auto my-0 rounded-md"
+ alt="NASA: &amp;ldquo;Hubble&amp;rsquo;s view isn&amp;rsquo;t sharp enough to see craters or mountains, if they exist on the surface, but Hubble reveals a complex-looking and variegated world with white, dark-orange, and charcoal-black terrain.&amp;rdquo;"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu8026101840220665970.jpg"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu8712933287998692800.jpg 330w,/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu8026101840220665970.jpg 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j_hu7929741513407254936.jpg 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/tvnfv986pgdognhevi3j.jpg 1280w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>Just a few years later, I followed the journey of NASA&amp;rsquo;s New Horizons spacecraft in awe
+as it flew past Pluto, in the far depths of our solar system.&lt;/p>
+&lt;p>Like many others I was especially struck by the beautiful photographs it shot,
+especially this large, detailed image:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu12382066078648070890.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu8930375940327464588.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu6421212025907404506.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu6426731390610580906.webp 1041w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1041"
+ height="1041"
+ class="mx-auto my-0 rounded-md"
+ alt="Pluto in enhanced colour"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu15917831427250520947.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu150459048135280989.png 330w,/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu15917831427250520947.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y_hu7513082320776089004.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/x3cu2253wz13viuoyg3y.png 1041w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>As NASA describe it:&lt;/p>
+&lt;blockquote>
+&lt;p>NASA’s New Horizons spacecraft captured this high-resolution enhanced color view of
+Pluto on July 14, 2015. The image combines blue, red and infrared images taken by the
+Ralph/Multispectral Visual Imaging Camera (MVIC). Pluto’s surface sports a remarkable
+range of subtle colors, enhanced in this view to a rainbow of pale blues, yellows,
+oranges, and deep reds. Many landforms have their own distinct colors, telling a
+complex geological and climatological story that scientists have only just begun to
+decode. The image resolves details and colors on scales as small as 0.8 miles (1.3
+kilometers). The viewer is encouraged to zoom in on the
+&lt;a href="http://www.nasa.gov/sites/default/files/thumbnails/image/crop_p_color2_enhanced_release.png" target="_blank" rel="noreferrer">full resolution&lt;/a>
+image on a larger screen to fully appreciate the complexity of Pluto’s surface
+features.&lt;/p>
+&lt;/blockquote>
+&lt;p>I second the recommendation to zoom in on the full resolution! The detail and is
+astounding, especially compared to the Hubble image.&lt;/p>
+&lt;p>I thought it would be fascinating to chop this up and put it in a social media feed to
+enjoy different aspects of the detail, to punctuate the doomscrolling with a moment of
+wonder.&lt;/p>
+&lt;h3 id="how-i-built-it" class="relative group">How I built it &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-i-built-it" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>I built the bot in Python. Originally it posted to Twitter, but as the future of bots on
+Twitter is
+&lt;a href="https://www.theverge.com/2023/2/2/23582982/twitter-api-free-access-cutoff-bot-developers-shutdown" target="_blank" rel="noreferrer">less&lt;/a>
+&lt;a href="https://www.theverge.com/2023/2/2/23582982/twitter-api-free-access-cutoff-bot-developers-shutdown" target="_blank" rel="noreferrer">than&lt;/a>
+&lt;a href="https://www.vice.com/en/article/4axzzd/twitters-latest-chaotic-move-will-kill-the-sites-best-bots-account-owners-say" target="_blank" rel="noreferrer">certain&lt;/a>,
+the time was ready to port it over to
+&lt;a href="https://botwiki.org/resources/fediverse-bots/" target="_blank" rel="noreferrer">Mastodon&lt;/a> where bots are welcome.&lt;/p>
+&lt;p>On the way, I learned how to calculate brightness in images, how to use the Mastodon
+API, and how to set up a bot on Linode and (the appropriately-named!) botsin.space.&lt;/p>
+&lt;p>The bot does two things:&lt;/p>
+&lt;ol>
+&lt;li>Get a bit of Pluto&lt;/li>
+&lt;li>Post to Mastodon&lt;/li>
+&lt;/ol>
+&lt;h4 id="1-get-a-bit-of-pluto" class="relative group">1. Get a bit of Pluto &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1-get-a-bit-of-pluto" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h4>&lt;p>The
+&lt;a href="https://github.com/hugovk/bitsofpluto/blob/d98c8fe4749c31c4d142b89a06d0241773794f00/bitsofpluto.py#L92-L139" target="_blank" rel="noreferrer">&lt;code>bitsofpluto()&lt;/code> function&lt;/a>
+takes a single parameter, the path to the full resolution Pluto image.&lt;/p>
+&lt;p>The image is opened using &lt;a href="https://pillow.readthedocs.io/" target="_blank" rel="noreferrer">Pillow&lt;/a>.&lt;/p>
+&lt;p>We then choose a random width for the image, somewhere between 800 and 2000 pixels, with
+height is set to ¾ the width. This is to give a different zoom level each time. We then
+randomly select a window to crop. This is our potential bit of Pluto.&lt;/p>
+&lt;p>But we don&amp;rsquo;t stop there. The image has quite a large background of empty black (or
+nearly black) space. We don&amp;rsquo;t want to post that. So we sample 9 points from the image
+(corners, centre point, and bisecting points) and measure the brightness where 0 is
+black and 255 is white. If brightness is under 10, we count it as a dark point. If there
+are 6 or less, we save the image to a temporary directory.&lt;/p>
+&lt;p>Otherwise if there are too many dark points, we discard this crop, and start again from
+the top. I came up with these figures of 10 and 7 through trial-and-error. It&amp;rsquo;s quite
+nice to sometimes get an image with a
+&lt;a href="https://botsin.space/@bitsofpluto/109880910091459752" target="_blank" rel="noreferrer">corner of Pluto&amp;rsquo;s curvature against the darkness of space&lt;/a>:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu11665073760321693607.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu14855471410025107996.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu295575475080148744.webp 1024w
+ 
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu16518289408522833604.webp 1158w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1158"
+ height="960"
+ class="mx-auto my-0 rounded-md"
+ alt="Light surface of Pluto with a few cratered, the darkness of space behind"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu12264257598751683805.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu16687284716431816713.png 330w,/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu12264257598751683805.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1_hu7227124216687963854.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/sh69yjordzcx0q0p20o1.png 1158w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h4 id="2-post-to-mastodon" class="relative group">2. Post to Mastodon &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2-post-to-mastodon" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h4>&lt;p>We use the &lt;a href="https://mastodonpy.readthedocs.io/" target="_blank" rel="noreferrer">Mastodon.py library&lt;/a> to via the Mastodon
+API.&lt;/p>
+&lt;p>The
+&lt;a href="https://github.com/hugovk/bitsofpluto/blob/d98c8fe4749c31c4d142b89a06d0241773794f00/bitsofpluto.py#L46-L89" target="_blank" rel="noreferrer">&lt;code>toot_it() function&lt;/code>&lt;/a>
+first reads in the credentials for posting. I generated them using a
+&lt;a href="https://github.com/hugovk/mastodon-tools/blob/main/mastodon_create_app.py" target="_blank" rel="noreferrer">helper script&lt;/a>
+I wrote based upon &lt;a href="https://www.decontextualize.com/" target="_blank" rel="noreferrer">Allison Parrish&lt;/a>&amp;rsquo;s
+&lt;a href="https://gist.github.com/aparrish/661fca5ce7b4882a8c6823db12d42d26" target="_blank" rel="noreferrer">instructions&lt;/a>.&lt;/p>
+&lt;p>Once authenticated, there&amp;rsquo;s a two-step process for posting:&lt;/p>
+&lt;ol>
+&lt;li>Upload the image using &lt;code>api.media_post()&lt;/code>, which returns a reference to the media&lt;/li>
+&lt;li>Create the Mastodon post, using the media reference&lt;/li>
+&lt;/ol>
+&lt;h4 id="hosting" class="relative group">Hosting &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#hosting" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h4>&lt;h5 id="linode" class="relative group">Linode &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#linode" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h5>&lt;p>The bot code is hosted on Linode. The nice thing about Mastodon bots is that they rarely
+need expensive or high-end hosting. I created a Linode using the cheapest option: for
+$5/month the &amp;ldquo;Nanode 1 GB&amp;rdquo; plan gives 1 GB RAM, 1 CPU and 25 GB storage, more than
+enough for our needs.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu151644383614186534.webp 330w,/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu14227480749472961420.webp 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu6651714454526341975.webp 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu12463370794783861747.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="2430"
+ height="1574"
+ class="mx-auto my-0 rounded-md"
+ alt="Linode 24-hour usage stats: average 0.43% CPU usage, and about ~1 Kb/s average network both inbound and outbound"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu1014372628466919197.png"
+ srcset="https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu3593949116485252495.png 330w,/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu1014372628466919197.png 660w
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu16059282693444577103.png 1024w
+ 
+ 
+ ,/blog/2023/bits-of-pluto-on-mastodon/6oiwss0gys3ndhlnsksj_hu5715776658109152799.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>I chose a Ubuntu 22.04 LTS image: LTS means &amp;ldquo;long-term support&amp;rdquo;, it will be supported
+for 5 years, until April 2027. And I chose the Frankfurt, DE region because it&amp;rsquo;s closest
+to me.&lt;/p>
+&lt;p>After creating a user, I logged in via SSH, and cloned the
+&lt;a href="https://github.com/hugovk/bitsofpluto" target="_blank" rel="noreferrer">bitsofpluto repo&lt;/a>.&lt;/p>
+&lt;p>I ran &lt;code>crontab -e&lt;/code> to schedule it to run once every six hours:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-cron" data-lang="cron">0 */6 * * * /home/botuser/bin/scheduled/0000-06-repeat.sh &amp;gt; /tmp/logs/0000-06-repeat.log
+&lt;/code>&lt;/pre>&lt;p>Where &lt;code>0000-06-repeat.sh&lt;/code> contains:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!/bin/bash
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="c1">#set -e&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir -p /tmp/logs/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">~/github/bitsofpluto/crontask.sh &amp;gt; /tmp/logs/bitsofpluto.log 2&amp;gt;&lt;span class="p">&amp;amp;&lt;/span>&lt;span class="m">1&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which, when the cron triggers, switches to the repo, fetches any recent changes, and
+then runs the bot to make a post:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">python3 bitsofpluto.py --yaml ~/bin/data/bitsofpluto.yaml --no-web
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h5 id="botsinspace" class="relative group">botsin.space &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#botsinspace" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h5>&lt;p>The bot&amp;rsquo;s Mastodon account is on &lt;a href="https://muffinlabs.com/" target="_blank" rel="noreferrer">Colin Mitchell&lt;/a>&amp;rsquo;s
+&lt;a href="https://botsin.space/about" target="_blank" rel="noreferrer">botsin.space instance&lt;/a>, home to many other
+&lt;a href="https://botsin.space/public/local" target="_blank" rel="noreferrer">excellent bots&lt;/a>.&lt;/p>
+&lt;h3 id="additional-resourcesinfo" class="relative group">Additional Resources/Info &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#additional-resourcesinfo" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>I&amp;rsquo;ve made two other Mastodon bots:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://botsin.space/@tiny_bus_stop" target="_blank" rel="noreferrer">@tiny_bus_stop&lt;/a> -
+&lt;a href="https://github.com/hugovk/cheapbotsdonequick/blob/main/tiny_bus_stop.json" target="_blank" rel="noreferrer">uses Tracery&lt;/a>
+and &lt;a href="https://cheapbotstootsweet.com/" target="_blank" rel="noreferrer">Cheap Bots, Toot Sweet!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://botsin.space/@FlagFacts" target="_blank" rel="noreferrer">@FlagFacts&lt;/a> -
+&lt;a href="https://github.com/hugovk/randimgbot" target="_blank" rel="noreferrer">uses Python&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Enjoy!&lt;/p></description></item></channel></rss>

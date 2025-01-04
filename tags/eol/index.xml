@@ -1,1 +1,354 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eol on Hugo van Kemenade</title><link>https://hugovk.dev/tags/eol/</link><description>Recent content in eol on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 22 Aug 2023 19:25:29 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/eol/index.xml" rel="self" type="application/rss+xml"/><item><title>Why are there still so many downloads for EOL Python 3.7?</title><link>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</link><pubDate>Tue, 22 Aug 2023 19:25:29 +0000</pubDate><guid>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eol on Hugo van Kemenade</title><link>https://hugovk.dev/tags/eol/</link><description>Recent content in eol on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 22 Aug 2023 19:25:29 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/eol/index.xml" rel="self" type="application/rss+xml"/><item><title>Why are there still so many downloads for EOL Python 3.7?</title><link>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</link><pubDate>Tue, 22 Aug 2023 19:25:29 +0000</pubDate><guid>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</guid><description>&lt;p>Python 3.7 was first released on 2018-06-27 and recently reached end-of-life on
+2023-06-27 (&lt;a href="https://peps.python.org/pep-0537/" target="_blank" rel="noreferrer">PEP 537&lt;/a>).&lt;/p>
+&lt;p>This means it is no longer receiving security updates and you should upgrade to a newer
+version (at least 3.8, but preferably 3.11):&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8722968066724085077.webp 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu12481401423374169931.webp 660w
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8474829593977071400.webp 1024w
+ 
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8410732872795207257.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1530"
+ height="950"
+ class="mx-auto my-0 rounded-md"
+ alt="Chart showing when different Python versions reached end-of-life"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu3958082494281366100.png"
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu412302689539189135.png 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu3958082494281366100.png 660w
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu13327397258811340917.png 1024w
+ 
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu14770132012544471259.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Source: &lt;a href="https://devguide.python.org/versions/">Python Developer's Guide&lt;/a>&lt;/small>&lt;/center>
+&lt;P>However, if you look at download numbers from PyPI, 3.7 still accounts for a large share. 3.7 accounted for 25% of all downloads from PyPI in July 2023, compared with 27% for 3.8:
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="fkoa8vurrwrj71jde2f3.png" alt="Python download share over time" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html">pypi-tools&lt;/a>&lt;/small>&lt;/center>
+&lt;p>But why does such an old Python version have so many downloads?&lt;/p>
+&lt;h2 id="all-downloads" class="relative group">All downloads &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Let&amp;rsquo;s dig into the numbers using a handy tool called
+&lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a>, which helps us analyse the
+&lt;a href="https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/" target="_blank" rel="noreferrer">PyPI data from Google BigQuery&lt;/a>.&lt;/p>
+&lt;p>This command fetches all of yesterday&amp;rsquo;s downloads per Python version:&lt;/p>
+&lt;p>&lt;code>pypinfo --days 1 --percent --markdown &amp;quot;&amp;quot; pyversion&lt;/code>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Python version&lt;/th>
+ &lt;th style="text-align: right">percent&lt;/th>
+ &lt;th style="text-align: right">download count&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>3.8&lt;/td>
+ &lt;td style="text-align: right">25.00%&lt;/td>
+ &lt;td style="text-align: right">189,678,872&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.7&lt;/td>
+ &lt;td style="text-align: right">23.35%&lt;/td>
+ &lt;td style="text-align: right">177,150,010&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.9&lt;/td>
+ &lt;td style="text-align: right">20.25%&lt;/td>
+ &lt;td style="text-align: right">153,663,903&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.10&lt;/td>
+ &lt;td style="text-align: right">15.52%&lt;/td>
+ &lt;td style="text-align: right">117,751,108&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.11&lt;/td>
+ &lt;td style="text-align: right">6.90%&lt;/td>
+ &lt;td style="text-align: right">52,381,884&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.6&lt;/td>
+ &lt;td style="text-align: right">6.29%&lt;/td>
+ &lt;td style="text-align: right">47,749,879&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2.7&lt;/td>
+ &lt;td style="text-align: right">2.32%&lt;/td>
+ &lt;td style="text-align: right">17,602,650&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.5&lt;/td>
+ &lt;td style="text-align: right">0.23%&lt;/td>
+ &lt;td style="text-align: right">1,778,388&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.4&lt;/td>
+ &lt;td style="text-align: right">0.10%&lt;/td>
+ &lt;td style="text-align: right">770,135&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.12&lt;/td>
+ &lt;td style="text-align: right">0.03%&lt;/td>
+ &lt;td style="text-align: right">224,223&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.13&lt;/td>
+ &lt;td style="text-align: right">0.00%&lt;/td>
+ &lt;td style="text-align: right">3,920&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.3&lt;/td>
+ &lt;td style="text-align: right">0.00%&lt;/td>
+ &lt;td style="text-align: right">1,165&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2.8&lt;/td>
+ &lt;td style="text-align: right">0.00%&lt;/td>
+ &lt;td style="text-align: right">57&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.2&lt;/td>
+ &lt;td style="text-align: right">0.00%&lt;/td>
+ &lt;td style="text-align: right">35&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>None&lt;/td>
+ &lt;td style="text-align: right">0.00%&lt;/td>
+ &lt;td style="text-align: right">3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Total&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: right">758,756,232&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="all-downloads-by-os" class="relative group">All downloads by OS &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads-by-os" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>But what happens if we check which distros are responsible for those downloads?&lt;/p>
+&lt;p>This command gives us the top 20:&lt;/p>
+&lt;p>&lt;code>pypinfo --days 1 --limit 20 --percent --markdown &amp;quot;&amp;quot; system distro pyversion&lt;/code>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>system name&lt;/th>
+ &lt;th>distro name&lt;/th>
+ &lt;th>Python version&lt;/th>
+ &lt;th style="text-align: right">percent&lt;/th>
+ &lt;th style="text-align: right">download count&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Ubuntu&lt;/td>
+ &lt;td>3.8&lt;/td>
+ &lt;td style="text-align: right">18.87%&lt;/td>
+ &lt;td style="text-align: right">128,991,062&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Amazon Linux&lt;/td>
+ &lt;td>3.7&lt;/td>
+ &lt;td style="text-align: right">14.44%&lt;/td>
+ &lt;td style="text-align: right">98,738,952&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Ubuntu&lt;/td>
+ &lt;td>3.9&lt;/td>
+ &lt;td style="text-align: right">12.14%&lt;/td>
+ &lt;td style="text-align: right">83,019,828&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Ubuntu&lt;/td>
+ &lt;td>3.10&lt;/td>
+ &lt;td style="text-align: right">9.66%&lt;/td>
+ &lt;td style="text-align: right">66,019,309&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Ubuntu&lt;/td>
+ &lt;td>3.7&lt;/td>
+ &lt;td style="text-align: right">5.89%&lt;/td>
+ &lt;td style="text-align: right">40,257,060&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Debian GNU/Linux&lt;/td>
+ &lt;td>3.8&lt;/td>
+ &lt;td style="text-align: right">5.70%&lt;/td>
+ &lt;td style="text-align: right">38,958,367&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Debian GNU/Linux&lt;/td>
+ &lt;td>3.9&lt;/td>
+ &lt;td style="text-align: right">5.63%&lt;/td>
+ &lt;td style="text-align: right">38,482,436&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Debian GNU/Linux&lt;/td>
+ &lt;td>3.7&lt;/td>
+ &lt;td style="text-align: right">4.25%&lt;/td>
+ &lt;td style="text-align: right">29,035,532&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Debian GNU/Linux&lt;/td>
+ &lt;td>3.10&lt;/td>
+ &lt;td style="text-align: right">4.15%&lt;/td>
+ &lt;td style="text-align: right">28,348,346&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Debian GNU/Linux&lt;/td>
+ &lt;td>3.6&lt;/td>
+ &lt;td style="text-align: right">3.14%&lt;/td>
+ &lt;td style="text-align: right">21,441,883&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Ubuntu&lt;/td>
+ &lt;td>3.11&lt;/td>
+ &lt;td style="text-align: right">3.01%&lt;/td>
+ &lt;td style="text-align: right">20,570,619&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Debian GNU/Linux&lt;/td>
+ &lt;td>3.11&lt;/td>
+ &lt;td style="text-align: right">2.72%&lt;/td>
+ &lt;td style="text-align: right">18,588,584&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Amazon Linux&lt;/td>
+ &lt;td>3.9&lt;/td>
+ &lt;td style="text-align: right">2.43%&lt;/td>
+ &lt;td style="text-align: right">16,593,595&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>CentOS Linux&lt;/td>
+ &lt;td>3.6&lt;/td>
+ &lt;td style="text-align: right">1.70%&lt;/td>
+ &lt;td style="text-align: right">11,605,142&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Amazon Linux&lt;/td>
+ &lt;td>3.8&lt;/td>
+ &lt;td style="text-align: right">1.47%&lt;/td>
+ &lt;td style="text-align: right">10,035,087&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Amazon Linux&lt;/td>
+ &lt;td>3.10&lt;/td>
+ &lt;td style="text-align: right">1.46%&lt;/td>
+ &lt;td style="text-align: right">9,969,514&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Ubuntu&lt;/td>
+ &lt;td>2.7&lt;/td>
+ &lt;td style="text-align: right">1.02%&lt;/td>
+ &lt;td style="text-align: right">6,960,697&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Amazon Linux AMI&lt;/td>
+ &lt;td>3.6&lt;/td>
+ &lt;td style="text-align: right">0.79%&lt;/td>
+ &lt;td style="text-align: right">5,390,823&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Linux&lt;/td>
+ &lt;td>Ubuntu&lt;/td>
+ &lt;td>3.6&lt;/td>
+ &lt;td style="text-align: right">0.79%&lt;/td>
+ &lt;td style="text-align: right">5,388,370&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Windows&lt;/td>
+ &lt;td>None&lt;/td>
+ &lt;td>3.10&lt;/td>
+ &lt;td style="text-align: right">0.76%&lt;/td>
+ &lt;td style="text-align: right">5,227,519&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Total&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td style="text-align: right">&lt;/td>
+ &lt;td style="text-align: right">683,622,725&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>We can see Ubuntu with 3.8 is responsible for the largest share of 17%. (That&amp;rsquo;s fine,
+3.8 is supported until 2024-10-14.)&lt;/p>
+&lt;p>The next is Amazon Linux with 3.7, responsible for a whopping 15% of all downloads!&lt;/p>
+&lt;p>The others responsible for 3.7 have a much lower share: Ubuntu (6%) and Debian (4%).&lt;/p>
+&lt;p>Tip: replace &lt;code>&amp;quot;&amp;quot;&lt;/code> in the commands above with a package name to get data for just that
+package, for example:&lt;/p>
+&lt;p>&lt;code>pypinfo --days 1 --limit 20 --percent --markdown requests system distro pyversion&lt;/code>&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo: Space shuttle Discovery landing at Edwards Air Force Base,
+California, 9th December, 1992
+(&lt;a href="https://www.flickr.com/photos/nasacommons/30498961044" target="_blank" rel="noreferrer">source: NASA on The Commons&lt;/a>)&lt;/small>&lt;/p></description></item></channel></rss>

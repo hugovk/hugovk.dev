@@ -1,1 +1,2277 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python3 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python3/</link><description>Recent content in python3 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2020 16:36:25 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python3/index.xml" rel="self" type="application/rss+xml"/><item><title>Python version share over time, 6</title><link>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</link><pubDate>Wed, 01 Jan 2020 16:36:25 +0000</pubDate><guid>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</guid><description/></item><item><title>Python version share over time, 5</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</link><pubDate>Mon, 04 Nov 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</guid><description/></item><item><title>Python version share over time, 4</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</link><pubDate>Thu, 04 Apr 2019 14:58:18 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</guid><description/></item><item><title>Python version share over time, 3</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</link><pubDate>Tue, 01 Jan 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</guid><description/></item><item><title>Python version share over time, 2</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</link><pubDate>Sat, 03 Nov 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</guid><description/></item><item><title>Python version share over time, 1</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</link><pubDate>Thu, 05 Jul 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python3 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python3/</link><description>Recent content in python3 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2020 16:36:25 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python3/index.xml" rel="self" type="application/rss+xml"/><item><title>Python version share over time, 6</title><link>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</link><pubDate>Wed, 01 Jan 2020 16:36:25 +0000</pubDate><guid>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</guid><description>&lt;h2 id="january-2016--december-2019" class="relative group">January 2016 — December 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2019" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the end of life of &lt;a href="https://www.python.org/doc/sunset-python-2/" target="_blank" rel="noreferrer">Python 2&lt;/a>
+on &lt;a href="https://peps.python.org/pep-0373/" target="_blank" rel="noreferrer">1st January 2020&lt;/a>, here’s some statistics showing
+how much different Python versions have been used over four years.&lt;/p>
+&lt;p>Here’s the pip installs for all packages from the
+&lt;a href="https://pypi.org/" target="_blank" rel="noreferrer">Python Package Index (PyPI)&lt;/a>, between January 2016 and December
+2019:&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643621-a748ce00-2cc4-11ea-9dc7-a6dd57ce9a66.png" alt="all" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643625-af087280-2cc4-11ea-9997-10aae072ac1d.png" alt="pip" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="sixhttpsgithubcombenjaminpsix" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sixhttpsgithubcombenjaminpsix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643630-b62f8080-2cc4-11ea-9461-1204f4dd117e.png" alt="six" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="numpyhttpsgithubcomnumpynumpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpyhttpsgithubcomnumpynumpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643635-bb8ccb00-2cc4-11ea-9c4f-7095b15210f6.png" alt="numpy" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pytesthttpsgithubcompytest-devpytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytesthttpsgithubcompytest-devpytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643639-c0ea1580-2cc4-11ea-9aef-2a0d9cf816ae.png" alt="pytest" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pandashttpsgithubcompandas-devpandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas" target="_blank" rel="noreferrer">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandashttpsgithubcompandas-devpandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643641-c8a9ba00-2cc4-11ea-8f58-9c244ff958aa.png" alt="pandas" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="coveragepyhttpsgithubcomnedbatcoveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepyhttpsgithubcomnedbatcoveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643645-ce070480-2cc4-11ea-85b5-e408ea682e31.png" alt="coverage" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pillowhttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillowhttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643648-d3644f00-2cc4-11ea-9b3e-7271788d1f5d.png" alt="pillow" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="djangohttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#djangohttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643651-d95a3000-2cc4-11ea-891e-a218090c5db9.png" alt="django" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="matplotlibhttpsgithubcommatplotlibmatplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlibhttpsgithubcommatplotlibmatplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643656-e6771f00-2cc4-11ea-808a-464ee01f88b5.png" alt="matplotlib" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="flake8httpsgitlabcompycqaflake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8httpsgitlabcompycqaflake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643661-ec6d0000-2cc4-11ea-9ef8-f5da11826684.png" alt="flake8" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pylinthttpsgithubcompycqapylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylinthttpsgithubcompycqapylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643663-f42ca480-2cc4-11ea-9588-7290df0fa003.png" alt="pylint" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="tensorflowhttpsgithubcomtensorflowtensorflow" class="relative group">&lt;a href="https://github.com/tensorflow/tensorflow/" target="_blank" rel="noreferrer">TensorFlow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tensorflowhttpsgithubcomtensorflowtensorflow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Machine learning library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71645996-1506f100-2ce9-11ea-80d8-43b499348a54.png" alt="tensorflow" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pylasthttpsgithubcompylastpylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylasthttpsgithubcompylastpylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643665-f989ef00-2cc4-11ea-921e-1d705524151c.png" alt="pylast" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py" target="_blank" rel="noreferrer">pypi-trends.py&lt;/a>, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a> and
+&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a> to fetch all monthly downloads from the
+PyPI database on Google BigQuery and save them as JSON files. Data was downloaded over
+several days as getting all months uses up a lot of free BigQuery quota. Then
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py" target="_blank" rel="noreferrer">jsons2csv.py&lt;/a> plots a
+chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">matplotlib&lt;/a>. Raw JSON data is in
+the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
+&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
+(January 2016 — December 2018)&lt;/li>
+&lt;li>&lt;a href="../../2019/python-version-share-over-time-4/">Python version share over time, 4&lt;/a>
+(January 2016 — March 2019)&lt;/li>
+&lt;li>&lt;a href="../../2019/python-version-share-over-time-5/">Python version share over time, 5&lt;/a>
+(January 2016 — October 2019)&lt;/li>
+&lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li>
+&lt;li>&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a>: A command-line tool to access data
+from PyPI Stats&lt;/li>
+&lt;/ul></description></item><item><title>Python version share over time, 5</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</link><pubDate>Mon, 04 Nov 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</guid><description>&lt;h2 id="january-2016--october-2019" class="relative group">January 2016 — October 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--october-2019" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
+&lt;a href="https://discuss.python.org/t/python-3-8-0-is-now-available/2478?u=hugovk" target="_blank" rel="noreferrer">Python 3.8.0&lt;/a>
+on &lt;a href="https://peps.python.org/pep-0569/" target="_blank" rel="noreferrer">14th October 2019&lt;/a>, and with
+&lt;a href="https://python2woop.pw/" target="_blank" rel="noreferrer">less than two months left for Python 2&lt;/a>, here’s some
+statistics showing how much different Python versions have been used over nearly four
+years.&lt;/p>
+&lt;p>Here’s the pip installs for all packages from the
+&lt;a href="https://pypi.org/" target="_blank" rel="noreferrer">Python Package Index (PyPI)&lt;/a>, between January 2016 and October 2019:&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128566-9f68e980-ff20-11e9-9a12-ecb367ed0bf5.png" alt="pypi" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128596-ab54ab80-ff20-11e9-96fa-867b403efc89.png" alt="pip" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="sixhttpsgithubcombenjaminpsix" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sixhttpsgithubcombenjaminpsix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128614-b60f4080-ff20-11e9-92e3-892f29ecceea.png" alt="six" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="numpyhttpsgithubcomnumpynumpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpyhttpsgithubcomnumpynumpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128663-d0491e80-ff20-11e9-9442-0546e1a9843c.png" alt="numpy" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pytesthttpsgithubcompytest-devpytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytesthttpsgithubcompytest-devpytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128691-e0f99480-ff20-11e9-9bd8-87e12318d149.png" alt="pytest" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pandashttpsgithubcompandas-devpandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas" target="_blank" rel="noreferrer">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandashttpsgithubcompandas-devpandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68142151-9cc5be80-ff37-11e9-93d9-72edd2e35e6b.png" alt="pandas" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="coveragepyhttpsgithubcomnedbatcoveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepyhttpsgithubcomnedbatcoveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128715-ea82fc80-ff20-11e9-80a9-515c4b5265c2.png" alt="coverage" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pillowhttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillowhttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128908-49e10c80-ff21-11e9-977e-f25dfa13b2d4.png" alt="pillow" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="djangohttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#djangohttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128927-52394780-ff21-11e9-80d6-1dadf2525ebc.png" alt="django" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="matplotlibhttpsgithubcommatplotlibmatplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlibhttpsgithubcommatplotlibmatplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128947-5b2a1900-ff21-11e9-9386-d366a030fe7c.png" alt="matplotlib" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="flake8httpsgitlabcompycqaflake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8httpsgitlabcompycqaflake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128961-62e9bd80-ff21-11e9-8a45-001c7ae06c1d.png" alt="flake8" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pylinthttpsgithubcompycqapylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylinthttpsgithubcompycqapylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128981-6bda8f00-ff21-11e9-9a97-903892a47823.png" alt="pylint" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pylasthttpsgithubcompylastpylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylasthttpsgithubcompylastpylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
+&lt;p>
+
+
+
+
+
+
+ 
+ 
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128999-77c65100-ff21-11e9-9ac0-7f9c6071b07a.png" alt="pylast" class="mx-auto my-0 rounded-md" />
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py" target="_blank" rel="noreferrer">pypi-trends.py&lt;/a>, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a> and
+&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a> to fetch all monthly downloads from the
+PyPI database on Google BigQuery and save them as JSON files. Data was downloaded over
+several days as getting all months uses up a lot of free BigQuery quota. Then
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py" target="_blank" rel="noreferrer">jsons2csv.py&lt;/a> plots a
+chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">matplotlib&lt;/a>. Raw JSON data is in
+the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
+&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
+(January 2016 — December 2018)&lt;/li>
+&lt;li>&lt;a href="../../2019/python-version-share-over-time-4/">Python version share over time, 4&lt;/a>
+(January 2016 — March 2019)&lt;/li>
+&lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li>
+&lt;li>&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a>: A command-line tool to access data
+from PyPI Stats&lt;/li>
+&lt;/ul></description></item><item><title>Python version share over time, 4</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</link><pubDate>Thu, 04 Apr 2019 14:58:18 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</guid><description>&lt;h2 id="january-2016--march-2019" class="relative group">January 2016 — March 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--march-2019" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
+&lt;a href="https://www.python.org/downloads/release/python-373/" target="_blank" rel="noreferrer">Python 3.7.3&lt;/a> on
+&lt;a href="https://peps.python.org/pep-0537/" target="_blank" rel="noreferrer">25th March 2019&lt;/a>, and with under
+&lt;a href="https://python2woop.pw/" target="_blank" rel="noreferrer">nine months left for Python 2&lt;/a>, here’s some statistics showing
+how much different Python versions have been used over the past three years.&lt;/p>
+&lt;p>Here’s the pip installs for all packages from the
+&lt;a href="https://pypi.org/" target="_blank" rel="noreferrer">Python Package Index (PyPI)&lt;/a>, between January 2016 and March 2019:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu9921305724694012169.webp 330w,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu7561736043317588335.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu11257892987750645809.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu8235084810339819323.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pypi"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu16968916242509118823.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu11533714313119858668.png 330w,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu16968916242509118823.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu8008022321444855865.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu9730592621181916513.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu2309535802170503902.webp 330w,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu15616927638089910320.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu5958000626119813477.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu12727424451063577116.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pip"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu14811711415817573098.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu17060205272823984320.png 330w,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu14811711415817573098.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu13454388110655392062.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu7583424555869076783.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="sixhttpsgithubcombenjaminpsix" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sixhttpsgithubcombenjaminpsix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu5856008650146655363.webp 330w,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu1512643045656418211.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu780218525046302403.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu9107265348149796094.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="six"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu14624031906889015261.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu6555054060312004056.png 330w,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu14624031906889015261.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu4873951972522893210.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu9710293396424715760.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="numpyhttpsgithubcomnumpynumpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpyhttpsgithubcomnumpynumpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu16941126830248094746.webp 330w,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu14830125984070325520.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu16852654721714944134.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu9039446335417737372.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="NumPy"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu8051847384491604175.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu1510377395970815697.png 330w,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu8051847384491604175.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu3512939144205350040.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu18377560017459416408.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pytesthttpsgithubcompytest-devpytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytesthttpsgithubcompytest-devpytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu15526404844219411062.webp 330w,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu14966971383857899045.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu9071853186295789638.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu12342846187486491989.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pytest"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu11423573747629209836.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu13929128726050252541.png 330w,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu11423573747629209836.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu5512745221353974518.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu7029512802972894947.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="coveragepyhttpsgithubcomnedbatcoveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepyhttpsgithubcomnedbatcoveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu2868676513176756896.webp 330w,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu7226085349422857307.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu16420255197524661740.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu4141664802370333805.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="coverage"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu4237591547572286767.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu2720054276924155363.png 330w,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu4237591547572286767.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu3309843218374591600.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu457094145148940595.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pillowhttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillowhttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu11325047003283256124.webp 330w,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu9830293347754658436.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu6375732501991920493.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu5482730581510947811.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pillow"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu7981268463821598153.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu4382981517762756122.png 330w,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu7981268463821598153.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu7170868184522366545.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu8826440088814540991.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="djangohttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#djangohttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu3168480930907627491.webp 330w,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu11854494200927728723.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu13730308589122133634.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu10427581046883671.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="django"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu6701600667086082066.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu10420994129171591517.png 330w,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu6701600667086082066.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu7971550162852510465.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu12191398492910629034.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="matplotlibhttpsgithubcommatplotlibmatplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlibhttpsgithubcommatplotlibmatplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu3917890478412440536.webp 330w,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu15786355283644444372.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu4550017604341631469.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu1190093282393052008.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="matplotlib"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu14053019228650594357.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu17333699246158754588.png 330w,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu14053019228650594357.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu16785079381446409063.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu4362256971521855546.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="flake8httpsgitlabcompycqaflake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8httpsgitlabcompycqaflake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu5424270042840633070.webp 330w,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu11898465713684645822.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu11133180717255394920.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu5279850871331350202.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="flake8"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu6457811787321696263.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu10170605573723340381.png 330w,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu6457811787321696263.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu1111249792715979030.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu9849400316018078970.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pylinthttpsgithubcompycqapylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylinthttpsgithubcompycqapylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu2321623968821695676.webp 330w,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu337322960492649490.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu13879459224953785874.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu15025784300104906274.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pylint"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu10366200990265049659.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu8523061021230020185.png 330w,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu10366200990265049659.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu15810610022746624119.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu6562765582686198807.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="pylasthttpsgithubcompylastpylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylasthttpsgithubcompylastpylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu7327766214920100126.webp 330w,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu3273653093200378751.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu6211337068381141255.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu8881583963665348471.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pylast"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu4695933370202442571.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu8569888450204150965.png 330w,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu4695933370202442571.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu5063695072589223748.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu6789145685711629858.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py" target="_blank" rel="noreferrer">pypi-trends.py&lt;/a>, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a> to fetch all monthly downloads
+from the PyPI database on Google BigQuery and save them as JSON files. Data was
+downloaded over several days as getting all months uses up a lot of free BigQuery quota.
+Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py" target="_blank" rel="noreferrer">jsons2csv.py&lt;/a> plots
+a chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">matplotlib&lt;/a>. Raw JSON data is
+in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
+&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
+(January 2016 — December 2018)&lt;/li>
+&lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li>
+&lt;li>&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a>: A command-line tool to access data
+from PyPI Stats&lt;/li>
+&lt;/ul></description></item><item><title>Python version share over time, 3</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</link><pubDate>Tue, 01 Jan 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</guid><description>&lt;h2 id="january-2016--december-2018" class="relative group">January 2016 — December 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2018" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
+&lt;a href="https://www.python.org/downloads/release/python-372/" target="_blank" rel="noreferrer">Python 3.7.2&lt;/a> on
+&lt;a href="https://peps.python.org/pep-0537/" target="_blank" rel="noreferrer">Christmas Eve 2018&lt;/a>, and with
+u&lt;a href="https://hugovk.github.io/python2-progress-bar/" target="_blank" rel="noreferrer">nder a year left for Python 2&lt;/a>, here&amp;rsquo;s
+some statistics showing how much different Python versions have been used over the past
+three years.&lt;/p>
+&lt;p>Here&amp;rsquo;s the pip installs for all packages from the
+&lt;a href="https://pypi.org/" target="_blank" rel="noreferrer">Python Package Index (PyPI)&lt;/a>, between January 2016 and December
+2018:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu17446588426160462379.webp 330w,/blog/2019/python-version-share-over-time-3/pypi_hu4664281367952544465.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu18243924050113938242.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu9750872065567583869.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pypi"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu9692998158603250469.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu5144353436023366884.png 330w,/blog/2019/python-version-share-over-time-3/pypi_hu9692998158603250469.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu16414690025624981255.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu17694152878500847117.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>For the &lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> scientific computing library:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu5416137599686280891.webp 330w,/blog/2019/python-version-share-over-time-3/numpy_hu16995693100720331489.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu16730238867552238943.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu13227012286871222913.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="NumPy"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu1631994838369174839.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu6515699511484611205.png 330w,/blog/2019/python-version-share-over-time-3/numpy_hu1631994838369174839.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu9024688790520141606.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu326988264724097699.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>For the &lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> testing framework:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu2407739598723300605.webp 330w,/blog/2019/python-version-share-over-time-3/pytest_hu7293432009729214281.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu3434106802028793378.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu8073239107087752985.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pytest"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu2778762025302694902.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu15709188050049446055.png 330w,/blog/2019/python-version-share-over-time-3/pytest_hu2778762025302694902.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu7085952580875895105.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu4573748528679134867.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>For the &lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> imaging library:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu15887207572830748081.webp 330w,/blog/2019/python-version-share-over-time-3/pillow_hu9059729149794686995.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu8505747565601081708.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu12559638591718790265.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pillow"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu5052659710382621241.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu12963521257146567090.png 330w,/blog/2019/python-version-share-over-time-3/pillow_hu5052659710382621241.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu764016175428786380.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu10739837605221065653.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>For the &lt;a href="https://github.com/django/django" target="_blank" rel="noreferrer">Django&lt;/a> web framework:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu9596028857635502865.webp 330w,/blog/2019/python-version-share-over-time-3/django_hu8570437402420284334.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/django_hu18320124295456412897.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/django_hu17761875608441423886.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="django"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu13506384097991119833.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu7890859274079250015.png 330w,/blog/2019/python-version-share-over-time-3/django_hu13506384097991119833.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/django_hu9157174232673870532.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/django_hu8077554244916032086.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>For the &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">matplotlib&lt;/a> 2D plotting library:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu18047703716823841998.webp 330w,/blog/2019/python-version-share-over-time-3/matplotlib_hu14959320265486216120.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu4023035532890262575.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu15529451260452073695.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="matplotlib"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu16584834435973698852.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu5500866309537606873.png 330w,/blog/2019/python-version-share-over-time-3/matplotlib_hu16584834435973698852.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu6119966810260649528.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu13895125525995173812.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>For the &lt;a href="https://github.com/PyCQA/pylint" target="_blank" rel="noreferrer">Pylint&lt;/a> linter:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu14464435779218158297.webp 330w,/blog/2019/python-version-share-over-time-3/pylint_hu3781943452088072440.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu10458531243867972369.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu4900984135817136025.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pylint"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu15973407030376252439.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu13130506680762398508.png 330w,/blog/2019/python-version-share-over-time-3/pylint_hu15973407030376252439.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu9474518620151379452.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu3413731928394011762.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>And for the &lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> interface to Last.fm:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu12037538889032195253.webp 330w,/blog/2019/python-version-share-over-time-3/pylast_hu15930602230464682093.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu2405628595568676111.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu4055316101316316731.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pylast"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu7869105606332532654.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu7590658582717992051.png 330w,/blog/2019/python-version-share-over-time-3/pylast_hu7869105606332532654.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu10050499620325750784.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu16691885429856109807.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py" target="_blank" rel="noreferrer">pypi-trends.py&lt;/a> a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a> to fetch all monthly downloads
+from the PyPI database on Google BigQuery and save them as JSON files. Data was
+downloaded over several days as getting all months uses up a lot of free BigQuery quota.
+Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py" target="_blank" rel="noreferrer">jsons2csv.py&lt;/a> plots
+a chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">matplotlib&lt;/a>. Raw JSON data is
+in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
+&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
+2&lt;/a> (January
+2016 — October 2018)&lt;/li>
+&lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li>
+&lt;li>&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a>: A command-line tool to access data
+from PyPI Stats&lt;/li>
+&lt;/ul></description></item><item><title>Python version share over time, 2</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</link><pubDate>Sat, 03 Nov 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</guid><description>&lt;h2 id="january-2016--october-2018" class="relative group">January 2016 — October 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--october-2018" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
+&lt;a href="https://www.python.org/downloads/release/python-371/" target="_blank" rel="noreferrer">Python 3.7.1&lt;/a> on
+&lt;a href="https://peps.python.org/pep-0537/" target="_blank" rel="noreferrer">20th October 2018&lt;/a>, here’s some statistics showing
+how much different Python versions have been used over the past two and five-sixths
+years.&lt;/p>
+&lt;p>Here&amp;rsquo;s the pip installs for all packages from the
+&lt;a href="https://pypi.org/" target="_blank" rel="noreferrer">Python Package Index (PyPI)&lt;/a>, between January 2016 and October 2018:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu16518425519922630701.webp 330w,/blog/2018/python-version-share-over-time-2/pypi_hu11355453173685685997.webp 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu13450822331121816399.webp 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu3728674788640840060.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pypi"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu16480294015733985280.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu7323996002631335687.png 330w,/blog/2018/python-version-share-over-time-2/pypi_hu16480294015733985280.png 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu13401589824240185863.png 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu8813015342732693770.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
+&lt;p>For the &lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> scientific computing library:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu5240709034407327867.webp 330w,/blog/2018/python-version-share-over-time-2/numpy_hu6106975654981253559.webp 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu8516613389736299791.webp 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu17229874413158511060.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="NumPy"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu5827233680490157402.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu1585741122785916614.png 330w,/blog/2018/python-version-share-over-time-2/numpy_hu5827233680490157402.png 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu18160755144188356262.png 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu15296011867263573874.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Numpy's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
+&lt;p>For the &lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> imaging library:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu16098187569885053741.webp 330w,/blog/2018/python-version-share-over-time-2/pillow_hu8734999784273850591.webp 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu6598339043677218378.webp 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu3923490833683807835.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pillow"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu3941711992182055074.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu9087330225516786040.png 330w,/blog/2018/python-version-share-over-time-2/pillow_hu3941711992182055074.png 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu9739798518090573679.png 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu12991474257520610012.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Pillow's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
+&lt;p>For the &lt;a href="https://github.com/django/django" target="_blank" rel="noreferrer">Django&lt;/a> web framework:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu5098183702185465328.webp 330w,/blog/2018/python-version-share-over-time-2/django_hu707840352439217089.webp 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/django_hu11529865070246196486.webp 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/django_hu16972741191821694576.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="django"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu16615269560789160246.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu9718408928495260772.png 330w,/blog/2018/python-version-share-over-time-2/django_hu16615269560789160246.png 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/django_hu494860797813449511.png 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/django_hu2160782522892842757.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>pylast's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
+&lt;p>And for the &lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> interface to Last.fm:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu13901499166607595346.webp 330w,/blog/2018/python-version-share-over-time-2/pylast_hu921640666417024547.webp 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu625350249146256915.webp 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu8853276845811090141.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pylast"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu17930758850679515273.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu8306822317409851148.png 330w,/blog/2018/python-version-share-over-time-2/pylast_hu17930758850679515273.png 660w
+ 
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu16731761782025465656.png 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu13181510861428941352.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Pillow's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
+&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py" target="_blank" rel="noreferrer">pypi-trends.py&lt;/a>, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a> to fetch all monthly downloads
+from the PyPI database on Google BigQuery and save them as JSON files. Data was
+downloaded over several days as getting all months uses up a lot of free BigQuery quota.
+Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py" target="_blank" rel="noreferrer">jsons2csv.py&lt;/a> plots
+a chart using &lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">matplotlib&lt;/a>. Raw JSON data is
+in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
+&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
+1&lt;/a> (January
+2016 — June 2018)&lt;/li>
+&lt;li>&lt;a href="https://pypistats.org/" target="_blank" rel="noreferrer">PyPI Stats&lt;/a>: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li>
+&lt;li>&lt;a href="https://github.com/hugovk/pypistats" target="_blank" rel="noreferrer">pypistats&lt;/a>: A command-line tool to access data
+from PyPI Stats&lt;/li>
+&lt;/ul></description></item><item><title>Python version share over time, 1</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</link><pubDate>Thu, 05 Jul 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</guid><description>&lt;h2 id="january-2016--june-2018" class="relative group">January 2016 — June 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--june-2018" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of &lt;a href="https://realpython.com/python37-new-features/" target="_blank" rel="noreferrer">Python 3.7&lt;/a>
+on &lt;a href="https://peps.python.org/pep-0537/" target="_blank" rel="noreferrer">27th June 2018&lt;/a>, here’s some statistics showing
+how much different Python versions have been used over the past two and a half years.&lt;/p>
+&lt;p>Here&amp;rsquo;s the pip installs for all packages from the
+&lt;a href="https://pypi.org/" target="_blank" rel="noreferrer">Python Package Index (PyPI)&lt;/a>, between January 2016 and June 2018:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu14970575324120394782.webp 330w,/blog/2018/python-version-share-over-time-1/pypi_hu7987640861629489598.webp 660w
+ 
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu14753678770642194581.webp 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu4579283046623986886.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1756"
+ height="1093"
+ class="mx-auto my-0 rounded-md"
+ alt="pypi"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu16899051312585227097.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu16839783647688151366.png 330w,/blog/2018/python-version-share-over-time-1/pypi_hu16899051312585227097.png 660w
+ 
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu13869928869344156.png 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu9670894851227610407.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
+&lt;p>And for the &lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> imaging library:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu4456805561363865671.webp 330w,/blog/2018/python-version-share-over-time-1/pillow_hu4469282160360038218.webp 660w
+ 
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu13607799722752613131.webp 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu10092860239411455681.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1495"
+ height="1093"
+ class="mx-auto my-0 rounded-md"
+ alt="pillow"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu12766067802430761154.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu15065191039788018111.png 330w,/blog/2018/python-version-share-over-time-1/pillow_hu12766067802430761154.png 660w
+ 
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu12295709925279779695.png 1024w
+ 
+ 
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu14510354831178104751.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Pillow's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
+&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py" target="_blank" rel="noreferrer">pypi-trends.py&lt;/a>, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a> to fetch all monthly downloads
+from the PyPI database on Google BigQuery and save them as JSON files. Data was
+downloaded over three or four days as getting all months uses up a lot of free BigQuery
+quota. Then
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py" target="_blank" rel="noreferrer">jsons2csv.py&lt;/a> converts
+them into a single CSV file for chart-wrangling in Excel. Raw CSV and JSON data is in
+the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_blank" rel="noreferrer">repo&lt;/a>.&lt;/p>
+&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Paul Kehrer fetched similar stats from BigQuery in December 2016, writing in
+&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/" target="_blank" rel="noreferrer">Data Driven Decisions Using PyPI Download Statistics&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>Data ingestion into the BigQuery data set was spotty prior to June 2016*, but you can
+see a significant uptick in Python 3 based downloads over 2016.
+&lt;a href="https://frinkiac.com/caption/S08E11/289555" target="_blank" rel="noreferrer">If these trends continue…&lt;/a>&lt;/p>
+&lt;p>* But it shouldn’t be biased, so these percentages are likely to be accurate.&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

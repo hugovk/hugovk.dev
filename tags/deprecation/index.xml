@@ -1,1 +1,232 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>deprecation on Hugo van Kemenade</title><link>https://hugovk.dev/tags/deprecation/</link><description>Recent content in deprecation on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 09 Dec 2022 12:44:21 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/deprecation/index.xml" rel="self" type="application/rss+xml"/><item><title>How to search 5,000 Python projects</title><link>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</link><pubDate>Fri, 09 Dec 2022 12:44:21 +0000</pubDate><guid>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>deprecation on Hugo van Kemenade</title><link>https://hugovk.dev/tags/deprecation/</link><description>Recent content in deprecation on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 09 Dec 2022 12:44:21 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/deprecation/index.xml" rel="self" type="application/rss+xml"/><item><title>How to search 5,000 Python projects</title><link>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</link><pubDate>Fri, 09 Dec 2022 12:44:21 +0000</pubDate><guid>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</guid><description>&lt;h2 id="why" class="relative group">Why? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#why" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Often Python core developers think about deprecating and removing old bits of the
+language. But first it&amp;rsquo;s a good idea to get an idea of how much the old bits are used.
+Searching the
+&lt;a href="https://hugovk.github.io/top-pypi-packages/" target="_blank" rel="noreferrer">5,000 most-popular projects on PyPI&lt;/a> is a
+helpful proxy to gauge community use.&lt;/p>
+&lt;h2 id="how" class="relative group">How? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Core developer &lt;a href="https://vstinner.readthedocs.io/" target="_blank" rel="noreferrer">Victor Stinner&lt;/a> has written a couple
+of useful scripts that live in his &lt;a href="https://github.com/vstinner/misc" target="_blank" rel="noreferrer">misc&lt;/a> repo.&lt;/p>
+&lt;h2 id="setup" class="relative group">Setup &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#setup" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>First, clone the repo somewhere, doesn&amp;rsquo;t matter where:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">mkdir -p ~/github
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> ~/github/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git clone https://github.com/vstinner/misc
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Optionally for some colour in the logs:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 -m pip install termcolor
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then download 5,000 sdists! Again, doesn&amp;rsquo;t matter where:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> mkdir -p ~/top-pypi/output
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> &lt;span class="nb">cd&lt;/span> ~/top-pypi/output/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> python3 ~/github/misc/cpython/download_pypi_top.py .
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Download JSON from: https://hugovk.github.io/top-pypi-packages/top-pypi-packages-30-days.min.json
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Project#: 5000
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[1/5000] Saving to ./boto3-1.26.25.tar.gz (101.7 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[2/5000] Saving to ./botocore-1.29.25.tar.gz (10426.8 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[3/5000] Saving to ./urllib3-1.26.13.tar.gz (293.4 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4990/5000] Saving to ./meld3-2.0.1.tar.gz (35.3 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4991/5000] Saving to ./browserstack-local-1.2.4.tar.gz (6.6 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Cannot find URL for project: allensdk
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Cannot find URL for project: dataframe-image
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4994/5000] Saving to ./SQLAlchemy-Continuum-1.3.13.tar.gz (79.2 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4995/5000] Saving to ./sarge-0.1.7.post1.tar.gz (25.1 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4996/5000] Saving to ./confusable_homoglyphs-3.2.0.tar.gz (158.1 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4997/5000] Saving to ./YTThumb-1.4.5.tar.gz (3.0 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4998/5000] Saving to ./azure-ai-ml-1.2.0.zip (4486.3 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[4999/5000] Saving to ./pythena-1.6.0.tar.gz (5.2 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">[5000/5000] Saving to ./interchange-2021.0.4.tar.gz (25.2 kB)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Downloaded 5000 projects in 1602.4 seconds
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>With colour:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu4607524410966425171.webp 330w,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu5793698678911283042.webp 660w
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu17496158120858303757.webp 1024w
+ 
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu13669505015455023515.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1938"
+ height="1378"
+ class="mx-auto my-0 rounded-md"
+ alt="Tail end of downloading files: successful downloads in green, unsuccessful downloads in red"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu489661760446696574.png"
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu3380576654790916936.png 330w,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu489661760446696574.png 660w
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu7346817546555465552.png 1024w
+ 
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu3010954195149693516.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>⏳ This will take a bit of time. Some projects don&amp;rsquo;t have sdists, nothing to worry
+about, we will still end up with a good number. At the time of writing (2022-12-09), it
+took me just under 27 minutes to download 4,748 files, taking up 5.37 GB of space.&lt;/p>
+&lt;p>If you want to download fewer, specify how many:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">python3 ~/github/misc/cpython/download_pypi_top.py . &lt;span class="m">100&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="search" class="relative group">Search &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#search" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Next, we can search all the sdists using another script. And we don&amp;rsquo;t need to extract
+them!&lt;/p>
+&lt;p>For example, &lt;code>configparser&lt;/code>&amp;rsquo;s &lt;code>LegacyInterpolation&lt;/code> was deprecated in
+&lt;a href="https://peps.python.org/pep-0392/" target="_blank" rel="noreferrer">Python 3.2&lt;/a> (released February 2011), but only in
+docs and without raising a
+&lt;a href="https://docs.python.org/3/library/exceptions.html#DeprecationWarning" target="_blank" rel="noreferrer">&lt;code>DeprecationWarning&lt;/code>&lt;/a>.&lt;/p>
+&lt;p>How much is it used in the top 5k?&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> &lt;span class="nb">cd&lt;/span> ~/top-pypi/output/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> python3 ~/github/misc/cpython/search_pypi_top.py -q . &lt;span class="s2">&amp;#34;LegacyInterpolation&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./hexbytes-0.3.0.tar.gz: hexbytes-0.3.0/.tox/lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/configparser.pyi: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./hexbytes-0.3.0.tar.gz: hexbytes-0.3.0/.tox/lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./hexbytes-0.3.0.tar.gz: hexbytes-0.3.0/.tox/py39-lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/configparser.pyi: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./hexbytes-0.3.0.tar.gz: hexbytes-0.3.0/.tox/py39-lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./jedi-0.18.2.tar.gz: jedi-0.18.2/jedi/third_party/typeshed/stdlib/3/configparser.pyi: class LegacyInterpolation(Interpolation): ...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./mypy-0.991.tar.gz: mypy-0.991/mypy/typeshed/stdlib/configparser.pyi: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./mypy-0.991.tar.gz: mypy-0.991/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-hash-0.5.1.tar.gz: eth-hash-0.5.1/.tox/lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/configparser.pyi: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-hash-0.5.1.tar.gz: eth-hash-0.5.1/.tox/lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-account-0.7.0.tar.gz: eth-account-0.7.0/.tox/lint/lib/python3.10/site-packages/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-account-0.7.0.tar.gz: eth-account-0.7.0/.tox/py310-lint/lib/python3.10/site-packages/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-utils-2.1.0.tar.gz: eth-utils-2.1.0/.tox/lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./pytype-2022.11.29.tar.gz: pytype-2022.11.29/pytype/typeshed/stdlib/configparser.pyi: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./pytype-2022.11.29.tar.gz: pytype-2022.11.29/pytype/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./pylint-2.15.8.tar.gz: pylint-2.15.8/pylint/checkers/stdlib.py: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./pyre-check-0.9.17.tar.gz: pyre-check-0.9.17/typeshed/stdlib/configparser.pyi: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./pyre-check-0.9.17.tar.gz: pyre-check-0.9.17/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/backports/configparser/__init__.py: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/backports/configparser/__init__.py: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/backports/configparser/__init__.py: &amp;#34;LegacyInterpolation has been deprecated since Python 3.2 &amp;#34;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/configparser.py: LegacyInterpolation,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/configparser.py: &amp;#34;LegacyInterpolation&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/test_configparser.py: elif isinstance(self.interpolation, configparser.LegacyInterpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/test_configparser.py: elif isinstance(self.interpolation, configparser.LegacyInterpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/test_configparser.py: elif isinstance(self.interpolation, configparser.LegacyInterpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/test_configparser.py: class ConfigParserTestCaseLegacyInterpolation(ConfigParserTestCase):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/test_configparser.py: interpolation = configparser.LegacyInterpolation()
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./configparser-5.3.0.tar.gz: configparser-5.3.0/src/test_configparser.py: configparser.LegacyInterpolation()
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-rlp-0.3.0.tar.gz: eth-rlp-0.3.0/.tox/lint/lib/python3.9/site-packages/mypy/typeshed/stdlib/3/configparser.pyi: class LegacyInterpolation(Interpolation): ...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-rlp-0.3.0.tar.gz: eth-rlp-0.3.0/venv-erlp/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/configparser.pyi: class LegacyInterpolation(Interpolation): ...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth-rlp-0.3.0.tar.gz: eth-rlp-0.3.0/venv-erlp/lib/python3.9/site-packages/mypy/typeshed/stdlib/3/configparser.pyi: class LegacyInterpolation(Interpolation): ...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">./eth_abi-3.0.1.tar.gz: eth_abi-3.0.1/.tox/lint/lib/python3.10/site-packages/mypy/typeshed/stdlib/configparser.pyi: class LegacyInterpolation(Interpolation):
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">&lt;/span>&lt;span class="err">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&lt;/span>&lt;span class="go">Time: 0:00:17.957695
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Found 32 matching lines in 12 projects
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>With colour:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu13048840748820413663.webp 330w,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu1195124278878341570.webp 660w
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu7609924379155785860.webp 1024w
+ 
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu15576829277895273148.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1340"
+ height="774"
+ class="mx-auto my-0 rounded-md"
+ alt="Same output as above but with the source filename in purple and LegacyInterpolation in orange"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu13372628957427238338.png"
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu17619558709112171203.png 330w,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu13372628957427238338.png 660w
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu8429883612135488186.png 1024w
+ 
+ 
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu12135908930739888708.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>Answer: very little, mostly backports and type stubs. This told us it&amp;rsquo;s a good candidate
+for removal, so a proper &lt;code>DeprecationWarning&lt;/code> was
+&lt;a href="https://docs.python.org/3/whatsnew/3.11.html#standard-library" target="_blank" rel="noreferrer">added in Python 3.11&lt;/a>
+(released October 2022) and it will be
+&lt;a href="https://peps.python.org/pep-0387/" target="_blank" rel="noreferrer">removed in Python 3.13&lt;/a> (October 2024).&lt;/p>
+&lt;p>The tool searches using a regex, so you can look for more complicated things like
+&lt;code>&amp;quot;\b(currentThread|activeCount|notifyAll|isSet|isDaemon|setDaemon)\b&amp;quot;&lt;/code>, and it can also
+log to file. See &lt;code>--help&lt;/code> for other options.&lt;/p>
+&lt;p>Happy searching! 🔎&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo:
+&amp;ldquo;&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/24029425@N06/11237637113">The
+card index department&lt;/a>&amp;rdquo; by
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/24029425@N06">Boston
+Public Library&lt;/a> is licensed under
+&lt;a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC
+BY 2.0&lt;/a>.&lt;/small>&lt;/p></description></item></channel></rss>

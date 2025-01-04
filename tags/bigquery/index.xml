@@ -1,1 +1,788 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bigquery on Hugo van Kemenade</title><link>https://hugovk.dev/tags/bigquery/</link><description>Recent content in bigquery on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 24 Nov 2024 20:45:31 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/bigquery/index.xml" rel="self" type="application/rss+xml"/><item><title>A surprising thing about PyPI's BigQuery data</title><link>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</link><pubDate>Sun, 24 Nov 2024 20:45:31 +0000</pubDate><guid>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bigquery on Hugo van Kemenade</title><link>https://hugovk.dev/tags/bigquery/</link><description>Recent content in bigquery on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 24 Nov 2024 20:45:31 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/bigquery/index.xml" rel="self" type="application/rss+xml"/><item><title>A surprising thing about PyPI's BigQuery data</title><link>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</link><pubDate>Sun, 24 Nov 2024 20:45:31 +0000</pubDate><guid>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</guid><description>&lt;p>You can get download numbers for PyPI packages (or projects) from a
+&lt;a href="https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/" target="_blank" rel="noreferrer">Google BigQuery dataset&lt;/a>.
+You need a Google account and credentials, and Google gives 1 TiB of free quota per
+month.&lt;/p>
+&lt;p>Each month, I have automation to fetch the download numbers for the 8,000 most popular
+packages over the past 30 days, and make it available as more accessible JSON and CSV
+files at &lt;a href="https://hugovk.github.io/top-pypi-packages/" target="_blank" rel="noreferrer">Top PyPI Packages&lt;/a>. This data is
+&lt;a href="https://hugovk.github.io/top-pypi-packages/#users" target="_blank" rel="noreferrer">widely used&lt;/a> for
+&lt;a href="https://github.com/hugovk/top-pypi-packages/issues/23" target="_blank" rel="noreferrer">research in academia and industry&lt;/a>.&lt;/p>
+&lt;p>However, as more packages and releases are uploaded to PyPI, and there are more and more
+downloads logged, the amount of billed data increases too.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu4399191125544647636.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu9744272161937994976.webp 660w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu5390836655957415251.webp 828w
+ 
+ 
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu5390836655957415251.webp 828w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="828"
+ height="502"
+ class="mx-auto my-0 rounded-md"
+ alt="BigQuery TB billed"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu7338420539290121040.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu4892566161837808109.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu7338420539290121040.png 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee.png 828w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee.png 828w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>This chart shows the amount of data billed per month.&lt;/p>
+&lt;p>At first, I was only collecting downloads data for 4,000 packages, and it was fetched
+for two queries: downloads over 365 days and over 30 days. But as time passed, it
+started using up too much quota to download data for 365 days.&lt;/p>
+&lt;p>So I ditched the 365-day data, and increased the 30-day data from 4,000 to 5,000
+packages. Later, I checked how much quota was being used and increased from 5,000
+packages to 8,000 packages.&lt;/p>
+&lt;p>But then I exceeded the BigQuery monthly quota of 1 TiB fetching data for July 2024.&lt;/p>
+&lt;p>To fetch the missing data and investigate what&amp;rsquo;s going in, I started Google Cloud&amp;rsquo;s
+90-day, $300 (€277.46) free-trial 💸&lt;/p>
+&lt;p>Here&amp;rsquo;s what I found!&lt;/p>
+&lt;h2 id="finding-it-costs-more-to-get-data-for-downloads-from-only-pip-than-from-all-installers" class="relative group">Finding: it costs more to get data for downloads from only pip than from all installers &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#finding-it-costs-more-to-get-data-for-downloads-from-only-pip-than-from-all-installers" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I use the &lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a> client to help query BigQuery. By
+default, it only fetches downloads for pip.&lt;/p>
+&lt;h3 id="only-pip" class="relative group">Only pip &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#only-pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>This command gets one day&amp;rsquo;s download data for the top 10 packages, &lt;em>for pip only&lt;/em>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> pypinfo --limit &lt;span class="m">10&lt;/span> --days &lt;span class="m">1&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span> project
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Served from cache: False
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Data processed: 58.21 GiB
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Data billed: 58.21 GiB
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Estimated cost: $0.29
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Results:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>project&lt;/th>
+ &lt;th style="text-align: right">download count&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>boto3&lt;/td>
+ &lt;td style="text-align: right">37,251,744&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>aiobotocore&lt;/td>
+ &lt;td style="text-align: right">16,252,824&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>urllib3&lt;/td>
+ &lt;td style="text-align: right">16,243,278&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>botocore&lt;/td>
+ &lt;td style="text-align: right">15,687,125&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>requests&lt;/td>
+ &lt;td style="text-align: right">13,271,314&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>s3fs&lt;/td>
+ &lt;td style="text-align: right">12,865,055&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>s3transfer&lt;/td>
+ &lt;td style="text-align: right">12,014,278&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>fsspec&lt;/td>
+ &lt;td style="text-align: right">11,982,305&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>charset-normalizer&lt;/td>
+ &lt;td style="text-align: right">11,684,740&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>certifi&lt;/td>
+ &lt;td style="text-align: right">11,639,584&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td style="text-align: right">&lt;strong>158,892,247&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="all-installers" class="relative group">All installers &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-installers" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Adding the &lt;code>--all&lt;/code> flag gets one day&amp;rsquo;s download data for the top 10 packages, &lt;em>for all
+installers&lt;/em>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> pypinfo --all --limit &lt;span class="m">10&lt;/span> --days &lt;span class="m">1&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span> project
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Served from cache: False
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Data processed: 46.63 GiB
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Data billed: 46.63 GiB
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Estimated cost: $0.23
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>project&lt;/th>
+ &lt;th style="text-align: right">download count&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>boto3&lt;/td>
+ &lt;td style="text-align: right">39,495,624&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>botocore&lt;/td>
+ &lt;td style="text-align: right">17,281,187&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>urllib3&lt;/td>
+ &lt;td style="text-align: right">17,225,121&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>aiobotocore&lt;/td>
+ &lt;td style="text-align: right">16,430,826&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>requests&lt;/td>
+ &lt;td style="text-align: right">14,287,965&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>s3fs&lt;/td>
+ &lt;td style="text-align: right">12,958,516&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>charset-normalizer&lt;/td>
+ &lt;td style="text-align: right">12,781,405&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>certifi&lt;/td>
+ &lt;td style="text-align: right">12,647,098&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>setuptools&lt;/td>
+ &lt;td style="text-align: right">12,608,120&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>idna&lt;/td>
+ &lt;td style="text-align: right">12,510,335&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td style="text-align: right">&lt;strong>168,226,197&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>So we can see the default pip-only costs an extra 25% data processed and data billed,
+and costs an extra 25% in dollars.&lt;/p>
+&lt;p>Unsurprisingly, the actual download counts are higher for all installers. The ranking
+has changed a bit, but I expect we&amp;rsquo;re still getting more-or-less the same packages in
+the top thousands of results.&lt;/p>
+&lt;h3 id="queries" class="relative group">Queries &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#queries" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>It sends a query like this to BigQuery for only pip:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">file&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">as&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">as&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">download_count&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">bigquery&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">public&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">data&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">pypi&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">file_downloads&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">WHERE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">timestamp&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BETWEEN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TIMESTAMP_ADD&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">CURRENT_TIMESTAMP&lt;/span>&lt;span class="p">(),&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INTERVAL&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DAY&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AND&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TIMESTAMP_ADD&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">CURRENT_TIMESTAMP&lt;/span>&lt;span class="p">(),&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INTERVAL&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DAY&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">AND&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">details&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">installer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;pip&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">GROUP&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">ORDER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">download_count&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DESC&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">LIMIT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And for all installers:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">file&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">as&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">as&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">download_count&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">bigquery&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">public&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">data&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">pypi&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">file_downloads&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">WHERE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">timestamp&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BETWEEN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TIMESTAMP_ADD&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">CURRENT_TIMESTAMP&lt;/span>&lt;span class="p">(),&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INTERVAL&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DAY&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AND&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TIMESTAMP_ADD&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">CURRENT_TIMESTAMP&lt;/span>&lt;span class="p">(),&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INTERVAL&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DAY&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">GROUP&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">ORDER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">download_count&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DESC&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">LIMIT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>These queries are the same, except the default has an extra
+&lt;code>AND details.installer.name = &amp;quot;pip&amp;quot;&lt;/code> condition. It seems reasonable it would cost more
+to do extra filtering work.&lt;/p>
+&lt;h3 id="installers" class="relative group">Installers &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#installers" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Let&amp;rsquo;s look at the installers:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> pypinfo --all --limit &lt;span class="m">100&lt;/span> --days &lt;span class="m">1&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span> installer
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Served from cache: False
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Data processed: 29.49 GiB
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Data billed: 29.49 GiB
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Estimated cost: $0.15
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>installer name&lt;/th>
+ &lt;th style="text-align: right">download count&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>pip&lt;/td>
+ &lt;td style="text-align: right">1,121,198,711&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>uv&lt;/td>
+ &lt;td style="text-align: right">117,194,833&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>requests&lt;/td>
+ &lt;td style="text-align: right">29,828,272&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>poetry&lt;/td>
+ &lt;td style="text-align: right">23,009,454&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>None&lt;/td>
+ &lt;td style="text-align: right">8,916,745&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>bandersnatch&lt;/td>
+ &lt;td style="text-align: right">6,171,555&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>setuptools&lt;/td>
+ &lt;td style="text-align: right">1,362,797&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Bazel&lt;/td>
+ &lt;td style="text-align: right">1,280,271&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Browser&lt;/td>
+ &lt;td style="text-align: right">1,096,328&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Nexus&lt;/td>
+ &lt;td style="text-align: right">593,230&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Homebrew&lt;/td>
+ &lt;td style="text-align: right">510,247&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Artifactory&lt;/td>
+ &lt;td style="text-align: right">69,063&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>pdm&lt;/td>
+ &lt;td style="text-align: right">62,904&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>OS&lt;/td>
+ &lt;td style="text-align: right">13,108&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>devpi&lt;/td>
+ &lt;td style="text-align: right">9,530&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>conda&lt;/td>
+ &lt;td style="text-align: right">2,272&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>pex&lt;/td>
+ &lt;td style="text-align: right">194&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td style="text-align: right">&lt;strong>1,311,319,514&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>pip still by far the most popular, and unsurprising uv is up there too, with about 10%
+of pip&amp;rsquo;s downloads.&lt;/p>
+&lt;p>The others are about 25% or less of uv. A lot of them are mirroring services that we
+wanted to exclude before.&lt;/p>
+&lt;p>I think given uv&amp;rsquo;s importance, and my expectation that it will continue to take a bigger
+share of the pie, plus especially the extra cost for filtering by just pip, means that
+we should switch to fetching data for all downloaders. Plus the others don&amp;rsquo;t account for
+that much of the pie.&lt;/p>
+&lt;h2 id="finding-the-number-of-packages-doesnt-affect-the-cost" class="relative group">Finding: the number of packages doesn&amp;rsquo;t affect the cost &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#finding-the-number-of-packages-doesnt-affect-the-cost" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>This was the biggest surprise. Earlier I&amp;rsquo;d been increasing or decreasing the number to
+try and remain under quota. But it turns out it makes no difference how many packages
+you query!&lt;/p>
+&lt;p>I fetched data for just one day and all installers for different package limits: 1000,
+2000, 3000, 4000, 5000, 6000, 7000, 8000. Sample query:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">file&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">as&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">as&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">download_count&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">bigquery&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">public&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">data&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">pypi&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">file_downloads&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">WHERE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">timestamp&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BETWEEN&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TIMESTAMP_ADD&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">CURRENT_TIMESTAMP&lt;/span>&lt;span class="p">(),&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INTERVAL&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DAY&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AND&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">TIMESTAMP_ADD&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">CURRENT_TIMESTAMP&lt;/span>&lt;span class="p">(),&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">INTERVAL&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DAY&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">GROUP&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">project&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">ORDER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">download_count&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DESC&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">LIMIT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">8000&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu18118292014609621010.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu648453257193598313.webp 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu10284106087975447395.webp 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu5205727728706951676.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1440"
+ height="870"
+ class="mx-auto my-0 rounded-md"
+ alt="Cost and bytes for 1 day with different package limits are the same"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu397812330083304456.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu3938359857754509525.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu397812330083304456.png 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu6300561912122443047.png 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu5973035065494827784.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Result:&lt;/strong> Interestingly, the cost is the same for all limits (1000-8000): $0.31.&lt;/p>
+&lt;p>Repeating with one day but filtering for pip only:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu9863289966959340285.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu14153878850457563120.webp 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu18237600483818565577.webp 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu5700298154092269841.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1444"
+ height="866"
+ class="mx-auto my-0 rounded-md"
+ alt="Cost and bytes for 1 day still the same for pip"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu6020063133101452454.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu14030271553218571464.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu6020063133101452454.png 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu11298788858346470409.png 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu12302202689483860821.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Result:&lt;/strong> Cost increased to $0.39 but again the same for all limits.&lt;/p>
+&lt;p>Let&amp;rsquo;s repeat with all installers, but for 30 days, and this time query in decreasing
+limits, in case we were only paying for incremental changes: 8000, 7000, 6000, 5000,
+4000, 3000, 2000, 1000:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu13339767261172869521.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu5509277186518406138.webp 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu10174635891162867280.webp 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu2943104937256265225.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1436"
+ height="878"
+ class="mx-auto my-0 rounded-md"
+ alt="Cost and bytes for 30 day still the same no matter how many packages"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu7752768729564659537.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu11543015947163194659.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu7752768729564659537.png 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu3363632746620009276.png 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu7253980410731021027.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Result:&lt;/strong> Again, the cost is the same regardless of package limit: $4.89 per query.&lt;/p>
+&lt;p>Well then, let&amp;rsquo;s repeat with the limit increasing by powers of ten, up to 1,000,000!
+This last one fetches data for all 531,022 packages on PyPI:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>limit&lt;/th>
+ &lt;th>projects count&lt;/th>
+ &lt;th>estimated cost&lt;/th>
+ &lt;th>bytes billed&lt;/th>
+ &lt;th>bytes processed&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>10&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>100&lt;/td>
+ &lt;td>100&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>1000&lt;/td>
+ &lt;td>1,000&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>8000&lt;/td>
+ &lt;td>8,000&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>10000&lt;/td>
+ &lt;td>10,000&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>100000&lt;/td>
+ &lt;td>100,000&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>1000000&lt;/td>
+ &lt;td>531,022&lt;/td>
+ &lt;td>0.20&lt;/td>
+ &lt;td>43,447,746,560&lt;/td>
+ &lt;td>43,447,720,943&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu7706230692903093092.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu8124968077005740741.webp 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu10537116997124120135.webp 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu10329768919051903936.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1434"
+ height="868"
+ class="mx-auto my-0 rounded-md"
+ alt="Still same flat cost and bytes for 1 or 10 or 1,000 or 1,000,000 packages"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu4316388269291117173.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu18423789681161396481.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu4316388269291117173.png 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu2949243864201761467.png 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu2757261390731497632.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Result:&lt;/strong> Again, same cost, whether for 1 package or 531,022 packages!&lt;/p>
+&lt;h2 id="finding-the-number-of-days-affects-the-cost" class="relative group">Finding: the number of days affects the cost &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#finding-the-number-of-days-affects-the-cost" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>No surprise. I&amp;rsquo;d earlier noticed 365 days too took much quota, and I could continue with
+30 days.&lt;/p>
+&lt;p>Here&amp;rsquo;s the estimated cost and bytes billed (for one package, all installers) between one
+and 30 days (&lt;code>f&amp;quot;pypinfo --all --json --indent 0 --days {days} --limit 1 '' project&amp;quot;&lt;/code>),
+showing a roughly linear increase:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu1928118299130585136.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu2555350015802096910.webp 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu3081393958757030436.webp 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu4606751237202633088.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1672"
+ height="1028"
+ class="mx-auto my-0 rounded-md"
+ alt="Cost and bytes increase as the number of days increase"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu7029413520412900731.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu1909978392612994140.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu7029413520412900731.png 660w
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu15791991677220850383.png 1024w
+ 
+ 
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu7162917742705049017.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="conclusion" class="relative group">Conclusion &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>It doesn&amp;rsquo;t matter how many packages I fetch data for, I might as well fetch all and
+make it available to everyone, depending on the size of the data file. It will make
+sense to still offer a smaller file with 8,000 or so packages: often you just need a
+large-ish yet manageable number.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It costs more to filter for only downloads from pip, so I&amp;rsquo;ve switched to fetching data
+for all installers.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The number of days affects the cost, so I will need to decrease this in the future to
+stay within quota. For example, at some point I may need to switch from 30 to 25 days,
+and later from 25 to 20 days.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>More details from the investigation, the scripts and data files can be found at
+&lt;a href="https://github.com/hugovk/top-pypi-packages/issues/36" target="_blank" rel="noreferrer">hugovk/top-pypi-packages#36&lt;/a>.&lt;/p>
+&lt;p>And let me know if you know any tricks to reduce costs!&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo:
+&amp;ldquo;&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/royalaustralianhistoricalsociety/44366270300/">The
+Balancing Rock, Stonehenge, Near Glen Innes, NSW&lt;/a>&amp;rdquo; by the
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/royalaustralianhistoricalsociety/">Royal
+Australian Historical Society&lt;/a>, with
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/">no
+known copyright restrictions&lt;/a>.&lt;/small>&lt;/p></description></item></channel></rss>

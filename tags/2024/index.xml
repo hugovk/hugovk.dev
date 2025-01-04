@@ -1,1 +1,629 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2024 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/2024/</link><description>Recent content in 2024 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 05 Oct 2024 19:39:48 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/2024/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Developer Sprint 2024</title><link>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</link><pubDate>Sat, 05 Oct 2024 19:39:48 +0000</pubDate><guid>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</guid><description/></item><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2024 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/2024/</link><description>Recent content in 2024 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 05 Oct 2024 19:39:48 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/2024/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Developer Sprint 2024</title><link>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</link><pubDate>Sat, 05 Oct 2024 19:39:48 +0000</pubDate><guid>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</guid><description>&lt;p>🐍🏃The week before last was the annual Python Core Dev Sprint, graciously hosted by
+Meta in Bellevue, WA!&lt;/p>
+&lt;p>The idea: bring a bunch of Python core team members, triagers, and special guests to the
+same room for a week. It&amp;rsquo;s hugely beneficial and productive, we held many in-depth
+discussions that just don&amp;rsquo;t happen when we&amp;rsquo;re all remote and async, and got to work on
+many different things together.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu17665275643114294065.webp 330w,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu553652608013562380.webp 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu8311186373865089673.webp 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu16011542579834114115.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="4096"
+ height="1305"
+ class="mx-auto my-0 rounded-md"
+ alt="A panoramic shot of a room of people, some sitting at desks, some standing, some working on laptops, some in discussion."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu14878078253768700724.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu10380837072792499810.jpg 330w,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu14878078253768700724.jpg 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu13752920734036696493.jpg 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu15020109867317094173.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>The sprint room&lt;/small>&lt;/center>
+&lt;p>During the week, I reviewed 39 PRs, created 15, merged 10, updated 4, and closed 2
+issues.&lt;/p>
+&lt;h2 id="monday-highlights" class="relative group">Monday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>As release manager for &lt;a href="https://peps.python.org/pep-0745/" target="_blank" rel="noreferrer">Python 3.14&lt;/a>, I discussed
+with &lt;a href="https://fosstodon.org/@brettcannon" target="_blank" rel="noreferrer">Brett Cannon&lt;/a> one of his project ideas which
+will come after lock files, and after the next big one.&lt;/p>
+&lt;p>Also as RM, discussed with &lt;a href="https://cloudisland.nz/@freakboy3742" target="_blank" rel="noreferrer">Russell Keith-Magee&lt;/a>,
+Ned Deily, &lt;a href="https://mastodon.social/@ambv" target="_blank" rel="noreferrer">Łukasz Langa&lt;/a> and
+&lt;a href="https://social.coop/@Yhg1s" target="_blank" rel="noreferrer">Thomas Wouters&lt;/a> about
+&lt;a href="https://beeware.org/news/buzz/2024q4-roadmap/" target="_blank" rel="noreferrer">including official binaries for iOS and Android&lt;/a>,
+which wandered into ideas about security releases.&lt;/p>
+&lt;p>I did some maintenance of our PyPI projects, adding
+&lt;a href="https://peps.python.org/pep-0740/" target="_blank" rel="noreferrer">PEP 740 attestations&lt;/a>, support for the
+&lt;a href="https://peps.python.org/pep-0719/" target="_blank" rel="noreferrer">new Python 3.13&lt;/a> and dropping support for the
+&lt;a href="https://peps.python.org/pep-0569/" target="_blank" rel="noreferrer">very-nearly-EOL 3.8&lt;/a>.&lt;/p>
+&lt;h2 id="tuesday-highlights" class="relative group">Tuesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tuesday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Started investigating slow doctest on 3.13+ with
+&lt;a href="https://fosstodon.org/@AlexWaygood" target="_blank" rel="noreferrer">Alex Waygood&lt;/a>, who on Wednesday narrowed it down to
+a problem with the
+&lt;a href="https://github.com/python/cpython/issues/124567" target="_blank" rel="noreferrer">new incremental garbage collector&lt;/a>,
+which would go on to be reverted by Friday and result in
+&lt;a href="https://discuss.python.org/t/python-3-12-7-and-3-13-0rc3-released/66306?u=hugovk" target="_blank" rel="noreferrer">Python 3.13&amp;rsquo;s Monday release to be postponed and replaced with an extra release candidate&lt;/a>.
+Not ideal, but much better to discover these things before the big release.&lt;/p>
+&lt;p>We had a Q&amp;amp;A session with the Steering Council:
+&lt;a href="https://mastodon.social/@pumpichank" target="_blank" rel="noreferrer">Barry Warsaw&lt;/a>, Emily Morehouse,
+&lt;a href="https://infosec.exchange/@gpshead" target="_blank" rel="noreferrer">Gregory P. Smith&lt;/a>, Pablo Galindo Salgado and Thomas.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu18297461115858616873.webp 330w,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu11206206156887861891.webp 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu990617352976998907.webp 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu3894626021129339595.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="The steering council: Barry, Emily, Greg with a microphone, Pablo and Thomas sitting on high stools."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu447944528367181844.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu6345696835909150704.jpg 330w,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu447944528367181844.jpg 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu303780069896701098.jpg 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu7881799339107926996.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>The Python Steering Council&lt;/small>&lt;/center>
+&lt;p>Proofread Guido van Rossum&amp;rsquo;s
+&lt;a href="https://discuss.python.org/t/changing-pep-13-to-adopt-bloc-star-voting/64971?u=hugovk" target="_blank" rel="noreferrer">STAR voting proposal&lt;/a>
+for electing future steering councils.&lt;/p>
+&lt;p>Discussed with Eric Snow his novel method for displaying many code samples in a table,
+using &lt;code>&amp;lt;details&amp;gt;&lt;/code> disclosures to prevent the table being too wide. Looks like a good
+solution!&lt;/p>
+&lt;h2 id="wednesday-highlights" class="relative group">Wednesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#wednesday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I applied the &lt;a href="https://github.com/python/peps/pull/3995" target="_blank" rel="noreferrer">finishing touches&lt;/a> to
+&lt;a href="https://peps.python.org/pep-2026/" target="_blank" rel="noreferrer">PEP 2026&lt;/a> (Calendar versioning for Python) and Barry
+gave it a final review. Ready for submission!&lt;/p>
+&lt;p>&lt;a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noreferrer">Seth Larson&lt;/a>, the PSF
+&lt;a href="https://sethmlarson.dev/security-developer-in-residence" target="_blank" rel="noreferrer">Security Developer-in-Residence&lt;/a>,
+wasn&amp;rsquo;t at the sprint but we discussed our plan to stop providing GPG signatures for
+CPython and rely on SigStore instead. Expect a PEP soon!&lt;/p>
+&lt;p>Also not at the sprint, I recommended PSF
+&lt;a href="https://pyfound.blogspot.com/2024/07/announcing-our-new-infrastructure.html" target="_blank" rel="noreferrer">Infrastructure Engineer&lt;/a>
+&lt;a href="https://fosstodon.org/@Monorepo" target="_blank" rel="noreferrer">Jacob Coffee&lt;/a> as a &lt;a href="CPython">CPython triager&lt;/a>. Welcome
+aboard!&lt;/p>
+&lt;p>The whole room discussed including
+&lt;a href="https://discuss.python.org/t/static-type-annotations-in-cpython/65068?u=hugovk" target="_blank" rel="noreferrer">static type annotations in CPython&lt;/a>.&lt;/p>
+&lt;p>We had a Q&amp;amp;A session with two of the three Developers-in-Residence, Łukasz and
+&lt;a href="https://mastodon.social/@encukou" target="_blank" rel="noreferrer">Petr Viktorin&lt;/a>.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu15704381544186028268.webp 330w,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu18193786977583250818.webp 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu15605861037428020279.webp 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu4857588644422687182.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="Łukasz (with a microphone) and Petr sitting on high stools."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu9232806498761934497.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu10786183967067417584.jpg 330w,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu9232806498761934497.jpg 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu16110666480873627340.jpg 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu13783273679144254574.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Q&amp;A with Łukasz and Petr&lt;/small>&lt;/center>
+&lt;p>Discussed
+&lt;a href="https://discuss.python.org/t/collecting-feedback-about-expanding-the-voter-pool-for-sc-elections?u=hugovk" target="_blank" rel="noreferrer">expanding the voter pool for Steering Council elections&lt;/a>
+with &lt;a href="https://fosstodon.org/@mariatta" target="_blank" rel="noreferrer">Mariatta&lt;/a>, Greg and Thomas.&lt;/p>
+&lt;p>Larry Hastings handed out, in return for &lt;em>oohs&lt;/em> and &lt;em>aahs&lt;/em>, some nice P.C.D.S. 2024
+stickers he generously designed and printed up for us. Thanks!&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu7391976292255057655.webp 330w,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu14987199586806824875.webp 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu1068750831667531402.webp 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu16095875822555721737.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="Two stickers. One yellow snake with its body looping and spelling out the letters PCDS (for Python Core Dev Sprint), one blue snake spelling 2024."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu16111805038124136549.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu8610499751043944707.jpg 330w,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu16111805038124136549.jpg 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu15746299223575184207.jpg 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu12874468515288637952.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>PCDS 2024 stickers by Larry&lt;/small>&lt;/center>
+&lt;h2 id="thursday-highlights" class="relative group">Thursday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thursday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>On the 26th September, at 10:26 Bellevue time (20:26 Helsinki time), I
+&lt;a href="https://github.com/python/steering-council/issues/255" target="_blank" rel="noreferrer">submitted PEP 2026 to the Steering Council!&lt;/a>🤞&lt;/p>
+&lt;p>Brett discussed whether we should update
+&lt;a href="https://discuss.python.org/t/updating-pep-387-to-prefer-5-year-deprecations-instead-of-2-years/65166?u=hugovk" target="_blank" rel="noreferrer">PEP 387 to prefer 5 year deprecations instead of 2 years&lt;/a>.&lt;/p>
+&lt;p>Brandt Bucher gave us all an update on the progress of the Just-in-Time (JIT) compiler
+(&amp;ldquo;we went from 0% slower to 0% faster!&amp;rdquo;) and we discussed plans for Python 3.14.&lt;/p>
+&lt;p>Because I couldn&amp;rsquo;t attend Thursday&amp;rsquo;s
+&lt;a href="https://helsinki-python.github.io/" target="_blank" rel="noreferrer">Helsinki Python meetup&lt;/a> due to being at another
+kind of Python meetup on the other side of the world, I gave the famous HelPy quiz to
+the assembled core devs. Unsurprisingly they did pretty well, but the most incorrect
+answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributors to Python 3.13!&lt;/p>
+&lt;p>Pablo performed card tricks!&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu5158517207955643384.webp 330w,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu11841017597962381293.webp 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu18211459174854094709.webp 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu4643402162765870636.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="Pablo splaying open a deck of PyCon US playing cards and Greg picking one."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu7551756905583790816.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu3686685854394763367.jpg 330w,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu7551756905583790816.jpg 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu2470293764489256167.jpg 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu3694087799240682761.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Magic from Pablo&lt;/small>&lt;/center>
+&lt;p>Meta took us out for a delicious dinner at a local fish restaurant. Thank you!&lt;/p>
+&lt;h2 id="friday-highlights" class="relative group">Friday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#friday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Mariatta presented ideas to Jelle Zijlstra, Petr, Russell and me about to use modern
+tools to create a modern, interactive tutorial.&lt;/p>
+&lt;p>Also during the week, continued work with Adam Turner on improving the
+&lt;a href="https://docs.python.org/3/" target="_blank" rel="noreferrer">docs.python.org&lt;/a> build. Adam wasn&amp;rsquo;t at the sprint, so
+tag-teamed PR reviews overnight. After
+&lt;a href="https://github.com/python/docsbuild-scripts/issues/169#issuecomment-2389743956" target="_blank" rel="noreferrer">much work straddling many teams, projects and repos&lt;/a>,
+we&amp;rsquo;ve got the full HTML build loop for 13 languages × 3 versions down from over 40 hours
+to just under 9 hours, with more improvements coming.&lt;/p>
+&lt;p>Made a &lt;a href="https://hugovk-cpython.readthedocs.io/en/pydata-sphinx-theme/" target="_blank" rel="noreferrer">demo&lt;/a> of the
+CPython docs using the
+&lt;a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/" target="_blank" rel="noreferrer">PyData Sphinx Theme&lt;/a>.&lt;/p>
+&lt;p>Along with around 25 others, I was on Łukasz and Pablo&amp;rsquo;s
+&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc" target="_blank" rel="noreferrer">core.py podcast&lt;/a>.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu3336884750614731894.webp 330w,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu10559350939174151106.webp 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu7691966772893686745.webp 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu18315285009606261114.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu412680739436165336.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu1753789340097308346.jpg 330w,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu412680739436165336.jpg 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu1681638863733311510.jpg 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu17200314533498480487.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room&lt;/small>&lt;/center>
+&lt;p>Itamar gave us cake for the podcast&amp;rsquo;s first birthday!&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu8479772267922666997.webp 330w,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu11079024488634535603.webp 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu1030512578335029740.webp 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu3339466992534636592.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="2439"
+ height="1747"
+ class="mx-auto my-0 rounded-md"
+ alt="A big white cake, with decorations of Łukasz and Pablo&amp;rsquo;s faces, along with the Core.py logo, a big digit 1, headphones, microphone, bananas, and &amp;ldquo;emosido engañado&amp;rdquo; graffiti."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu5513881746818220551.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu3520085167839421903.jpg 330w,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu5513881746818220551.jpg 660w
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu6181714391664301059.jpg 1024w
+ 
+ 
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu4141695698354871380.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;center>&lt;small>cake.py. Photo by Itamar Oren.&lt;/small>&lt;/center>
+&lt;h2 id="thank-you" class="relative group">Thank you &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thank-you" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It was a hugely productive week, big thanks to Itamar Oren and Meta for organising and
+hosting!&lt;/p>
+&lt;p>See also Mariatta&amp;rsquo;s excellent &lt;a href="https://mariatta.ca/tags/sprint/" target="_blank" rel="noreferrer">blog posts&lt;/a>, and I
+recommend the
+&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc" target="_blank" rel="noreferrer">core.py podcast&lt;/a>
+with short interviews with some 25 attendees! Łukasz and Pablo were also guests on the
+&lt;a href="https://changelog.com/podcast/611" target="_blank" rel="noreferrer">Changelog podcast&lt;/a> during the sprint.&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo by Itamar Oren&lt;/small>&lt;/p></description></item><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description>&lt;p>If you read just one, check
+&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html" target="_blank" rel="noreferrer">Kati&amp;rsquo;s thorough recap&lt;/a>!&lt;/p>
+&lt;p>22nd May 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html" target="_blank" rel="noreferrer">Echos of the People API user guide&lt;/a>
+by &lt;a href="https://mastodon.social/@nedbat@hachyderm.io/112479219635272740" target="_blank" rel="noreferrer">Ned Batchelder&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>24th May 2024&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://wagtail.org/blog/pycon-2024/" target="_blank" rel="noreferrer">Wagtailers spread their wings at PyCon 2024&lt;/a> by
+&lt;a href="https://fosstodon.org/@vossisboss" target="_blank" rel="noreferrer">Meagen Voss&lt;/a> (@vossisboss)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://flet.dev/blog/flet-at-pycon-us-2024/" target="_blank" rel="noreferrer">Flet at PyCon US 2024&lt;/a> by Feodor
+Fitsner&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>27th May 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.tomy.me/en/posts/pycon-us-2024/" target="_blank" rel="noreferrer">PyCon US 2024: My First PyCon in US 🫶🏻&lt;/a>
+by &lt;a href="https://mastodon.social/@tomyhsieh" target="_blank" rel="noreferrer">Tomy Hsieh&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>28th May 2024&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://treyhunner.com/2024/05/pycon-2024-reflection/" target="_blank" rel="noreferrer">PyCon 2024 Reflection&lt;/a> by
+&lt;a href="https://mastodon.social/@treyhunner/112520554890667118" target="_blank" rel="noreferrer">Trey Hunner&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://simonwillison.net/2024/May/28/weeknotes/" target="_blank" rel="noreferrer">Weeknotes: PyCon US 2024&lt;/a> by
+&lt;a href="https://fedi.simonwillison.net/@simon/112520529116346191" target="_blank" rel="noreferrer">Simon Willison&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://stacklok.com/blog/3-key-takeaways-from-pycon-us-2024" target="_blank" rel="noreferrer">3 key takeaways from PyCon US 2024&lt;/a>
+by Luis Juncal &amp;amp; Yolanda Robla&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>30th May 2024&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.pyopensci.org/blog/recap-pyos-pyconus-2024.html" target="_blank" rel="noreferrer">pyOpenSci at PyCon US 2024 - Python packaging and community &lt;/a>
+by &lt;a href="https://fosstodon.org/@leahawasser/112554205196871020" target="_blank" rel="noreferrer">Leah Wasser&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://kafkai.com/en/blog/our-experience-at-pycon-us-2024-in-pittsburgh/" target="_blank" rel="noreferrer">Our Experience at PyCon US 2024 in Pittsburgh&lt;/a>
+by &lt;a href="https://hachyderm.io/@muheuenga/112530136789502549" target="_blank" rel="noreferrer">Ngazetungue Muheue&lt;/a>
+(@ngazetungue)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>1st June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html" target="_blank" rel="noreferrer">PyCon US 2024 Recap&lt;/a>
+by &lt;a href="https://fosstodon.org/@kati/112542145378019538" target="_blank" rel="noreferrer">Kati Michel&lt;/a> (@katherinemichel)&lt;/li>
+&lt;/ul>
+&lt;p>4th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://mangoumbrella.com/post/pycon-us-2024" target="_blank" rel="noreferrer">PyCon US 2024&lt;/a> by
+&lt;a href="https://mastodon.social/@y2mango/112556835094650562" target="_blank" rel="noreferrer">Yilei Yang&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>13th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://sethmlarson.dev/security-developer-in-residence-report-37" target="_blank" rel="noreferrer">PyCon US 2024 as Security Developer-in-Residence&lt;/a>
+by &lt;a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noreferrer">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
+&lt;/ul>
+&lt;p>14th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html" target="_blank" rel="noreferrer">The Python Language Summit 2024&lt;/a>
+by &lt;a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noreferrer">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
+&lt;/ul>
+&lt;p>16th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://dafoster.net/articles/2024/06/16/pycon-us-2024-highlights/" target="_blank" rel="noreferrer">PyCon US 2024 Highlights&lt;/a>
+by &lt;a href="https://mastodon.world/@davidfstr" target="_blank" rel="noreferrer">David Foster&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>19th June 2024&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/@monicaoyugi/from-pittsburgh-to-new-york-a-pycon-us-2024-adventure-1727c952509c" target="_blank" rel="noreferrer">From Pittsburgh to New York: A PyCon US 2024 Adventure&lt;/a>
+by &lt;a href="https://mastodon.social/@monics" target="_blank" rel="noreferrer">Monica Oyugi&lt;/a> (@monicaoyugi)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;small>Header photo: Downtown Pittsburgh seen between the Andy Warhol Bridge and Roberto
+Clemente Bridge&lt;/small>&lt;/p></description></item></channel></rss>

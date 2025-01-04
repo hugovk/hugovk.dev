@@ -1,1 +1,181 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cron on Hugo van Kemenade</title><link>https://hugovk.dev/tags/cron/</link><description>Recent content in cron on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 07 May 2023 15:59:57 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/cron/index.xml" rel="self" type="application/rss+xml"/><item><title>TIL: how to disable cron for GitHub forks</title><link>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</link><pubDate>Sun, 07 May 2023 15:59:57 +0000</pubDate><guid>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cron on Hugo van Kemenade</title><link>https://hugovk.dev/tags/cron/</link><description>Recent content in cron on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 07 May 2023 15:59:57 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/cron/index.xml" rel="self" type="application/rss+xml"/><item><title>TIL: how to disable cron for GitHub forks</title><link>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</link><pubDate>Sun, 07 May 2023 15:59:57 +0000</pubDate><guid>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</guid><description>&lt;p>GitHub Actions has a useful feature to trigger workflows on a cron schedule. For
+example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Test&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">pull_request&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">schedule&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">cron&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;0 6 * * *&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># daily at 6am&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">test&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>But if a contributor has enabled GitHub Actions on their fork (which I recommend: test
+your contributions before opening a PR), it also runs the cron on their fork. This not
+only uses up extra CI resources on the fork:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu865332972397925856.webp 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu8484030085098986457.webp 660w
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu1637199628482187058.webp 1024w
+ 
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu11294041796298467472.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="2170"
+ height="1642"
+ class="mx-auto my-0 rounded-md"
+ alt="A list of daily GitHub Actions runs"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu3854374547174514636.png"
+ srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu7954194149811956852.png 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu3854374547174514636.png 660w
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu13364890206006518184.png 1024w
+ 
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu5271795086560630612.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>It also sends a regular email to the contributor when the workflow fails:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu1377610496677258031.webp 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu10549264154881137167.webp 660w
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu9227095334016178365.webp 1024w
+ 
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu53755008951083801.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1434"
+ height="1320"
+ class="mx-auto my-0 rounded-md"
+ alt="A daily email from GitHub: &amp;ldquo;hugovk/packaging.python.org Run failed: Test - main&amp;rdquo;"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu12118375365630841583.png"
+ srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu3829931368491348322.png 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu12118375365630841583.png 660w
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu13750521386056382772.png 1024w
+ 
+ 
+ ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu17287850332592712973.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>Instead, we only need to run the cron for the upstream. For example, for a
+&lt;code>https://github.com/octocat/hello-world&lt;/code> repo, add:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl"> jobs:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> test:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">+ if: ${{ github.repository_owner == &amp;#39;octocat&amp;#39; || github.event_name != &amp;#39;schedule&amp;#39; }}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">&lt;/span> runs-on: ubuntu-latest
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This only runs the &lt;code>schedule&lt;/code> trigger for the &lt;code>octocat&lt;/code> upstream, and all other triggers
+run for both upstream and forks.&lt;/p>
+&lt;h2 id="also" class="relative group">Also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>For simpler workflows that only trigger on a cron, such as stalebot or CodeQL runs, we
+can add a simpler condition.&lt;/p>
+&lt;p>For example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Close stale issues&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">schedule&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">cron&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;10 0 * * *&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># daily at 12:10am&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">stale&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;Check issues&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/stale@v8&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>We can completely disable it for forks:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl"> jobs:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stale:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">+ if: github.repository_owner == &amp;#39;octocat&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">&lt;/span> runs-on: ubuntu-latest
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ps" class="relative group">PS &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ps" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Use single quotes in these lines, double quotes are invalid here (&lt;code>Unexpected symbol&lt;/code>).&lt;/p>
+&lt;h2 id="thanks" class="relative group">Thanks &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thanks" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To &lt;a href="https://fosstodon.org/@AlexWaygood" target="_blank" rel="noreferrer">Alex Waygood&lt;/a> for the tip.&lt;/p>
+&lt;p>To the British Library and Flickr Commons for the illustration of a
+&lt;a href="https://www.flickr.com/photos/britishlibrary/11097061804/" target="_blank" rel="noreferrer">chronograph&lt;/a>.&lt;/p></description></item></channel></rss>
