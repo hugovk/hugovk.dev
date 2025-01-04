@@ -57,8 +57,9 @@ in the [repo](https://github.com/hugovk/pypi-tools/tree/master/data).
 ## See also
 
 - [Data Driven Decisions Using PyPI Download Statistics](https://langui.sh/2016/12/09/data-driven-decisions/)
-- [Python version share over time, 1](../../2018/python-version-share-over-time-1/)
-  (January 2016 — June 2018)
+- [Python version share over time,
+  1]({{< ref "/blog/2018/python-version-share-over-time-1/" >}}) (January
+  2016 — June 2018)
 - [PyPI Stats](https://pypistats.org/): See package download data for the past 180 days,
   without needing to sign up for BigQuery
 - [pypistats](https://github.com/hugovk/pypistats): A command-line tool to access data

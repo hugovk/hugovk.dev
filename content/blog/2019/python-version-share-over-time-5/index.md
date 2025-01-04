@@ -105,10 +105,12 @@ the [repo](https://github.com/hugovk/pypi-tools/tree/master/data).
 ## See also
 
 - [Data Driven Decisions Using PyPI Download Statistics](https://langui.sh/2016/12/09/data-driven-decisions/)
-- [Python version share over time, 1](../../2018/python-version-share-over-time-1/)
-  (January 2016 — June 2018)
-- [Python version share over time, 2](../../2018/python-version-share-over-time-2/)
-  (January 2016 — October 2018)
+- [Python version share over time,
+  1]({{< ref "/blog/2018/python-version-share-over-time-1/" >}}) (January
+  2016 — June 2018)
+- [Python version share over time,
+  2]({{< ref "/blog/2018/python-version-share-over-time-2/" >}}) (January
+  2016 — October 2018)
 - [Python version share over time, 3](../../2019/python-version-share-over-time-3/)
   (January 2016 — December 2018)
 - [Python version share over time, 4](../../2019/python-version-share-over-time-4/)
