@@ -75,6 +75,15 @@
     showName = false
 #    target = "_blank"
 
+[[main]]
+  name = "RSS"
+  url = "https://hugovk.dev/index.xml"
+  weight = 150
+  [main.params]
+    icon = "rss"
+    showName = false
+#    target = "_blank"
+
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
@@ -117,5 +126,14 @@
   weight = 140
   [footer.params]
     icon = "linkedin"
+    showName = false
+#    target = "_blank"
+
+[[footer]]
+  name = "RSS"
+  url = "https://hugovk.dev/index.xml"
+  weight = 150
+  [footer.params]
+    icon = "rss"
     showName = false
 #    target = "_blank"

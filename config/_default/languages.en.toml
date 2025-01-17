@@ -22,6 +22,7 @@ copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/">{{< icon 
      { mastodon = "https://mastodon.social/@hugovk" },
      { bluesky = "https://bsky.app/profile/hugovk.dev" },
      { linkedin = "https://www.linkedin.com/in/hugovk/" },
+     { rss = "https://hugovk.dev/index.xml" },
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
