@@ -69,7 +69,7 @@ the
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python --version --version
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> which python
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sysconfig; print(sysconfig.get_config_var(&amp;#39;Py_GIL_DISABLED&amp;#39;))&amp;#34;
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sys; print(sys._is_gil_enabled())&amp;#34;&lt;/span>&lt;span class="w"> 
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sys; print(sys._is_gil_enabled())&amp;#34;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="github-actions-actionssetup-python" class="relative group">GitHub Actions: actions/setup-python &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#github-actions-actionssetup-python" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I&amp;rsquo;ve asked for support at
 &lt;a href="https://github.com/actions/setup-python/issues/771" target="_blank" rel="noreferrer">actions/setup-python#771&lt;/a>, they&amp;rsquo;re
 looking into it 🤞&lt;/p>
