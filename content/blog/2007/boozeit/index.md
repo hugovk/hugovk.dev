@@ -4,9 +4,6 @@ date: "2007-04-16T18:04:49Z"
 tags: ["S60"]
 ---
 
-<P><a href="http://laivakoira.typepad.com/BoozeIt.sis"><img src="https://laivakoira.typepad.com/photos/uncategorized/2007/04/17/boozeit001.jpg" width="176" height="208" border="0" alt="Download Booze It!" /></a> <a href="http://laivakoira.typepad.com/BoozeIt.sis"><img src="https://laivakoira.typepad.com/photos/uncategorized/2007/04/17/boozeit006.jpg" width="176" height="208" border="0" alt="Download Booze It!" /></a><br>
-<a href="http://laivakoira.typepad.com/BoozeIt.sis"><img src="https://laivakoira.typepad.com/photos/uncategorized/2007/04/17/boozeit008.jpg" width="176" height="208" border="0" alt="Download Booze It!" /></a> <a href="http://laivakoira.typepad.com/BoozeIt.sis"><img src="https://laivakoira.typepad.com/photos/uncategorized/2007/04/17/boozeit007.jpg" width="176" height="208" border="0" alt="Download Booze It!" /></a>
-
 <P>Another <a href="http://laivakoira.typepad.com/BoozeIt.sis">amazing application</a> for S60 phones! (But not S60 3rd Ed.) Like all the best applications it has a hard-coded exhange rate and a rubbish UI!
 
 <P>Booze It! is the perfect tool for those who like the odd drink or two. It has two modes: Home and Away.</P>
