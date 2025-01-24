@@ -4,7 +4,6 @@ date: "2005-05-30T21:40:06Z"
 tags: ["S60"]
 ---
 
-<a href="http://www.sevenball.co.uk/bigclock.html"><img width=176 height=208 src="https://laivakoira.typepad.com/photos/uncategorized/4720_bigclockjpg.jpg" border="0" alt="Big Clock" /></a>
-
-And here's a freeware <a href="http://www.sevenball.co.uk/bigclock.html">big clock</a>
-for your Series 60 phone :)
+And here's a freeware
+<a href="https://web.archive.org/web/20060702204202/https://www.sevenball.co.uk/bigclock.html">big
+clock</a> for your Series 60 phone :)
