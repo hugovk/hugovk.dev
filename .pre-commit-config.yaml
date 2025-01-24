@@ -32,7 +32,6 @@ repos:
     hooks:
       - id: prettier
         args: [--prose-wrap=always, --print-width=88]
-        exclude: layouts/partials/recent-articles.html
 
   - repo: meta
     hooks:
