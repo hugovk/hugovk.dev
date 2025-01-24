@@ -30,12 +30,12 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8722968066724085077.webp 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu12481401423374169931.webp 660w
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_f3b68ca70e9a0955.webp 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_fe6c1f06e84563ed.webp 660w
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8474829593977071400.webp 1024w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_61609ae92f4218a7.webp 1024w
  
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8410732872795207257.webp 1320w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_8340c7bcea49fba2.webp 1320w
  "
  
  sizes="100vw"
@@ -49,13 +49,13 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  alt="Chart showing when different Python versions reached end-of-life"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu3958082494281366100.png"
- srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu412302689539189135.png 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu3958082494281366100.png 660w
+ src="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_ba30ac451bef9e20.png"
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_7b0f6256f424ebc5.png 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_ba30ac451bef9e20.png 660w
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu13327397258811340917.png 1024w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_65d88d75c34dff07.png 1024w
  
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu14770132012544471259.png 1320w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_53811bc72bebd778.png 1320w
  "
  sizes="100vw"
  

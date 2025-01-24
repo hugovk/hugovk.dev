@@ -37,15 +37,15 @@ downloads logged, the amount of billed data increases too.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu4399191125544647636.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu9744272161937994976.webp 660w
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu_5541ba41a97408a.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu_752d7bb266b67ac3.webp 660w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu5390836655957415251.webp 828w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu_17abab72ccb9a0f1.webp 828w
  
  
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu5390836655957415251.webp 828w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu_17abab72ccb9a0f1.webp 828w
  
  "
  
@@ -60,8 +60,8 @@ downloads logged, the amount of billed data increases too.&lt;/p>
  alt="BigQuery TB billed"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu7338420539290121040.png"
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu4892566161837808109.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu7338420539290121040.png 660w
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu_4a76d2a7cfda7097.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu_80b9d14bd0734c2b.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee_hu_4a76d2a7cfda7097.png 660w
  
  ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/sego7uxbpslifzd791ee.png 828w
  
@@ -382,12 +382,12 @@ you query!&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu18118292014609621010.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu648453257193598313.webp 660w
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_bb34712bea554397.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_8c99c86576a603dc.webp 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu10284106087975447395.webp 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_e81005dc66f4c019.webp 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu5205727728706951676.webp 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_5c360b11f537ffd0.webp 1320w
  "
  
  sizes="100vw"
@@ -401,13 +401,13 @@ you query!&lt;/p>
  alt="Cost and bytes for 1 day with different package limits are the same"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu397812330083304456.png"
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu3938359857754509525.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu397812330083304456.png 660w
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_67de864fba1ad011.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_6f2bea590a05eb0d.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_67de864fba1ad011.png 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu6300561912122443047.png 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_a5efb9abd27e126f.png 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu5973035065494827784.png 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/03tmt980ypp67qryra26_hu_f127f42719748375.png 1320w
  "
  sizes="100vw"
  
@@ -448,12 +448,12 @@ you query!&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu9863289966959340285.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu14153878850457563120.webp 660w
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_e3ab84f7a5f24173.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_c68fb508c0c1d512.webp 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu18237600483818565577.webp 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_a708e2d7f1a96898.webp 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu5700298154092269841.webp 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_b5cd7cc1f0cbeabf.webp 1320w
  "
  
  sizes="100vw"
@@ -467,13 +467,13 @@ you query!&lt;/p>
  alt="Cost and bytes for 1 day still the same for pip"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu6020063133101452454.png"
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu14030271553218571464.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu6020063133101452454.png 660w
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_fbe0aef235e27050.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_8b7681998cb1181d.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_fbe0aef235e27050.png 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu11298788858346470409.png 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_1d4b04633efde814.png 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu12302202689483860821.png 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/al96xqbescc64lavi4y7_hu_c43ce814fe99990c.png 1320w
  "
  sizes="100vw"
  
@@ -516,12 +516,12 @@ limits, in case we were only paying for incremental changes: 8000, 7000, 6000, 5
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu13339767261172869521.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu5509277186518406138.webp 660w
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_6325c562cf6d2a56.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_22b3c3fa6c254f0.webp 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu10174635891162867280.webp 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_7005aa6a997f7e73.webp 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu2943104937256265225.webp 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_161ae60dd8399b39.webp 1320w
  "
  
  sizes="100vw"
@@ -535,13 +535,13 @@ limits, in case we were only paying for incremental changes: 8000, 7000, 6000, 5
  alt="Cost and bytes for 30 day still the same no matter how many packages"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu7752768729564659537.png"
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu11543015947163194659.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu7752768729564659537.png 660w
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_6cf6504133379781.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_6eef9c8ce571b7ce.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_6cf6504133379781.png 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu3363632746620009276.png 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_cc42323696dd6b.png 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu7253980410731021027.png 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/jhci1bcxrgncb34wwldm_hu_da72ca16f9e8bd0d.png 1320w
  "
  sizes="100vw"
  
@@ -652,12 +652,12 @@ This last one fetches data for all 531,022 packages on PyPI:&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu7706230692903093092.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu8124968077005740741.webp 660w
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_90ee4dd64a23615c.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_5d66886b9992da80.webp 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu10537116997124120135.webp 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_4ebeaf65218f5ad8.webp 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu10329768919051903936.webp 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_79e7d5fe73b5ed93.webp 1320w
  "
  
  sizes="100vw"
@@ -671,13 +671,13 @@ This last one fetches data for all 531,022 packages on PyPI:&lt;/p>
  alt="Still same flat cost and bytes for 1 or 10 or 1,000 or 1,000,000 packages"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu4316388269291117173.png"
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu18423789681161396481.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu4316388269291117173.png 660w
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_d2b6ec8db1e93645.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_88f90f867a4564bc.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_d2b6ec8db1e93645.png 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu2949243864201761467.png 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_e0cad5099b97e86e.png 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu2757261390731497632.png 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/3pitkptggoit9xdypjp2_hu_a0e5eca0d8f0263d.png 1320w
  "
  sizes="100vw"
  
@@ -722,12 +722,12 @@ showing a roughly linear increase:&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu1928118299130585136.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu2555350015802096910.webp 660w
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_eb64444357965ace.webp 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_24f12565a4cdfd4.webp 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu3081393958757030436.webp 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_d7464b515c69fe4d.webp 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu4606751237202633088.webp 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_4eb013ee3c7f4c7e.webp 1320w
  "
  
  sizes="100vw"
@@ -741,13 +741,13 @@ showing a roughly linear increase:&lt;/p>
  alt="Cost and bytes increase as the number of days increase"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu7029413520412900731.png"
- srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu1909978392612994140.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu7029413520412900731.png 660w
+ src="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_69723e8da7425ce5.png"
+ srcset="https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_3d69111fe3afdc27.png 330w,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_69723e8da7425ce5.png 660w
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu15791991677220850383.png 1024w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_310b59d623c3845d.png 1024w
  
  
- ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu7162917742705049017.png 1320w
+ ,/blog/2024/a-surprising-thing-about-pypis-bigquery-data/aa4kq8d5neuxj9mf1g2v_hu_b422133ddee91e6a.png 1320w
  "
  sizes="100vw"
  
@@ -1047,12 +1047,12 @@ many different things together.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu17665275643114294065.webp 330w,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu553652608013562380.webp 660w
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_2cb255f735f2cf3c.webp 330w,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_51b1e998f55c4fc7.webp 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu8311186373865089673.webp 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_6e87c16b29f2b874.webp 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu16011542579834114115.webp 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_a5ffb3a12746bb6a.webp 1320w
  "
  
  sizes="100vw"
@@ -1066,13 +1066,13 @@ many different things together.&lt;/p>
  alt="A panoramic shot of a room of people, some sitting at desks, some standing, some working on laptops, some in discussion."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu14878078253768700724.jpg"
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu10380837072792499810.jpg 330w,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu14878078253768700724.jpg 660w
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_bdb706f56d7fe1bf.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_93f46f803d689b7a.jpg 330w,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_bdb706f56d7fe1bf.jpg 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu13752920734036696493.jpg 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_7e1c1cda06dc9e04.jpg 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu15020109867317094173.jpg 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/5rpkesswa2xbczkuwoq7_hu_24db564ba457b78d.jpg 1320w
  "
  sizes="100vw"
  
@@ -1136,12 +1136,12 @@ Not ideal, but much better to discover these things before the big release.&lt;/
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu18297461115858616873.webp 330w,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu11206206156887861891.webp 660w
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_71fb3a1ab96d930c.webp 330w,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_3295fe516057c486.webp 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu990617352976998907.webp 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_dfd6da0dcb7e494b.webp 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu3894626021129339595.webp 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_15349551b507d652.webp 1320w
  "
  
  sizes="100vw"
@@ -1155,13 +1155,13 @@ Not ideal, but much better to discover these things before the big release.&lt;/
  alt="The steering council: Barry, Emily, Greg with a microphone, Pablo and Thomas sitting on high stools."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu447944528367181844.jpg"
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu6345696835909150704.jpg 330w,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu447944528367181844.jpg 660w
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_c23613b6a8d4c118.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_2b1b2cf49079bb4.jpg 330w,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_c23613b6a8d4c118.jpg 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu303780069896701098.jpg 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_cd4120b71246f2d9.jpg 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu7881799339107926996.jpg 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/g7yyzyqtztoednyacr1r_hu_a5ad8e3fd8fd5f55.jpg 1320w
  "
  sizes="100vw"
  
@@ -1222,12 +1222,12 @@ aboard!&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu15704381544186028268.webp 330w,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu18193786977583250818.webp 660w
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_4b3c69a773c8cf45.webp 330w,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_f7f8c567c03bad3b.webp 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu15605861037428020279.webp 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_11ee3f29625bb8a.webp 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu4857588644422687182.webp 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_d8700b90f3cd22d7.webp 1320w
  "
  
  sizes="100vw"
@@ -1241,13 +1241,13 @@ aboard!&lt;/p>
  alt="Łukasz (with a microphone) and Petr sitting on high stools."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu9232806498761934497.jpg"
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu10786183967067417584.jpg 330w,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu9232806498761934497.jpg 660w
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_da29803447686f1.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_43dd0803853494d5.jpg 330w,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_da29803447686f1.jpg 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu16110666480873627340.jpg 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_a1a828bd39c1c513.jpg 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu13783273679144254574.jpg 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/vbn0yvsz7t9t2j7yfd2j_hu_32e85f4fc4bc6402.jpg 1320w
  "
  sizes="100vw"
  
@@ -1292,12 +1292,12 @@ stickers he generously designed and printed up for us. Thanks!&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu7391976292255057655.webp 330w,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu14987199586806824875.webp 660w
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_207ff0d89a54bb0c.webp 330w,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_848b9f5cc4005cb6.webp 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu1068750831667531402.webp 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_8c0ec814e53ca930.webp 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu16095875822555721737.webp 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_e9a6c0f91222ffa3.webp 1320w
  "
  
  sizes="100vw"
@@ -1311,13 +1311,13 @@ stickers he generously designed and printed up for us. Thanks!&lt;/p>
  alt="Two stickers. One yellow snake with its body looping and spelling out the letters PCDS (for Python Core Dev Sprint), one blue snake spelling 2024."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu16111805038124136549.jpg"
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu8610499751043944707.jpg 330w,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu16111805038124136549.jpg 660w
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_b50637303fa4d8d9.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_5a5ce67348451d0f.jpg 330w,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_b50637303fa4d8d9.jpg 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu15746299223575184207.jpg 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_807bde96ce9dd5a8.jpg 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu12874468515288637952.jpg 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/arqsq2qg7h1giiko2g40_hu_6287bfb1bbafa287.jpg 1320w
  "
  sizes="100vw"
  
@@ -1369,12 +1369,12 @@ answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributor
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu5158517207955643384.webp 330w,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu11841017597962381293.webp 660w
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_5633532ec2d31a64.webp 330w,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_d044a0b3fe1e82bf.webp 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu18211459174854094709.webp 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_6f0b54078035f3a9.webp 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu4643402162765870636.webp 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_6769db969dedd136.webp 1320w
  "
  
  sizes="100vw"
@@ -1388,13 +1388,13 @@ answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributor
  alt="Pablo splaying open a deck of PyCon US playing cards and Greg picking one."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu7551756905583790816.jpg"
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu3686685854394763367.jpg 330w,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu7551756905583790816.jpg 660w
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_14d948fb1f7f7237.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_e24eba41dd85fc97.jpg 330w,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_14d948fb1f7f7237.jpg 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu2470293764489256167.jpg 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_4ec783026ec8995.jpg 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu3694087799240682761.jpg 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/tlusli7ylxa3di48nmct_hu_1d099a906a18c952.jpg 1320w
  "
  sizes="100vw"
  
@@ -1448,12 +1448,12 @@ CPython docs using the
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu3336884750614731894.webp 330w,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu10559350939174151106.webp 660w
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_5c7c2672adc05b45.webp 330w,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_c64f1594e149ab6d.webp 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu7691966772893686745.webp 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_e27bee35b6712edf.webp 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu18315285009606261114.webp 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_52295aecd031f022.webp 1320w
  "
  
  sizes="100vw"
@@ -1467,13 +1467,13 @@ CPython docs using the
  alt="Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu412680739436165336.jpg"
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu1753789340097308346.jpg 330w,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu412680739436165336.jpg 660w
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_cc5f8a9f4a4b7bdf.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_6d856004aea0387b.jpg 330w,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_cc5f8a9f4a4b7bdf.jpg 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu1681638863733311510.jpg 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_15591b212d87fcb9.jpg 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu17200314533498480487.jpg 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/obqejp8n5acztsb8knaq_hu_e0b9e025ba3bac44.jpg 1320w
  "
  sizes="100vw"
  
@@ -1514,12 +1514,12 @@ CPython docs using the
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu8479772267922666997.webp 330w,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu11079024488634535603.webp 660w
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_d1cff4fb85ef5324.webp 330w,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_9e9649e37c203b83.webp 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu1030512578335029740.webp 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_e60e1f8704d0a00a.webp 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu3339466992534636592.webp 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_7566dec77ababb3b.webp 1320w
  "
  
  sizes="100vw"
@@ -1533,13 +1533,13 @@ CPython docs using the
  alt="A big white cake, with decorations of Łukasz and Pablo&amp;rsquo;s faces, along with the Core.py logo, a big digit 1, headphones, microphone, bananas, and &amp;ldquo;emosido engañado&amp;rdquo; graffiti."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu5513881746818220551.jpg"
- srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu3520085167839421903.jpg 330w,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu5513881746818220551.jpg 660w
+ src="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_6b58b86a2aafa0f4.jpg"
+ srcset="https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_f57a7be6a645f5b.jpg 330w,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_6b58b86a2aafa0f4.jpg 660w
  
- ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu6181714391664301059.jpg 1024w
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_31a39b4fbb41c10d.jpg 1024w
  
  
- ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu4141695698354871380.jpg 1320w
+ ,/blog/2024/python-core-developer-sprint-2024/8gz97wzjn5khsjg4anln_hu_caa957aaa72166ea.jpg 1320w
  "
  sizes="100vw"
  
@@ -1999,12 +1999,12 @@ we have some pages with tabs for different operating systems:&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu6159705348692542935.webp 330w,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu15688956915258582290.webp 660w
+ srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_1541441e45a7fc79.webp 330w,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_1b9f3b8440668f33.webp 660w
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu557925855706330142.webp 1024w
+ ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_4f1c1d8c2605b4a2.webp 1024w
  
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu2277491854633026451.webp 1320w
+ ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_99868368c07d7cd7.webp 1320w
  "
  
  sizes="100vw"
@@ -2018,13 +2018,13 @@ we have some pages with tabs for different operating systems:&lt;/p>
  alt="Screenshot showing instructions how to build Python. Some parts have Unix, macOS and Windows tabs. The macOS tab is active, showing a configure command to run in your terminal. Underneath is a second step with its own tabs and a macOS command. There&amp;rsquo;s a macOS-specific note underneath."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu6942481802453602612.png"
- srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu3521019795429784328.png 330w,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu6942481802453602612.png 660w
+ src="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_af735922a8dc1b5f.png"
+ srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_2dbcf2fe4b62a9be.png 330w,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_af735922a8dc1b5f.png 660w
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu8294149741982305727.png 1024w
+ ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_40864b97f3d19988.png 1024w
  
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu1255540570275039851.png 1320w
+ ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_8174716000619f50.png 1320w
  "
  sizes="100vw"
  
@@ -2216,12 +2216,12 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8722968066724085077.webp 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu12481401423374169931.webp 660w
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_f3b68ca70e9a0955.webp 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_fe6c1f06e84563ed.webp 660w
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8474829593977071400.webp 1024w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_61609ae92f4218a7.webp 1024w
  
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu8410732872795207257.webp 1320w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_8340c7bcea49fba2.webp 1320w
  "
  
  sizes="100vw"
@@ -2235,13 +2235,13 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  alt="Chart showing when different Python versions reached end-of-life"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu3958082494281366100.png"
- srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu412302689539189135.png 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu3958082494281366100.png 660w
+ src="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_ba30ac451bef9e20.png"
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_7b0f6256f424ebc5.png 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_ba30ac451bef9e20.png 660w
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu13327397258811340917.png 1024w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_65d88d75c34dff07.png 1024w
  
  
- ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu14770132012544471259.png 1320w
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/nzjga7b8p4eo1t4ja9qd_hu_53811bc72bebd778.png 1320w
  "
  sizes="100vw"
  
@@ -2680,12 +2680,12 @@ easy to scribble on, and stuff into a pocket.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu9700584616418493274.webp 330w,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu13775982213532534423.webp 660w
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_b343bf78fe7789e2.webp 330w,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_1ab745d571386443.webp 660w
  
- ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu4210198414677676652.webp 1024w
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_9a1991dd4f891962.webp 1024w
  
  
- ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu14651582198646946669.webp 1320w
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_350def94ce0e20cf.webp 1320w
  "
  
  sizes="100vw"
@@ -2699,13 +2699,13 @@ easy to scribble on, and stuff into a pocket.&lt;/p>
  alt="Printed PyCons schedule"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu13974143194544455367.jpg"
- srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu15840687101948714029.jpg 330w,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu13974143194544455367.jpg 660w
+ src="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_499805624823f8f5.jpg"
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_6134513c9d5e5e8d.jpg 330w,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_499805624823f8f5.jpg 660w
  
- ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu16503700326334677003.jpg 1024w
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_748d180f619bc9e9.jpg 1024w
  
  
- ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu17204611524436912176.jpg 1320w
+ ,/blog/2023/printable-pycon-2023-schedule/2mjm7whei9m178ljcrhx_hu_55792d33ffe5413b.jpg 1320w
  "
  sizes="100vw"
  
@@ -2798,12 +2798,12 @@ site so you can browse the original version.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu4314895293858645646.webp 330w,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu12499753314251917225.webp 660w
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_57c418510355c450.webp 330w,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_315ee01966f726da.webp 660w
  
- ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu16856264157155671375.webp 1024w
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_49de887fe3ff4b3d.webp 1024w
  
  
- ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu1183141510410706252.webp 1320w
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_c457231f50d250df.webp 1320w
  "
  
  sizes="100vw"
@@ -2817,13 +2817,13 @@ site so you can browse the original version.&lt;/p>
  alt="Printed PyCons schedule"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu13708067118798853599.jpg"
- srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu3899553956701030337.jpg 330w,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu13708067118798853599.jpg 660w
+ src="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_d5ec6a2c9923fb92.jpg"
+ srcset="https://hugovk.dev/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_96468ae31498137b.jpg 330w,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_d5ec6a2c9923fb92.jpg 660w
  
- ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu18029687746099976681.jpg 1024w
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_b88f5742368011fd.jpg 1024w
  
  
- ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu15980773464463287369.jpg 1320w
+ ,/blog/2023/printable-pycon-2023-schedule/59l815p02j0yk0jy377c_hu_4a6f1cd1772c3d46.jpg 1320w
  "
  sizes="100vw"
  
@@ -2898,12 +2898,12 @@ of useful scripts that live in his &lt;a href="https://github.com/vstinner/misc"
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu4607524410966425171.webp 330w,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu5793698678911283042.webp 660w
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_96b5c6308515dc8f.webp 330w,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_f2218a6c71ac7afc.webp 660w
  
- ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu17496158120858303757.webp 1024w
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_f94c195b0b85011c.webp 1024w
  
  
- ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu13669505015455023515.webp 1320w
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_59eba9c0710d2012.webp 1320w
  "
  
  sizes="100vw"
@@ -2917,13 +2917,13 @@ of useful scripts that live in his &lt;a href="https://github.com/vstinner/misc"
  alt="Tail end of downloading files: successful downloads in green, unsuccessful downloads in red"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu489661760446696574.png"
- srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu3380576654790916936.png 330w,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu489661760446696574.png 660w
+ src="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_bb633edf3476cfd5.png"
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_6cb3af80fa40fb0c.png 330w,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_bb633edf3476cfd5.png 660w
  
- ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu7346817546555465552.png 1024w
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_febad9f9a51c937f.png 1024w
  
  
- ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu3010954195149693516.png 1320w
+ ,/blog/2022/how-to-search-5000-python-projects/v41t4zfbxoybdfxuhg6m_hu_54bf5bf6ce573319.png 1320w
  "
  sizes="100vw"
  
@@ -3012,12 +3012,12 @@ docs and without raising a
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu13048840748820413663.webp 330w,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu1195124278878341570.webp 660w
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_9a78d5ab9a5d5b10.webp 330w,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_99a2b1aa8d67370a.webp 660w
  
- ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu7609924379155785860.webp 1024w
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_5a378b8fcf384cca.webp 1024w
  
  
- ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu15576829277895273148.webp 1320w
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_9a1fcbf20e81759a.webp 1320w
  "
  
  sizes="100vw"
@@ -3031,13 +3031,13 @@ docs and without raising a
  alt="Same output as above but with the source filename in purple and LegacyInterpolation in orange"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu13372628957427238338.png"
- srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu17619558709112171203.png 330w,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu13372628957427238338.png 660w
+ src="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_c001505d654f2fb9.png"
+ srcset="https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_a9c12eb27e5fbbb7.png 330w,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_c001505d654f2fb9.png 660w
  
- ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu8429883612135488186.png 1024w
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_66638a9cad7e2d61.png 1024w
  
  
- ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu12135908930739888708.png 1320w
+ ,/blog/2022/how-to-search-5000-python-projects/ele6hbe4kix8s0pb6ngu_hu_a720906a8f033f5.png 1320w
  "
  sizes="100vw"
  
@@ -3756,12 +3756,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu9921305724694012169.webp 330w,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu7561736043317588335.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_c5cd6c7d471873f4.webp 330w,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_12ecdcaf0ad0eba.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu11257892987750645809.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_5e80b5a559aa592f.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu8235084810339819323.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_5ace049b93775910.webp 1320w
  "
  
  sizes="100vw"
@@ -3775,13 +3775,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="pypi"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu16968916242509118823.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu11533714313119858668.png 330w,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu16968916242509118823.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_b82c3db598d56e21.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_d02c4bc8aac8b03b.png 330w,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_b82c3db598d56e21.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu8008022321444855865.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_5367fa292a58ba66.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu9730592621181916513.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/4wqa702ngppsv6dxh3zq_hu_3eb0210d016ad031.png 1320w
  "
  sizes="100vw"
  
@@ -3821,12 +3821,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu2309535802170503902.webp 330w,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu15616927638089910320.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_514113c621779f69.webp 330w,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_7d911d01f76db597.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu5958000626119813477.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_dc6638b513e5756e.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu12727424451063577116.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_96e2bad407888cdc.webp 1320w
  "
  
  sizes="100vw"
@@ -3840,13 +3840,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="pip"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu14811711415817573098.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu17060205272823984320.png 330w,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu14811711415817573098.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_3550d560575cdfb7.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_381122f753cc2141.png 330w,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_3550d560575cdfb7.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu13454388110655392062.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_17a9746b18764451.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu7583424555869076783.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/2kncm0d1gnytc8dox1vr_hu_455003a89c2578ab.png 1320w
  "
  sizes="100vw"
  
@@ -3886,12 +3886,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu5856008650146655363.webp 330w,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu1512643045656418211.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_44dcaadd9970129d.webp 330w,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_1fd9e5bf6e92dbd0.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu780218525046302403.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_fba59333a8bbf190.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu9107265348149796094.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_e3da59426f6c7a10.webp 1320w
  "
  
  sizes="100vw"
@@ -3905,13 +3905,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="six"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu14624031906889015261.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu6555054060312004056.png 330w,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu14624031906889015261.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_debe466f9d44acfd.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_511f5439866e3458.png 330w,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_debe466f9d44acfd.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu4873951972522893210.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_b23cb8dc1a9fc084.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu9710293396424715760.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/2s8ienw3purly7d563g3_hu_9e628f6a0d39ba7c.png 1320w
  "
  sizes="100vw"
  
@@ -3951,12 +3951,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu16941126830248094746.webp 330w,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu14830125984070325520.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_bb79c7caf32fcad.webp 330w,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_63394c77eba0e1e1.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu16852654721714944134.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_748f4aac579d3821.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu9039446335417737372.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_272d570610c07871.webp 1320w
  "
  
  sizes="100vw"
@@ -3970,13 +3970,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="NumPy"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu8051847384491604175.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu1510377395970815697.png 330w,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu8051847384491604175.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_e01e27c447836b5c.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_a1678d6590f11175.png 330w,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_e01e27c447836b5c.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu3512939144205350040.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_d22f21b8de50c36b.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu18377560017459416408.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/slcl0es81ltkdlduthea_hu_6739114f7f932cd8.png 1320w
  "
  sizes="100vw"
  
@@ -4016,12 +4016,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu15526404844219411062.webp 330w,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu14966971383857899045.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_9153fa8275467df0.webp 330w,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_e9c3b5c856ab8767.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu9071853186295789638.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_4aa45705d7508116.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu12342846187486491989.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_47fd0171d2f7c209.webp 1320w
  "
  
  sizes="100vw"
@@ -4035,13 +4035,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="pytest"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu11423573747629209836.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu13929128726050252541.png 330w,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu11423573747629209836.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_909c2a4df08c4257.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_1ace3bf583da86c0.png 330w,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_909c2a4df08c4257.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu5512745221353974518.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_ca4b5fc4699c51c3.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu7029512802972894947.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/x9u45cebj930u52lhob2_hu_7ca8c2168bc1f25.png 1320w
  "
  sizes="100vw"
  
@@ -4081,12 +4081,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu2868676513176756896.webp 330w,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu7226085349422857307.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_8412ab77594ffb3d.webp 330w,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_9f58a8c4dcd46a74.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu16420255197524661740.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_1a65f620cbfa2770.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu4141664802370333805.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_51eebda769563b70.webp 1320w
  "
  
  sizes="100vw"
@@ -4100,13 +4100,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="coverage"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu4237591547572286767.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu2720054276924155363.png 330w,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu4237591547572286767.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_368692d139ff9e78.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_690163b6852f2f56.png 330w,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_368692d139ff9e78.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu3309843218374591600.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_183fdc1db3172050.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu457094145148940595.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/lacortkwvi92z4zw0m6b_hu_46ef600b5c1a495.png 1320w
  "
  sizes="100vw"
  
@@ -4146,12 +4146,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu11325047003283256124.webp 330w,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu9830293347754658436.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_1f034d6908cb6018.webp 330w,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_a5be124613a7027f.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu6375732501991920493.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_fc5e905e59a6d45.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu5482730581510947811.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_8d085ad9fcbaaec8.webp 1320w
  "
  
  sizes="100vw"
@@ -4165,13 +4165,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="pillow"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu7981268463821598153.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu4382981517762756122.png 330w,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu7981268463821598153.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_d633fbe7fcc802df.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_abb3f8e82ec7c923.png 330w,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_d633fbe7fcc802df.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu7170868184522366545.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_6d6d6c78d733ec58.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu8826440088814540991.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/msqm643wek2w0qmgdxlu_hu_7f06df2086d688ba.png 1320w
  "
  sizes="100vw"
  
@@ -4211,12 +4211,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu3168480930907627491.webp 330w,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu11854494200927728723.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_3e08aae2fbf5fd3d.webp 330w,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_bf900a5506e47867.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu13730308589122133634.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_e26d3213f72c40bb.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu10427581046883671.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_aa9c70a187f800b3.webp 1320w
  "
  
  sizes="100vw"
@@ -4230,13 +4230,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="django"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu6701600667086082066.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu10420994129171591517.png 330w,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu6701600667086082066.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_64e0af6f90f1e02a.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_88a49f295ef95169.png 330w,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_64e0af6f90f1e02a.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu7971550162852510465.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_d3a99848589d7bef.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu12191398492910629034.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/omjea829j1h83fxp65ge_hu_496103cf2c1ebd06.png 1320w
  "
  sizes="100vw"
  
@@ -4276,12 +4276,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu3917890478412440536.webp 330w,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu15786355283644444372.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_525ce9cfbeed8465.webp 330w,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_a3a3d49a8f82e9fd.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu4550017604341631469.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_a3377c91ca12f8c7.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu1190093282393052008.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_25f2729ea1335671.webp 1320w
  "
  
  sizes="100vw"
@@ -4295,13 +4295,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="matplotlib"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu14053019228650594357.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu17333699246158754588.png 330w,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu14053019228650594357.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_3c3002ea60f25a1.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_8736cdb13c360cbf.png 330w,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_3c3002ea60f25a1.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu16785079381446409063.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_3b55312504adbdab.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu4362256971521855546.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/7kqrb64d2lmrnm2jw2lu_hu_d301e03c380aa53b.png 1320w
  "
  sizes="100vw"
  
@@ -4341,12 +4341,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu5424270042840633070.webp 330w,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu11898465713684645822.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_898025b3a0825fe5.webp 330w,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_a9cded5cee3e02ce.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu11133180717255394920.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_812a69ff93bc4858.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu5279850871331350202.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_7c9a76fc719dbcf1.webp 1320w
  "
  
  sizes="100vw"
@@ -4360,13 +4360,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="flake8"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu6457811787321696263.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu10170605573723340381.png 330w,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu6457811787321696263.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_9cf229a9a2dce157.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_3f5fbada7e2d16f5.png 330w,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_9cf229a9a2dce157.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu1111249792715979030.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_8647a155dfbdee5.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu9849400316018078970.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/102lu27lpme6gtdb3q9i_hu_b530bdf1610f94ae.png 1320w
  "
  sizes="100vw"
  
@@ -4406,12 +4406,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu2321623968821695676.webp 330w,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu337322960492649490.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_3c0b454f39f5400a.webp 330w,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_1243f84ec253dcf3.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu13879459224953785874.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_555fcb395797040a.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu15025784300104906274.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_342cdade45e84b58.webp 1320w
  "
  
  sizes="100vw"
@@ -4425,13 +4425,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="pylint"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu10366200990265049659.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu8523061021230020185.png 330w,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu10366200990265049659.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_15c46b68b9c973b6.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_4d917618885d8024.png 330w,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_15c46b68b9c973b6.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu15810610022746624119.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_753cfb06e3e1c2b4.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu6562765582686198807.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/yxc1911cdltvfrjs0eop_hu_f051390b2d9fc430.png 1320w
  "
  sizes="100vw"
  
@@ -4471,12 +4471,12 @@ how much different Python versions have been used over the past three years.&lt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu7327766214920100126.webp 330w,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu3273653093200378751.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_fd7719e6d352bff2.webp 330w,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_3d3cc97393235516.webp 660w
  
- ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu6211337068381141255.webp 1024w
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_30a7545259631cca.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu8881583963665348471.webp 1320w
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_5175d782ad57bee5.webp 1320w
  "
  
  sizes="100vw"
@@ -4490,13 +4490,13 @@ how much different Python versions have been used over the past three years.&lt;
  alt="pylast"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu4695933370202442571.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu8569888450204150965.png 330w,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu4695933370202442571.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_99feddaf17d1ede4.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_cac8c44cce39d2b0.png 330w,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_99feddaf17d1ede4.png 660w
  
- ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu5063695072589223748.png 1024w
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_a3bb2739e91bcc03.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu6789145685711629858.png 1320w
+ ,/blog/2019/python-version-share-over-time-4/ulztdisgv3zmuzif8nbf_hu_e4bf0063b7f61e9a.png 1320w
  "
  sizes="100vw"
  
@@ -4566,12 +4566,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu17446588426160462379.webp 330w,/blog/2019/python-version-share-over-time-3/pypi_hu4664281367952544465.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu_4a689e0ad267b046.webp 330w,/blog/2019/python-version-share-over-time-3/pypi_hu_8225a6be3a6b66b5.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/pypi_hu18243924050113938242.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu_3a056cb36b64d69b.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pypi_hu9750872065567583869.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu_9e4ad33c6200efb8.webp 1320w
  "
  
  sizes="100vw"
@@ -4585,13 +4585,13 @@ three years.&lt;/p>
  alt="pypi"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu9692998158603250469.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu5144353436023366884.png 330w,/blog/2019/python-version-share-over-time-3/pypi_hu9692998158603250469.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu_8995d20d19513fc9.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pypi_hu_6ff6af2473a430ab.png 330w,/blog/2019/python-version-share-over-time-3/pypi_hu_8995d20d19513fc9.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/pypi_hu16414690025624981255.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu_b0790e34fc2905dd.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pypi_hu17694152878500847117.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/pypi_hu_2747f4fc86123e03.png 1320w
  "
  sizes="100vw"
  
@@ -4631,12 +4631,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu5416137599686280891.webp 330w,/blog/2019/python-version-share-over-time-3/numpy_hu16995693100720331489.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu_ba1c7ce10fae1f12.webp 330w,/blog/2019/python-version-share-over-time-3/numpy_hu_3eb0b09aa9043b73.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/numpy_hu16730238867552238943.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu_13dbb2d4220343e9.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/numpy_hu13227012286871222913.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu_d53922fa228dd5ae.webp 1320w
  "
  
  sizes="100vw"
@@ -4650,13 +4650,13 @@ three years.&lt;/p>
  alt="NumPy"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu1631994838369174839.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu6515699511484611205.png 330w,/blog/2019/python-version-share-over-time-3/numpy_hu1631994838369174839.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu_9cd6bd7fddeb1b67.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/numpy_hu_a7eadceb40da6edd.png 330w,/blog/2019/python-version-share-over-time-3/numpy_hu_9cd6bd7fddeb1b67.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/numpy_hu9024688790520141606.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu_6a4ccfefb5860b2.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/numpy_hu326988264724097699.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/numpy_hu_918fad5c6a3bfdae.png 1320w
  "
  sizes="100vw"
  
@@ -4696,12 +4696,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu2407739598723300605.webp 330w,/blog/2019/python-version-share-over-time-3/pytest_hu7293432009729214281.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu_60d844b15bc42779.webp 330w,/blog/2019/python-version-share-over-time-3/pytest_hu_9461ef46f6f50a17.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/pytest_hu3434106802028793378.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu_e33e459d347f817c.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pytest_hu8073239107087752985.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu_2441da52624e3e48.webp 1320w
  "
  
  sizes="100vw"
@@ -4715,13 +4715,13 @@ three years.&lt;/p>
  alt="pytest"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu2778762025302694902.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu15709188050049446055.png 330w,/blog/2019/python-version-share-over-time-3/pytest_hu2778762025302694902.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu_bcf5754a24c2b8be.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pytest_hu_d5de9be1fe7d1eea.png 330w,/blog/2019/python-version-share-over-time-3/pytest_hu_bcf5754a24c2b8be.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/pytest_hu7085952580875895105.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu_45416459f7c73305.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pytest_hu4573748528679134867.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/pytest_hu_96679ce672bbf24c.png 1320w
  "
  sizes="100vw"
  
@@ -4761,12 +4761,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu15887207572830748081.webp 330w,/blog/2019/python-version-share-over-time-3/pillow_hu9059729149794686995.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu_2c7cefdb2395a78.webp 330w,/blog/2019/python-version-share-over-time-3/pillow_hu_755fffe744738a29.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/pillow_hu8505747565601081708.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu_586f36cc8515aa02.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pillow_hu12559638591718790265.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu_4c57f0ba93eb3e1a.webp 1320w
  "
  
  sizes="100vw"
@@ -4780,13 +4780,13 @@ three years.&lt;/p>
  alt="pillow"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu5052659710382621241.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu12963521257146567090.png 330w,/blog/2019/python-version-share-over-time-3/pillow_hu5052659710382621241.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu_c88f87cab151b1f.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pillow_hu_8244849205311641.png 330w,/blog/2019/python-version-share-over-time-3/pillow_hu_c88f87cab151b1f.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/pillow_hu764016175428786380.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu_c43a6d411850fec.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pillow_hu10739837605221065653.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/pillow_hu_6af0c333c0207c29.png 1320w
  "
  sizes="100vw"
  
@@ -4826,12 +4826,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu9596028857635502865.webp 330w,/blog/2019/python-version-share-over-time-3/django_hu8570437402420284334.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu_d451a4fbe5251d6b.webp 330w,/blog/2019/python-version-share-over-time-3/django_hu_5b2cccd0683d416d.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/django_hu18320124295456412897.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/django_hu_f0350753c0f47428.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/django_hu17761875608441423886.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/django_hu_8c7b01649e925d86.webp 1320w
  "
  
  sizes="100vw"
@@ -4845,13 +4845,13 @@ three years.&lt;/p>
  alt="django"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu13506384097991119833.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu7890859274079250015.png 330w,/blog/2019/python-version-share-over-time-3/django_hu13506384097991119833.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu_5b650ecfeb239de7.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/django_hu_29d11b8ba2d86494.png 330w,/blog/2019/python-version-share-over-time-3/django_hu_5b650ecfeb239de7.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/django_hu9157174232673870532.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/django_hu_9b04e7da8928731.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/django_hu8077554244916032086.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/django_hu_f95c3bb4d08c3f88.png 1320w
  "
  sizes="100vw"
  
@@ -4891,12 +4891,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu18047703716823841998.webp 330w,/blog/2019/python-version-share-over-time-3/matplotlib_hu14959320265486216120.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu_6012c2c88d060167.webp 330w,/blog/2019/python-version-share-over-time-3/matplotlib_hu_84243fb80142c484.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/matplotlib_hu4023035532890262575.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu_49df3d6e8150face.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/matplotlib_hu15529451260452073695.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu_4fcb4f648e589dab.webp 1320w
  "
  
  sizes="100vw"
@@ -4910,13 +4910,13 @@ three years.&lt;/p>
  alt="matplotlib"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu16584834435973698852.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu5500866309537606873.png 330w,/blog/2019/python-version-share-over-time-3/matplotlib_hu16584834435973698852.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu_6ee07fecb26ef778.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/matplotlib_hu_b95bf696ad24f9f4.png 330w,/blog/2019/python-version-share-over-time-3/matplotlib_hu_6ee07fecb26ef778.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/matplotlib_hu6119966810260649528.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu_ae5ff17c226e6f1f.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/matplotlib_hu13895125525995173812.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/matplotlib_hu_c69c84e08e63d6cd.png 1320w
  "
  sizes="100vw"
  
@@ -4956,12 +4956,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu14464435779218158297.webp 330w,/blog/2019/python-version-share-over-time-3/pylint_hu3781943452088072440.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu_5f7409ba2481f04d.webp 330w,/blog/2019/python-version-share-over-time-3/pylint_hu_7bd3214e992ed776.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/pylint_hu10458531243867972369.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu_9d62215d2fd1fda.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pylint_hu4900984135817136025.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu_58d529bbb9be2a1f.webp 1320w
  "
  
  sizes="100vw"
@@ -4975,13 +4975,13 @@ three years.&lt;/p>
  alt="pylint"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu15973407030376252439.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu13130506680762398508.png 330w,/blog/2019/python-version-share-over-time-3/pylint_hu15973407030376252439.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu_a0d467c797fa4fc9.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylint_hu_465604ba20bbb538.png 330w,/blog/2019/python-version-share-over-time-3/pylint_hu_a0d467c797fa4fc9.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/pylint_hu9474518620151379452.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu_c6b8845c0c42d414.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pylint_hu3413731928394011762.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/pylint_hu_ea835cdca72322f.png 1320w
  "
  sizes="100vw"
  
@@ -5021,12 +5021,12 @@ three years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu12037538889032195253.webp 330w,/blog/2019/python-version-share-over-time-3/pylast_hu15930602230464682093.webp 660w
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu_e3ad4e87436285d7.webp 330w,/blog/2019/python-version-share-over-time-3/pylast_hu_46556b32293cdd86.webp 660w
  
- ,/blog/2019/python-version-share-over-time-3/pylast_hu2405628595568676111.webp 1024w
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu_d19e6713806331bd.webp 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pylast_hu4055316101316316731.webp 1320w
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu_a00a302d964c83e4.webp 1320w
  "
  
  sizes="100vw"
@@ -5040,13 +5040,13 @@ three years.&lt;/p>
  alt="pylast"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu7869105606332532654.png"
- srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu7590658582717992051.png 330w,/blog/2019/python-version-share-over-time-3/pylast_hu7869105606332532654.png 660w
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu_b1689ba891e7422c.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-3/pylast_hu_41166968e74cce87.png 330w,/blog/2019/python-version-share-over-time-3/pylast_hu_b1689ba891e7422c.png 660w
  
- ,/blog/2019/python-version-share-over-time-3/pylast_hu10050499620325750784.png 1024w
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu_cc64ddcc0d3af36.png 1024w
  
  
- ,/blog/2019/python-version-share-over-time-3/pylast_hu16691885429856109807.png 1320w
+ ,/blog/2019/python-version-share-over-time-3/pylast_hu_be4e58a39e8ab45c.png 1320w
  "
  sizes="100vw"
  
@@ -5112,12 +5112,12 @@ years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu16518425519922630701.webp 330w,/blog/2018/python-version-share-over-time-2/pypi_hu11355453173685685997.webp 660w
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu_5d07b4ab7e763984.webp 330w,/blog/2018/python-version-share-over-time-2/pypi_hu_c531d8e32dcaf5d1.webp 660w
  
- ,/blog/2018/python-version-share-over-time-2/pypi_hu13450822331121816399.webp 1024w
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu_773ece93e04d9abb.webp 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/pypi_hu3728674788640840060.webp 1320w
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu_cacfa4e0064184a8.webp 1320w
  "
  
  sizes="100vw"
@@ -5131,13 +5131,13 @@ years.&lt;/p>
  alt="pypi"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu16480294015733985280.png"
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu7323996002631335687.png 330w,/blog/2018/python-version-share-over-time-2/pypi_hu16480294015733985280.png 660w
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu_fe166f604ab66134.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pypi_hu_bfeda3a035caf152.png 330w,/blog/2018/python-version-share-over-time-2/pypi_hu_fe166f604ab66134.png 660w
  
- ,/blog/2018/python-version-share-over-time-2/pypi_hu13401589824240185863.png 1024w
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu_afd9cdbb5c2bd33b.png 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/pypi_hu8813015342732693770.png 1320w
+ ,/blog/2018/python-version-share-over-time-2/pypi_hu_f68ea95983030f63.png 1320w
  "
  sizes="100vw"
  
@@ -5178,12 +5178,12 @@ years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu5240709034407327867.webp 330w,/blog/2018/python-version-share-over-time-2/numpy_hu6106975654981253559.webp 660w
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu_2349f95a01747e69.webp 330w,/blog/2018/python-version-share-over-time-2/numpy_hu_72645cf398230ef8.webp 660w
  
- ,/blog/2018/python-version-share-over-time-2/numpy_hu8516613389736299791.webp 1024w
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu_bb3751e2aa3e2ef4.webp 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/numpy_hu17229874413158511060.webp 1320w
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu_c43eb302686be2ea.webp 1320w
  "
  
  sizes="100vw"
@@ -5197,13 +5197,13 @@ years.&lt;/p>
  alt="NumPy"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu5827233680490157402.png"
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu1585741122785916614.png 330w,/blog/2018/python-version-share-over-time-2/numpy_hu5827233680490157402.png 660w
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu_2efc21f8696030e.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/numpy_hu_57a5b2a8e1c571fe.png 330w,/blog/2018/python-version-share-over-time-2/numpy_hu_2efc21f8696030e.png 660w
  
- ,/blog/2018/python-version-share-over-time-2/numpy_hu18160755144188356262.png 1024w
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu_4e5d9671fc7e8199.png 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/numpy_hu15296011867263573874.png 1320w
+ ,/blog/2018/python-version-share-over-time-2/numpy_hu_59c5d4d7952e1d77.png 1320w
  "
  sizes="100vw"
  
@@ -5244,12 +5244,12 @@ years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu16098187569885053741.webp 330w,/blog/2018/python-version-share-over-time-2/pillow_hu8734999784273850591.webp 660w
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu_14a62f1749b643.webp 330w,/blog/2018/python-version-share-over-time-2/pillow_hu_85e89dafe0b3452.webp 660w
  
- ,/blog/2018/python-version-share-over-time-2/pillow_hu6598339043677218378.webp 1024w
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu_c02f595a2a0ffdf5.webp 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/pillow_hu3923490833683807835.webp 1320w
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu_735101e7dc05f0dd.webp 1320w
  "
  
  sizes="100vw"
@@ -5263,13 +5263,13 @@ years.&lt;/p>
  alt="pillow"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu3941711992182055074.png"
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu9087330225516786040.png 330w,/blog/2018/python-version-share-over-time-2/pillow_hu3941711992182055074.png 660w
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu_ffc842aa2b200f54.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pillow_hu_a85a75624a360db1.png 330w,/blog/2018/python-version-share-over-time-2/pillow_hu_ffc842aa2b200f54.png 660w
  
- ,/blog/2018/python-version-share-over-time-2/pillow_hu9739798518090573679.png 1024w
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu_94a91ae8c96c687f.png 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/pillow_hu12991474257520610012.png 1320w
+ ,/blog/2018/python-version-share-over-time-2/pillow_hu_23600a5b378f7ad0.png 1320w
  "
  sizes="100vw"
  
@@ -5310,12 +5310,12 @@ years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu5098183702185465328.webp 330w,/blog/2018/python-version-share-over-time-2/django_hu707840352439217089.webp 660w
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu_3b362abd36fd61a2.webp 330w,/blog/2018/python-version-share-over-time-2/django_hu_7986bca138b1d55c.webp 660w
  
- ,/blog/2018/python-version-share-over-time-2/django_hu11529865070246196486.webp 1024w
+ ,/blog/2018/python-version-share-over-time-2/django_hu_accc41705cd53749.webp 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/django_hu16972741191821694576.webp 1320w
+ ,/blog/2018/python-version-share-over-time-2/django_hu_e1db37ec55ce2d98.webp 1320w
  "
  
  sizes="100vw"
@@ -5329,13 +5329,13 @@ years.&lt;/p>
  alt="django"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu16615269560789160246.png"
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu9718408928495260772.png 330w,/blog/2018/python-version-share-over-time-2/django_hu16615269560789160246.png 660w
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu_e53edb51cddaa6a9.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/django_hu_191027bc2186f86e.png 330w,/blog/2018/python-version-share-over-time-2/django_hu_e53edb51cddaa6a9.png 660w
  
- ,/blog/2018/python-version-share-over-time-2/django_hu494860797813449511.png 1024w
+ ,/blog/2018/python-version-share-over-time-2/django_hu_d2257c7506de8e7.png 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/django_hu2160782522892842757.png 1320w
+ ,/blog/2018/python-version-share-over-time-2/django_hu_df73b8303674cef8.png 1320w
  "
  sizes="100vw"
  
@@ -5376,12 +5376,12 @@ years.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu13901499166607595346.webp 330w,/blog/2018/python-version-share-over-time-2/pylast_hu921640666417024547.webp 660w
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu_7a5309acb2fb2452.webp 330w,/blog/2018/python-version-share-over-time-2/pylast_hu_348c278f1ae14f3d.webp 660w
  
- ,/blog/2018/python-version-share-over-time-2/pylast_hu625350249146256915.webp 1024w
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu_c65f9dbaabc7ab10.webp 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/pylast_hu8853276845811090141.webp 1320w
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu_971948368d890b43.webp 1320w
  "
  
  sizes="100vw"
@@ -5395,13 +5395,13 @@ years.&lt;/p>
  alt="pylast"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu17930758850679515273.png"
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu8306822317409851148.png 330w,/blog/2018/python-version-share-over-time-2/pylast_hu17930758850679515273.png 660w
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu_dcc5e86ee04b50dc.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-2/pylast_hu_ecc8bcd2574ac4ba.png 330w,/blog/2018/python-version-share-over-time-2/pylast_hu_dcc5e86ee04b50dc.png 660w
  
- ,/blog/2018/python-version-share-over-time-2/pylast_hu16731761782025465656.png 1024w
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu_dfedd8e3e98f21d6.png 1024w
  
  
- ,/blog/2018/python-version-share-over-time-2/pylast_hu13181510861428941352.png 1320w
+ ,/blog/2018/python-version-share-over-time-2/pylast_hu_66bfdd1f1f62ec43.png 1320w
  "
  sizes="100vw"
  
@@ -5463,12 +5463,12 @@ how much different Python versions have been used over the past two and a half y
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu14970575324120394782.webp 330w,/blog/2018/python-version-share-over-time-1/pypi_hu7987640861629489598.webp 660w
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu_3c6d689f8973a45e.webp 330w,/blog/2018/python-version-share-over-time-1/pypi_hu_84a9c9c9e3c0058b.webp 660w
  
- ,/blog/2018/python-version-share-over-time-1/pypi_hu14753678770642194581.webp 1024w
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu_e10eb4c4b75a075.webp 1024w
  
  
- ,/blog/2018/python-version-share-over-time-1/pypi_hu4579283046623986886.webp 1320w
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu_b1db35120f78b790.webp 1320w
  "
  
  sizes="100vw"
@@ -5482,13 +5482,13 @@ how much different Python versions have been used over the past two and a half y
  alt="pypi"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu16899051312585227097.png"
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu16839783647688151366.png 330w,/blog/2018/python-version-share-over-time-1/pypi_hu16899051312585227097.png 660w
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu_59ce2501c259cd9f.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pypi_hu_9ad8ed6392da4958.png 330w,/blog/2018/python-version-share-over-time-1/pypi_hu_59ce2501c259cd9f.png 660w
  
- ,/blog/2018/python-version-share-over-time-1/pypi_hu13869928869344156.png 1024w
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu_5d04cd009e3974b1.png 1024w
  
  
- ,/blog/2018/python-version-share-over-time-1/pypi_hu9670894851227610407.png 1320w
+ ,/blog/2018/python-version-share-over-time-1/pypi_hu_a2bfe488f75e5c34.png 1320w
  "
  sizes="100vw"
  
@@ -5529,12 +5529,12 @@ how much different Python versions have been used over the past two and a half y
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu4456805561363865671.webp 330w,/blog/2018/python-version-share-over-time-1/pillow_hu4469282160360038218.webp 660w
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu_d91d1d21ab45374b.webp 330w,/blog/2018/python-version-share-over-time-1/pillow_hu_9fdc9550a21b96c4.webp 660w
  
- ,/blog/2018/python-version-share-over-time-1/pillow_hu13607799722752613131.webp 1024w
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu_4a243948c75809fb.webp 1024w
  
  
- ,/blog/2018/python-version-share-over-time-1/pillow_hu10092860239411455681.webp 1320w
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu_ce30edacaa7a5be0.webp 1320w
  "
  
  sizes="100vw"
@@ -5548,13 +5548,13 @@ how much different Python versions have been used over the past two and a half y
  alt="pillow"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu12766067802430761154.png"
- srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu15065191039788018111.png 330w,/blog/2018/python-version-share-over-time-1/pillow_hu12766067802430761154.png 660w
+ src="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu_a0320f6ebc9ebdce.png"
+ srcset="https://hugovk.dev/blog/2018/python-version-share-over-time-1/pillow_hu_19b8ec0eb5175db7.png 330w,/blog/2018/python-version-share-over-time-1/pillow_hu_a0320f6ebc9ebdce.png 660w
  
- ,/blog/2018/python-version-share-over-time-1/pillow_hu12295709925279779695.png 1024w
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu_55b156ccbecdac8d.png 1024w
  
  
- ,/blog/2018/python-version-share-over-time-1/pillow_hu14510354831178104751.png 1320w
+ ,/blog/2018/python-version-share-over-time-1/pillow_hu_1e095fc356862a6b.png 1320w
  "
  sizes="100vw"
  
