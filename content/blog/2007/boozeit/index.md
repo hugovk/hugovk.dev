@@ -11,9 +11,7 @@ tags: ["S60"]
 
 <P>Booze It! is the perfect tool for those who like the odd drink or two. It has two modes: Home and Away.</P>
 
-<H2>
-<a name="awayblurb">Away blurb</a>
-</H2>
+## Away blurb
 
 <P>Ever been in a foreign pub drinking half a litre of beer (sometimes in a pint glass) and wondering what it would cost in proper money? Well, it's easy enough to convert from euros to pounds, either in your head or with your phone's converter app. But that only gives the price of a half litre when what you really want to know is how much a full British pint would set you back. Well, this is the app for you!
 
@@ -36,9 +34,7 @@ tags: ["S60"]
   <li>Send via Bluetooth: Share this amazing application with a friend!
 </ul>
 
-<H2>
-<a name="homeblurb">Home blurb</a>
-</H2>
+## Home blurb
 
 <P>Picture the scene: you're in an off licence or supermarket, choosing some booze for a party. It's easy to see which is the cheapest, but which gives the most alcohol for your hard earned pound? You have to account for number of cans or bottles, volume in each, percentage, and price. Simply consult Booze It! to help <b>Choose Your Booze!</b>
 
@@ -61,4 +57,4 @@ press up or down to increase or decrease the digit at the cursor.
   <li>Send via Bluetooth: Share this amazing application with a friend!
 </ul>
 
-See more S60 stuff <a href="http://laivakoira.typepad.com/blog/s60">here</a>.
+See more S60 stuff <a href="/tags/s60">here</a>.
