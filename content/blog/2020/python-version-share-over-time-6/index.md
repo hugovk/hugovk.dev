@@ -2,6 +2,7 @@
 title: "Python version share over time, 6"
 date: "2020-01-01T16:36:25.878Z"
 tags: ["python", "pypi", "python2", "python3", "statistics"]
+thumbnail: "pypi.png"
 ---
 
 ## January 2016 — December 2019
@@ -14,7 +15,7 @@ Here’s the pip installs for all packages from the
 [Python Package Index (PyPI)](https://pypi.org/), between January 2016 and December
 2019:
 
-![all](https://user-images.githubusercontent.com/1324225/71643621-a748ce00-2cc4-11ea-9dc7-a6dd57ce9a66.png)
+![all](pypi.png)
 
 ### [pip](https://github.com/pypa/pip)
 

@@ -2,6 +2,7 @@
 title: "Python version share over time, 3"
 date: "2019-01-01T14:40:48.914Z"
 tags: ["python", "pypi", "python2", "python3", "statistics"]
+thumbnail: "pypi.png"
 ---
 
 ## January 2016 — December 2018
