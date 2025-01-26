@@ -1381,10 +1381,62 @@ how much different Python versions have been used over four years.&lt;/p>
 
 
 
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
 
  
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643621-a748ce00-2cc4-11ea-9dc7-a6dd57ce9a66.png" alt="all" class="mx-auto my-0 rounded-md" />
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2020/python-version-share-over-time-6/pypi_hu_6a31d0007bd63da9.webp 330w,/blog/2020/python-version-share-over-time-6/pypi_hu_bf78ea7d5eab50da.webp 660w
+ 
+ ,/blog/2020/python-version-share-over-time-6/pypi_hu_59f17a594b286442.webp 1024w
+ 
+ 
+ ,/blog/2020/python-version-share-over-time-6/pypi_hu_5f5f0cafd646ba66.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="all"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2020/python-version-share-over-time-6/pypi_hu_6cf50b60d5efb3c9.png"
+ srcset="https://hugovk.dev/blog/2020/python-version-share-over-time-6/pypi_hu_d607637ae2e05ad6.png 330w,/blog/2020/python-version-share-over-time-6/pypi_hu_6cf50b60d5efb3c9.png 660w
+ 
+ ,/blog/2020/python-version-share-over-time-6/pypi_hu_329f66207c044d13.png 1024w
+ 
+ 
+ ,/blog/2020/python-version-share-over-time-6/pypi_hu_2b4d3fbfe85797e.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
 &lt;/figure>
 &lt;/p>
 &lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
@@ -1597,10 +1649,62 @@ years.&lt;/p>
 
 
 
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
 
  
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128566-9f68e980-ff20-11e9-9a12-ecb367ed0bf5.png" alt="pypi" class="mx-auto my-0 rounded-md" />
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-5/pypi_hu_495d148c3371a75d.webp 330w,/blog/2019/python-version-share-over-time-5/pypi_hu_843de8b721d4f9af.webp 660w
+ 
+ ,/blog/2019/python-version-share-over-time-5/pypi_hu_bb66432800e9e784.webp 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-5/pypi_hu_e88e84a076a5df9e.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="pypi"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2019/python-version-share-over-time-5/pypi_hu_a52a9377ea705e2e.png"
+ srcset="https://hugovk.dev/blog/2019/python-version-share-over-time-5/pypi_hu_1ea6f3a6f8f14c12.png 330w,/blog/2019/python-version-share-over-time-5/pypi_hu_a52a9377ea705e2e.png 660w
+ 
+ ,/blog/2019/python-version-share-over-time-5/pypi_hu_c87dcb7588d38064.png 1024w
+ 
+ 
+ ,/blog/2019/python-version-share-over-time-5/pypi_hu_ee0a3a072e593e7a.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
 &lt;/figure>
 &lt;/p>
 &lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
