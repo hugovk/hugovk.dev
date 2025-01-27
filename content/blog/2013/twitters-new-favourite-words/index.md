@@ -1,7 +1,7 @@
 ---
 title: "Twitter's new favourite words"
 date: "2013-10-25T10:22:54Z"
-tags: ["words"]
+tags: ["twitter", "words"]
 ---
 
 I wrote a Python script that searches Twitter for tweets containing "[X] is my new

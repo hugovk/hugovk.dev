@@ -1,7 +1,7 @@
 ---
 title: "Manwords"
 date: "2015-01-20T12:31:58Z"
-tags: ["words"]
+tags: ["twitter", "words"]
 ---
 
 <p>EngLangBlog offered some <a href="http://englishlangsfx.blogspot.com/2015/01/oh-man.html">man-words</a>&nbsp;and asked for more.</p>

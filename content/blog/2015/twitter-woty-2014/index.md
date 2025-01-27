@@ -1,7 +1,7 @@
 ---
 title: "Words of the year from Twitter, 2014"
 date: "2015-01-06T20:19:48Z"
-tags: ["words"]
+tags: ["twitter", "words"]
 ---
 
 <h2>Three bots have been collecting words from Twitter for the past year.</h2>
