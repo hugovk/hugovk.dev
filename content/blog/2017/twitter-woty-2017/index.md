@@ -264,6 +264,6 @@ tags: ["twitter", "words"]
 </tbody>
 </table>
 <h2>Previous years</h2>
-<p>See the words from&nbsp;<a href="http://laivakoira.typepad.com/blog/2017/01/twitter-woty-2016.html">2016</a>,&nbsp;<a href="http://laivakoira.typepad.com/blog/2016/01/twitter-woty-2015.html">2015</a>,&nbsp;<a href="http://laivakoira.typepad.com/blog/2015/01/twitter-woty-2014.html">2014&nbsp;</a>and&nbsp;<a href="http://laivakoira.typepad.com/blog/2013/10/twitters-new-favourite-words.html">2013,</a><a href="http://laivakoira.typepad.com/blog/2016/01/twitter-woty-2015.html"></a></p>
+<p>See the words from&nbsp;<a href="../../2017/twitter-woty-2016/">2016</a>,&nbsp;<a href="../../2016/twitter-woty-2015/">2015</a>,&nbsp;<a href="../../2015/twitter-woty-2014/">2014&nbsp;</a>and&nbsp;<a href="../../2013/twitters-new-favourite-words/">2013,</a><a href="../..//2016/twitter-woty-2015/"></a></p>
 <h2>2018</h2>
 <p>For words causing a reaction in 2018, follow&nbsp;<a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot</a>,&nbsp;<a href="https://twitter.com/nixibot" target="_self">@nixibot</a>&nbsp;and&nbsp;<a href="https://twitter.com/favibot" target="_self">@favibot</a>&nbsp;on Twitter.</p>
