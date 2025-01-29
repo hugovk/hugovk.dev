@@ -2,6 +2,7 @@
 title: "Words of the year from Twitter, 2015"
 date: "2016-01-02T11:46:01Z"
 tags: ["twitter", "words"]
+thumbnail: "bae.png"
 ---
 
 <h2>Three bots have been collecting words from Twitter for the past year.</h2>
@@ -11,9 +12,9 @@ tags: ["twitter", "words"]
 <li><a href="https://twitter.com/nixibot" target="_self">@nixibot</a> -- "X is not/isn't/ain't a word"</li>
 <li><a href="https://twitter.com/favibot" target="_self">@favibot</a> -- "X is my new favorite/favourite/fave word"</li>
 </ul>
-<p>Combining and comparing the logs of all three, let's see the top words of 2015. <strong>Bold</strong> means a&nbsp;word wasn't in that chart in 2014.</p>
+<p>Combining and comparing the logs of all three, let's see the top words of 2015. <strong>Bold</strong> means a word wasn't in that chart in 2014.</p>
 <p><strong>Combined output</strong></p>
-<p>2015 total:&nbsp;<span class="s1">219,918</span></p>
+<p>2015 total: <span class="s1">219,918</span></p>
 <ol>
 <li>bae (9,513)</li>
 <li>mines (4,282)</li>
@@ -124,7 +125,7 @@ tags: ["twitter", "words"]
 </tr>
 </tbody>
 </table>
-<p>Here's top 10 charts for each phrase from each bot.&nbsp;</p>
+<p>Here's top 10 charts for each phrase from each bot.</p>
 <h2>@lovihatbot</h2>
 <table>
 <tbody>
@@ -273,39 +274,38 @@ tags: ["twitter", "words"]
 </tbody>
 </table>
 <h2>Change from 2013</h2>
-<p>Let's see how mentions have changed for some of <a href="http://laivakoira.typepad.com/blog/2013/10/twitters-new-favourite-words.html">2013's words</a>.</p>
-<p>People talking about words ‒&nbsp;especially new favourite &nbsp;words, or loved words, or hated words, or words they've decided don't exist ‒&nbsp;may be a good indicator of brand new words or at least words with new currency.&nbsp;Both increases and decreases may reflect an underlying change in use, and decreases may reflect an acceptance of the words.</p>
-<p><em>Bae </em>(babe)&nbsp;emerged in April 2013, peaked at&nbsp;3,880 in&nbsp;May 2014 and&nbsp;whilst still popular, has tailed off to 437&nbsp;by December 2015.&nbsp;</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d18e8c03970c-pi" style="display: inline;"><img alt="Bae" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b8d18e8c03970c image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d18e8c03970c-800wi" title="Bae" /></a></p>
-<div>Similarly,<em> t</em><em>hot</em>&nbsp;("that hoe over there") emerged in March 2013 and grew steadily to a peak of 1,400 uses in March 2014 and dropped off to 28&nbsp;by December 2015.</div>
-<div>&nbsp;</div>
-<div><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb08a95268970d-pi" style="display: inline;"><img alt="Thot" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201bb08a95268970d image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb08a95268970d-800wi" title="Thot" /></a></div>
-<p><em><em>Selfie</em></em>&nbsp;(a shared photo taken with a&nbsp;phone) had a couple of mentions in April 2013, and peaked in March 2014 with 373, ending the year with 18 in December 2015.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9a6970b-pi" style="display: inline;"><img alt="Selfie" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c804a9a6970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9a6970b-800wi" title="Selfie" /></a></p>
-<p><em>Ratchet</em>&nbsp;(a diva) peaked with 130 in March 2014, dropping to 4&nbsp;by December 2015. All but *ratchet* still show up in the charts.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d18e8ca1970c-pi" style="display: inline;"><img alt="Ratchet" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b8d18e8ca1970c image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d18e8ca1970c-800wi" title="Ratchet" /></a></p>
+<p>Let's see how mentions have changed for some of <a href="../../2013/twitters-new-favourite-words">2013's words</a>.</p>
+<p>People talking about words ‒ especially new favourite words, or loved words, or hated words, or words they've decided don't exist ‒ may be a good indicator of brand new words or at least words with new currency. Both increases and decreases may reflect an underlying change in use, and decreases may reflect an acceptance of the words.</p>
+<p><em>Bae </em>(babe) emerged in April 2013, peaked at 3,880 in May 2014 and whilst still popular, has tailed off to 437 by December 2015.</p>
+<p><img alt="Bae" src="bae.png" title="Bae"></p>
+<div>Similarly,<em> t</em><em>hot</em> ("that hoe over there") emerged in March 2013 and grew steadily to a peak of 1,400 uses in March 2014 and dropped off to 28 by December 2015.</div>
+<div><img alt="Thot" src="thot.png" title="Thot" /></div>
+<p><em><em>Selfie</em></em> (a shared photo taken with a phone) had a couple of mentions in April 2013, and peaked in March 2014 with 373, ending the year with 18 in December 2015.</p>
+<p><img alt="Selfie" src="selfie.png" title="Selfie" /></p>
+<p><em>Ratchet</em> (a diva) peaked with 130 in March 2014, dropping to 4 by December 2015. All but *ratchet* still show up in the charts.</p>
+<p><img alt="Ratchet" src="ratchet.png" title="Ratchet" /></p>
 <h2>Changes from 2014</h2>
-<p>From <a href="http://laivakoira.typepad.com/blog/2015/01/twitter-woty-2014.html">2014</a>:</p>
-<p><em>Fleek</em>, or more fully&nbsp;<em>on fleek</em>, means&nbsp;on point, on the mark, stylish, amazing or impeccable. First mentioned in August 2014, it's dropped off to 14 by December 2015.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb08a952af970d-pi" style="display: inline;"><img alt="Fleek" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201bb08a952af970d image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb08a952af970d-800wi" title="Fleek" /></a></p>
-<p><em>Bruh&nbsp;</em>(bro, brother), not a new word but with just a few mentions throughout 2013, picked up in March 2014, and peaked in June/July 2014, but went down to 16 by December 2015 and doesn't make the top charts.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9e6970b-pi" style="display: inline;"><img alt="Bruh" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c804a9e6970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9e6970b-800wi" title="Bruh" /></a></p>
-<p><em>Fuckboy</em>&nbsp;still charts for favibot, but peaked in March 2015 with 202 and down to 37 by year end.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9f5970b-pi" style="display: inline;"><img alt="Fuckboy" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c804a9f5970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9f5970b-800wi" title="Fuckboy" /></a></p>
-<p>Both <em>hella&nbsp;</em>and&nbsp;<em>twizzle</em> have dropped off the charts, the latter being a one-off from the 2014 winter Olympics.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9fb970b-pi" style="display: inline;"><img alt="Hella" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c804a9fb970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804a9fb970b-800wi" title="Hella" /></a></p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb08a952bd970d-pi" style="display: inline;"><img alt="Twizzle" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201bb08a952bd970d image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb08a952bd970d-800wi" title="Twizzle" /></a></p>
+<p>From <a href="../../2015/twitter-woty-2014">2014</a>:</p>
+<p><em>Fleek</em>, or more fully <em>on fleek</em>, means on point, on the mark, stylish, amazing or impeccable. First mentioned in August 2014, it's dropped off to 14 by December 2015.</p>
+<p><img alt="Fleek" src="fleek.png" title="Fleek" /></p>
+<p><em>Bruh</em> (bro, brother), not a new word but with just a few mentions throughout 2013, picked up in March 2014, and peaked in June/July 2014, but went down to 16 by December 2015 and doesn't make the top charts.</p>
+<p><img alt="Bruh" src="bruh.png" title="Bruh" /></p>
+<p><em>Fuckboy</em> still charts for favibot, but peaked in March 2015 with 202 and down to 37 by year end.</p>
+<p><img alt="Fuckboy" src="fuckboy.png" title="Fuckboy" /></p>
+<p>Both <em>hella</em> and <em>twizzle</em> have dropped off the charts, the latter being a one-off from the 2014 winter Olympics.</p>
+<p><img alt="Hella" src="hella.png" title="Hella" /></p>
+<p><img alt="Twizzle" src="twizzle.png" title="Twizzle" /></p>
 <h2>New in 2015</h2>
 <p>Here's a few new to these charts.</p>
-<p><em>Lit</em> is the surprise new entry. It's commonly used as&nbsp;"lit af", or "lit as fuck", for example&nbsp;<a href="https://twitter.com/BeyondBetter_/status/682990826499211268">in this tweet</a>:</p>
+<p><em>Lit</em> is the surprise new entry. It's commonly used as "lit af", or "lit as fuck", for example <a href="https://twitter.com/BeyondBetter_/status/682990826499211268">in this tweet</a>:</p>
 <blockquote>
 <p>My Year is starting off lit af👌🏼 ...but is gonna be TD by Monday morning</p>
 </blockquote>
 <p>Something, I'm not sure what, happened in June 2015 that caused its use to explode on Twitter:</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804aa05970b-pi" style="display: inline;"><img alt="Lit" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c804aa05970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804aa05970b-800wi" title="Lit" /></a></p>
-<p><em>Fam&nbsp;</em>(from family, for those closest to you but not necessarily family), has been around a long time, became&nbsp;popular towards the end of 2014&nbsp;and&nbsp;is still talked about.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804aa09970b-pi" style="display: inline;"><img alt="Fam" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c804aa09970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c804aa09970b-800wi" title="Fam" /></a></p>
-<p>Similarly, <em>slay&nbsp;</em>("<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7222797">killed it. succeeded in something amazing</a>", "<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7842546">something you tell someone when they look sexy as f***</a>") has been around for a while and grew towards the end of 2014, peaking in April 2015.&nbsp;</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d18e8d07970c-pi" style="display: inline;"><img alt="Slay" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b8d18e8d07970c image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d18e8d07970c-800wi" title="Slay" /></a></p>
+<p><img alt="Lit" src="lit.png" title="Lit" /></p>
+<p><em>Fam</em> (from family, for those closest to you but not necessarily family), has been around a long time, became popular towards the end of 2014 and is still talked about.</p>
+<p><img alt="Fam" src="fam.png" title="Fam" /></p>
+<p>Similarly, <em>slay</em> ("<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7222797">killed it. succeeded in something amazing</a>", "<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7842546">something you tell someone when they look sexy as f***</a>") has been around for a while and grew towards the end of 2014, peaking in April 2015.</p>
+<p><img alt="Slay" src="slay.png" title="Slay" /></p>
 <h2>2016</h2>
-<p>For words causing a reaction in 2016, follow&nbsp;<a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot</a>,&nbsp;<a href="https://twitter.com/nixibot" target="_self">@nixibot</a>&nbsp;and&nbsp;<a href="https://twitter.com/favibot" target="_self">@favibot</a>&nbsp;on Twitter.</p>
+<p>For words causing a reaction in 2016, follow <a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot</a>, <a href="https://twitter.com/nixibot" target="_self">@nixibot</a> and <a href="https://twitter.com/favibot" target="_self">@favibot</a> on Twitter.</p>
