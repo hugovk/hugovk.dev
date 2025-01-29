@@ -2,6 +2,7 @@
 title: "Words of the year from Twitter, 2016"
 date: "2017-01-05T16:41:29Z"
 tags: ["twitter", "words"]
+thumbnail: "headass.png"
 ---
 
 <h2>Three bots have been collecting words from Twitter for the past year.</h2>
@@ -276,20 +277,22 @@ tags: ["twitter", "words"]
 <h2>Changes from&nbsp;past years</h2>
 <p>Let's see how mentions have changed for some previous years' words.&nbsp;</p>
 <p>People talking about words ‒&nbsp;especially new favourite &nbsp;words, or loved words, or hated words, or words they've decided don't exist ‒&nbsp;may be a good indicator of brand new words or at least words with new currency.&nbsp;Both increases and decreases may reflect an underlying change in use, and decreases may reflect an acceptance of the words.</p>
-<p>The words from <a href="http://laivakoira.typepad.com/blog/2013/10/twitters-new-favourite-words.html">2013 </a>and&nbsp;<a href="http://laivakoira.typepad.com/blog/2015/01/twitter-woty-2014.html">2014</a>&nbsp;have all more or less tailed off.</p>
-<p>From <a href="http://laivakoira.typepad.com/blog/2016/01/twitter-woty-2015.html">2015</a>, <em>lit</em> is still being talked about. It's commonly used as&nbsp;"lit af", or "lit as fuck", for example&nbsp;<a href="https://twitter.com/BeyondBetter_/status/682990826499211268">in this tweet</a>:</p>
+<p>The words from <a href="../../2013/twitters-new-favourite-words/">2013 </a>and&nbsp;<a href="../..//2015/twitter-woty-2014/">2014</a>&nbsp;have all more or less tailed off.</p>
+<p>The words from <a href="../../2013/twitters-new-favourite-words/">2013 </a>and&nbsp;<a href="../..//2015/twitter-woty-2014/">2014</a>&nbsp;have all more or less tailed off.</p>
+<p>From <a href="../../2016/twitter-woty-2015/">2015</a>, <em>lit</em> is still being talked about. It's commonly used as&nbsp;"lit af", or "lit as fuck", for example&nbsp;<a href="https://twitter.com/BeyondBetter_/status/682990826499211268">in this tweet</a>:</p>
 <blockquote>
 <p>My Year is starting off lit af👌🏼 ...but is gonna be TD by Monday morning</p>
 </blockquote>
 <p>Something, I'm not sure what, happened in June 2015 that caused its use to explode on Twitter:</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c8c4315f970b-pi" style="display: inline;"><img alt="8" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c8c4315f970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c8c4315f970b-800wi" title="8" /></a></p>
+<p><img src="lit.png"></p>
 <p><em>Fam&nbsp;</em>(from family, for those closest to you but not necessarily family), has been around a long time, peaked in January 2015 and has tailed off.</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d24e02cd970c-pi" style="display: inline;"><img alt="10" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b8d24e02cd970c image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b8d24e02cd970c-800wi" title="10" /></a></p>
-<p>Similarly, <em>slay&nbsp;</em>("<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7222797">killed it. succeeded in something amazing</a>", "<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7842546">something you tell someone when they look sexy as f***</a>") has been around for a while and was talked about in 2016 as well.&nbsp;</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c8c431b8970b-pi" style="display: inline;"><img alt="12" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c8c431b8970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c8c431b8970b-800wi" title="12" /></a></p>
+<p><img src="fam.png"></p>
+<p>Similarly, <em>slay&nbsp;</em>("<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7222797">killed it. succeeded in something amazing</a>", "<a href="https://www.urbandictionary.com/define.php?term=slay&amp;defid=7842546">something you tell someone when they look sexy as f***</a>") has been around for a while and was talked about in 2016 as well.</p>
+<p><img src="slay.png"></p>
 <h2>New in 2016</h2>
-<p>2016's words have been dominated by those from the US presidential elections, such as&nbsp;<em>braggadocious</em> (and&nbsp;<em>bragadocious, </em>"boastful or arrogant"),&nbsp;<em>shenanigans</em>&nbsp;("secret or dishonest activity or maneuvering") and&nbsp;<em>malarkey</em> ("meaningless talk; nonsense"), but most notably by&nbsp;<em>bigly</em> (or "big league"):</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb09671db0970d-pi" style="display: inline;"><img alt="38" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201bb09671db0970d image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201bb09671db0970d-800wi" title="38" /></a><br /><br />Another with a very recent peak is <em>headass</em>:</p>
-<p><a class="asset-img-link" href="http://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c8c432cb970b-pi" style="display: inline;"><img alt="48" border="0" class="asset  asset-image at-xid-6a00d83451c59c69e201b7c8c432cb970b image-full img-responsive" src="https://laivakoira.typepad.com/.a/6a00d83451c59c69e201b7c8c432cb970b-800wi" title="48" /></a></p>
+<p>2016's words have been dominated by those from the US presidential elections, such as <em>braggadocious</em> (and <em>bragadocious, </em>"boastful or arrogant"), <em>shenanigans</em> ("secret or dishonest activity or maneuvering") and <em>malarkey</em> ("meaningless talk; nonsense"), but most notably by <em>bigly</em> (or "big league"):</p>
+<p><img src="bigly.png"></p>
+<p>Another with a very recent peak is <em>headass</em>:</p>
+<p><img src="headass.png"></p>
 <h2>2017</h2>
 <p>For words causing a reaction in 2017, follow&nbsp;<a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot</a>,&nbsp;<a href="https://twitter.com/nixibot" target="_self">@nixibot</a>&nbsp;and&nbsp;<a href="https://twitter.com/favibot" target="_self">@favibot</a>&nbsp;on Twitter.</p>
