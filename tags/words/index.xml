@@ -1,0 +1,2504 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>words on Hugo van Kemenade</title><link>https://hugovk.dev/tags/words/</link><description>Recent content in words on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Mon, 31 Dec 2018 14:03:57 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/words/index.xml" rel="self" type="application/rss+xml"/><item><title>Words of the year from Twitter, 2018</title><link>https://hugovk.dev/blog/2018/twitter-woty-2018/</link><pubDate>Mon, 31 Dec 2018 14:03:57 +0000</pubDate><guid>https://hugovk.dev/blog/2018/twitter-woty-2018/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p>Short version:&lt;/p>
+&lt;p>In 2018, people on Twitter talked about the words stan, toxic, peoplekind, councel, beclowned, caucasity, kakistocracy, catastrofuck, shithole, bombogenesis, chucklefuck, trumpfuckery, clackwanker, wankpuffin, dipshittery, fucksicle, and fuckwangled.&amp;nbsp;&lt;/p>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p>Long version:&lt;/p>
+&lt;p>They've looked for certain sentences and extracted the X.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a> -- "I love/hate the word X"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> -- "X is not/isn't/ain't a word"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> -- "X is my new favorite/favouriteword"&lt;/li>
+&lt;/ul>
+&lt;p>Combining and comparing the logs of all three, let's see the top words of 2018. &lt;strong>Bold&lt;/strong> means a word wasn't in that chart in 2017.&lt;/p>
+&lt;p>&lt;strong>Combined output&lt;/strong>&lt;/p>
+&lt;p>Total in 2018: 81,695&lt;/p>
+&lt;ol>
+&lt;li>justice (980)&lt;/li>
+&lt;li>irregardless (876)&lt;/li>
+&lt;li>soon (696)&lt;/li>
+&lt;li>no (684)&lt;/li>
+&lt;li>love (636)&lt;/li>
+&lt;li>mines (571)&lt;/li>
+&lt;li>homophobia (506)&lt;/li>
+&lt;li>moist (491)&lt;/li>
+&lt;li>bae (434)&lt;/li>
+&lt;li>&lt;strong>clout (365)&lt;/strong>&lt;/li>
+&lt;li>cunt (364)&lt;/li>
+&lt;li>alot (354)&lt;/li>
+&lt;li>nut (333)&lt;/li>
+&lt;li>ain't (329)&lt;/li>
+&lt;li>&lt;strong>cock (324)&lt;/strong>&lt;/li>
+&lt;li>forever (305)&lt;/li>
+&lt;li>&lt;strong>hurted (291)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>yolo (280)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>sexy (271)&lt;/strong>&lt;/li>
+&lt;li>impossible (269)&lt;/li>
+&lt;/ol>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>lovihatibot&lt;/th>
+&lt;th>nixibot&lt;/th>
+&lt;th>favibot&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>2018 total: 41,092&lt;/td>
+&lt;td>2018 total: 33,078&lt;/td>
+&lt;td>2018 total: 7,525&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>soon (688)&lt;/li>
+&lt;li>no (528)&lt;/li>
+&lt;li>homophobia (494)&lt;/li>
+&lt;li>moist (483)&lt;/li>
+&lt;li>bae (420)&lt;/li>
+&lt;li>clout (356)&lt;/li>
+&lt;li>nut (333)&lt;/li>
+&lt;li>cunt (332)&lt;/li>
+&lt;li>cock (319)&lt;/li>
+&lt;li>yolo (277)&lt;/li>
+&lt;li>sexy (240)&lt;/li>
+&lt;li>bitch (227)&lt;/li>
+&lt;li>sorry (210)&lt;/li>
+&lt;li>&lt;strong>queer (205)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>stan (197)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>coochie (190)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuck (186)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fate (182)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>diet (167)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>toxic (159)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>justice (975)&lt;/li>
+&lt;li>irregardless (869)&lt;/li>
+&lt;li>mines (565)&lt;/li>
+&lt;li>love (501)&lt;/li>
+&lt;li>alot (352)&lt;/li>
+&lt;li>ain't (324)&lt;/li>
+&lt;li>hurted (289)&lt;/li>
+&lt;li>forever (259)&lt;/li>
+&lt;li>impossible (249)&lt;/li>
+&lt;li>conversate (230)&lt;/li>
+&lt;li>loyalty (224)&lt;/li>
+&lt;li>anyways (209)&lt;/li>
+&lt;li>finna (154)&lt;/li>
+&lt;li>stupider (153)&lt;/li>
+&lt;li>&lt;strong>t (149)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>usa (125)&lt;/strong>&lt;/li>
+&lt;li>marriage (111)&lt;/li>
+&lt;li>&lt;strong>peoplekind (105)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>councel (105)&lt;/strong>&lt;/li>
+&lt;li>funner (104)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>no (68)&lt;/li>
+&lt;li>&lt;strong>beclowned (59)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>caucasity (35)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>whore (32)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>kakistocracy (30)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>feckless (25)&lt;/strong>&lt;/li>
+&lt;li>cockwomble (24)&lt;/li>
+&lt;li>yikes (22)&lt;/li>
+&lt;li>bitch (20)&lt;/li>
+&lt;li>&lt;strong>shithole (19)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>catastrofuck (17)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>kissy (16)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bombogenesis (15)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>oof (15)&lt;/strong>&lt;/li>
+&lt;li>cunt (15)&lt;/li>
+&lt;li>&lt;strong>chucklefuck (14)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>trumpfuckery (14)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>wankpuffin (12)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>dipshittery (11)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuck (11)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Here's top 10 charts for each phrase from each bot.&amp;nbsp;&lt;/p>
+&lt;h2>@lovihatbot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>I love the word X&lt;/th>
+&lt;th>I hate the word X&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>cunt (245)&lt;/li>
+&lt;li>fuck (173)&lt;/li>
+&lt;li>fate (167)&lt;/li>
+&lt;li>bitch (147)&lt;/li>
+&lt;li>play (145)&lt;/li>
+&lt;li>moist (99)&lt;/li>
+&lt;li>choice (68)&lt;/li>
+&lt;li>&lt;strong>whore (55)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>cock (47)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>queer (47)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>soon (648)&lt;/li>
+&lt;li>homophobia (492)&lt;/li>
+&lt;li>no (489)&lt;/li>
+&lt;li>bae (417)&lt;/li>
+&lt;li>moist (384)&lt;/li>
+&lt;li>&lt;strong>clout (351)&lt;/strong>&lt;/li>
+&lt;li>nut (330)&lt;/li>
+&lt;li>&lt;strong>yolo (277)&lt;/strong>&lt;/li>
+&lt;li>cock (272)&lt;/li>
+&lt;li>sexy (234)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@nixibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is not a word&lt;/th>
+&lt;th>X isn't a word&lt;/th>
+&lt;th>X ain't a word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>irregardless (738)&lt;/li>
+&lt;li>mines (535)&lt;/li>
+&lt;li>love (437)&lt;/li>
+&lt;li>forever (259)&lt;/li>
+&lt;li>&lt;strong>hurted (255)&lt;/strong>&lt;/li>
+&lt;li>impossible (241)&lt;/li>
+&lt;li>alot (241)&lt;/li>
+&lt;li>conversate (196)&lt;/li>
+&lt;li>loyalty (162)&lt;/li>
+&lt;li>&lt;strong>anyways (156)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>justice (964)&lt;/li>
+&lt;li>irregardless (125)&lt;/li>
+&lt;li>ain't (112)&lt;/li>
+&lt;li>alot (109)&lt;/li>
+&lt;li>&lt;strong>stupider (59)&lt;/strong>&lt;/li>
+&lt;li>anyways (51)&lt;/li>
+&lt;li>&lt;strong>just (51)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>happeh (49)&lt;/strong>&lt;/li>
+&lt;li>love (49)&lt;/li>
+&lt;li>&lt;strong>usa (46)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;ul>
+&lt;li>ain't (150)&lt;/li>
+&lt;li>loyalty (23)&lt;/li>
+&lt;li>&lt;strong>funk (19)&lt;/strong>&lt;/li>
+&lt;li>love (15)&lt;/li>
+&lt;li>&lt;strong>unlonely (15)&lt;/strong>&lt;/li>
+&lt;li>is (13)&lt;/li>
+&lt;li>ignorantest (8)&lt;/li>
+&lt;li>finna (6)&lt;/li>
+&lt;li>&lt;strong>irregardless (6)&lt;/strong>&lt;/li>
+&lt;li>shit (5)&lt;/li>
+&lt;/ul>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@favibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is my new favorite word&lt;/th>
+&lt;th>X is my new favourite word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>no (59)&lt;/li>
+&lt;li>&lt;strong>beclowned (54)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>caucasity (27)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>kakistocracy (26)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>whore (25)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>feckless (21)&lt;/strong>&lt;/li>
+&lt;li>yikes (20)&lt;/li>
+&lt;li>&lt;strong>shithole (18)&lt;/strong>&lt;/li>
+&lt;li>cockwomble (15)&lt;/li>
+&lt;li>&lt;strong>bombogenesis (13)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>catastrofuck (14)&lt;/strong>&lt;/li>
+&lt;li>cockwomble (8)&lt;/li>
+&lt;li>&lt;strong>caucasity (8)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>kissy (8)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>clackwanker (7)&lt;/strong>&lt;/li>
+&lt;li>no (7)&lt;/li>
+&lt;li>&lt;strong>wankpuffin (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fucksicle (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuckwangled (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bitch (6)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>Previous years&lt;/h2>
+&lt;p>See the words from &lt;a href="../../2017/twitter-woty-2017/">2017&lt;/a>, &lt;a href="../../2017/twitter-woty-2016/">2016&lt;/a>,&amp;nbsp;&lt;a href="../../2016/twitter-woty-2015/">2015&lt;/a>,&amp;nbsp;&lt;a href="../../2015/twitter-woty-2014/">2014&amp;nbsp;&lt;/a>and&amp;nbsp;&lt;a href="../../2013/twitters-new-favourite-words/">2013&lt;/a>.&lt;a href="../../2016/twitter-woty-2015/">&lt;/a>&lt;/p>
+&lt;h2>2019&lt;/h2>
+&lt;p>For words causing a reaction in 2019, follow &lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a>,&amp;nbsp;&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a>&amp;nbsp;on Twitter.&lt;/p></description></item><item><title>Words of the year from Twitter, 2017</title><link>https://hugovk.dev/blog/2017/twitter-woty-2017/</link><pubDate>Sat, 30 Dec 2017 20:00:10 +0000</pubDate><guid>https://hugovk.dev/blog/2017/twitter-woty-2017/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p>Short version:&lt;/p>
+&lt;p>In 2017, people on Twitter talked about the words broflake, caucacity, cockwomble, covfefe, dotard, douchecanoe, dracarys, shitgibbon, shooketh, twatwaffle, and woke.&amp;nbsp;&lt;/p>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p>Long version:&lt;/p>
+&lt;p>They've looked for certain sentences and extracted the X.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a> -- "I love/hate the word X"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> -- "X is not/isn't/ain't a word"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> -- "X is my new favorite/favouriteword"&lt;/li>
+&lt;/ul>
+&lt;p>Combining and comparing the logs of all three, let's see the top words of 2017. &lt;strong>Bold&lt;/strong> means a&amp;nbsp;word wasn't in that chart in 2016.&lt;/p>
+&lt;p>&lt;strong>Combined output&lt;/strong>&lt;/p>
+&lt;p>Total in 2017: 120,412&lt;/p>
+&lt;ol>
+&lt;li>forever (2,828)&lt;/li>
+&lt;li>mines (1,687)&lt;/li>
+&lt;li>no (1,161)&lt;/li>
+&lt;li>love (1,092)&lt;/li>
+&lt;li>justice (1,072)&lt;/li>
+&lt;li>ain't (1,038)&lt;/li>
+&lt;li>irregardless (1,027)&lt;/li>
+&lt;li>bae (1,002)&lt;/li>
+&lt;li>moist (891)&lt;/li>
+&lt;li>homophobia (856)&lt;/li>
+&lt;li>soon (811)&lt;/li>
+&lt;li>loyalty (594)&lt;/li>
+&lt;li>conversate (593)&lt;/li>
+&lt;li>finna (566)&lt;/li>
+&lt;li>bigly (551)&lt;/li>
+&lt;li>impossible (526)&lt;/li>
+&lt;li>cunt (500)&lt;/li>
+&lt;li>&lt;strong>alot&lt;/strong> (495)&lt;/li>
+&lt;li>sorry (449)&lt;/li>
+&lt;li>&lt;strong>nut&lt;/strong> (441)&lt;/li>
+&lt;/ol>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>lovihatibot&lt;/th>
+&lt;th>nixibot&lt;/th>
+&lt;th>favibot&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>2017 total: 55,063&lt;/td>
+&lt;td>2017 total: 50,050&lt;/td>
+&lt;td>2017 total: 9,314&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>bae (950)&lt;/li>
+&lt;li>no (941)&lt;/li>
+&lt;li>moist (880)&lt;/li>
+&lt;li>homophobia (854)&lt;/li>
+&lt;li>soon (791)&lt;/li>
+&lt;li>cunt (441)&lt;/li>
+&lt;li>nut (435)&lt;/li>
+&lt;li>lit (398)&lt;/li>
+&lt;li>sexy (392)&lt;/li>
+&lt;li>sorry (377)&lt;/li>
+&lt;li>bitch (345)&lt;/li>
+&lt;li>cock (339)&lt;/li>
+&lt;li>&lt;strong>yolo&lt;/strong> (298)&lt;/li>
+&lt;li>panties (292)&lt;/li>
+&lt;li>&lt;strong>shook&lt;/strong> (267)&lt;/li>
+&lt;li>&lt;strong>woke&lt;/strong> (262)&lt;/li>
+&lt;li>love (249)&lt;/li>
+&lt;li>&lt;strong>clout&lt;/strong> (248)&lt;/li>
+&lt;li>daddy (242)&lt;/li>
+&lt;li>hate (239)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>forever (2,699)&lt;/li>
+&lt;li>mines (1,666)&lt;/li>
+&lt;li>justice (1,072)&lt;/li>
+&lt;li>ain't (1,017)&lt;/li>
+&lt;li>irregardless (1,014)&lt;/li>
+&lt;li>love (841)&lt;/li>
+&lt;li>loyalty (587)&lt;/li>
+&lt;li>conversate (586)&lt;/li>
+&lt;li>bigly (522)&lt;/li>
+&lt;li>impossible (501)&lt;/li>
+&lt;li>alot (493)&lt;/li>
+&lt;li>finna (463)&lt;/li>
+&lt;li>anyways (385)&lt;/li>
+&lt;li>hurted (271)&lt;/li>
+&lt;li>stupider (251)&lt;/li>
+&lt;li>&lt;strong>covfefe&lt;/strong> (246)&lt;/li>
+&lt;li>funner (245)&lt;/li>
+&lt;li>marriage (203)&lt;/li>
+&lt;li>worser (202)&lt;/li>
+&lt;li>&lt;strong>stupidest&lt;/strong> (183)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>mania&lt;/strong> (255)&lt;/li>
+&lt;li>&lt;strong>dotard&lt;/strong> (133)&lt;/li>
+&lt;li>&lt;strong>covfefe&lt;/strong> (102)&lt;/li>
+&lt;li>no (95)&lt;/li>
+&lt;li>yikes (48)&lt;/li>
+&lt;li>cockwomble (35)&lt;/li>
+&lt;li>&lt;strong>shooketh&lt;/strong> (34)&lt;/li>
+&lt;li>cunt (33)&lt;/li>
+&lt;li>&lt;strong>serendipity&lt;/strong> (30)&lt;/li>
+&lt;li>&lt;strong>caucacity&lt;/strong> (25)&lt;/li>
+&lt;li>bitch (24)&lt;/li>
+&lt;li>&lt;strong>shitgibbon&lt;/strong> (23)&lt;/li>
+&lt;li>&lt;strong>dracarys&lt;/strong> (22)&lt;/li>
+&lt;li>&lt;strong>broflake&lt;/strong> (20)&lt;/li>
+&lt;li>wow (19)&lt;/li>
+&lt;li>&lt;strong>twatwaffle&lt;/strong> (19)&lt;/li>
+&lt;li>totality (17)&lt;/li>
+&lt;li>headass (17)&lt;/li>
+&lt;li>&lt;strong>thrussy&lt;/strong> (16)&lt;/li>
+&lt;li>&lt;strong>douchecanoe&lt;/strong> (16)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Here's top 10 charts for each phrase from each bot.&amp;nbsp;&lt;/p>
+&lt;h2>@lovihatbot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>I love the word X&lt;/th>
+&lt;th>I hate the word X&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>cunt (293)&lt;/li>
+&lt;li>fuck (218)&lt;/li>
+&lt;li>fate (197)&lt;/li>
+&lt;li>bitch (178)&lt;/li>
+&lt;li>moist (143)&lt;/li>
+&lt;li>play (128)&lt;/li>
+&lt;li>&lt;strong>spooky&lt;/strong> (71)&lt;/li>
+&lt;li>&lt;strong>love&lt;/strong> (66)&lt;/li>
+&lt;li>&lt;strong>choice&lt;/strong> (62)&lt;/li>
+&lt;li>&lt;strong>free&lt;/strong> (60)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>bae (932)&lt;/li>
+&lt;li>no (893)&lt;/li>
+&lt;li>homophobia (851)&lt;/li>
+&lt;li>soon (770)&lt;/li>
+&lt;li>moist (737)&lt;/li>
+&lt;li>nut (431)&lt;/li>
+&lt;li>sexy (380)&lt;/li>
+&lt;li>lit (379)&lt;/li>
+&lt;li>sorry (370)&lt;/li>
+&lt;li>&lt;strong>cock&lt;/strong> (305)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@nixibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is not a word&lt;/th>
+&lt;th>X isn't a word&lt;/th>
+&lt;th>X ain't a word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>forever (2,683)&lt;/li>
+&lt;li>mines (1,153)&lt;/li>
+&lt;li>irregardless (765)&lt;/li>
+&lt;li>love (598)&lt;/li>
+&lt;li>impossible (454)&lt;/li>
+&lt;li>loyalty (398)&lt;/li>
+&lt;li>conversate (392)&lt;/li>
+&lt;li>bigly (347)&lt;/li>
+&lt;li>&lt;strong>alot&lt;/strong> (307)&lt;/li>
+&lt;li>finna (288)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>justice (1,057)&lt;/li>
+&lt;li>mines (466)&lt;/li>
+&lt;li>ain't (412)&lt;/li>
+&lt;li>irregardless (242)&lt;/li>
+&lt;li>love (223)&lt;/li>
+&lt;li>&lt;strong>alot&lt;/strong> (185)&lt;/li>
+&lt;li>conversate (184)&lt;/li>
+&lt;li>anyways (176)&lt;/li>
+&lt;li>bigly (171)&lt;/li>
+&lt;li>&lt;strong>cant&lt;/strong> (149)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>ain't (390)&lt;/li>
+&lt;li>finna (58)&lt;/li>
+&lt;li>loyalty (53)&lt;/li>
+&lt;li>mines (47)&lt;/li>
+&lt;li>ignorantest (26)&lt;/li>
+&lt;li>is (22)&lt;/li>
+&lt;li>love (20)&lt;/li>
+&lt;li>&lt;strong>shit&lt;/strong> (17)&lt;/li>
+&lt;li>&lt;strong>just&lt;/strong> (15)&lt;/li>
+&lt;li>&lt;strong>worser&lt;/strong> (11)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@favibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is my new favorite word&lt;/th>
+&lt;th>X is my new favourite word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>mania&lt;/strong> (255)&lt;/li>
+&lt;li>&lt;strong>dotard&lt;/strong> (110)&lt;/li>
+&lt;li>no (87)&lt;/li>
+&lt;li>&lt;strong>covfefe&lt;/strong> (80)&lt;/li>
+&lt;li>yikes (40)&lt;/li>
+&lt;li>cunt (25)&lt;/li>
+&lt;li>&lt;strong>serendipity&lt;/strong> (23)&lt;/li>
+&lt;li>&lt;strong>shooketh&lt;/strong> (22)&lt;/li>
+&lt;li>&lt;strong>caucacity&lt;/strong> (22)&lt;/li>
+&lt;li>&lt;strong>cockwomble&lt;/strong> (20)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>dotard&lt;/strong> (20)&lt;/li>
+&lt;li>&lt;strong>covfefe&lt;/strong> (18)&lt;/li>
+&lt;li>cockwomble (15)&lt;/li>
+&lt;li>&lt;strong>shooketh&lt;/strong> (11)&lt;/li>
+&lt;li>no (7)&lt;/li>
+&lt;li>&lt;strong>nonce&lt;/strong> (7)&lt;/li>
+&lt;li>&lt;strong>muggy&lt;/strong> (6)&lt;/li>
+&lt;li>&lt;strong>wow&lt;/strong> (6)&lt;/li>
+&lt;li>&lt;strong>serendipity&lt;/strong> (6)&lt;/li>
+&lt;li>yikes (5)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>Previous years&lt;/h2>
+&lt;p>See the words from&amp;nbsp;&lt;a href="../../2017/twitter-woty-2016/">2016&lt;/a>,&amp;nbsp;&lt;a href="../../2016/twitter-woty-2015/">2015&lt;/a>,&amp;nbsp;&lt;a href="../../2015/twitter-woty-2014/">2014&amp;nbsp;&lt;/a>and&amp;nbsp;&lt;a href="../../2013/twitters-new-favourite-words/">2013,&lt;/a>&lt;a href="../..//2016/twitter-woty-2015/">&lt;/a>&lt;/p>
+&lt;h2>2018&lt;/h2>
+&lt;p>For words causing a reaction in 2018, follow&amp;nbsp;&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a>,&amp;nbsp;&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a>&amp;nbsp;on Twitter.&lt;/p></description></item><item><title>Words of the year from Twitter, 2016</title><link>https://hugovk.dev/blog/2017/twitter-woty-2016/</link><pubDate>Thu, 05 Jan 2017 16:41:29 +0000</pubDate><guid>https://hugovk.dev/blog/2017/twitter-woty-2016/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
+&lt;p>They've looked for certain sentences and extracted the X.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a> -- "I love/hate the word X"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> -- "X is not/isn't/ain't a word"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> -- "X is my new favorite/favourite/fave word"&lt;/li>
+&lt;/ul>
+&lt;p>Combining and comparing the logs of all three, let's see the top words of 2016. &lt;strong>Bold&lt;/strong> means a&amp;nbsp;word wasn't in that chart in 2015.&lt;/p>
+&lt;p>&lt;strong>Combined output&lt;/strong>&lt;/p>
+&lt;p>Total in 2016: 168,241&lt;/p>
+&lt;ol>
+&lt;li>mines (4,060)&lt;/li>
+&lt;li>bae (3,369)&lt;/li>
+&lt;li>no (2,582)&lt;/li>
+&lt;li>forever (2,143)&lt;/li>
+&lt;li>lit (2,005)&lt;/li>
+&lt;li>moist (1,805)&lt;/li>
+&lt;li>love (1,790)&lt;/li>
+&lt;li>&lt;strong>bigly (1,488)&lt;/strong>&lt;/li>
+&lt;li>conversate (1,358)&lt;/li>
+&lt;li>ain't (1,339)&lt;/li>
+&lt;li>&lt;strong>irregardless (1,204)&lt;/strong>&lt;/li>
+&lt;li>homophobia (1,186)&lt;/li>
+&lt;li>justice (1,138)&lt;/li>
+&lt;li>loyalty (985)&lt;/li>
+&lt;li>soon (886)&lt;/li>
+&lt;li>cunt (869)&lt;/li>
+&lt;li>impossible (787)&lt;/li>
+&lt;li>sorry (781)&lt;/li>
+&lt;li>&lt;strong>family (766)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>finna (674)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>lovihatibot&lt;/th>
+&lt;th>nixibot&lt;/th>
+&lt;th>favibot&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center;">2016 total:&amp;nbsp;85,828&lt;/td>
+&lt;td style="text-align: center;">2016 total: 71,609&lt;/td>
+&lt;td style="text-align: center;">2016&amp;nbsp;total: 10,807&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>bae (3,242)&lt;/li>
+&lt;li>no (2,209)&lt;/li>
+&lt;li>lit (1,934)&lt;/li>
+&lt;li>moist (1,788)&lt;/li>
+&lt;li>homophobia (1,182)&lt;/li>
+&lt;li>soon (851)&lt;/li>
+&lt;li>cunt (798)&lt;/li>
+&lt;li>sorry (692)&lt;/li>
+&lt;li>panties (575)&lt;/li>
+&lt;li>sexy (524)&lt;/li>
+&lt;li>bitch (516)&lt;/li>
+&lt;li>&lt;strong>nut (509)&lt;/strong>&lt;/li>
+&lt;li>slay (496)&lt;/li>
+&lt;li>&lt;strong>daddy (495)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>cock (462)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>baby (432)&lt;/strong>&lt;/li>
+&lt;li>babe (430)&lt;/li>
+&lt;li>pussy (425)&lt;/li>
+&lt;li>&lt;strong>hate (415)&lt;/strong>&lt;/li>
+&lt;li>love (402)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>mines (4,035)&lt;/li>
+&lt;li>forever (2,003)&lt;/li>
+&lt;li>love (1,387)&lt;/li>
+&lt;li>conversate (1,345)&lt;/li>
+&lt;li>&lt;strong>bigly (1,341)&lt;/strong>&lt;/li>
+&lt;li>ain't (1,296)&lt;/li>
+&lt;li>irregardless (1,186)&lt;/li>
+&lt;li>justice (1,134)&lt;/li>
+&lt;li>loyalty (961)&lt;/li>
+&lt;li>impossible (752)&lt;/li>
+&lt;li>&lt;strong>family (732)&lt;/strong>&lt;/li>
+&lt;li>anyways (547)&lt;/li>
+&lt;li>&lt;strong>finna (526)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>4ever (508)&lt;/strong>&lt;/li>
+&lt;li>alot (448)&lt;/li>
+&lt;li>funner (445)&lt;/li>
+&lt;li>worser (421)&lt;/li>
+&lt;li>stupider (367)&lt;/li>
+&lt;li>hurted (319)&lt;/li>
+&lt;li>marriage (301)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>no (109)&lt;/li>
+&lt;li>&lt;strong>bigly (102)&lt;/strong>&lt;/li>
+&lt;li>yikes (91)&lt;/li>
+&lt;li>&lt;strong>shook (42)&lt;/strong>&lt;/li>
+&lt;li>cunt (41)&lt;/li>
+&lt;li>&lt;strong>braggadocious (37)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>shenanigans (34)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bragadocious (32)&lt;/strong>&lt;/li>
+&lt;li>wow (31)&lt;/li>
+&lt;li>&lt;strong>malarkey (30)&lt;/strong>&lt;/li>
+&lt;li>bitch (30)&lt;/li>
+&lt;li>&lt;strong>headass (29)&lt;/strong>&lt;/li>
+&lt;li>lit (28)&lt;/li>
+&lt;li>savage (26)&lt;/li>
+&lt;li>tragic (25)&lt;/li>
+&lt;li>&lt;strong>bougie (25)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>petty (22)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>cockwomble (22)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>finesse (21)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>soon (20)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Here's top 10 charts for each phrase from each bot.&amp;nbsp;&lt;/p>
+&lt;h2>@lovihatbot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>I love the word X&lt;/th>
+&lt;th>I hate the word X&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>cunt (475)&lt;/li>
+&lt;li>delicious (315)&lt;/li>
+&lt;li>fuck (307)&lt;/li>
+&lt;li>moist (242)&lt;/li>
+&lt;li>fate (219)&lt;/li>
+&lt;li>bitch (216)&lt;/li>
+&lt;li>&lt;strong>play (127)&lt;/strong>&lt;/li>
+&lt;li>baby (114)&lt;/li>
+&lt;li>babe (109)&lt;/li>
+&lt;li>lit (94)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>bae (3,208)&lt;/li>
+&lt;li>no (2,135)&lt;/li>
+&lt;li>lit (1,840)&lt;/li>
+&lt;li>moist (1,546)&lt;/li>
+&lt;li>homophobia (1,181)&lt;/li>
+&lt;li>soon (808)&lt;/li>
+&lt;li>sorry (689)&lt;/li>
+&lt;li>panties (551)&lt;/li>
+&lt;li>&lt;strong>sexy (507)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>nut (494)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@nixibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is not a word&lt;/th>
+&lt;th>X isn't a word&lt;/th>
+&lt;th>X ain't a word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>mines (2,679)&lt;/li>
+&lt;li>forever (1,981)&lt;/li>
+&lt;li>love (943)&lt;/li>
+&lt;li>irregardless (890)&lt;/li>
+&lt;li>conversate (880)&lt;/li>
+&lt;li>&lt;strong>bigly (837)&lt;/strong>&lt;/li>
+&lt;li>impossible (678)&lt;/li>
+&lt;li>loyalty (636)&lt;/li>
+&lt;li>&lt;strong>4ever (507)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>finna (325)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>mines (1,283)&lt;/li>
+&lt;li>justice (1,124)&lt;/li>
+&lt;li>&lt;strong>family (721)&lt;/strong>&lt;/li>
+&lt;li>ain't (528)&lt;/li>
+&lt;li>&lt;strong>bigly (473)&lt;/strong>&lt;/li>
+&lt;li>conversate (441)&lt;/li>
+&lt;li>love (391)&lt;/li>
+&lt;li>&lt;strong>irregardless (281)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>anyways (270)&lt;/strong>&lt;/li>
+&lt;li>stupider (259)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>ain't (509)&lt;/li>
+&lt;li>loyalty (121)&lt;/li>
+&lt;li>mines (73)&lt;/li>
+&lt;li>&lt;strong>finna (63)&lt;/strong>&lt;/li>
+&lt;li>ignorantest (56)&lt;/li>
+&lt;li>love (53)&lt;/li>
+&lt;li>impossible (32)&lt;/li>
+&lt;li>&lt;strong>bigly (31)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>is (28)&lt;/strong>&lt;/li>
+&lt;li>conversate (24)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@favibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is my new favorite word&lt;/th>
+&lt;th>X is my new favourite word&lt;/th>
+&lt;th>X is my new fave word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>no (98)&lt;/li>
+&lt;li>&lt;strong>bigly (93)&lt;/strong>&lt;/li>
+&lt;li>yikes (65)&lt;/li>
+&lt;li>&lt;strong>shook (32)&lt;/strong>&lt;/li>
+&lt;li>cunt (29)&lt;/li>
+&lt;li>&lt;strong>braggadocious (28)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bragadocious (28)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>shenanigans (27)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>wow (27)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>malarkey (26)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>cockwomble (19)&lt;/li>
+&lt;li>yikes (16)&lt;/li>
+&lt;li>&lt;strong>dampfnudel (11)&lt;/strong>&lt;/li>
+&lt;li>cunt (10)&lt;/li>
+&lt;li>savage (10)&lt;/li>
+&lt;li>&lt;strong>no (9)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bigly (9)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>wankpuffin (8)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>braggadocious (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>shenanigans (7)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>yikes (10)&lt;/li>
+&lt;li>&lt;strong>shook (5)&lt;/strong>&lt;/li>
+&lt;li>tragic (5)&lt;/li>
+&lt;li>&lt;strong>soon (4)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>nunty (4)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>yo (3)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bitch (3)&lt;/strong>&lt;/li>
+&lt;li>wow (3)&lt;/li>
+&lt;li>&lt;strong>malarkey (3)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ganern (2)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>Changes from&amp;nbsp;past years&lt;/h2>
+&lt;p>Let's see how mentions have changed for some previous years' words.&amp;nbsp;&lt;/p>
+&lt;p>People talking about words ‒&amp;nbsp;especially new favourite &amp;nbsp;words, or loved words, or hated words, or words they've decided don't exist ‒&amp;nbsp;may be a good indicator of brand new words or at least words with new currency.&amp;nbsp;Both increases and decreases may reflect an underlying change in use, and decreases may reflect an acceptance of the words.&lt;/p>
+&lt;p>The words from &lt;a href="../../2013/twitters-new-favourite-words/">2013 &lt;/a>and&amp;nbsp;&lt;a href="../..//2015/twitter-woty-2014/">2014&lt;/a>&amp;nbsp;have all more or less tailed off.&lt;/p>
+&lt;p>The words from &lt;a href="../../2013/twitters-new-favourite-words/">2013 &lt;/a>and&amp;nbsp;&lt;a href="../..//2015/twitter-woty-2014/">2014&lt;/a>&amp;nbsp;have all more or less tailed off.&lt;/p>
+&lt;p>From &lt;a href="../../2016/twitter-woty-2015/">2015&lt;/a>, &lt;em>lit&lt;/em> is still being talked about. It's commonly used as&amp;nbsp;"lit af", or "lit as fuck", for example&amp;nbsp;&lt;a href="https://twitter.com/BeyondBetter_/status/682990826499211268">in this tweet&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>My Year is starting off lit af👌🏼 ...but is gonna be TD by Monday morning&lt;/p>
+&lt;/blockquote>
+&lt;p>Something, I'm not sure what, happened in June 2015 that caused its use to explode on Twitter:&lt;/p>
+&lt;p>&lt;img src="lit.png">&lt;/p>
+&lt;p>&lt;em>Fam&amp;nbsp;&lt;/em>(from family, for those closest to you but not necessarily family), has been around a long time, peaked in January 2015 and has tailed off.&lt;/p>
+&lt;p>&lt;img src="fam.png">&lt;/p>
+&lt;p>Similarly, &lt;em>slay&amp;nbsp;&lt;/em>("&lt;a href="https://www.urbandictionary.com/define.php?term=slay&amp;amp;defid=7222797">killed it. succeeded in something amazing&lt;/a>", "&lt;a href="https://www.urbandictionary.com/define.php?term=slay&amp;amp;defid=7842546">something you tell someone when they look sexy as f***&lt;/a>") has been around for a while and was talked about in 2016 as well.&lt;/p>
+&lt;p>&lt;img src="slay.png">&lt;/p>
+&lt;h2>New in 2016&lt;/h2>
+&lt;p>2016's words have been dominated by those from the US presidential elections, such as &lt;em>braggadocious&lt;/em> (and &lt;em>bragadocious, &lt;/em>"boastful or arrogant"), &lt;em>shenanigans&lt;/em> ("secret or dishonest activity or maneuvering") and &lt;em>malarkey&lt;/em> ("meaningless talk; nonsense"), but most notably by &lt;em>bigly&lt;/em> (or "big league"):&lt;/p>
+&lt;p>&lt;img src="bigly.png">&lt;/p>
+&lt;p>Another with a very recent peak is &lt;em>headass&lt;/em>:&lt;/p>
+&lt;p>&lt;img src="headass.png">&lt;/p>
+&lt;h2>2017&lt;/h2>
+&lt;p>For words causing a reaction in 2017, follow&amp;nbsp;&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a>,&amp;nbsp;&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a>&amp;nbsp;on Twitter.&lt;/p></description></item><item><title>#woty15 nominations</title><link>https://hugovk.dev/blog/2016/woty15-nominations/</link><pubDate>Fri, 08 Jan 2016 21:34:16 +0000</pubDate><guid>https://hugovk.dev/blog/2016/woty15-nominations/</guid><description>&lt;p>Here&amp;rsquo;s some quick charts of some of the words nominated for American Dialect Society
+2015 Words of the Year
+&lt;a href="https://americandialect.org/wp-content/uploads/2015-WOTY-nominations.pdf" target="_blank" rel="noreferrer">PDF&lt;/a>), data
+taken from a corpus of words talked about on Twitter
+(&lt;a href="../twitter-woty-2015">read more about them here&lt;/a>), as collected by
+&lt;a href="https://twitter.com/hugovk/lists/notabletwitterwordbots" target="_blank" rel="noreferrer">a trio of bots&lt;/a>. Notable
+troughs are generally when the bots were offline.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_a29ce766b7825a68.webp 330w,/blog/2016/woty15-nominations/squad_hu_419227b881e7d73.webp 660w
+ 
+ 
+ ,/blog/2016/woty15-nominations/squad_hu_322e89be8a4b0304.webp 700w
+ 
+ 
+ 
+ 
+ ,/blog/2016/woty15-nominations/squad_hu_322e89be8a4b0304.webp 700w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="700"
+ height="500"
+ class="mx-auto my-0 rounded-md"
+ alt="squad"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_3b8474b49afe8606.png"
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_4d7c577f3da6a5e3.png 330w,/blog/2016/woty15-nominations/squad_hu_3b8474b49afe8606.png 660w
+ 
+ ,/blog/2016/woty15-nominations/squad.png 700w
+ 
+ 
+ ,/blog/2016/woty15-nominations/squad.png 700w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+&lt;figcaption class="text-center">squad&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_d81dea212f44e5a5.webp 330w,/blog/2016/woty15-nominations/fuckboy_hu_be76a97614527e35.webp 660w
+ 
+ 
+ ,/blog/2016/woty15-nominations/fuckboy_hu_5dae82b6bfa7fd18.webp 700w
+ 
+ 
+ 
+ 
+ ,/blog/2016/woty15-nominations/fuckboy_hu_5dae82b6bfa7fd18.webp 700w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="700"
+ height="500"
+ class="mx-auto my-0 rounded-md"
+ alt="fuckboy"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_7b56a9a762ee81d1.png"
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_deb1a1d05267bf13.png 330w,/blog/2016/woty15-nominations/fuckboy_hu_7b56a9a762ee81d1.png 660w
+ 
+ ,/blog/2016/woty15-nominations/fuckboy.png 700w
+ 
+ 
+ ,/blog/2016/woty15-nominations/fuckboy.png 700w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+&lt;figcaption class="text-center">fuckboy&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_d7367617d03daf1e.webp 330w,/blog/2016/woty15-nominations/af_hu_239f5758b1f1814a.webp 660w
+ 
+ 
+ ,/blog/2016/woty15-nominations/af_hu_67d1690f68d8966f.webp 700w
+ 
+ 
+ 
+ 
+ ,/blog/2016/woty15-nominations/af_hu_67d1690f68d8966f.webp 700w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="700"
+ height="500"
+ class="mx-auto my-0 rounded-md"
+ alt="af"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_92c970f6bc910e46.png"
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_ccd45b37361d1b20.png 330w,/blog/2016/woty15-nominations/af_hu_92c970f6bc910e46.png 660w
+ 
+ ,/blog/2016/woty15-nominations/af.png 700w
+ 
+ 
+ ,/blog/2016/woty15-nominations/af.png 700w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+&lt;figcaption class="text-center">af&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_e6712213ba0227bb.webp 330w,/blog/2016/woty15-nominations/lit_hu_fdcb7373bbea3bc0.webp 660w
+ 
+ 
+ ,/blog/2016/woty15-nominations/lit_hu_5318cb1fc11bda5b.webp 700w
+ 
+ 
+ 
+ 
+ ,/blog/2016/woty15-nominations/lit_hu_5318cb1fc11bda5b.webp 700w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="700"
+ height="500"
+ class="mx-auto my-0 rounded-md"
+ alt="lit"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_d0a1546f14aa9b2f.png"
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_908079dc61f46e57.png 330w,/blog/2016/woty15-nominations/lit_hu_d0a1546f14aa9b2f.png 660w
+ 
+ ,/blog/2016/woty15-nominations/lit.png 700w
+ 
+ 
+ ,/blog/2016/woty15-nominations/lit.png 700w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+&lt;figcaption class="text-center">lit&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_de5ed5af7457de7a.webp 330w,/blog/2016/woty15-nominations/fleek_hu_ce0ec36f1f7788ac.webp 660w
+ 
+ 
+ ,/blog/2016/woty15-nominations/fleek_hu_e09705614c9dbef6.webp 700w
+ 
+ 
+ 
+ 
+ ,/blog/2016/woty15-nominations/fleek_hu_e09705614c9dbef6.webp 700w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="700"
+ height="500"
+ class="mx-auto my-0 rounded-md"
+ alt="fleek"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_6d3452889112d7e1.png"
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_1dbc9993fffad957.png 330w,/blog/2016/woty15-nominations/fleek_hu_6d3452889112d7e1.png 660w
+ 
+ ,/blog/2016/woty15-nominations/fleek.png 700w
+ 
+ 
+ ,/blog/2016/woty15-nominations/fleek.png 700w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+&lt;figcaption class="text-center">fleek&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="from-my-2015-nominationstwitter-woty-2015" class="relative group">From my &lt;a href="../twitter-woty-2015">2015 nominations&lt;/a>: &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#from-my-2015-nominationstwitter-woty-2015" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Lit, fleek: see above.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_741900589d39ceb5.webp 330w,/blog/2016/woty15-nominations/fam_hu_a5ed24e3a65dacad.webp 660w
+ 
+ 
+ ,/blog/2016/woty15-nominations/fam_hu_61e54d6a758c627b.webp 700w
+ 
+ 
+ 
+ 
+ ,/blog/2016/woty15-nominations/fam_hu_61e54d6a758c627b.webp 700w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="700"
+ height="500"
+ class="mx-auto my-0 rounded-md"
+ alt="fam"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_f03f56487b72d343.png"
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_bc092dc4dd4745e0.png 330w,/blog/2016/woty15-nominations/fam_hu_f03f56487b72d343.png 660w
+ 
+ ,/blog/2016/woty15-nominations/fam.png 700w
+ 
+ 
+ ,/blog/2016/woty15-nominations/fam.png 700w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+&lt;figcaption class="text-center">fam&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_98bab57bf8d4299e.webp 330w,/blog/2016/woty15-nominations/slay_hu_c7271f4364680a5b.webp 660w
+ 
+ 
+ ,/blog/2016/woty15-nominations/slay_hu_84b99142e234985d.webp 700w
+ 
+ 
+ 
+ 
+ ,/blog/2016/woty15-nominations/slay_hu_84b99142e234985d.webp 700w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="700"
+ height="500"
+ class="mx-auto my-0 rounded-md"
+ alt="slay"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_7d228f44fe3fe596.png"
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_c7b8df41b203e9e6.png 330w,/blog/2016/woty15-nominations/slay_hu_7d228f44fe3fe596.png 660w
+ 
+ ,/blog/2016/woty15-nominations/slay.png 700w
+ 
+ 
+ ,/blog/2016/woty15-nominations/slay.png 700w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+&lt;figcaption class="text-center">slay&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>And &lt;a href="../twitter-woty-2015">for my 2013 nominations see here&lt;/a>.&lt;/p></description></item><item><title>Words of the year from Twitter, 2015</title><link>https://hugovk.dev/blog/2016/twitter-woty-2015/</link><pubDate>Sat, 02 Jan 2016 11:46:01 +0000</pubDate><guid>https://hugovk.dev/blog/2016/twitter-woty-2015/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
+&lt;p>They've looked for certain sentences and extracted the X.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a> -- "I love/hate the word X"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> -- "X is not/isn't/ain't a word"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> -- "X is my new favorite/favourite/fave word"&lt;/li>
+&lt;/ul>
+&lt;p>Combining and comparing the logs of all three, let's see the top words of 2015. &lt;strong>Bold&lt;/strong> means a word wasn't in that chart in 2014.&lt;/p>
+&lt;p>&lt;strong>Combined output&lt;/strong>&lt;/p>
+&lt;p>2015 total: &lt;span class="s1">219,918&lt;/span>&lt;/p>
+&lt;ol>
+&lt;li>bae (9,513)&lt;/li>
+&lt;li>mines (4,282)&lt;/li>
+&lt;li>no (4,239)&lt;/li>
+&lt;li>love (2,353)&lt;/li>
+&lt;li>moist (2,345)&lt;/li>
+&lt;li>&lt;strong>lit (2,184)&lt;/strong>&lt;/li>
+&lt;li>loyalty (1,984)&lt;/li>
+&lt;li>ain't (1,725)&lt;/li>
+&lt;li>conversate (1,664)&lt;/li>
+&lt;li>&lt;strong>fleek (1,525)&lt;/strong>&lt;/li>
+&lt;li>justice (1,470)&lt;/li>
+&lt;li>soon (1,420)&lt;/li>
+&lt;li>impossible (1,306)&lt;/li>
+&lt;li>homophobia (1,276)&lt;/li>
+&lt;li>cunt (1,258)&lt;/li>
+&lt;li>&lt;strong>year (1,219)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>forever (1,214)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fam (1,149)&lt;/strong>&lt;/li>
+&lt;li>sorry (1,114)&lt;/li>
+&lt;li>panties (1,060)&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>lovihatibot&lt;/th>
+&lt;th>nixibot&lt;/th>
+&lt;th>favibot&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center;">2015 total: 125,867&lt;/td>
+&lt;td style="text-align: center;">2015 total: 81,960&lt;/td>
+&lt;td style="text-align: center;">2015 total: 13,976&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>bae (9,151)&lt;/li>
+&lt;li>no (4,004)&lt;/li>
+&lt;li>moist (2,341)&lt;/li>
+&lt;li>&lt;strong>lit (2,107)&lt;/strong>&lt;/li>
+&lt;li>soon (1,409)&lt;/li>
+&lt;li>homophobia (1,278)&lt;/li>
+&lt;li>fleek (1,274)&lt;/li>
+&lt;li>cunt (1,182)&lt;/li>
+&lt;li>&lt;strong>fam (1,077)&lt;/strong>&lt;/li>
+&lt;li>panties (1,069)&lt;/li>
+&lt;li>sorry (1,014)&lt;/li>
+&lt;li>&lt;strong>fuckboy (941)&lt;/strong>&lt;/li>
+&lt;li>bitch (880)&lt;/li>
+&lt;li>sexy (860)&lt;/li>
+&lt;li>babe (815)&lt;/li>
+&lt;li>&lt;strong>slay (771)&lt;/strong>&lt;/li>
+&lt;li>thot (758)&lt;/li>
+&lt;li>pussy (706)&lt;/li>
+&lt;li>fuck (698)&lt;/li>
+&lt;li>love (672)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>mines (4,299)&lt;/li>
+&lt;li>loyalty (2,000)&lt;/li>
+&lt;li>love (1,702)&lt;/li>
+&lt;li>ain't (1,678)&lt;/li>
+&lt;li>conversate (1,661)&lt;/li>
+&lt;li>justice (1,472)&lt;/li>
+&lt;li>impossible (1,283)&lt;/li>
+&lt;li>&lt;strong>year (1,226)&lt;/strong>&lt;/li>
+&lt;li>irregardless (1,027)&lt;/li>
+&lt;li>forever (953)&lt;/li>
+&lt;li>funner (717)&lt;/li>
+&lt;li>worser (641)&lt;/li>
+&lt;li>bestest (517)&lt;/li>
+&lt;li>marriage (514)&lt;/li>
+&lt;li>anyways (507)&lt;/li>
+&lt;li>alot (496)&lt;/li>
+&lt;li>&lt;strong>hurted (443)&lt;/strong>&lt;/li>
+&lt;li>stupider (442)&lt;/li>
+&lt;li>&lt;strong>conversating (426)&lt;/strong>&lt;/li>
+&lt;li>bae (413)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>rendezvous (165)&lt;/strong>&lt;/li>
+&lt;li>no (119)&lt;/li>
+&lt;li>&lt;strong>lit (97)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>savage (83)&lt;/strong>&lt;/li>
+&lt;li>yikes (82)&lt;/li>
+&lt;li>fuckboy (81)&lt;/li>
+&lt;li>cunt (60)&lt;/li>
+&lt;li>&lt;strong>fam (50)&lt;/strong>&lt;/li>
+&lt;li>twat (42)&lt;/li>
+&lt;li>&lt;strong>sensational (37)&lt;/strong>&lt;/li>
+&lt;li>bitch (37)&lt;/li>
+&lt;li>fuck (37)&lt;/li>
+&lt;li>&lt;strong>fuckery (29)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>tragic (29)&lt;/strong>&lt;/li>
+&lt;li>irrelevant (27)&lt;/li>
+&lt;li>wow (26)&lt;/li>
+&lt;li>&lt;strong>kerfuffle (23)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>groovy (22)&lt;/strong>&lt;/li>
+&lt;li>rad (22)&lt;/li>
+&lt;li>&lt;strong>hoe (21)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Here's top 10 charts for each phrase from each bot.&lt;/p>
+&lt;h2>@lovihatbot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>I love the word X&lt;/th>
+&lt;th>I hate the word X&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>cunt (1,253)&lt;/li>
+&lt;li>fuck (1,075)&lt;/li>
+&lt;li>bae (1,029)&lt;/li>
+&lt;li>thot (700)&lt;/li>
+&lt;li>bitch (661)&lt;/li>
+&lt;li>babe (497)&lt;/li>
+&lt;li>woman (323)&lt;/li>
+&lt;li>&lt;strong>moist (309)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>delicious (295)&lt;/strong>&lt;/li>
+&lt;li>rad (269)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>bae (22,926)&lt;/li>
+&lt;li>no (6,274)&lt;/li>
+&lt;li>thot (6,155)&lt;/li>
+&lt;li>moist (2,967)&lt;/li>
+&lt;li>homophobia (2,052)&lt;/li>
+&lt;li>&lt;strong>soon (1,700)&lt;/strong>&lt;/li>
+&lt;li>panties (1,671)&lt;/li>
+&lt;li>selfie (1,506)&lt;/li>
+&lt;li>&lt;strong>sorry (1,446)&lt;/strong>&lt;/li>
+&lt;li>sexy (1,281)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@nixibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is not a word&lt;/th>
+&lt;th>X isn't a word&lt;/th>
+&lt;th>X ain't a word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>mines (2,682)&lt;/li>
+&lt;li>loyalty (1,622)&lt;/li>
+&lt;li>impossible (1,159)&lt;/li>
+&lt;li>love (1,154)&lt;/li>
+&lt;li>conversate (1,101)&lt;/li>
+&lt;li>forever (909)&lt;/li>
+&lt;li>irregardless (774)&lt;/li>
+&lt;li>&lt;strong>year (689)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>marriage (422)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>worser (355)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>mines (1,483)&lt;/li>
+&lt;li>justice (1,454)&lt;/li>
+&lt;li>ain't (722)&lt;/li>
+&lt;li>&lt;strong>year (530)&lt;/strong>&lt;/li>
+&lt;li>conversate (523)&lt;/li>
+&lt;li>love (475)&lt;/li>
+&lt;li>funner (423)&lt;/li>
+&lt;li>bestest (342)&lt;/li>
+&lt;li>stupider (303)&lt;/li>
+&lt;li>&lt;strong>worser (254)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>ain't (611)&lt;/li>
+&lt;li>loyalty (152)&lt;/li>
+&lt;li>ignorantest (115)&lt;/li>
+&lt;li>mines (79)&lt;/li>
+&lt;li>love (60)&lt;/li>
+&lt;li>impossible (51)&lt;/li>
+&lt;li>just (43)&lt;/li>
+&lt;li>conversate (29)&lt;/li>
+&lt;li>worser (27)&lt;/li>
+&lt;li>&lt;strong>bestest (26)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@favibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is my new favorite word&lt;/th>
+&lt;th>X is my new favourite word&lt;/th>
+&lt;th>X is my new fave word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>no (109)&lt;/li>
+&lt;li>&lt;strong>rendezvous (97)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>lit (83)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>yikes (64)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>savage (61)&lt;/strong>&lt;/li>
+&lt;li>fuckboy (54)&lt;/li>
+&lt;li>cunt (44)&lt;/li>
+&lt;li>&lt;strong>fam (43)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuck (31)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>sensational (29&lt;/strong>)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>rendezvous (60)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuckboy (22)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>savage (18)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>cockwomble (16)&lt;/strong>&lt;/li>
+&lt;li>cunt (14)&lt;/li>
+&lt;li>&lt;strong>yikes (13)&lt;/strong>&lt;/li>
+&lt;li>twat (11)&lt;/li>
+&lt;li>&lt;strong>lit (11)&lt;/strong>&lt;/li>
+&lt;li>sassy (9)&lt;/li>
+&lt;li>&lt;strong>hunty (8)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>nondindwa (8)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>rendezvous (8)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>wow (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>yikes (5)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>twat (5)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>tragic (5)&lt;/strong>&lt;/li>
+&lt;li>fuckboy (5)&lt;/li>
+&lt;li>&lt;strong>problematic (4)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>dope (4)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>savage (4)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>Change from 2013&lt;/h2>
+&lt;p>Let's see how mentions have changed for some of &lt;a href="../../2013/twitters-new-favourite-words">2013's words&lt;/a>.&lt;/p>
+&lt;p>People talking about words ‒ especially new favourite words, or loved words, or hated words, or words they've decided don't exist ‒ may be a good indicator of brand new words or at least words with new currency. Both increases and decreases may reflect an underlying change in use, and decreases may reflect an acceptance of the words.&lt;/p>
+&lt;p>&lt;em>Bae &lt;/em>(babe) emerged in April 2013, peaked at 3,880 in May 2014 and whilst still popular, has tailed off to 437 by December 2015.&lt;/p>
+&lt;p>&lt;img alt="Bae" src="bae.png" title="Bae">&lt;/p>
+&lt;div>Similarly,&lt;em> t&lt;/em>&lt;em>hot&lt;/em> ("that hoe over there") emerged in March 2013 and grew steadily to a peak of 1,400 uses in March 2014 and dropped off to 28 by December 2015.&lt;/div>
+&lt;div>&lt;img alt="Thot" src="thot.png" title="Thot" />&lt;/div>
+&lt;p>&lt;em>&lt;em>Selfie&lt;/em>&lt;/em> (a shared photo taken with a phone) had a couple of mentions in April 2013, and peaked in March 2014 with 373, ending the year with 18 in December 2015.&lt;/p>
+&lt;p>&lt;img alt="Selfie" src="selfie.png" title="Selfie" />&lt;/p>
+&lt;p>&lt;em>Ratchet&lt;/em> (a diva) peaked with 130 in March 2014, dropping to 4 by December 2015. All but *ratchet* still show up in the charts.&lt;/p>
+&lt;p>&lt;img alt="Ratchet" src="ratchet.png" title="Ratchet" />&lt;/p>
+&lt;h2>Changes from 2014&lt;/h2>
+&lt;p>From &lt;a href="../../2015/twitter-woty-2014">2014&lt;/a>:&lt;/p>
+&lt;p>&lt;em>Fleek&lt;/em>, or more fully &lt;em>on fleek&lt;/em>, means on point, on the mark, stylish, amazing or impeccable. First mentioned in August 2014, it's dropped off to 14 by December 2015.&lt;/p>
+&lt;p>&lt;img alt="Fleek" src="fleek.png" title="Fleek" />&lt;/p>
+&lt;p>&lt;em>Bruh&lt;/em> (bro, brother), not a new word but with just a few mentions throughout 2013, picked up in March 2014, and peaked in June/July 2014, but went down to 16 by December 2015 and doesn't make the top charts.&lt;/p>
+&lt;p>&lt;img alt="Bruh" src="bruh.png" title="Bruh" />&lt;/p>
+&lt;p>&lt;em>Fuckboy&lt;/em> still charts for favibot, but peaked in March 2015 with 202 and down to 37 by year end.&lt;/p>
+&lt;p>&lt;img alt="Fuckboy" src="fuckboy.png" title="Fuckboy" />&lt;/p>
+&lt;p>Both &lt;em>hella&lt;/em> and &lt;em>twizzle&lt;/em> have dropped off the charts, the latter being a one-off from the 2014 winter Olympics.&lt;/p>
+&lt;p>&lt;img alt="Hella" src="hella.png" title="Hella" />&lt;/p>
+&lt;p>&lt;img alt="Twizzle" src="twizzle.png" title="Twizzle" />&lt;/p>
+&lt;h2>New in 2015&lt;/h2>
+&lt;p>Here's a few new to these charts.&lt;/p>
+&lt;p>&lt;em>Lit&lt;/em> is the surprise new entry. It's commonly used as "lit af", or "lit as fuck", for example &lt;a href="https://twitter.com/BeyondBetter_/status/682990826499211268">in this tweet&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>My Year is starting off lit af👌🏼 ...but is gonna be TD by Monday morning&lt;/p>
+&lt;/blockquote>
+&lt;p>Something, I'm not sure what, happened in June 2015 that caused its use to explode on Twitter:&lt;/p>
+&lt;p>&lt;img alt="Lit" src="lit.png" title="Lit" />&lt;/p>
+&lt;p>&lt;em>Fam&lt;/em> (from family, for those closest to you but not necessarily family), has been around a long time, became popular towards the end of 2014 and is still talked about.&lt;/p>
+&lt;p>&lt;img alt="Fam" src="fam.png" title="Fam" />&lt;/p>
+&lt;p>Similarly, &lt;em>slay&lt;/em> ("&lt;a href="https://www.urbandictionary.com/define.php?term=slay&amp;amp;defid=7222797">killed it. succeeded in something amazing&lt;/a>", "&lt;a href="https://www.urbandictionary.com/define.php?term=slay&amp;amp;defid=7842546">something you tell someone when they look sexy as f***&lt;/a>") has been around for a while and grew towards the end of 2014, peaking in April 2015.&lt;/p>
+&lt;p>&lt;img alt="Slay" src="slay.png" title="Slay" />&lt;/p>
+&lt;h2>2016&lt;/h2>
+&lt;p>For words causing a reaction in 2016, follow &lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a>, &lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> and &lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> on Twitter.&lt;/p></description></item><item><title>Cutthroat verb-nouns</title><link>https://hugovk.dev/blog/2015/cutthroat-verb-nouns/</link><pubDate>Tue, 26 May 2015 12:54:38 +0000</pubDate><guid>https://hugovk.dev/blog/2015/cutthroat-verb-nouns/</guid><description>&lt;p>&lt;a href="http://thelifeofwords.uwaterloo.ca/catchall-for-cutthroats/">David-Antoine Williams&lt;/a> writes:&lt;/p>
+&lt;blockquote>
+&lt;p>What is the difference between a &lt;em>catch-all&lt;/em> and a &lt;em>catch-phrase&lt;/em>? Both are compounds formed as Verb+Noun, but in &lt;em>catch-all&lt;/em>, the noun is the direct object of the verb, whereas in &lt;em>catch-phrase&lt;/em> it is the subject. That is, a &lt;em>catch-all&lt;/em> is something that catches all things, whereas a &lt;em>catch-phrase&lt;/em> is not something that catches phrases – it is a phrase that catches something. Get it?&lt;/p>
+&lt;p>Recently there has been some discussion of &lt;em>catch-all&lt;/em> type compounds, which &lt;a href="http://tankhughes.com/?p=1050">Brianne Hughes&lt;/a> has named “cutthroat compounds,” after one of the more suggestive of these. Apparently they’re rare, because they violate a general tendency for compounds in English to put the ‘head’ (e.g. &lt;em>phrase&lt;/em>) on the right (‘right-headedness’). Compare F. &lt;em>ouvre-bouteille&lt;/em> to E. &lt;em>bottle-opener&lt;/em> (not &lt;em>open-bottle&lt;/em>), which follows the most common English productive pattern, Object-Verb+er. If &lt;em>catch-all&lt;/em> had followed the normal pattern, we’d be talking about an &lt;em>all-catcher&lt;/em>, as we talk about &lt;em>dog-catchers&lt;/em> and &lt;em>wind-catchers&lt;/em>.&lt;/p>
+&lt;/blockquote>
+&lt;p>D-AW went on to write a script that unlurked some cutthroats, searching for verbs with left-headed combinations recorded in the entry. I decided to write a script to try another approach -- look for hyphenated nouns where the first part can a verb and the second a noun.&lt;/p>
+&lt;p>A WordNet list of 117,953 nouns was reduced to just 3,937 hyphenated words, then further reduced to 916 verb-nouns (i.e. a single hyphen, no spaces) via the &lt;a href="http://developer.wordnik.com/docs.html">Wordnik API&lt;/a>, then manually whittled down. Of these potential cutthroats, the following &lt;a href="http://www.encyclopediabriannica.com/?p=23">aren't yet on Brianne's list&lt;/a>:&lt;/p>
+&lt;ol>
+&lt;li>be-all&lt;/li>
+&lt;li>cease-fire&lt;/li>
+&lt;li>counter-revolution&lt;/li>
+&lt;li>counter-sabotage&lt;/li>
+&lt;li>cross-classification&lt;/li>
+&lt;li>cross-division&lt;/li>
+&lt;li>cross-eye&lt;/li>
+&lt;li>cross-purpose&lt;/li>
+&lt;li>cross-question&lt;/li>
+&lt;li>cross-stitch&lt;/li>
+&lt;li>dangle-berry&lt;/li>
+&lt;li>dash-pot&lt;/li>
+&lt;li>do-good&lt;/li>
+&lt;li>drop-leaf&lt;/li>
+&lt;li>end-all&lt;/li>
+&lt;li>fuss-budget&lt;/li>
+&lt;li>knock-knee&lt;/li>
+&lt;li>make-work&lt;/li>
+&lt;li>squint-eye&lt;/li>
+&lt;li>sweep-second&lt;/li>
+&lt;/ol>
+&lt;p>I've been generous with some of these, some might originally be adjective-noun but can also be seen as verb-noun: it can be argued counter-revolutions are things that counters revolutions, cross-questions are things (also questions) that cross other questions (there are more counter- and cross- words like this). Some might just be wrong, but here they are.&lt;/p>
+&lt;p>Here's the ones it found that are already on Brianne's list:&lt;/p>
+&lt;ol>
+&lt;li>break-axe&lt;/li>
+&lt;li>cure-all&lt;/li>
+&lt;li>do-nothing&lt;/li>
+&lt;li>drop-seed&lt;/li>
+&lt;li>know-all&lt;/li>
+&lt;li>make-peace&lt;/li>
+&lt;li>rest-harrow&lt;/li>
+&lt;li>save-all&lt;/li>
+&lt;li>shove-ha'penny, shove-halfpenny&lt;/li>
+&lt;li>shut-eye&lt;/li>
+&lt;li>spend-all&lt;/li>
+&lt;/ol>
+&lt;p>And in case I missed any, the full list of 916 verb-nouns is &lt;a href="https://gist.github.com/hugovk/5bdd19859c1bd7d7f7b0#file-wordnet-cutthroats1-txt">here&lt;/a> alongside the &lt;a href="https://gist.github.com/hugovk/5bdd19859c1bd7d7f7b0#file-cutthroat-py">Python script&lt;/a>.&lt;/p></description></item><item><title>Clusterstuff</title><link>https://hugovk.dev/blog/2015/clusterstuff/</link><pubDate>Tue, 26 May 2015 12:37:48 +0000</pubDate><guid>https://hugovk.dev/blog/2015/clusterstuff/</guid><description>&lt;p>Strong Language, the swearing blog, recently wrote about &lt;a href="https://stronglang.wordpress.com/2015/05/23/clusterboinks-and-clusterfornications-the-children-of-clusterfuck/" target="_self">Clusterboinks and clusterfornications: The children of clusterfuck&lt;/a>.&lt;em>&lt;br />&lt;/em>&lt;/p>
+&lt;p>Three of my Twitter bots have been collecting words from Twitter since 2013. They&amp;#39;ve looked for certain sentences and extracted the X.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a> -- &amp;quot;I love/hate the word X&amp;quot;&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> -- &amp;quot;X is not/isn&amp;#39;t/ain&amp;#39;t a word&amp;quot;&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> -- &amp;quot;X is my new favorite/favourite/fave word&amp;quot;&lt;/li>
+&lt;/ul>
+&lt;p>Here&amp;#39;s the &lt;em>clusterfuck&lt;/em> variants they&amp;#39;ve found:&lt;/p>
+&lt;ul>
+&lt;li>clustercoitus&lt;/li>
+&lt;li>clustercuss&lt;/li>
+&lt;li>clusterduck&lt;/li>
+&lt;li>clusterfarf&lt;/li>
+&lt;li>clusterfark&lt;/li>
+&lt;li>clusterfoops&lt;/li>
+&lt;li>clusterfox&lt;/li>
+&lt;li>clusterfucked&lt;/li>
+&lt;li>clusterfuckery&lt;/li>
+&lt;li>clusterfudge&lt;/li>
+&lt;li>clustermindfuck&lt;/li>
+&lt;li>clusterwhoops&lt;/li>
+&lt;/ul></description></item><item><title>Manwords</title><link>https://hugovk.dev/blog/2015/manwords/</link><pubDate>Tue, 20 Jan 2015 12:31:58 +0000</pubDate><guid>https://hugovk.dev/blog/2015/manwords/</guid><description>&lt;p>EngLangBlog offered some &lt;a href="http://englishlangsfx.blogspot.com/2015/01/oh-man.html">man-words&lt;/a>&amp;nbsp;and asked for more.&lt;/p>
+&lt;p>Three bots have been collecting words from Twitter since 2013. They've looked for certain sentences and extracted the X.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a> -- "I love/hate the word X"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> -- "X is not/isn't/ain't a word"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> -- "X is my new favorite/favourite/fave word"&lt;/li>
+&lt;/ul>
+&lt;p>In alphabetical order, here's all the words they've found starting with &lt;em>man&lt;/em>:&lt;/p>
+&lt;ol>
+&lt;li>man&lt;/li>
+&lt;li>man's&lt;/li>
+&lt;li>manaconda&lt;/li>
+&lt;li>manage&lt;/li>
+&lt;li>manageable&lt;/li>
+&lt;li>management&lt;/li>
+&lt;li>manager&lt;/li>
+&lt;li>managerial&lt;/li>
+&lt;li>managering&lt;/li>
+&lt;li>managerish&lt;/li>
+&lt;li>managership&lt;/li>
+&lt;li>manaita&lt;/li>
+&lt;li>manaka&lt;/li>
+&lt;li>manana&lt;/li>
+&lt;li>manarchism&lt;/li>
+&lt;li>manarchist&lt;/li>
+&lt;li>manarchists&lt;/li>
+&lt;li>manbaby&lt;/li>
+&lt;li>manband&lt;/li>
+&lt;li>manboat&lt;/li>
+&lt;li>manboob&lt;/li>
+&lt;li>manbun&lt;/li>
+&lt;li>mancake&lt;/li>
+&lt;li>mancandy&lt;/li>
+&lt;li>mancave&lt;/li>
+&lt;li>mancer&lt;/li>
+&lt;li>manchacha&lt;/li>
+&lt;li>manchester&lt;/li>
+&lt;li>manchild&lt;/li>
+&lt;li>mand&lt;/li>
+&lt;li>mandals&lt;/li>
+&lt;li>mandate&lt;/li>
+&lt;li>mandated&lt;/li>
+&lt;li>mandation&lt;/li>
+&lt;li>mandatory&lt;/li>
+&lt;li>mandelfie&lt;/li>
+&lt;li>mandem&lt;/li>
+&lt;li>mandemz&lt;/li>
+&lt;li>manderstand&lt;/li>
+&lt;li>mandingo&lt;/li>
+&lt;li>manditorium&lt;/li>
+&lt;li>mandolized&lt;/li>
+&lt;li>mandy&lt;/li>
+&lt;li>mane&lt;/li>
+&lt;li>manegment&lt;/li>
+&lt;li>maneurysms&lt;/li>
+&lt;li>maneuver&lt;/li>
+&lt;li>manfant&lt;/li>
+&lt;li>manfetti&lt;/li>
+&lt;li>manfidence&lt;/li>
+&lt;li>manflu&lt;/li>
+&lt;li>manfriend&lt;/li>
+&lt;li>mang&lt;/li>
+&lt;li>manga&lt;/li>
+&lt;li>mangaks&lt;/li>
+&lt;li>manganèse&lt;/li>
+&lt;li>mangape&lt;/li>
+&lt;li>mangela&lt;/li>
+&lt;li>mangerines&lt;/li>
+&lt;li>mangia&lt;/li>
+&lt;li>mangificent&lt;/li>
+&lt;li>mangify&lt;/li>
+&lt;li>mangina&lt;/li>
+&lt;li>mangirrrling&lt;/li>
+&lt;li>mangled&lt;/li>
+&lt;li>mango&lt;/li>
+&lt;li>mangos&lt;/li>
+&lt;li>mangosteen&lt;/li>
+&lt;li>mangrove&lt;/li>
+&lt;li>manguish&lt;/li>
+&lt;li>mangy&lt;/li>
+&lt;li>mangyari&lt;/li>
+&lt;li>manhi&lt;/li>
+&lt;li>manhole&lt;/li>
+&lt;li>manhood&lt;/li>
+&lt;li>manhunt&lt;/li>
+&lt;li>mania&lt;/li>
+&lt;li>maniac&lt;/li>
+&lt;li>maniacal&lt;/li>
+&lt;li>maniacally&lt;/li>
+&lt;li>manic&lt;/li>
+&lt;li>manically&lt;/li>
+&lt;li>manicle&lt;/li>
+&lt;li>manicorn&lt;/li>
+&lt;li>manier&lt;/li>
+&lt;li>maniest&lt;/li>
+&lt;li>manifest&lt;/li>
+&lt;li>manifestate&lt;/li>
+&lt;li>manifestating&lt;/li>
+&lt;li>manifestation&lt;/li>
+&lt;li>manifesto&lt;/li>
+&lt;li>manigga&lt;/li>
+&lt;li>manikan&lt;/li>
+&lt;li>manikin&lt;/li>
+&lt;li>manila&lt;/li>
+&lt;li>manilla&lt;/li>
+&lt;li>manimal&lt;/li>
+&lt;li>manimony&lt;/li>
+&lt;li>maninism&lt;/li>
+&lt;li>manipul8te&lt;/li>
+&lt;li>manipulable&lt;/li>
+&lt;li>manipulate&lt;/li>
+&lt;li>manipulated&lt;/li>
+&lt;li>manipulation&lt;/li>
+&lt;li>manipulative&lt;/li>
+&lt;li>manipulatives&lt;/li>
+&lt;li>manipulize&lt;/li>
+&lt;li>manish&lt;/li>
+&lt;li>manism&lt;/li>
+&lt;li>mank&lt;/li>
+&lt;li>manke&lt;/li>
+&lt;li>mankey&lt;/li>
+&lt;li>mankind&lt;/li>
+&lt;li>mankles&lt;/li>
+&lt;li>manky&lt;/li>
+&lt;li>manlet&lt;/li>
+&lt;li>manliest&lt;/li>
+&lt;li>manlihood&lt;/li>
+&lt;li>manlike&lt;/li>
+&lt;li>manliner&lt;/li>
+&lt;li>manliness&lt;/li>
+&lt;li>manly&lt;/li>
+&lt;li>manlyer&lt;/li>
+&lt;li>manlyness&lt;/li>
+&lt;li>mannaman&lt;/li>
+&lt;li>mannequin&lt;/li>
+&lt;li>manner&lt;/li>
+&lt;li>mannerable&lt;/li>
+&lt;li>mannerful&lt;/li>
+&lt;li>mannerible&lt;/li>
+&lt;li>mannerism&lt;/li>
+&lt;li>mannerisms&lt;/li>
+&lt;li>manners&lt;/li>
+&lt;li>mannish&lt;/li>
+&lt;li>mannitol&lt;/li>
+&lt;li>manniversary&lt;/li>
+&lt;li>mannn&lt;/li>
+&lt;li>mannnnn&lt;/li>
+&lt;li>manny&lt;/li>
+&lt;li>manophobe&lt;/li>
+&lt;li>manosphere&lt;/li>
+&lt;li>manpad&lt;/li>
+&lt;li>manpain&lt;/li>
+&lt;li>manparts&lt;/li>
+&lt;li>manpussy&lt;/li>
+&lt;li>manraj&lt;/li>
+&lt;li>mans&lt;/li>
+&lt;li>manscaping&lt;/li>
+&lt;li>manservant&lt;/li>
+&lt;li>mansion&lt;/li>
+&lt;li>manslaughter&lt;/li>
+&lt;li>manslut&lt;/li>
+&lt;li>mansome&lt;/li>
+&lt;li>mansperience&lt;/li>
+&lt;li>mansplain&lt;/li>
+&lt;li>mansplained&lt;/li>
+&lt;li>mansplaining&lt;/li>
+&lt;li>manspread&lt;/li>
+&lt;li>manstealer&lt;/li>
+&lt;li>manstripper&lt;/li>
+&lt;li>manstruating&lt;/li>
+&lt;li>mant&lt;/li>
+&lt;li>mantastic&lt;/li>
+&lt;li>mantecado&lt;/li>
+&lt;li>manter&lt;/li>
+&lt;li>manther&lt;/li>
+&lt;li>manties&lt;/li>
+&lt;li>mantique&lt;/li>
+&lt;li>mantitties&lt;/li>
+&lt;li>mantlers&lt;/li>
+&lt;li>mantra&lt;/li>
+&lt;li>mantrum&lt;/li>
+&lt;li>manufactroversy&lt;/li>
+&lt;li>manufactured&lt;/li>
+&lt;li>manufacturers&lt;/li>
+&lt;li>manureisms&lt;/li>
+&lt;li>manveries&lt;/li>
+&lt;li>manwhore&lt;/li>
+&lt;li>many&lt;/li>
+&lt;li>manyer&lt;/li>
+&lt;li>manyuchi&lt;/li>
+&lt;li>manzelish&lt;/li>
+&lt;li>manziel&lt;/li>
+&lt;li>manzielish&lt;/li>
+&lt;li>manzzzzzz&lt;/li>
+&lt;/ol>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;h2>Breakdowns by bot&lt;/h2>
+&lt;h3>&amp;nbsp;&lt;/h3>
+&lt;h3>"man[...]&amp;nbsp;is my favourite/favorite/fave word"&lt;/h3>
+&lt;ol>
+&lt;li>man&lt;/li>
+&lt;li>manaconda&lt;/li>
+&lt;li>manaka&lt;/li>
+&lt;li>manarchism&lt;/li>
+&lt;li>manarchist&lt;/li>
+&lt;li>manboat&lt;/li>
+&lt;li>mancake&lt;/li>
+&lt;li>mancandy&lt;/li>
+&lt;li>mancer&lt;/li>
+&lt;li>manchacha&lt;/li>
+&lt;li>manchild&lt;/li>
+&lt;li>mandals&lt;/li>
+&lt;li>mandate&lt;/li>
+&lt;li>mandelfie&lt;/li>
+&lt;li>mandem&lt;/li>
+&lt;li>manderstand&lt;/li>
+&lt;li>mandingo&lt;/li>
+&lt;li>mandolized&lt;/li>
+&lt;li>mandy&lt;/li>
+&lt;li>mane&lt;/li>
+&lt;li>maneurysms&lt;/li>
+&lt;li>manfant&lt;/li>
+&lt;li>manfetti&lt;/li>
+&lt;li>mang&lt;/li>
+&lt;li>manga&lt;/li>
+&lt;li>manganèse&lt;/li>
+&lt;li>mangela&lt;/li>
+&lt;li>mangerines&lt;/li>
+&lt;li>mangia&lt;/li>
+&lt;li>mangify&lt;/li>
+&lt;li>mangina&lt;/li>
+&lt;li>mangirrrling&lt;/li>
+&lt;li>mango&lt;/li>
+&lt;li>mangosteen&lt;/li>
+&lt;li>manguish&lt;/li>
+&lt;li>manhole&lt;/li>
+&lt;li>maniac&lt;/li>
+&lt;li>maniacal&lt;/li>
+&lt;li>manic&lt;/li>
+&lt;li>manicorn&lt;/li>
+&lt;li>manifest&lt;/li>
+&lt;li>manifesto&lt;/li>
+&lt;li>manigga&lt;/li>
+&lt;li>manimal&lt;/li>
+&lt;li>manipulative&lt;/li>
+&lt;li>mankey&lt;/li>
+&lt;li>manly&lt;/li>
+&lt;li>mannaman&lt;/li>
+&lt;li>manniversary&lt;/li>
+&lt;li>mannn&lt;/li>
+&lt;li>mannnnn&lt;/li>
+&lt;li>manophobe&lt;/li>
+&lt;li>manosphere&lt;/li>
+&lt;li>manparts&lt;/li>
+&lt;li>manraj&lt;/li>
+&lt;li>mans&lt;/li>
+&lt;li>manscaping&lt;/li>
+&lt;li>mansperience&lt;/li>
+&lt;li>mansplain&lt;/li>
+&lt;li>mansplained&lt;/li>
+&lt;li>mansplaining&lt;/li>
+&lt;li>manspread&lt;/li>
+&lt;li>manstealer&lt;/li>
+&lt;li>manstripper&lt;/li>
+&lt;li>manstruating&lt;/li>
+&lt;li>mantastic&lt;/li>
+&lt;li>manter&lt;/li>
+&lt;li>manther&lt;/li>
+&lt;li>manties&lt;/li>
+&lt;li>mantique&lt;/li>
+&lt;li>mantrum&lt;/li>
+&lt;li>manufactroversy&lt;/li>
+&lt;li>manureisms&lt;/li>
+&lt;li>manveries&lt;/li>
+&lt;li>many&lt;/li>
+&lt;/ol>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;h3>"I love the word man[...]"&lt;/h3>
+&lt;ol>
+&lt;li>man&lt;/li>
+&lt;li>manarchists&lt;/li>
+&lt;li>manbaby&lt;/li>
+&lt;li>mancake&lt;/li>
+&lt;li>mandate&lt;/li>
+&lt;li>mandatory&lt;/li>
+&lt;li>mandingo&lt;/li>
+&lt;li>mane&lt;/li>
+&lt;li>mang&lt;/li>
+&lt;li>mangina&lt;/li>
+&lt;li>mango&lt;/li>
+&lt;li>mangrove&lt;/li>
+&lt;li>mangy&lt;/li>
+&lt;li>mangyari&lt;/li>
+&lt;li>manhi&lt;/li>
+&lt;li>manhole&lt;/li>
+&lt;li>manhunt&lt;/li>
+&lt;li>maniac&lt;/li>
+&lt;li>maniacal&lt;/li>
+&lt;li>maniacally&lt;/li>
+&lt;li>manifest&lt;/li>
+&lt;li>manifesto&lt;/li>
+&lt;li>manila&lt;/li>
+&lt;li>manilla&lt;/li>
+&lt;li>manipul8te&lt;/li>
+&lt;li>manipulate&lt;/li>
+&lt;li>manipulated&lt;/li>
+&lt;li>manky&lt;/li>
+&lt;li>manlet&lt;/li>
+&lt;li>mannequin&lt;/li>
+&lt;li>manner&lt;/li>
+&lt;li>mannnnn&lt;/li>
+&lt;li>manpussy&lt;/li>
+&lt;li>manservant&lt;/li>
+&lt;li>manslaughter&lt;/li>
+&lt;li>mansplain&lt;/li>
+&lt;li>mansplained&lt;/li>
+&lt;li>mantecado&lt;/li>
+&lt;li>mantitties&lt;/li>
+&lt;li>mantra&lt;/li>
+&lt;li>manyer&lt;/li>
+&lt;li>manyuchi&lt;/li>
+&lt;li>manzzzzzz&lt;/li>
+&lt;/ol>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;h3>"I hate the word man[...]"&lt;/h3>
+&lt;ol>
+&lt;li>man&lt;/li>
+&lt;li>manage&lt;/li>
+&lt;li>management&lt;/li>
+&lt;li>manager&lt;/li>
+&lt;li>manband&lt;/li>
+&lt;li>manboob&lt;/li>
+&lt;li>manbun&lt;/li>
+&lt;li>mancave&lt;/li>
+&lt;li>manchester&lt;/li>
+&lt;li>manchild&lt;/li>
+&lt;li>mandals&lt;/li>
+&lt;li>mandate&lt;/li>
+&lt;li>mandated&lt;/li>
+&lt;li>mandatory&lt;/li>
+&lt;li>mandem&lt;/li>
+&lt;li>mandemz&lt;/li>
+&lt;li>mane&lt;/li>
+&lt;li>manflu&lt;/li>
+&lt;li>manfriend&lt;/li>
+&lt;li>mang&lt;/li>
+&lt;li>manga&lt;/li>
+&lt;li>mangled&lt;/li>
+&lt;li>mango&lt;/li>
+&lt;li>manhole&lt;/li>
+&lt;li>manhunt&lt;/li>
+&lt;li>mania&lt;/li>
+&lt;li>manifest&lt;/li>
+&lt;li>manifestation&lt;/li>
+&lt;li>manifesto&lt;/li>
+&lt;li>manikin&lt;/li>
+&lt;li>manila&lt;/li>
+&lt;li>manilla&lt;/li>
+&lt;li>manipulate&lt;/li>
+&lt;li>mankind&lt;/li>
+&lt;li>manky&lt;/li>
+&lt;li>manliner&lt;/li>
+&lt;li>manly&lt;/li>
+&lt;li>manners&lt;/li>
+&lt;li>mannish&lt;/li>
+&lt;li>mannitol&lt;/li>
+&lt;li>manpain&lt;/li>
+&lt;li>manscaping&lt;/li>
+&lt;li>mansion&lt;/li>
+&lt;li>manslaughter&lt;/li>
+&lt;li>mansplain&lt;/li>
+&lt;li>mansplaining&lt;/li>
+&lt;li>manufactured&lt;/li>
+&lt;li>manufacturers&lt;/li>
+&lt;li>manwhore&lt;/li>
+&lt;li>many&lt;/li>
+&lt;li>manziel&lt;/li>
+&lt;/ol>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;h3>"man[...] isn't/is not/ain't a word"&lt;/h3>
+&lt;ol>
+&lt;li>man&lt;/li>
+&lt;li>man's&lt;/li>
+&lt;li>manageable&lt;/li>
+&lt;li>management&lt;/li>
+&lt;li>manager&lt;/li>
+&lt;li>managerial&lt;/li>
+&lt;li>managering&lt;/li>
+&lt;li>managerish&lt;/li>
+&lt;li>managership&lt;/li>
+&lt;li>manaita&lt;/li>
+&lt;li>manana&lt;/li>
+&lt;li>manband&lt;/li>
+&lt;li>manbun&lt;/li>
+&lt;li>mancave&lt;/li>
+&lt;li>mand&lt;/li>
+&lt;li>mandate&lt;/li>
+&lt;li>mandation&lt;/li>
+&lt;li>manditorium&lt;/li>
+&lt;li>mane&lt;/li>
+&lt;li>manegment&lt;/li>
+&lt;li>maneuver&lt;/li>
+&lt;li>manfidence&lt;/li>
+&lt;li>mang&lt;/li>
+&lt;li>manga&lt;/li>
+&lt;li>mangaks&lt;/li>
+&lt;li>mangape&lt;/li>
+&lt;li>mangificent&lt;/li>
+&lt;li>mangina&lt;/li>
+&lt;li>mango&lt;/li>
+&lt;li>mangos&lt;/li>
+&lt;li>manhood&lt;/li>
+&lt;li>maniac&lt;/li>
+&lt;li>manic&lt;/li>
+&lt;li>manically&lt;/li>
+&lt;li>manicle&lt;/li>
+&lt;li>manier&lt;/li>
+&lt;li>maniest&lt;/li>
+&lt;li>manifestate&lt;/li>
+&lt;li>manifestating&lt;/li>
+&lt;li>manikan&lt;/li>
+&lt;li>manimony&lt;/li>
+&lt;li>maninism&lt;/li>
+&lt;li>manipulable&lt;/li>
+&lt;li>manipulated&lt;/li>
+&lt;li>manipulation&lt;/li>
+&lt;li>manipulatives&lt;/li>
+&lt;li>manipulize&lt;/li>
+&lt;li>manish&lt;/li>
+&lt;li>manism&lt;/li>
+&lt;li>mank&lt;/li>
+&lt;li>manke&lt;/li>
+&lt;li>mankles&lt;/li>
+&lt;li>manky&lt;/li>
+&lt;li>manliest&lt;/li>
+&lt;li>manlihood&lt;/li>
+&lt;li>manlike&lt;/li>
+&lt;li>manliness&lt;/li>
+&lt;li>manly&lt;/li>
+&lt;li>manlyer&lt;/li>
+&lt;li>manlyness&lt;/li>
+&lt;li>mannerable&lt;/li>
+&lt;li>mannerful&lt;/li>
+&lt;li>mannerible&lt;/li>
+&lt;li>mannerism&lt;/li>
+&lt;li>mannerisms&lt;/li>
+&lt;li>mannish&lt;/li>
+&lt;li>manny&lt;/li>
+&lt;li>manophobe&lt;/li>
+&lt;li>manosphere&lt;/li>
+&lt;li>manpad&lt;/li>
+&lt;li>mans&lt;/li>
+&lt;li>manslut&lt;/li>
+&lt;li>mansome&lt;/li>
+&lt;li>mansplain&lt;/li>
+&lt;li>mansplained&lt;/li>
+&lt;li>mansplaining&lt;/li>
+&lt;li>mant&lt;/li>
+&lt;li>mantlers&lt;/li>
+&lt;li>manwhore&lt;/li>
+&lt;li>many&lt;/li>
+&lt;li>manzelish&lt;/li>
+&lt;li>manzielish&lt;/li>
+&lt;/ol></description></item><item><title>Words of the year from Twitter, 2014</title><link>https://hugovk.dev/blog/2015/twitter-woty-2014/</link><pubDate>Tue, 06 Jan 2015 20:19:48 +0000</pubDate><guid>https://hugovk.dev/blog/2015/twitter-woty-2014/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
+&lt;p>They've looked for certain sentences and extracted the X.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a> -- "I love/hate the word X"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a> -- "X is not/isn't/ain't a word"&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a> -- "X is my new favorite/favourite/fave word"&lt;/li>
+&lt;/ul>
+&lt;p>Combining and comparing the logs of all three, let's see what the top words of 2014 are.&lt;/p>
+&lt;p>&lt;strong>Combined output&lt;/strong>&lt;/p>
+&lt;p>2014 total: 333,449&lt;/p>
+&lt;ol>
+&lt;li>bae (25,689)&lt;/li>
+&lt;li>thot (7,787)&lt;/li>
+&lt;li>no (6,888)&lt;/li>
+&lt;li>mines (5,038)&lt;/li>
+&lt;li>love (3,662)&lt;/li>
+&lt;li>moist (3,305)&lt;/li>
+&lt;li>impossible (3,092)&lt;/li>
+&lt;li>ain't (2,960)&lt;/li>
+&lt;li>&lt;strong>loved (2,954)&lt;/strong>&lt;/li>
+&lt;li>cunt (2,646)&lt;/li>
+&lt;li>conversate (2,175)&lt;/li>
+&lt;li>homophobia (2,064)&lt;/li>
+&lt;li>loyalty (1,982)&lt;/li>
+&lt;li>&lt;strong>soon (1,767)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>panties (1,741)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>sorry (1,617)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>selfie (1,613)&lt;/strong>&lt;/li>
+&lt;li>bitch (1,585)&lt;/li>
+&lt;li>&lt;strong>justice (1,542)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>babe (1,531)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>lovihatibot&lt;/th>
+&lt;th>nixibot&lt;/th>
+&lt;th>favibot&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center;">2014 total: 192,388&lt;/td>
+&lt;td style="text-align: center;">2014 total: 118,095&lt;/td>
+&lt;td style="text-align: center;">2014 total: 22,974&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>bae (23,955)&lt;/li>
+&lt;li>thot (6,855)&lt;/li>
+&lt;li>no (6,469)&lt;/li>
+&lt;li>moist (3,276)&lt;/li>
+&lt;li>cunt (2,487)&lt;/li>
+&lt;li>homophobia (2,053)&lt;/li>
+&lt;li>panties (1,738)&lt;/li>
+&lt;li>&lt;strong>soon (1,728)&lt;/strong>&lt;/li>
+&lt;li>selfie (1,538)&lt;/li>
+&lt;li>babe (1,494)&lt;/li>
+&lt;li>bitch (1,454)&lt;/li>
+&lt;li>sorry (1,454)&lt;/li>
+&lt;li>sexy (1,318)&lt;/li>
+&lt;li>fuck (1,175)&lt;/li>
+&lt;li>swag (1,139)&lt;/li>
+&lt;li>love (1,098)&lt;/li>
+&lt;li>pussy (1,065)&lt;/li>
+&lt;li>&lt;strong>bruh (1,061)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fleek (1,008)&lt;/strong>&lt;/li>
+&lt;li>baby (860)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>mines (5,002)&lt;/li>
+&lt;li>impossible (3,031)&lt;/li>
+&lt;li>loved (2,942)&lt;/li>
+&lt;li>ain't (2,812)&lt;/li>
+&lt;li>love (2,560)&lt;/li>
+&lt;li>conversate (2,154)&lt;/li>
+&lt;li>loyalty (1,907)&lt;/li>
+&lt;li>&lt;strong>bae (1,585)&lt;/strong>&lt;/li>
+&lt;li>justice (1,536)&lt;/li>
+&lt;li>funner (1,496)&lt;/li>
+&lt;li>irregardless (1,209)&lt;/li>
+&lt;li>forever (1,122)&lt;/li>
+&lt;li>worser (994)&lt;/li>
+&lt;li>anyways (983)&lt;/li>
+&lt;li>stupider (856)&lt;/li>
+&lt;li>bestest (799)&lt;/li>
+&lt;li>alot (753)&lt;/li>
+&lt;li>thot (711)&lt;/li>
+&lt;li>finna (707)&lt;/li>
+&lt;li>&lt;strong>marriage (683)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>thot (224)&lt;/li>
+&lt;li>no (194)&lt;/li>
+&lt;li>&lt;strong>bruh (176)&lt;/strong>&lt;/li>
+&lt;li>bae (151)&lt;/li>
+&lt;li>&lt;strong>twizzle (130)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuckboy (121)&lt;/strong>&lt;/li>
+&lt;li>cunt (115)&lt;/li>
+&lt;li>&lt;strong>hella (106)&lt;/strong>&lt;/li>
+&lt;li>rad (92)&lt;/li>
+&lt;li>twat (84)&lt;/li>
+&lt;li>sassy (83)&lt;/li>
+&lt;li>bitch (74)&lt;/li>
+&lt;li>fuck (64)&lt;/li>
+&lt;li>irrelevant (64)&lt;/li>
+&lt;li>&lt;strong>slunt (58)&lt;/strong>&lt;/li>
+&lt;li>wow (57)&lt;/li>
+&lt;li>&lt;strong>dingus (52)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>slay (49)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>swanky (49)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>yikes (47)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Here's top 10 charts for each phrase from each bot.&amp;nbsp;&lt;/p>
+&lt;h2>@lovihatbot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>I love the word X&lt;/th>
+&lt;th>I hate the word X&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>cunt (1,253)&lt;/li>
+&lt;li>fuck (1,075)&lt;/li>
+&lt;li>bae (1,029)&lt;/li>
+&lt;li>thot (700)&lt;/li>
+&lt;li>bitch (661)&lt;/li>
+&lt;li>babe (497)&lt;/li>
+&lt;li>woman (323)&lt;/li>
+&lt;li>&lt;strong>moist (309)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>delicious (295)&lt;/strong>&lt;/li>
+&lt;li>rad (269)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>bae (22,926)&lt;/li>
+&lt;li>no (6,274)&lt;/li>
+&lt;li>thot (6,155)&lt;/li>
+&lt;li>moist (2,967)&lt;/li>
+&lt;li>homophobia (2,052)&lt;/li>
+&lt;li>&lt;strong>soon (1,700)&lt;/strong>&lt;/li>
+&lt;li>panties (1,671)&lt;/li>
+&lt;li>selfie (1,506)&lt;/li>
+&lt;li>&lt;strong>sorry (1,446)&lt;/strong>&lt;/li>
+&lt;li>sexy (1,281)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@nixibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is not a word&lt;/th>
+&lt;th>X isn't a word&lt;/th>
+&lt;th>X ain't a word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>mines (3,174)&lt;/li>
+&lt;li>impossible (2,769)&lt;/li>
+&lt;li>love (1,554)&lt;/li>
+&lt;li>&lt;strong>loved (1,517)&lt;/strong>&lt;/li>
+&lt;li>conversate (1,395)&lt;/li>
+&lt;li>loyalty (1,208)&lt;/li>
+&lt;li>&lt;strong>bae (1,127)&lt;/strong>&lt;/li>
+&lt;li>forever (1,078)&lt;/li>
+&lt;li>irregardless (922)&lt;/li>
+&lt;li>&lt;strong>anyways (602)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>mines (1,745)&lt;/li>
+&lt;li>justice (1,529)&lt;/li>
+&lt;li>loved (1,425)&lt;/li>
+&lt;li>ain't (1,100)&lt;/li>
+&lt;li>funner (888)&lt;/li>
+&lt;li>love (878)&lt;/li>
+&lt;li>conversate (715)&lt;/li>
+&lt;li>stupider (589)&lt;/li>
+&lt;li>bestest (538)&lt;/li>
+&lt;li>&lt;strong>bae (443)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>ain't (1,131)&lt;/li>
+&lt;li>loyalty (380)&lt;/li>
+&lt;li>ignorantest (314)&lt;/li>
+&lt;li>love (128)&lt;/li>
+&lt;li>mines (83)&lt;/li>
+&lt;li>impossible (75)&lt;/li>
+&lt;li>&lt;strong>perfect (54)&lt;/strong>&lt;/li>
+&lt;li>worser (45)&lt;/li>
+&lt;li>&lt;strong>just (44)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>conversate (44)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>@favibot&lt;/h2>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;th>X is my new favorite word&lt;/th>
+&lt;th>X is my new favourite word&lt;/th>
+&lt;th>X is my new fave word&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;ol>
+&lt;li>thot (187)&lt;/li>
+&lt;li>no (177)&lt;/li>
+&lt;li>&lt;strong>bruh (145)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>twizzle (123)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bae (111)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuckboy (96)&lt;/strong>&lt;/li>
+&lt;li>cunt (82)&lt;/li>
+&lt;li>&lt;strong>hella (79)&lt;/strong>&lt;/li>
+&lt;li>rad (65)&lt;/li>
+&lt;li>bitch (61)&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>sassy (45)&lt;/li>
+&lt;li>&lt;strong>bae (30)&lt;/strong>&lt;/li>
+&lt;li>cunt (30)&lt;/li>
+&lt;li>&lt;strong>thot (26)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>quiche (23)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bruh (21)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>rad (20)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>hella (20)&lt;/strong>&lt;/li>
+&lt;li>twat (18)&lt;/li>
+&lt;li>&lt;strong>bitchachos (17)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;td>
+&lt;ol>
+&lt;li>&lt;strong>thot (11)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bae (10)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>bruh (10)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>fuckboy (9)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>rad (7)&lt;/strong>&lt;/li>
+&lt;li>sassy (7)&lt;/li>
+&lt;li>&lt;strong>bitchachos (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>puta (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>hella (7)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>literally (6)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>Change from 2013&lt;/h2>
+&lt;p>Let's see how mentions have changed for some of 2013's words.&lt;/p>
+&lt;p>People talking about words ‒&amp;nbsp;especially new favourite &amp;nbsp;words, or loved words, or hated words, or words they've decided don't exist ‒&amp;nbsp;may be a good indicator of brand new words or at least words with new currency.&amp;nbsp;Both increases and decreases may reflect an underlying change in use, and decreases may reflect an acceptance of the words.&lt;/p>
+&lt;p>&lt;em>Bae &lt;/em>(babe)&amp;nbsp;emerged in April 2013, peaked at&amp;nbsp;3,880 in&amp;nbsp;May 2014 and tailed off to 1,602 by December. This is the stronger of the two. Neal Whitman&amp;nbsp;&lt;a href="http://www.vocabulary.com/articles/dictionary/bae-watch-the-ascent-of-a-new-pet-name/" target="_self">charts its ascent&lt;/a>&amp;nbsp;and its use&amp;nbsp;&lt;a href="http://literalminded.wordpress.com/2015/01/05/getting-on-the-bae-train/" target="_self">throughout 2014&lt;/a>&amp;nbsp;whilst James Hamblin&amp;nbsp;&lt;a href="http://www.theatlantic.com/entertainment/archive/2014/12/the-lamentable-death-of-bae/384086/" target="_self">laments its death&lt;/a>&amp;nbsp;since&amp;nbsp;&lt;a href="https://twitter.com/brandssayingbae" target="_self">brands have adopted it&lt;/a>.&lt;/p>
+&lt;div>Similarly,&lt;em> t&lt;/em>&lt;em>hot&lt;/em>&amp;nbsp;("that hoe over there") emerged in March 2013 and grew steadily to a peak of 1,400 uses in March 2014 and dropped off to 162 by December.&amp;nbsp;&lt;/div>
+&lt;p>&lt;em>&lt;em>Selfie&lt;/em>&lt;/em>&amp;nbsp;(a shared photo taken with one's own phone) had a couple of mentions in April 2013, and peaked in March 2014 with 373, ending the year with 86 in December.&lt;/p>
+&lt;p>&lt;em>Ratchet&lt;/em>&amp;nbsp;(a diva) peaked with 130 in March 2014, dropping to 20 by December.&lt;/p>
+&lt;h2>New in 2014&lt;/h2>
+&lt;p>Here's a few new to these charts.&lt;/p>
+&lt;p>&lt;em>Fleek&lt;/em>, or more fully&amp;nbsp;&lt;em>on fleek&lt;/em>, means&amp;nbsp;on point, on the mark, stylish, amazing or impeccable. First mentioned in August 2014, it's still riding the peak. First used on&amp;nbsp;Vine by Peaches Monroe in June 2014, it was later popularised by Ariana Grande, who sang the Vine on MTV in August.&lt;/p>
+&lt;p>&lt;em>Bruh&amp;nbsp;&lt;/em>(bro, brother), not a new word but with just a few mentions throughout 2013, picked up in March 2014, and peaked in June/July 2014. Use is likely&amp;nbsp;spurred on by its use in a&amp;nbsp;&lt;a href="http://www.brobible.com/entertainment/article/why-bruh-movement-taking-over-vine/" target="_self">Vine clip&lt;/a>&amp;nbsp;from May 2014 and in copied Vines:&lt;/p>
+&lt;blockquote>
+&lt;p>CallHimBzar took the clip, and a friend of his named Headgraphix, added a disappointed “bruh” as Farmer collapsed. The “bruh” is meant to imply, “bruh, you’re a 6’7, 220-lb guy, and you beat the shit out of your girlfriend, quit acting like a bitch.” The Vine quickly blew up, and after seeing all the excitement surrounding the Vine, Headgraphix and CallHimBzar started the #BruhMovement, encouraging others to make their own Bruh Vines. And Bruh Vine they did… to the &amp;nbsp;tune of&amp;nbsp;&lt;em>thousands&lt;/em>&amp;nbsp;of Bruh vines.&lt;/p>
+&lt;/blockquote>
+&lt;p>Likewise,&lt;em> fuckboy&lt;/em> isn't new, but has seen increasing mentions. &lt;a href="http://knowyourmeme.com/memes/fuckboy" target="_self">Know Your Meme&lt;/a> says:&lt;/p>
+&lt;blockquote>
+&lt;p>“Fuckboy” used as a pejorative toward men who are perceived as oversexed or disrespectful toward women.&amp;nbsp;On Tumblr, the term has also spawned a derivative phrase “en garde (English: on your guard), fuckboy," which is often accompanied with images of skeletons in a similar vein to 2Spooky.&lt;/p>
+&lt;/blockquote>
+&lt;p>Intensifier &lt;em>hella&lt;/em>&amp;nbsp;saw some use in 2013, but it increased in 2014 peaking between February and August.&lt;/p>
+&lt;p>Finally, &lt;em>twizzle &lt;/em>was a one-off coinciding with the Sochi 2014 Winter Olympics. Virtually every mention was in February 2014 nearly all as a "favorite word" (with US spelling).&amp;nbsp;&lt;/p>
+&lt;p>&lt;a href="http://fansided.com/2014/02/17/sochi-olympics-ice-dancing-twizzle/" target="_self">FanSided&lt;/a> confirms the US connection to the Olympics:&lt;/p>
+&lt;blockquote>
+&lt;p>If you have been watching figure skating throughout the 2014 Winter Olympics, it is impossible not to notice the term “twizzle” that is constantly being dropped by Tara Lipinksi and Johnny Weir throughout the Sochi Games.&lt;/p>
+&lt;/blockquote>
+&lt;h2>2015&lt;/h2>
+&lt;p>For words causing a reaction in 2015, follow&amp;nbsp;&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a>,&amp;nbsp;&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a>&amp;nbsp;on Twitter.&lt;/p></description></item><item><title>Twitter's new favourite words</title><link>https://hugovk.dev/blog/2013/twitters-new-favourite-words/</link><pubDate>Fri, 25 Oct 2013 10:22:54 +0000</pubDate><guid>https://hugovk.dev/blog/2013/twitters-new-favourite-words/</guid><description>&lt;p>I wrote a Python script that searches Twitter for tweets containing &amp;ldquo;[X] is my new
+favourite word&amp;rdquo;. It then takes all those new favourite words, logs them, lowercases
+them, and adds them to a list of words on Wordnik. And, from this week, it also tweets
+them and makes word clouds.&lt;/p>
+&lt;p>It also does the same for &amp;ldquo;[X] is my new favorite word&amp;rdquo; and &amp;ldquo;[X] is my new fave word&amp;rdquo; so
+you can see some geographic variation.&lt;/p>
+&lt;p>It&amp;rsquo;s been going six months since 24th February 2013, runs nearly every day, and has
+found some 18,360 new favourite words.&lt;/p>
+&lt;p>Here&amp;rsquo;s top tens for the whole set and each subset.&lt;/p>
+&lt;p>&lt;a href="https://www.flickr.com/photos/hugovk/10472408163/" title="Twitter: [X] is my new favourite word + X is my new favorite word + X is my new fave word by hugovk, on Flickr">&lt;img alt="Twitter: [X] is my new favourite word + X is my new favorite word + X is my new fave word" height="281" src="https://farm6.staticflickr.com/5500/10472408163_0dd4f504f1.jpg" width="500" />&lt;/a>&lt;/p>
+&lt;p>The whole data set contains 18,360 words and 10,018 unique words.&lt;/p>
+&lt;p>The top 10 words are:&lt;/p>
+&lt;ol>
+&lt;li>no (151)&lt;/li>
+&lt;li>cunt (120)&lt;/li>
+&lt;li>sassy (99)&lt;/li>
+&lt;li>bitch (95)&lt;/li>
+&lt;li>ratchet (87)&lt;/li>
+&lt;li>fab (86)&lt;/li>
+&lt;li>twat (73)&lt;/li>
+&lt;li>cheeky (72)&lt;/li>
+&lt;li>faggot (66)&lt;/li>
+&lt;li>fuck (62)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://www.flickr.com/photos/hugovk/10472228714/" title="Twitter: [X] is my new favorite word by hugovk, on Flickr">&lt;img alt="Twitter: [X] is my new favorite word" height="281" src="https://farm4.staticflickr.com/3819/10472228714_db154ae9f3.jpg" width="500" />&lt;/a>&lt;/p>
+&lt;p>&amp;ldquo;New favorite words&amp;rdquo; contains 10,299 words and 5,964 unique words.&lt;/p>
+&lt;p>The top 10 words are:&lt;/p>
+&lt;ol>
+&lt;li>no (129)&lt;/li>
+&lt;li>cunt (75)&lt;/li>
+&lt;li>bitch (73)&lt;/li>
+&lt;li>ratchet (55)&lt;/li>
+&lt;li>thot (53)&lt;/li>
+&lt;li>fuck (47)&lt;/li>
+&lt;li>twat (41)&lt;/li>
+&lt;li>sassy (38)&lt;/li>
+&lt;li>fuckery (36)&lt;/li>
+&lt;li>whatever (35)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://www.flickr.com/photos/hugovk/10472230196/" title="Twitter: [X] is my new favourite word by hugovk, on Flickr">&lt;img alt="Twitter: [X] is my new favourite word" height="281" src="https://farm6.staticflickr.com/5545/10472230196_f9d192c163.jpg" width="500" />&lt;/a>&lt;/p>
+&lt;p>&amp;ldquo;New favourite words&amp;rdquo; contains 6,623 words and 4,505 unique words.&lt;/p>
+&lt;p>The top 10 words are:&lt;/p>
+&lt;ol>
+&lt;li>fab (50)&lt;/li>
+&lt;li>sassy (50)&lt;/li>
+&lt;li>cunt (41)&lt;/li>
+&lt;li>cretin (36)&lt;/li>
+&lt;li>cheeky (34)&lt;/li>
+&lt;li>faggot (33)&lt;/li>
+&lt;li>fabulous (32)&lt;/li>
+&lt;li>twat (29)&lt;/li>
+&lt;li>ratchet (24)&lt;/li>
+&lt;li>serendipity (20)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://www.flickr.com/photos/hugovk/10472211615/" title="Twitter: [X] is my new fave word by hugovk, on Flickr">&lt;img alt="Twitter: [X] is my new fave word" height="281" src="https://farm8.staticflickr.com/7334/10472211615_b71fd6e6f1.jpg" width="500" />&lt;/a>&lt;/p>
+&lt;p>&amp;ldquo;New fave words&amp;rdquo; contains 1,436 words and 1,162 unique words.&lt;/p>
+&lt;p>The top 10 words are:&lt;/p>
+&lt;ol>
+&lt;li>fab (19)&lt;/li>
+&lt;li>sassy (11)&lt;/li>
+&lt;li>ratchet (8)&lt;/li>
+&lt;li>cheeky (7)&lt;/li>
+&lt;li>swaggot (7)&lt;/li>
+&lt;li>cretin (7)&lt;/li>
+&lt;li>coont (6)&lt;/li>
+&lt;li>bastard (6)&lt;/li>
+&lt;li>dope (6)&lt;/li>
+&lt;li>dude (5)&lt;/li>
+&lt;/ol>
+&lt;p>What does this tell us? I don&amp;rsquo;t know, but whilst the top ten contains lots of swearing,
+around half (or about 2/3 for favourites) of each list contains unique words. Browsing
+the lists shows lots of neologisms (and neoswearisms).&lt;/p>
+&lt;p>The word lists on Wordnik:&lt;br>&lt;a href="https://www.wordnik.com/lists/twitter-favourites" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/twitter-favourites&lt;/a>&lt;br>
+&lt;a href="https://www.wordnik.com/lists/twitter-favorites" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/twitter-favorites&lt;/a>&lt;br>
+&lt;a href="https://www.wordnik.com/lists/twitter-faves" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/twitter-faves&lt;/a>&lt;/p>
+&lt;p>Follow along:&lt;br>&lt;a href="https://twitter.com/favibot" target="_blank" rel="noreferrer">https://twitter.com/favibot&lt;/a>&lt;/p>
+&lt;p>See word clouds:&lt;br>&lt;a href="https://www.flickr.com/photos/hugovk/sets/72157636928894765/" target="_blank" rel="noreferrer">https://www.flickr.com/photos/hugovk/sets/72157636928894765/&lt;/a>&lt;/p>
+&lt;p>See the script:&lt;br>
+&lt;a href="https://github.com/hugovk/word-tools/blob/master/new_favourite_words.py" target="_blank" rel="noreferrer">https://github.com/hugovk/word-tools/blob/master/new_favourite_words.py&lt;/a>&lt;/p>
+&lt;p>Inspired by:&lt;br>&lt;a href="https://www.wordnik.com/lists/outcasts" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/outcasts&lt;/a>&lt;/p></description></item></channel></rss>
