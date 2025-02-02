@@ -1662,8 +1662,7 @@ possible that features may be modified or, in rare cases, deleted up until the s
 of the release candidate phase (Tuesday 2024-07-30). Our goal is to have no ABI
 changes after beta 4 and as few code changes as possible after 3.13.0rc1, the first
 release candidate. To achieve that, it will be &lt;strong>extremely important&lt;/strong> to get as much
-exposure for 3.13 as possible during the beta phase.&lt;/p>
-&lt;/blockquote>
+exposure for 3.13 as possible during the beta phase.&lt;/p>&lt;/blockquote>
 &lt;h2 id="test-with-313" class="relative group">Test with 3.13 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-313" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It&amp;rsquo;s now time for us library maintainers to start testing our projects with 3.13.
 There&amp;rsquo;s two big benefits:&lt;/p>
 &lt;ol>
@@ -1740,8 +1739,7 @@ to the filename:&lt;/p>
 &lt;p>The wheel filename is
 &lt;code>{distribution}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl&lt;/code>.&lt;/p>
 &lt;p>build tag: [&amp;hellip;] Acts as a tie-breaker if two wheel file names are the same in all
-other respects (i.e. name, version, and other tags).&lt;/p>
-&lt;/blockquote>
+other respects (i.e. name, version, and other tags).&lt;/p>&lt;/blockquote>
 &lt;p>For example, this updates the filename and metadata with build number 1, and removes the
 original file:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">python -m pip install &lt;span class="s2">&amp;#34;wheel&amp;gt;=0.4.0&amp;#34;&lt;/span>
@@ -2604,8 +2602,7 @@ projects for 3.12 compatibilities during this phase, and where necessary publish
 Python 3.12 wheels on PyPI to be ready for the final release of 3.12.0. Any binary
 wheels built against Python 3.12.0rc3 will work with future versions of Python 3.12.
 As always, report any issues to
-&lt;a href="https://github.com/python/cpython/issues" target="_blank" rel="noreferrer">the Python bug tracker&lt;/a>.&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/python/cpython/issues" target="_blank" rel="noreferrer">the Python bug tracker&lt;/a>.&lt;/p>&lt;/blockquote>
 &lt;h2 id="test-with-312" class="relative group">Test with 3.12 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-312" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It&amp;rsquo;s now time for us library maintainers to start testing our projects with 3.12.
 There&amp;rsquo;s two big benefits:&lt;/p>
 &lt;ol>
@@ -2690,8 +2687,7 @@ wheels will help them test and prepare.&lt;/p>
 &lt;p>There will be &lt;strong>no ABI changes&lt;/strong> from this point forward in the 3.12 series. The
 intent is for the final release of 3.12.0, scheduled for Monday, 2023-10-02, to be
 identical to this release candidate. &lt;strong>This really is the last chance to find critical
-problems in Python 3.12.&lt;/strong>&lt;/p>
-&lt;/blockquote>
+problems in Python 3.12.&lt;/strong>&lt;/p>&lt;/blockquote>
 &lt;p>Let&amp;rsquo;s start testing and releasing for 3.12 now! 🚀&lt;/p>
 &lt;hr>
 &lt;p>&lt;small>Header photo: The carpet of the Salt Palace Convention Center grand ballroom,
@@ -3762,8 +3758,7 @@ decode. The image resolves details and colors on scales as small as 0.8 miles (1
 kilometers). The viewer is encouraged to zoom in on the
 &lt;a href="http://www.nasa.gov/sites/default/files/thumbnails/image/crop_p_color2_enhanced_release.png" target="_blank" rel="noreferrer">full resolution&lt;/a>
 image on a larger screen to fully appreciate the complexity of Pluto’s surface
-features.&lt;/p>
-&lt;/blockquote>
+features.&lt;/p>&lt;/blockquote>
 &lt;p>I second the recommendation to zoom in on the full resolution! The detail and is
 astounding, especially compared to the Hubble image.&lt;/p>
 &lt;p>I thought it would be fascinating to chop this up and put it in a social media feed to
@@ -4226,8 +4221,7 @@ possible that features may be modified or, in rare cases, deleted up until the s
 of the release candidate phase (Monday, 2021-08-02). Our goal is have no ABI changes
 after beta 4 and as few code changes as possible after 3.11.0rc1, the first release
 candidate. To achieve that, it will be &lt;strong>extremely important&lt;/strong> to get as much exposure
-for 3.11 as possible during the beta phase.&lt;/p>
-&lt;/blockquote>
+for 3.11 as possible during the beta phase.&lt;/p>&lt;/blockquote>
 &lt;h2 id="test-with-311" class="relative group">Test with 3.11 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-311" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It&amp;rsquo;s now time for library maintainers to start testing 3.11 with your project. You don&amp;rsquo;t
 need to declare support and release for 3.11 yet, but there&amp;rsquo;s two big benefits to
 testing with 3.11 on CI:&lt;/p>
@@ -4305,8 +4299,7 @@ final is released.&lt;/p>
 &lt;p>Or, as mentioned above:&lt;/p>
 &lt;blockquote>
 &lt;p>Our goal is have no ABI changes after beta 4 and as few code changes as possible after
-3.11.0rc1, the first release candidate.&lt;/p>
-&lt;/blockquote>
+3.11.0rc1, the first release candidate.&lt;/p>&lt;/blockquote>
 &lt;p>If you have a pure Python project, you could release now.&lt;/p>
 &lt;p>If you have C extensions, you might want to wait until the release candidate phase,
 although if other projects depend on yours, a preview release would help them test and
@@ -7090,8 +7083,7 @@ the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_
 &lt;p>Data ingestion into the BigQuery data set was spotty prior to June 2016*, but you can
 see a significant uptick in Python 3 based downloads over 2016.
 &lt;a href="https://frinkiac.com/caption/S08E11/289555" target="_blank" rel="noreferrer">If these trends continue…&lt;/a>&lt;/p>
-&lt;p>* But it shouldn’t be biased, so these percentages are likely to be accurate.&lt;/p>
-&lt;/blockquote></description></item><item><title>Words of the year from Twitter, 2017</title><link>https://hugovk.dev/blog/2017/twitter-woty-2017/</link><pubDate>Sat, 30 Dec 2017 20:00:10 +0000</pubDate><guid>https://hugovk.dev/blog/2017/twitter-woty-2017/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
+&lt;p>* But it shouldn’t be biased, so these percentages are likely to be accurate.&lt;/p>&lt;/blockquote></description></item><item><title>Words of the year from Twitter, 2017</title><link>https://hugovk.dev/blog/2017/twitter-woty-2017/</link><pubDate>Sat, 30 Dec 2017 20:00:10 +0000</pubDate><guid>https://hugovk.dev/blog/2017/twitter-woty-2017/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
 &lt;p>&amp;nbsp;&lt;/p>
 &lt;p>Short version:&lt;/p>
 &lt;p>In 2017, people on Twitter talked about the words broflake, caucacity, cockwomble, covfefe, dotard, douchecanoe, dracarys, shitgibbon, shooketh, twatwaffle, and woke.&amp;nbsp;&lt;/p>
@@ -9338,8 +9330,7 @@ support in version 0.4.8.282. So, what this means is simply and awesome! Now
 Linux developers could use this programmatic interface to interact with Spotify from
 other apps.&lt;/p>&lt;/p>
 &lt;p>In other words, now is quite simple to send «play», «pause», «move next/previous song»
-events to Spotify and with this get Spotify fully integrate into our desktop.&lt;/p>
-&lt;/blockquote>
+events to Spotify and with this get Spotify fully integrate into our desktop.&lt;/p>&lt;/blockquote>
 &lt;p>To toggle playing and pausing from the terminal, run:&lt;/p>
 &lt;p>&lt;code>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause&lt;/code>&lt;/p>
 &lt;p>To hook it to the Pause/Break keyboard key:&lt;/p>

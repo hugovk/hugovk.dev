@@ -1662,8 +1662,7 @@ possible that features may be modified or, in rare cases, deleted up until the s
 of the release candidate phase (Tuesday 2024-07-30). Our goal is to have no ABI
 changes after beta 4 and as few code changes as possible after 3.13.0rc1, the first
 release candidate. To achieve that, it will be &lt;strong>extremely important&lt;/strong> to get as much
-exposure for 3.13 as possible during the beta phase.&lt;/p>
-&lt;/blockquote>
+exposure for 3.13 as possible during the beta phase.&lt;/p>&lt;/blockquote>
 &lt;h2 id="test-with-313" class="relative group">Test with 3.13 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-313" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It&amp;rsquo;s now time for us library maintainers to start testing our projects with 3.13.
 There&amp;rsquo;s two big benefits:&lt;/p>
 &lt;ol>
@@ -1740,8 +1739,7 @@ to the filename:&lt;/p>
 &lt;p>The wheel filename is
 &lt;code>{distribution}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl&lt;/code>.&lt;/p>
 &lt;p>build tag: [&amp;hellip;] Acts as a tie-breaker if two wheel file names are the same in all
-other respects (i.e. name, version, and other tags).&lt;/p>
-&lt;/blockquote>
+other respects (i.e. name, version, and other tags).&lt;/p>&lt;/blockquote>
 &lt;p>For example, this updates the filename and metadata with build number 1, and removes the
 original file:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">python -m pip install &lt;span class="s2">&amp;#34;wheel&amp;gt;=0.4.0&amp;#34;&lt;/span>
@@ -2556,8 +2554,7 @@ projects for 3.12 compatibilities during this phase, and where necessary publish
 Python 3.12 wheels on PyPI to be ready for the final release of 3.12.0. Any binary
 wheels built against Python 3.12.0rc3 will work with future versions of Python 3.12.
 As always, report any issues to
-&lt;a href="https://github.com/python/cpython/issues" target="_blank" rel="noreferrer">the Python bug tracker&lt;/a>.&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/python/cpython/issues" target="_blank" rel="noreferrer">the Python bug tracker&lt;/a>.&lt;/p>&lt;/blockquote>
 &lt;h2 id="test-with-312" class="relative group">Test with 3.12 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-312" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It&amp;rsquo;s now time for us library maintainers to start testing our projects with 3.12.
 There&amp;rsquo;s two big benefits:&lt;/p>
 &lt;ol>
@@ -2642,8 +2639,7 @@ wheels will help them test and prepare.&lt;/p>
 &lt;p>There will be &lt;strong>no ABI changes&lt;/strong> from this point forward in the 3.12 series. The
 intent is for the final release of 3.12.0, scheduled for Monday, 2023-10-02, to be
 identical to this release candidate. &lt;strong>This really is the last chance to find critical
-problems in Python 3.12.&lt;/strong>&lt;/p>
-&lt;/blockquote>
+problems in Python 3.12.&lt;/strong>&lt;/p>&lt;/blockquote>
 &lt;p>Let&amp;rsquo;s start testing and releasing for 3.12 now! 🚀&lt;/p>
 &lt;hr>
 &lt;p>&lt;small>Header photo: The carpet of the Salt Palace Convention Center grand ballroom,
@@ -3085,8 +3081,7 @@ possible that features may be modified or, in rare cases, deleted up until the s
 of the release candidate phase (Monday, 2021-08-02). Our goal is have no ABI changes
 after beta 4 and as few code changes as possible after 3.11.0rc1, the first release
 candidate. To achieve that, it will be &lt;strong>extremely important&lt;/strong> to get as much exposure
-for 3.11 as possible during the beta phase.&lt;/p>
-&lt;/blockquote>
+for 3.11 as possible during the beta phase.&lt;/p>&lt;/blockquote>
 &lt;h2 id="test-with-311" class="relative group">Test with 3.11 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-311" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It&amp;rsquo;s now time for library maintainers to start testing 3.11 with your project. You don&amp;rsquo;t
 need to declare support and release for 3.11 yet, but there&amp;rsquo;s two big benefits to
 testing with 3.11 on CI:&lt;/p>
@@ -3164,8 +3159,7 @@ final is released.&lt;/p>
 &lt;p>Or, as mentioned above:&lt;/p>
 &lt;blockquote>
 &lt;p>Our goal is have no ABI changes after beta 4 and as few code changes as possible after
-3.11.0rc1, the first release candidate.&lt;/p>
-&lt;/blockquote>
+3.11.0rc1, the first release candidate.&lt;/p>&lt;/blockquote>
 &lt;p>If you have a pure Python project, you could release now.&lt;/p>
 &lt;p>If you have C extensions, you might want to wait until the release candidate phase,
 although if other projects depend on yours, a preview release would help them test and
@@ -5685,5 +5679,4 @@ the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data" target="_
 &lt;p>Data ingestion into the BigQuery data set was spotty prior to June 2016*, but you can
 see a significant uptick in Python 3 based downloads over 2016.
 &lt;a href="https://frinkiac.com/caption/S08E11/289555" target="_blank" rel="noreferrer">If these trends continue…&lt;/a>&lt;/p>
-&lt;p>* But it shouldn’t be biased, so these percentages are likely to be accurate.&lt;/p>
-&lt;/blockquote></description></item></channel></rss>
+&lt;p>* But it shouldn’t be biased, so these percentages are likely to be accurate.&lt;/p>&lt;/blockquote></description></item></channel></rss>
