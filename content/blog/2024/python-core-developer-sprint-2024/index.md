@@ -1,7 +1,7 @@
 ---
 title: "Python Core Developer Sprint 2024"
 date: "2024-10-05T19:39:48.918Z"
-tags: ["python", "sprint", "coredevsprint", "2024"]
+tags: ["python", "sprint", "core-dev-sprint", "2024"]
 ---
 
 🐍🏃The week before last was the annual Python Core Dev Sprint, graciously hosted by

@@ -1,7 +1,7 @@
 ---
 title: "Bits of Pluto on Mastodon"
 date: "2023-02-18T13:16:49.297Z"
-tags: ["linodehackathon", "mastodon", "opensource", "bots"]
+tags: ["linode-hackathon", "mastodon", "open-source", "bots"]
 ---
 
 ## What I built

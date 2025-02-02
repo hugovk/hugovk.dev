@@ -1,7 +1,7 @@
 ---
 title: "PyCon US 2024: A roundup of writeups"
 date: "2024-06-13T14:41:55.906Z"
-tags: ["python", "pycon", "pyconus", "2024"]
+tags: ["python", "pycon", "pycon-us", "2024"]
 ---
 
 If you read just one, check

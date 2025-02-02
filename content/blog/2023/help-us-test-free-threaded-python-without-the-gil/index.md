@@ -1,7 +1,7 @@
 ---
 title: "Help us test free-threaded Python without the GIL"
 date: "2024-05-10T12:18:27.904Z"
-tags: ["python", "freethreaded", "testing", "cpython"]
+tags: ["python", "free-threaded", "testing", "cpython"]
 ---
 
 Python 3.13 is [due out in October 2024](https://peps.python.org/pep-0719/) and work is

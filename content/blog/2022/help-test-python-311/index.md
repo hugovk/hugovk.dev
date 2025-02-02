@@ -1,7 +1,7 @@
 ---
 title: "Help test Python 3.11 beta!"
 date: "2022-05-31T17:10:00.000Z"
-tags: ["python", "testing", "ci", "githubactions"]
+tags: ["python", "testing", "ci", "github-actions"]
 ---
 
 Calling all Python library maintainers! 🐍

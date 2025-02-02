@@ -1,7 +1,7 @@
 ---
 title: "TIL: exclude_also with coverage.py"
 date: "2023-11-06T20:05:55.767Z"
-tags: ["python", "todayilearned", "coverage", "coveragepy"]
+tags: ["python", "today-i-learned", "coverage", "coveragepy"]
 ---
 
 Sometimes you have code you want to exclude from the test coverage report, because it

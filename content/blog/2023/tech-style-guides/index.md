@@ -1,7 +1,7 @@
 ---
 title: "Tech style guides"
 date: "2024-03-02T15:25:54.390Z"
-tags: ["styleguide", "writing", "documentation", "reference"]
+tags: ["style-guide", "writing", "documentation", "reference"]
 ---
 
 Here's some tech style guides:

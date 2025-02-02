@@ -1,7 +1,7 @@
 ---
 title: "Help test the Python 3.12 release candidate!"
 date: "2023-05-26T12:30:43.172Z"
-tags: ["python", "testing", "ci", "githubactions"]
+tags: ["python", "testing", "ci", "github-actions"]
 ---
 
 Calling all Python library maintainers! 🐍

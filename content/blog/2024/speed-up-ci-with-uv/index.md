@@ -1,7 +1,7 @@
 ---
 title: "Speed up CI with uv ⚡"
 date: "2024-11-02T13:11:22.255Z"
-tags: ["python", "testing", "githubactions", "uv"]
+tags: ["python", "testing", "github-actions", "uv"]
 ---
 
 We can use [uv](https://github.com/astral-sh/uv) to make linting and testing on GitHub

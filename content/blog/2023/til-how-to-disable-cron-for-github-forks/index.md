@@ -1,7 +1,7 @@
 ---
 title: "TIL: how to disable cron for GitHub forks"
 date: "2023-05-07T15:59:57.838Z"
-tags: ["todayilearned", "githubactions", "cron", "github"]
+tags: ["today-i-learned", "github-actions", "cron", "github"]
 ---
 
 GitHub Actions has a useful feature to trigger workflows on a cron schedule. For

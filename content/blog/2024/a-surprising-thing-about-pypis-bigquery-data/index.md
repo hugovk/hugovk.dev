@@ -1,7 +1,7 @@
 ---
 title: "A surprising thing about PyPI's BigQuery data"
 date: "2024-11-24T20:45:31.868Z"
-tags: ["python", "pypi", "bigquery", "google"]
+tags: ["python", "pypi", "big-query", "google"]
 ---
 
 You can get download numbers for PyPI packages (or projects) from a
