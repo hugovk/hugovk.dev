@@ -1,4 +1,384 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Hugo van Kemenade</title><link>https://hugovk.dev/blog/</link><description>Recent content in Blog on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Sun, 24 Nov 2024 20:45:31 +0000</lastBuildDate><atom:link href="https://hugovk.dev/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>A surprising thing about PyPI's BigQuery data</title><link>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</link><pubDate>Sun, 24 Nov 2024 20:45:31 +0000</pubDate><guid>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</guid><description>&lt;p>You can get download numbers for PyPI packages (or projects) from a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Hugo van Kemenade</title><link>https://hugovk.dev/blog/</link><description>Recent content in Blog on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 04 Feb 2025 18:55:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>How to delay a Python release</title><link>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</link><pubDate>Tue, 04 Feb 2025 18:55:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</guid><description>&lt;h2 id="prologue" class="relative group">Prologue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#prologue" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>This was a
+&lt;a href="https://web.archive.org/web/20220115150826/https://twitter.com/hugovk/status/1482367773577822208" target="_blank" rel="noreferrer">Twitter thread from 15th January 2022&lt;/a>
+about my first CPython bug. Eight days from report to fix to merge, not bad!&lt;/p>
+&lt;hr>
+&lt;h2 id="delay" class="relative group">Delay &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#delay" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I helped
+&lt;a href="https://web.archive.org/web/20220114231910/https://twitter.com/pyblogsal/status/1482128909286227972" target="_blank" rel="noreferrer">delay the release of Python 3.11.0a4&lt;/a>!
+But in a good way! 😇&lt;/p>
+&lt;p>Python 3.11 is due out in October, but they make early alpha, beta and release
+candidates available for people to help test Python itself and their own code before the
+big release.&lt;/p>
+&lt;p>So I tested &lt;a href="https://fosstodon.org/@pillow" target="_blank" rel="noreferrer">Pillow&lt;/a>&amp;hellip;&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_1a285f0d90966c8c.webp 330w,/blog/2025/how-to-delay-a-python-release/pablo_hu_6329ba064ce19b7b.webp 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/pablo_hu_257a23053aa7f6b6.webp 1024w
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/pablo_hu_c5cdc6182813beac.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1510"
+ height="1236"
+ class="mx-auto my-0 rounded-md"
+ alt="Release manager Pablo tweeting: Yeah, no kidding! 😵‍💫 3.11.0a4 had a ridiculous amount of release blockers 🧐 we needed to solve and while everything was on fire we discovered something that made us make an early 3.10.2 release 🤯(you should upgrade: read the release notes for more info⚠️)! What a week 😅"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_75f173606e2cad95.png"
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_93eba480630d0e67.png 330w,/blog/2025/how-to-delay-a-python-release/pablo_hu_75f173606e2cad95.png 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/pablo_hu_50deca9cff8bc5a5.png 1024w
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/pablo_hu_c1bc78ab097bfeed.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="tests" class="relative group">Tests &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tests" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>The Pillow test suite passed with 3.11 ✅&lt;/p>
+&lt;p>Next I tried building the documentation with 3.11 ❌&lt;/p>
+&lt;p>The docs program, Sphinx, emitted a couple of warnings. Warnings are often missed
+because they don&amp;rsquo;t error. But luckily we use the &amp;ldquo;-W&amp;rdquo; option to turn warnings into hard
+errors.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_7bbe76a48d7c226a.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_61cccac32a6d5644.webp 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2c4147de3c848de5.webp 1024w
+ 
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_a9bb4b3f81f5d891.webp 1200w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1200"
+ height="885"
+ class="mx-auto my-0 rounded-md"
+ alt="Sphinx output showing &amp;ldquo;WARNING: image file not readable&amp;rdquo;"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2f718fa74beb8777.jpg"
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_a430f9d625751c48.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2f718fa74beb8777.jpg 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_7cbc75f94ea650b.jpg 1024w
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx1.jpg 1200w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+
+
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_7ece0bd22701090f.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_4dd0964be0070811.webp 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_5a0c76d1911f65da.webp 1024w
+ 
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_74857cd42aa1d63d.webp 1082w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1082"
+ height="1136"
+ class="mx-auto my-0 rounded-md"
+ alt="Sphinx output turning the warning into an error"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_9af2d4db071fc699.jpg"
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_7f9354d3abdde0b6.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_9af2d4db071fc699.jpg 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_397edcb0f6736026.jpg 1024w
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx2.jpg 1082w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="sphinx" class="relative group">Sphinx &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sphinx" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Maybe Sphinx isn&amp;rsquo;t ready for Python 3.11?&lt;/p>
+&lt;p>Rather than submitting a report with the full Pillow documentation (lots of files) I
+made a
+&lt;a href="https://github.com/hugovk/test/tree/3.11-sphinx" target="_blank" rel="noreferrer">new, &amp;ldquo;minimal&amp;rdquo; example with just enough stuff to reproduce it&lt;/a>.&lt;/p>
+&lt;p>This makes it easier to investigate what&amp;rsquo;s up.&lt;/p>
+&lt;h2 id="report-1" class="relative group">Report 1 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#report-1" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I &lt;a href="https://github.com/sphinx-doc/sphinx/issues/10030" target="_blank" rel="noreferrer">reported this to Sphinx&lt;/a>. The
+problem was that a page in a subdirectory could load an image from one directory, but
+not from another, further away directory.&lt;/p>
+&lt;p>It occurs for the Python 3.11.0a3 alpha, but not 3.7-3.10.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6c1dc8f46067a19.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_c904614bd2b18ddd.webp 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_8b4230436c446188.webp 1024w
+ 
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_24c8631293a16342.webp 1044w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1044"
+ height="682"
+ class="mx-auto my-0 rounded-md"
+ alt="A screenshot of a GitHub bug report"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6f88fb6be0af20a.jpg"
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_5b7c3b0145311743.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6f88fb6be0af20a.jpg 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_24e4e906b21b98fb.jpg 1024w
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx3.jpg 1044w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="cpython" class="relative group">CPython &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cpython" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>A few hours later the Sphinx maintainer Takeshi said it looks like a change to a part of
+Python itself &amp;ndash; &lt;code>os.path.normpath()&lt;/code> &amp;ndash; since 3.11.0a3, and as it wasn&amp;rsquo;t mentioned on
+the &lt;a href="https://docs.python.org/3/whatsnew/3.11.html" target="_blank" rel="noreferrer">&amp;ldquo;What&amp;rsquo;s New in Python 3.11&amp;rdquo;&lt;/a> page it
+could be a bug in Python.&lt;/p>
+&lt;p>He asked me to report it to Python.&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_c7e10738c0b7220.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_dfd0876b7b880a05.webp 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_2bdb7d4962c5870c.webp 1024w
+ 
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_21bf5c8d7edc26e7.webp 1200w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1200"
+ height="824"
+ class="mx-auto my-0 rounded-md"
+ alt="Screenshot of Takeshi&amp;rsquo;s reply"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_491035a5d95deee7.jpg"
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_4a5005a7a8dac55b.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_491035a5d95deee7.jpg 660w
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_ba0a46bbb862b06.jpg 1024w
+ 
+ 
+ ,/blog/2025/how-to-delay-a-python-release/sphinx4.jpg 1200w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="report-2" class="relative group">Report 2 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#report-2" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I &lt;a href="https://bugs.python.org/issue46208" target="_blank" rel="noreferrer">reported it to Python&lt;/a> with Takeshi&amp;rsquo;s even more
+minimal example.&lt;/p>
+&lt;p>Half an hour later Christian pointed out a change which may have caused this.&lt;/p>
+&lt;p>I tested and confirmed.&lt;/p>
+&lt;p>The next day Steve confirmed it was a bug and set it as a &amp;ldquo;release blocker&amp;rdquo;.&lt;/p>
+&lt;h2 id="fix" class="relative group">Fix &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#fix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Steve also said it will needs tests, because this bug slipped out due to a gap in
+testing.&lt;/p>
+&lt;p>I didn&amp;rsquo;t know how to fix the bug, but I could write some test cases!&lt;/p>
+&lt;p>neonene then took the tests and
+&lt;a href="https://github.com/python/cpython/pull/30362" target="_blank" rel="noreferrer">fixed the bug&lt;/a>! In doing so they found
+even more bugs!&lt;/p>
+&lt;h2 id="merge" class="relative group">Merge &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#merge" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>These extra bugs also existed in earlier versions.&lt;/p>
+&lt;p>But it turns out path handling can get pretty complicated in places, so Steve decided to
+only fix my bug now to get it released and the others can be sorted later.&lt;/p>
+&lt;p>The fix was merged and I confirmed it also worked with Sphinx ✅&lt;/p>
+&lt;h2 id="conclusion" class="relative group">Conclusion &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>And that&amp;rsquo;s about it!&lt;/p>
+&lt;p>It&amp;rsquo;s now fixed in 3.11.0a4; much better to find these before 3.11.0 final is released to
+the world in October. Along the way we found more issues to address.&lt;/p>
+&lt;p>Short version: test your code with 3.11 now, you may find issues in your code or in
+Python itself 🚀&lt;/p>
+&lt;hr>
+&lt;h2 id="epilogue" class="relative group">Epilogue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#epilogue" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Back to 2025: Please test and delay
+&lt;a href="https://discuss.python.org/tag/release" target="_blank" rel="noreferrer">Python 3.14 alpha&lt;/a> &amp;ndash; but in a good way! 😇&lt;/p></description></item><item><title>A surprising thing about PyPI's BigQuery data</title><link>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</link><pubDate>Sun, 24 Nov 2024 20:45:31 +0000</pubDate><guid>https://hugovk.dev/blog/2024/a-surprising-thing-about-pypis-bigquery-data/</guid><description>&lt;p>You can get download numbers for PyPI packages (or projects) from a
 &lt;a href="https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/" target="_blank" rel="noreferrer">Google BigQuery dataset&lt;/a>.
 You need a Google account and credentials, and Google gives 1 TiB of free quota per
 month.&lt;/p>
