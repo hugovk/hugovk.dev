@@ -1,14 +1,14 @@
 ---
 title: "How to delay a Python release"
 date: "2025-02-04T18:55:00Z"
-tags: ["python"]
+tags: ["python", "twitter"]
 thumbnail: "pablo.png"
 ---
 
 ## Prologue
 
-This was a
-[Twitter thread from 15th January 2022](https://web.archive.org/web/20220115150826/https://twitter.com/hugovk/status/1482367773577822208)
+This was a [Twitter](https://www.wikihow.com/Delete-a-Twitter-Account)
+[thread from 15th January 2022](https://web.archive.org/web/20220115150826/https://twitter.com/hugovk/status/1482367773577822208)
 about my first CPython bug. Eight days from report to fix to merge, not bad!
 
 ---
