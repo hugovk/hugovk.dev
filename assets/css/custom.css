@@ -20,8 +20,20 @@ html:not(.dark) {
   }
 }
 
+/* Remove quotes around blockquotes -- doesn't work for multiple paragraphs */
+.prose
+  :where(blockquote p:first-of-type):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  )::before,
+.prose
+  :where(blockquote p:last-of-type):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  )::after {
+  content: none;
+}
+
 /* Remove backticks around inline code */
 .prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before,
 .prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
-  content: "";
+  content: none;
 }
