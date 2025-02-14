@@ -29,9 +29,9 @@ but if you have more than one, list them all:</p><div class=highlight><pre tabin
 </span></span></span><span class=line><span class=cl><span class=gi>+license-files = [ &#34;LICENSE&#34; ]
 </span></span></span></code></pre></div><p>Optionally delete the deprecated licence classifier:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-diff data-lang=diff><span class=line><span class=cl> classifiers = [
 </span></span><span class=line><span class=cl>   &#34;Development Status :: 5 - Production/Stable&#34;,
-</span></span><span class=line><span class=cl><span class=gd>-  &#34;Intended Audience :: Developers&#34;,
-</span></span></span><span class=line><span class=cl><span class=gd></span>   &#34;License :: OSI Approved :: MIT License&#34;,
-</span></span><span class=line><span class=cl>   &#34;Operating System :: OS Independent&#34;,
+</span></span><span class=line><span class=cl>   &#34;Intended Audience :: Developers&#34;,
+</span></span><span class=line><span class=cl><span class=gd>-  &#34;License :: OSI Approved :: MIT License&#34;,
+</span></span></span><span class=line><span class=cl><span class=gd></span>   &#34;Operating System :: OS Independent&#34;,
 </span></span></code></pre></div><p>For example, see <a href=https://github.com/python-humanize/humanize/pull/236 target=_blank rel=noreferrer>humanize#236</a>
 and <a href=https://github.com/prettytable/prettytable/pull/350 target=_blank rel=noreferrer>prettytable#350</a>.</p><h3 id=upload class="relative group">Upload <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#upload aria-label=Anchor>#</a></span></h3><p>Then make sure to use a PyPI uploader that supports this.</p><p>I recommend using <a href=https://docs.pypi.org/trusted-publishers/ target=_blank rel=noreferrer>Trusted Publishing</a> which
 I use with <a href=https://github.com/pypa/gh-action-pypi-publish target=_blank rel=noreferrer>pypa/gh-action-pypi-publish</a>
