@@ -2,6 +2,7 @@
 title: "Improving licence metadata"
 date: "2025-02-14T15:11:00Z"
 tags: ["python", "pypi"]
+description: "How to update your Python project for PEP 639"
 featureAlt: "Amelia Earhart's 1932 pilot licence"
 ---
 
