@@ -52,8 +52,8 @@ Optionally delete the deprecated licence classifier:
 ```diff
  classifiers = [
    "Development Status :: 5 - Production/Stable",
--  "Intended Audience :: Developers",
-   "License :: OSI Approved :: MIT License",
+   "Intended Audience :: Developers",
+-  "License :: OSI Approved :: MIT License",
    "Operating System :: OS Independent",
 ```
 
