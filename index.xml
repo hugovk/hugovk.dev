@@ -5071,7 +5071,7 @@ how much different Python versions have been used over four years.&lt;/p>
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
+&lt;h3 id="pip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
 &lt;p>
 
 
@@ -5084,7 +5084,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643625-af087280-2cc4-11ea-9997-10aae072ac1d.png" alt="pip" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="sixhttpsgithubcombenjaminpsix" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sixhttpsgithubcombenjaminpsix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
+&lt;h3 id="six" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
 &lt;p>
 
 
@@ -5097,7 +5097,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643630-b62f8080-2cc4-11ea-9461-1204f4dd117e.png" alt="six" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="numpyhttpsgithubcomnumpynumpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpyhttpsgithubcomnumpynumpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
+&lt;h3 id="numpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
 &lt;p>
 
 
@@ -5110,7 +5110,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643635-bb8ccb00-2cc4-11ea-9c4f-7095b15210f6.png" alt="numpy" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pytesthttpsgithubcompytest-devpytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytesthttpsgithubcompytest-devpytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
+&lt;h3 id="pytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
 &lt;p>
 
 
@@ -5123,7 +5123,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643639-c0ea1580-2cc4-11ea-9aef-2a0d9cf816ae.png" alt="pytest" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pandashttpsgithubcompandas-devpandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas" target="_blank" rel="noreferrer">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandashttpsgithubcompandas-devpandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
+&lt;h3 id="pandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas" target="_blank" rel="noreferrer">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
 &lt;p>
 
 
@@ -5136,7 +5136,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643641-c8a9ba00-2cc4-11ea-8f58-9c244ff958aa.png" alt="pandas" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="coveragepyhttpsgithubcomnedbatcoveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepyhttpsgithubcomnedbatcoveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
+&lt;h3 id="coveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
 &lt;p>
 
 
@@ -5149,7 +5149,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643645-ce070480-2cc4-11ea-85b5-e408ea682e31.png" alt="coverage" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pillowhttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillowhttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
+&lt;h3 id="pillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
 &lt;p>
 
 
@@ -5162,7 +5162,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643648-d3644f00-2cc4-11ea-9b3e-7271788d1f5d.png" alt="pillow" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="djangohttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#djangohttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
+&lt;h3 id="django" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
 &lt;p>
 
 
@@ -5175,7 +5175,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643651-d95a3000-2cc4-11ea-891e-a218090c5db9.png" alt="django" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="matplotlibhttpsgithubcommatplotlibmatplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlibhttpsgithubcommatplotlibmatplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
+&lt;h3 id="matplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
 &lt;p>
 
 
@@ -5188,7 +5188,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643656-e6771f00-2cc4-11ea-808a-464ee01f88b5.png" alt="matplotlib" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="flake8httpsgitlabcompycqaflake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8httpsgitlabcompycqaflake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;h3 id="flake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
 &lt;p>
 
 
@@ -5201,7 +5201,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643661-ec6d0000-2cc4-11ea-9ef8-f5da11826684.png" alt="flake8" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pylinthttpsgithubcompycqapylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylinthttpsgithubcompycqapylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;h3 id="pylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
 &lt;p>
 
 
@@ -5214,7 +5214,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643663-f42ca480-2cc4-11ea-9588-7290df0fa003.png" alt="pylint" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="tensorflowhttpsgithubcomtensorflowtensorflow" class="relative group">&lt;a href="https://github.com/tensorflow/tensorflow/" target="_blank" rel="noreferrer">TensorFlow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tensorflowhttpsgithubcomtensorflowtensorflow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Machine learning library&lt;/p>
+&lt;h3 id="tensorflow" class="relative group">&lt;a href="https://github.com/tensorflow/tensorflow/" target="_blank" rel="noreferrer">TensorFlow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tensorflow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Machine learning library&lt;/p>
 &lt;p>
 
 
@@ -5227,7 +5227,7 @@ how much different Python versions have been used over four years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71645996-1506f100-2ce9-11ea-80d8-43b499348a54.png" alt="tensorflow" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pylasthttpsgithubcompylastpylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylasthttpsgithubcompylastpylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
+&lt;h3 id="pylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
 &lt;p>
 
 
@@ -5339,7 +5339,7 @@ years.&lt;/p>
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
+&lt;h3 id="pip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
 &lt;p>
 
 
@@ -5352,7 +5352,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128596-ab54ab80-ff20-11e9-96fa-867b403efc89.png" alt="pip" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="sixhttpsgithubcombenjaminpsix" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sixhttpsgithubcombenjaminpsix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
+&lt;h3 id="six" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
 &lt;p>
 
 
@@ -5365,7 +5365,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128614-b60f4080-ff20-11e9-92e3-892f29ecceea.png" alt="six" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="numpyhttpsgithubcomnumpynumpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpyhttpsgithubcomnumpynumpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
+&lt;h3 id="numpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
 &lt;p>
 
 
@@ -5378,7 +5378,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128663-d0491e80-ff20-11e9-9442-0546e1a9843c.png" alt="numpy" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pytesthttpsgithubcompytest-devpytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytesthttpsgithubcompytest-devpytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
+&lt;h3 id="pytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
 &lt;p>
 
 
@@ -5391,7 +5391,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128691-e0f99480-ff20-11e9-9bd8-87e12318d149.png" alt="pytest" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pandashttpsgithubcompandas-devpandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas" target="_blank" rel="noreferrer">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandashttpsgithubcompandas-devpandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
+&lt;h3 id="pandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas" target="_blank" rel="noreferrer">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
 &lt;p>
 
 
@@ -5404,7 +5404,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68142151-9cc5be80-ff37-11e9-93d9-72edd2e35e6b.png" alt="pandas" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="coveragepyhttpsgithubcomnedbatcoveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepyhttpsgithubcomnedbatcoveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
+&lt;h3 id="coveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
 &lt;p>
 
 
@@ -5417,7 +5417,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128715-ea82fc80-ff20-11e9-80a9-515c4b5265c2.png" alt="coverage" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pillowhttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillowhttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
+&lt;h3 id="pillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
 &lt;p>
 
 
@@ -5430,7 +5430,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128908-49e10c80-ff21-11e9-977e-f25dfa13b2d4.png" alt="pillow" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="djangohttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#djangohttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
+&lt;h3 id="django" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
 &lt;p>
 
 
@@ -5443,7 +5443,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128927-52394780-ff21-11e9-80d6-1dadf2525ebc.png" alt="django" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="matplotlibhttpsgithubcommatplotlibmatplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlibhttpsgithubcommatplotlibmatplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
+&lt;h3 id="matplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
 &lt;p>
 
 
@@ -5456,7 +5456,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128947-5b2a1900-ff21-11e9-9386-d366a030fe7c.png" alt="matplotlib" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="flake8httpsgitlabcompycqaflake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8httpsgitlabcompycqaflake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;h3 id="flake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
 &lt;p>
 
 
@@ -5469,7 +5469,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128961-62e9bd80-ff21-11e9-8a45-001c7ae06c1d.png" alt="flake8" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pylinthttpsgithubcompycqapylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylinthttpsgithubcompycqapylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;h3 id="pylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
 &lt;p>
 
 
@@ -5482,7 +5482,7 @@ years.&lt;/p>
 &lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128981-6bda8f00-ff21-11e9-9a97-903892a47823.png" alt="pylint" class="mx-auto my-0 rounded-md" />
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pylasthttpsgithubcompylastpylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylasthttpsgithubcompylastpylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
+&lt;h3 id="pylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
 &lt;p>
 
 
@@ -5591,7 +5591,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="piphttpsgithubcompypapip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#piphttpsgithubcompypapip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
+&lt;h3 id="pip" class="relative group">&lt;a href="https://github.com/pypa/pip" target="_blank" rel="noreferrer">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
 &lt;p>
 
 
@@ -5656,7 +5656,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="sixhttpsgithubcombenjaminpsix" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sixhttpsgithubcombenjaminpsix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
+&lt;h3 id="six" class="relative group">&lt;a href="https://github.com/benjaminp/six" target="_blank" rel="noreferrer">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
 &lt;p>
 
 
@@ -5721,7 +5721,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="numpyhttpsgithubcomnumpynumpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpyhttpsgithubcomnumpynumpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
+&lt;h3 id="numpy" class="relative group">&lt;a href="https://github.com/numpy/numpy" target="_blank" rel="noreferrer">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
 &lt;p>
 
 
@@ -5786,7 +5786,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pytesthttpsgithubcompytest-devpytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytesthttpsgithubcompytest-devpytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
+&lt;h3 id="pytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest" target="_blank" rel="noreferrer">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
 &lt;p>
 
 
@@ -5851,7 +5851,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="coveragepyhttpsgithubcomnedbatcoveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepyhttpsgithubcomnedbatcoveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
+&lt;h3 id="coveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy" target="_blank" rel="noreferrer">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
 &lt;p>
 
 
@@ -5916,7 +5916,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pillowhttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillowhttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
+&lt;h3 id="pillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
 &lt;p>
 
 
@@ -5981,7 +5981,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="djangohttpsgithubcompython-pillowpillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#djangohttpsgithubcompython-pillowpillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
+&lt;h3 id="django" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow" target="_blank" rel="noreferrer">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
 &lt;p>
 
 
@@ -6046,7 +6046,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="matplotlibhttpsgithubcommatplotlibmatplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlibhttpsgithubcommatplotlibmatplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
+&lt;h3 id="matplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noreferrer">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
 &lt;p>
 
 
@@ -6111,7 +6111,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="flake8httpsgitlabcompycqaflake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8httpsgitlabcompycqaflake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;h3 id="flake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8" target="_blank" rel="noreferrer">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
 &lt;p>
 
 
@@ -6176,7 +6176,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pylinthttpsgithubcompycqapylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylinthttpsgithubcompycqapylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
+&lt;h3 id="pylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/" target="_blank" rel="noreferrer">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
 &lt;p>
 
 
@@ -6241,7 +6241,7 @@ how much different Python versions have been used over the past three years.&lt;
 
 &lt;/figure>
 &lt;/p>
-&lt;h3 id="pylasthttpsgithubcompylastpylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylasthttpsgithubcompylastpylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
+&lt;h3 id="pylast" class="relative group">&lt;a href="https://github.com/pylast/pylast" target="_blank" rel="noreferrer">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
 &lt;p>
 
 
@@ -8543,7 +8543,7 @@ troughs are generally when the bots were offline.&lt;/p>
 &lt;figcaption class="text-center">fleek&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="from-my-2015-nominationstwitter-woty-2015" class="relative group">From my &lt;a href="../twitter-woty-2015">2015 nominations&lt;/a>: &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#from-my-2015-nominationstwitter-woty-2015" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Lit, fleek: see above.&lt;/p>
+&lt;h2 id="from-my-2015-nominations" class="relative group">From my &lt;a href="../twitter-woty-2015">2015 nominations&lt;/a>: &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#from-my-2015-nominations" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Lit, fleek: see above.&lt;/p>
 &lt;p>
 
 
