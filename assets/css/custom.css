@@ -1,4 +1,8 @@
 html.dark {
+  .chroma:is(.dark *),
+  .prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    background-color: #141922;
+  }
   code.language-diff {
     span.gd {
       color: #ff8b8b;
