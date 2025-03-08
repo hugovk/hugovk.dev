@@ -30,6 +30,10 @@ More on style guides:
 
 - [Write the Docs](https://www.writethedocs.org/guide/writing/style-guides/)
 
+And a technical writing course:
+
+- [Tech Writing for Techies](https://asrfs.github.io/Tech-Writing-for-Techies/output/html/00-00-course-overview.html)
+
 ---
 
 <small>Header photo:
