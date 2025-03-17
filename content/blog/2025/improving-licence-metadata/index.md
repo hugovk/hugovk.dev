@@ -99,7 +99,7 @@ A lot of work went into this. Thank you to PEP authors
 [Philippe Ombredanne](https://github.com/pombredanne) for creating the first draft in
 2019, to [C.A.M. Gerlach](https://github.com/cam-gerlach) for the second draft in 2021,
 and especially to [Karolina Surma](https://karolinasurma.eu/) for getting the third
-draft finish line and helping with the implementation.
+draft over the finish line and helping with the implementation.
 
 And many projects were updated to support this, thanks to the maintainers and
 contributors of at least:
