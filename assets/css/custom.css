@@ -28,6 +28,11 @@ html:not(.dark) {
   }
 }
 
+a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 /* Remove quotes around blockquotes -- doesn't work for multiple paragraphs */
 .prose
   :where(blockquote p:first-of-type):not(
