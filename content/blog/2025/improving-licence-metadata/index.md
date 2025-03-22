@@ -81,9 +81,9 @@ PyPI [shows the new metadata](https://pypi.org/project/prettytable/3.13.0/):
 
 pip can also show you the metadata:
 
-```shell
-❯ pip install prettytable==3.13.0
-❯ pip show prettytable
+```console
+$ pip install prettytable==3.13.0
+$ pip show prettytable
 Name: prettytable
 Version: 3.13.0
 ...
