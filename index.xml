@@ -89,16 +89,16 @@ release as usual.&lt;/p>
 &lt;/figure>
 &lt;/p>
 &lt;h3 id="pip" class="relative group">pip &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>pip can also show you the metadata:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">❯ pip install &lt;span class="nv">prettytable&lt;/span>&lt;span class="o">==&lt;/span>3.13.0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">❯ pip show prettytable
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Name: prettytable
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Version: 3.13.0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">License-Expression: BSD-3-Clause
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Location: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Requires: wcwidth
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Required-by: norwegianblue, pypistats
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="thank-you" class="relative group">Thank you! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thank-you" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>A lot of work went into this. Thank you to PEP authors
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> pip install &lt;span class="nv">prettytable&lt;/span>&lt;span class="o">==&lt;/span>3.13.0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> pip show prettytable
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Name: prettytable
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Version: 3.13.0
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">License-Expression: BSD-3-Clause
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Location: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Requires: wcwidth
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">Required-by: norwegianblue, pypistats
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="thank-you" class="relative group">Thank you! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thank-you" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>A lot of work went into this. Thank you to PEP authors
 &lt;a href="https://github.com/pombredanne" target="_blank" rel="noreferrer">Philippe Ombredanne&lt;/a> for creating the first draft in
 2019, to &lt;a href="https://github.com/cam-gerlach" target="_blank" rel="noreferrer">C.A.M. Gerlach&lt;/a> for the second draft in 2021,
 and especially to &lt;a href="https://karolinasurma.eu/" target="_blank" rel="noreferrer">Karolina Surma&lt;/a> for getting the third
