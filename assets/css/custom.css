@@ -1,3 +1,7 @@
+html {
+  font-size: larger;
+}
+
 html.dark {
   .chroma:is(.dark *),
   .prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
