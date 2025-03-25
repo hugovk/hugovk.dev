@@ -167,7 +167,7 @@ With the `t` suffix:
 - name: Set PYTHON_GIL
   if: endsWith(matrix.python-version, 't')
   run: |
-    echo "PYTHON_GIL=0" >> $GITHUB_ENV
+    echo "PYTHON_GIL=0" >> "$GITHUB_ENV"
 ```
 
 With the `freethreaded` variable:
@@ -176,7 +176,7 @@ With the `freethreaded` variable:
 - name: Set PYTHON_GIL
   if: "${{ matrix.freethreaded }}"
   run: |
-    echo "PYTHON_GIL=0" >> $GITHUB_ENV
+    echo "PYTHON_GIL=0" >> "$GITHUB_ENV"
 ```
 
 ## Please test!
