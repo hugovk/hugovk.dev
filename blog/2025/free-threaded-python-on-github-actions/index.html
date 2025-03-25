@@ -117,11 +117,11 @@ after importing a module that doesn&rsquo;t support running without it.</p><p>Se
 for more info.</p><p>With the <code>t</code> suffix:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yml data-lang=yml><span class=line><span class=cl>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Set PYTHON_GIL</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>if</span><span class=p>:</span><span class=w> </span><span class=l>endsWith(matrix.python-version, &#39;t&#39;)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
-</span></span></span><span class=line><span class=cl><span class=sd>    echo &#34;PYTHON_GIL=0&#34; &gt;&gt; $GITHUB_ENV</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=sd>    echo &#34;PYTHON_GIL=0&#34; &gt;&gt; &#34;$GITHUB_ENV&#34;</span><span class=w>
 </span></span></span></code></pre></div><p>With the <code>freethreaded</code> variable:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yml data-lang=yml><span class=line><span class=cl>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Set PYTHON_GIL</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>if</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;${{ matrix.freethreaded }}&#34;</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
-</span></span></span><span class=line><span class=cl><span class=sd>    echo &#34;PYTHON_GIL=0&#34; &gt;&gt; $GITHUB_ENV</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=sd>    echo &#34;PYTHON_GIL=0&#34; &gt;&gt; &#34;$GITHUB_ENV&#34;</span><span class=w>
 </span></span></span></code></pre></div><h2 id=please-test class="relative group">Please test! <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#please-test aria-label=Anchor>#</a></span></h2><p>For free-threaded Python to succeed and become the default, it&rsquo;s essential there is
 ecosystem and community support. Library maintainers: please test it and where needed,
 adapt your code, and publish
