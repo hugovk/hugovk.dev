@@ -600,8 +600,8 @@ problems in Python 3.12.&lt;/strong>&lt;/p>&lt;/blockquote>
 &lt;p>&lt;small>Header photo: The carpet of the Salt Palace Convention Center grand ballroom,
 host of &lt;a href="https://us.pycon.org/2023/" target="_blank" rel="noreferrer">PyCon 2023&lt;/a>, with a couple of googly eyes added to
 make them Pythony (&lt;a href="https://mastodon.social/@hugovk/110239504743679454" target="_blank" rel="noreferrer">source&lt;/a>)&lt;/small>&lt;/p>
-&lt;p>&lt;small>2023-08-14: Updated for RC1&lt;/small> &lt;small>2023-09-06: Updated for RC2&lt;/small>
-&lt;small>2023-09-19: Updated for RC3&lt;/small>&lt;/p></description></item><item><title>TIL: how to disable cron for GitHub forks</title><link>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</link><pubDate>Sun, 07 May 2023 15:59:57 +0000</pubDate><guid>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</guid><description>&lt;p>GitHub Actions has a useful feature to trigger workflows on a cron schedule. For
+&lt;p>&lt;small>2023-08-14: Updated for RC1&lt;/small>&lt;br>&lt;small>2023-09-06: Updated for
+RC2&lt;/small>&lt;br>&lt;small>2023-09-19: Updated for RC3&lt;/small>&lt;/p></description></item><item><title>TIL: how to disable cron for GitHub forks</title><link>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</link><pubDate>Sun, 07 May 2023 15:59:57 +0000</pubDate><guid>https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/</guid><description>&lt;p>GitHub Actions has a useful feature to trigger workflows on a cron schedule. For
 example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Test&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">

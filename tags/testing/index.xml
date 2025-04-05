@@ -740,8 +740,8 @@ problems in Python 3.12.&lt;/strong>&lt;/p>&lt;/blockquote>
 &lt;p>&lt;small>Header photo: The carpet of the Salt Palace Convention Center grand ballroom,
 host of &lt;a href="https://us.pycon.org/2023/" target="_blank" rel="noreferrer">PyCon 2023&lt;/a>, with a couple of googly eyes added to
 make them Pythony (&lt;a href="https://mastodon.social/@hugovk/110239504743679454" target="_blank" rel="noreferrer">source&lt;/a>)&lt;/small>&lt;/p>
-&lt;p>&lt;small>2023-08-14: Updated for RC1&lt;/small> &lt;small>2023-09-06: Updated for RC2&lt;/small>
-&lt;small>2023-09-19: Updated for RC3&lt;/small>&lt;/p></description></item><item><title>Help test Python 3.11 beta!</title><link>https://hugovk.dev/blog/2022/help-test-python-311/</link><pubDate>Tue, 31 May 2022 17:10:00 +0000</pubDate><guid>https://hugovk.dev/blog/2022/help-test-python-311/</guid><description>&lt;p>Calling all Python library maintainers! 🐍&lt;/p>
+&lt;p>&lt;small>2023-08-14: Updated for RC1&lt;/small>&lt;br>&lt;small>2023-09-06: Updated for
+RC2&lt;/small>&lt;br>&lt;small>2023-09-19: Updated for RC3&lt;/small>&lt;/p></description></item><item><title>Help test Python 3.11 beta!</title><link>https://hugovk.dev/blog/2022/help-test-python-311/</link><pubDate>Tue, 31 May 2022 17:10:00 +0000</pubDate><guid>https://hugovk.dev/blog/2022/help-test-python-311/</guid><description>&lt;p>Calling all Python library maintainers! 🐍&lt;/p>
 &lt;p>Python 3.11 is in beta! 🎉&lt;/p>
 &lt;p>&lt;a href="https://peps.python.org/pep-0664/#release-schedule" target="_blank" rel="noreferrer">PEP 664&lt;/a> defines the release
 schedule for Python 3.11.0:&lt;/p>
