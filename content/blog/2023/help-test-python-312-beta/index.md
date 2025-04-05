@@ -153,5 +153,5 @@ Let's start testing and releasing for 3.12 now! 🚀
 host of [PyCon 2023](https://us.pycon.org/2023/), with a couple of googly eyes added to
 make them Pythony ([source](https://mastodon.social/@hugovk/110239504743679454))</small>
 
-<small>2023-08-14: Updated for RC1</small> <small>2023-09-06: Updated for RC2</small>
-<small>2023-09-19: Updated for RC3</small>
+<small>2023-08-14: Updated for RC1</small><br><small>2023-09-06: Updated for
+RC2</small><br><small>2023-09-19: Updated for RC3</small>
