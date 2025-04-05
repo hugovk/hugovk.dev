@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CLI on Hugo van Kemenade</title><link>https://hugovk.dev/tags/cli/</link><description>Recent content in CLI on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Fri, 04 Apr 2025 16:50:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/cli/index.xml" rel="self" type="application/rss+xml"/><item><title>My most used command-line commands</title><link>https://hugovk.dev/blog/2025/my-most-used-command-line-commands/</link><pubDate>Fri, 04 Apr 2025 16:50:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/my-most-used-command-line-commands/</guid><description>&lt;p>Following
+&lt;a href="https://micro.webology.dev/2025/01/02/my-most-used-commands-in/" target="_blank" rel="noreferrer">Jeff Triplett&amp;rsquo;s lead&lt;/a>,
+here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>No.&lt;/th>
+ &lt;th>Total&lt;/th>
+ &lt;th>Command&lt;/th>
+ &lt;th>Info&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>1.&lt;/td>
+ &lt;td>1239&lt;/td>
+ &lt;td>&lt;code>rg&lt;/code>&lt;/td>
+ &lt;td>&lt;a href="https://github.com/BurntSushi/ripgrep" target="_blank" rel="noreferrer">ripgrep&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2.&lt;/td>
+ &lt;td>1038&lt;/td>
+ &lt;td>&lt;code>c&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noreferrer">&lt;code>pycharm&lt;/code>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3.&lt;/td>
+ &lt;td>847&lt;/td>
+ &lt;td>&lt;code>gc&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>git commit --verbose&lt;/code> via &lt;a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank" rel="noreferrer">Oh My Zsh&lt;/a> &lt;a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git" target="_blank" rel="noreferrer">Git plugin&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>4.&lt;/td>
+ &lt;td>559&lt;/td>
+ &lt;td>&lt;code>gco&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>git checkout&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5.&lt;/td>
+ &lt;td>518&lt;/td>
+ &lt;td>&lt;code>git&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>6.&lt;/td>
+ &lt;td>384&lt;/td>
+ &lt;td>&lt;code>./python.exe&lt;/code>&lt;/td>
+ &lt;td>Python &lt;a href="https://devguide.python.org/" target="_blank" rel="noreferrer">built from source&lt;/a> on macOS&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>7.&lt;/td>
+ &lt;td>365&lt;/td>
+ &lt;td>&lt;code>cd&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>8.&lt;/td>
+ &lt;td>359&lt;/td>
+ &lt;td>&lt;code>cat&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;a href="https://github.com/sharkdp/bat" target="_blank" rel="noreferrer">&lt;code>bat -p&lt;/code>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>9.&lt;/td>
+ &lt;td>336&lt;/td>
+ &lt;td>&lt;code>gs&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>scmpuff_status&lt;/code> via &lt;a href="https://mroth.github.io/scmpuff/" target="_blank" rel="noreferrer">scmpuff&lt;/a> to give numeric shortcuts for files&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>10.&lt;/td>
+ &lt;td>326&lt;/td>
+ &lt;td>&lt;code>gl&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>git log&lt;/code> via Oh My Zsh Git plugin&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>11.&lt;/td>
+ &lt;td>315&lt;/td>
+ &lt;td>&lt;code>gb&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>git branch&lt;/code> via Oh My Zsh Git plugin&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>12.&lt;/td>
+ &lt;td>308&lt;/td>
+ &lt;td>&lt;code>p&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>python&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>13.&lt;/td>
+ &lt;td>263&lt;/td>
+ &lt;td>&lt;code>ga&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>git add&lt;/code> via Oh My Zsh Git plugin&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>14.&lt;/td>
+ &lt;td>227&lt;/td>
+ &lt;td>&lt;code>l&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>ls -lah&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>15.&lt;/td>
+ &lt;td>214&lt;/td>
+ &lt;td>&lt;code>uv&lt;/code>&lt;/td>
+ &lt;td>&lt;a href="https://docs.astral.sh/uv/" target="_blank" rel="noreferrer">Python package manager&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>16.&lt;/td>
+ &lt;td>203&lt;/td>
+ &lt;td>&lt;code>f&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>find . | rg&lt;/code> (TODO: learn &lt;a href="https://github.com/sharkdp/fd" target="_blank" rel="noreferrer">&lt;code>fd&lt;/code>&lt;/a>)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>17.&lt;/td>
+ &lt;td>189&lt;/td>
+ &lt;td>&lt;code>python&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>18.&lt;/td>
+ &lt;td>175&lt;/td>
+ &lt;td>&lt;code>gd&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>git diff&lt;/code> via Oh My Zsh Git plugin&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>19.&lt;/td>
+ &lt;td>174&lt;/td>
+ &lt;td>&lt;code>rm&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>20.&lt;/td>
+ &lt;td>165&lt;/td>
+ &lt;td>&lt;code>em&lt;/code>&lt;/td>
+ &lt;td>the &lt;a href="https://github.com/hugovk/em-keyboard" target="_blank" rel="noreferrer">CLI emoji keyboard&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>21.&lt;/td>
+ &lt;td>164&lt;/td>
+ &lt;td>&lt;code>gh&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>GH_PAGER=&amp;quot;less -FRX&amp;quot; gh&lt;/code>, mostly for &lt;code>gh co &amp;lt;PR number&amp;gt;&lt;/code>, sometimes &lt;code>gh cache delete --all&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>22.&lt;/td>
+ &lt;td>145&lt;/td>
+ &lt;td>&lt;code>open&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>23.&lt;/td>
+ &lt;td>120&lt;/td>
+ &lt;td>&lt;code>mv&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>24.&lt;/td>
+ &lt;td>120&lt;/td>
+ &lt;td>&lt;code>make&lt;/code>&lt;/td>
+ &lt;td>for building Python, docs, devguide and PEPs&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>25.&lt;/td>
+ &lt;td>117&lt;/td>
+ &lt;td>&lt;code>cp&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>26.&lt;/td>
+ &lt;td>116&lt;/td>
+ &lt;td>&lt;code>tox&lt;/code>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>27.&lt;/td>
+ &lt;td>116&lt;/td>
+ &lt;td>&lt;code>pypi&lt;/code>&lt;/td>
+ &lt;td>see below&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>28.&lt;/td>
+ &lt;td>111&lt;/td>
+ &lt;td>&lt;code>bc&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>/usr/local/bin/bcompare&lt;/code> &lt;a href="https://www.scootersoftware.com/" target="_blank" rel="noreferrer">Beyond Compare&lt;/a> diff tool&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>29.&lt;/td>
+ &lt;td>110&lt;/td>
+ &lt;td>&lt;code>piu&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>uv pip install --system -U&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>30.&lt;/td>
+ &lt;td>110&lt;/td>
+ &lt;td>&lt;code>pcr&lt;/code>&lt;/td>
+ &lt;td>aliased to &lt;code>pre-commit run --all-files&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>pypi&lt;/code> is a little function in my dotfiles for opening the PyPI page for a package,
+either &lt;code>pypi &amp;lt;package&amp;gt;&lt;/code> or let it try and guess the name from the current directory:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">pypi &lt;span class="o">()&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="k">if&lt;/span> &lt;span class="o">[&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$1&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span> &lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="k">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">		&lt;span class="nb">local&lt;/span> &lt;span class="nv">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$(&lt;/span>python setup.py --name&lt;span class="k">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="k">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">		&lt;span class="nb">local&lt;/span> &lt;span class="nv">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nv">$1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="k">fi&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="nb">echo&lt;/span> &lt;span class="nv">$name&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	open https://pypi.org/project/&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$name&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The macOS/iTerm/Oh My Zsh command to get this list:&lt;/p>
+&lt;p>&lt;code>history | awk '{print $2}' | sort | uniq --count | sort --numeric-sort --reverse | head -30&lt;/code>&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo: Close-up the typebars of a Olympia Büromaschinenwerke A.G. Erfurt
+typewriter
+(&lt;a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC
+BY-NC-SA 2.0&lt;/a>
+&lt;a href="https://www.flickr.com/photos/hugovk/1482906651/" target="_blank" rel="noreferrer">Hugo van Kemenade&lt;/a>).&lt;/small>&lt;/p></description></item></channel></rss>
