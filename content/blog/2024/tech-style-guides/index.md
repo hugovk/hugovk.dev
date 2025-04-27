@@ -2,6 +2,8 @@
 title: "Tech style guides"
 date: "2024-03-02T15:25:54.390Z"
 tags: ["style-guide", "writing", "documentation", "reference"]
+aliases:
+  - /blog/2023/tech-style-guides/
 ---
 
 Here's some tech style guides:
