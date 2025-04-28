@@ -40,12 +40,12 @@ Instead, we only need to run the cron for the upstream. For example, for a
 ```diff
  jobs:
    test:
-+    if: ${{ github.repository_owner == 'octocat' || github.event_name != 'schedule' }}
++    if: ${{ github.event.repository.fork == false || github.event_name != 'schedule' }}
      runs-on: ubuntu-latest
 ```
 
-This only runs the `schedule` trigger for the `octocat` upstream, and all other triggers
-run for both upstream and forks.
+This only runs the `schedule` trigger for the (non-fork) upstream, and all other
+triggers run for both upstream and forks.
 
 ## Also
 
@@ -75,7 +75,7 @@ We can completely disable it for forks:
 ```diff
  jobs:
    stale:
-+    if: github.repository_owner == 'octocat'
++    if: github.event.repository.fork == false
      runs-on: ubuntu-latest
 ```
 
@@ -89,3 +89,10 @@ To [Alex Waygood](https://fosstodon.org/@AlexWaygood) for the tip.
 
 To the British Library and Flickr Commons for the illustration of a
 [chronograph](https://www.flickr.com/photos/britishlibrary/11097061804/).
+
+## Update
+
+2025-04-28: Instead of hardcoding the upstream repo's owner with
+`github.repository_owner == 'octocat'`, use `github.event.repository.fork == false`.
+This makes it easier to diff across projects in different organisations and consistent
+config makes for easier maintenance.
