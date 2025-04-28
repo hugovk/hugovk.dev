@@ -34,8 +34,7 @@ It also sends a regular email to the contributor when the workflow fails:
 
 ![A daily email from GitHub: "hugovk/packaging.python.org Run failed: Test - main"](eqdmv5m766yif5qgjols.png)
 
-Instead, we only need to run the cron for the upstream. For example, for a
-`https://github.com/octocat/hello-world` repo, add:
+Instead, we only need to run the cron for the upstream. For example, add:
 
 ```diff
  jobs:
