@@ -146,8 +146,7 @@ only uses up extra CI resources on the fork:&lt;/p>
 
 &lt;/figure>
 &lt;/p>
-&lt;p>Instead, we only need to run the cron for the upstream. For example, for a
-&lt;code>https://github.com/octocat/hello-world&lt;/code> repo, add:&lt;/p>
+&lt;p>Instead, we only need to run the cron for the upstream. For example, add:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl"> jobs:
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> test:
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">+ if: ${{ github.event.repository.fork == false || github.event_name != &amp;#39;schedule&amp;#39; }}
