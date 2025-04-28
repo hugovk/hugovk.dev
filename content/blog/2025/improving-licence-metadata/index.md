@@ -19,7 +19,7 @@ is used.
 
 ## How?
 
-### `pypproject.toml`
+### `pyproject.toml`
 
 Change `pyproject.toml` as follows.
 
