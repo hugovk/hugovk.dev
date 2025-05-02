@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>documentation on Hugo van Kemenade</title><link>https://hugovk.dev/tags/documentation/</link><description>Recent content in documentation on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 02 Apr 2024 18:41:30 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Sphinx docs: How to activate tabs for your OS</title><link>https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/</link><pubDate>Tue, 02 Apr 2024 18:41:30 +0000</pubDate><guid>https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/</guid><description>&lt;p>On the &lt;a href="https://devguide.python.org/" target="_blank" rel="noreferrer">Python Developer&amp;rsquo;s Guide&lt;/a> and
-&lt;a href="https://pillow.readthedocs.io/en/latest/installation/basic-installation.html" target="_blank" rel="noreferrer">Pillow documentation&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>documentation on Hugo van Kemenade</title><link>https://hugovk.dev/tags/documentation/</link><description>Recent content in documentation on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 02 Apr 2024 18:41:30 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Sphinx docs: How to activate tabs for your OS</title><link>https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/</link><pubDate>Tue, 02 Apr 2024 18:41:30 +0000</pubDate><guid>https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/</guid><description>&lt;p>On the &lt;a href="https://devguide.python.org/">Python Developer&amp;rsquo;s Guide&lt;/a> and
+&lt;a href="https://pillow.readthedocs.io/en/latest/installation/basic-installation.html">Pillow documentation&lt;/a>
 we have some pages with tabs for different operating systems:&lt;/p>
 &lt;p>
 
@@ -68,13 +68,13 @@ we have some pages with tabs for different operating systems:&lt;/p>
 &lt;p>It&amp;rsquo;s possible to add some JavaScript so that the matching tab is activated based on the
 visitor&amp;rsquo;s operating system.&lt;/p>
 &lt;p>Here&amp;rsquo;s how!&lt;/p>
-&lt;h2 id="sphinx-inline-tabs" class="relative group">Sphinx Inline Tabs &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sphinx-inline-tabs" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>First add the &lt;a href="https://github.com/pradyunsg/sphinx-inline-tabs" target="_blank" rel="noreferrer">Sphinx Inline Tabs&lt;/a>
+&lt;h2 id="sphinx-inline-tabs" class="relative group">Sphinx Inline Tabs &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sphinx-inline-tabs" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>First add the &lt;a href="https://github.com/pradyunsg/sphinx-inline-tabs">Sphinx Inline Tabs&lt;/a>
 extension to your docs'
-&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/requirements.txt#L4" target="_blank" rel="noreferrer">&lt;code>requirements.txt&lt;/code>&lt;/a>:&lt;/p>
+&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/requirements.txt#L4">&lt;code>requirements.txt&lt;/code>&lt;/a>:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl"># requirements.txt
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sphinx-inline-tabs&amp;gt;=2023.4.21
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="javascript" class="relative group">JavaScript &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#javascript" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h1>&lt;p>Next, add
-&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/_static/activate_tab.js" target="_blank" rel="noreferrer">&lt;code>activate_tab.js&lt;/code>&lt;/a>
+&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/_static/activate_tab.js">&lt;code>activate_tab.js&lt;/code>&lt;/a>
 to your &lt;code>_static/&lt;/code> directory:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// activate_tab.js
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Based on https://stackoverflow.com/a/38241481/724176
@@ -119,9 +119,9 @@ to your &lt;code>_static/&lt;/code> directory:&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="confpy" class="relative group">&lt;code>conf.py&lt;/code> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#confpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h1>&lt;p>Add the
-&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/conf.py#L15" target="_blank" rel="noreferrer">extension&lt;/a>
+&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/conf.py#L15">extension&lt;/a>
 and
-&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/conf.py#L49-L51" target="_blank" rel="noreferrer">JavaScript&lt;/a>
+&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/conf.py#L49-L51">JavaScript&lt;/a>
 to your &lt;code>conf.py&lt;/code>:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># conf.py&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">extensions&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>
@@ -134,7 +134,7 @@ to your &lt;code>conf.py&lt;/code>:&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="restructuredtext" class="relative group">reStructuredText &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#restructuredtext" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Almost there!&lt;/p>
 &lt;p>Add tabs to the reStructuredText files.&lt;/p>
 &lt;p>For
-&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/testing/run-write-tests.rst#L58-L74" target="_blank" rel="noreferrer">example&lt;/a>,
+&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/testing/run-write-tests.rst#L58-L74">example&lt;/a>,
 here we have three different commands; one for Unix, one for macOS, and one for Windows:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-reStructuredText" data-lang="reStructuredText">&lt;span class="line">&lt;span class="cl">&lt;span class="p">..&lt;/span> &lt;span class="ow">tab&lt;/span>&lt;span class="p">::&lt;/span> Unix&lt;span class="err">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">
@@ -154,7 +154,7 @@ here we have three different commands; one for Unix, one for macOS, and one for 
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&lt;/span> .\python.bat -m test -h&lt;span class="err">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Finally, add the JavaScript
-&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/testing/run-write-tests.rst#L8-L14" target="_blank" rel="noreferrer">to the same reST page&lt;/a>
+&lt;a href="https://github.com/python/devguide/blob/d92fda3beb5506eb42d53fee1c52d31180e9d77a/testing/run-write-tests.rst#L8-L14">to the same reST page&lt;/a>
 to activate the correct tab:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-rst" data-lang="rst">&lt;span class="line">&lt;span class="cl">&lt;span class="p">..&lt;/span> &lt;span class="ow">raw&lt;/span>&lt;span class="p">::&lt;/span> html&lt;span class="err">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">
@@ -164,7 +164,7 @@ to activate the correct tab:&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&lt;/span> });&lt;span class="err">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&lt;/span> &amp;lt;/script&amp;gt;&lt;span class="err">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can see the results
-&lt;a href="https://devguide.python.org/testing/run-write-tests/#running" target="_blank" rel="noreferrer">here&lt;/a>. When the page
+&lt;a href="https://devguide.python.org/testing/run-write-tests/#running">here&lt;/a>. When the page
 loads, the browser finds the browser name, and activates the tabs with a matching name.&lt;/p>
 &lt;p>If you have many sets of tabs on a page, the corresponding OS tab will be activated for
 all. And if you click on another OS tab, all the others with the same name are
@@ -179,48 +179,48 @@ Galleries of Scotland&lt;/a>, with
 &lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/">no
 known copyright restrictions&lt;/a>.&lt;/small>&lt;/p></description></item><item><title>Tech style guides</title><link>https://hugovk.dev/blog/2024/tech-style-guides/</link><pubDate>Sat, 02 Mar 2024 15:25:54 +0000</pubDate><guid>https://hugovk.dev/blog/2024/tech-style-guides/</guid><description>&lt;p>Here&amp;rsquo;s some tech style guides:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://developers.google.com/style" target="_blank" rel="noreferrer">Google developer documentation style guide&lt;/a>
+&lt;li>&lt;a href="https://developers.google.com/style">Google developer documentation style guide&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="https://developers.google.com/style/word-list" target="_blank" rel="noreferrer">Word list&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://developers.google.com/style/word-list">Word list&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://learn.microsoft.com/en-us/style-guide/welcome/" target="_blank" rel="noreferrer">Microsoft Writing Style Guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stylepedia.net/" target="_blank" rel="noreferrer">Red Hat Technical Writing Style Guide&lt;/a>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://stylepedia.net/">Red Hat Technical Writing Style Guide&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="https://redhat-documentation.github.io/supplementary-style-guide/" target="_blank" rel="noreferrer">Red Hat supplementary style guide for product documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://redhat-documentation.github.io/supplementary-style-guide/">Red Hat supplementary style guide for product documentation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://bishopfox.com/cybersecurity-style-guide" target="_blank" rel="noreferrer">Bishop Fox Cybersecurity Style Guide&lt;/a>
+&lt;li>&lt;a href="https://bishopfox.com/cybersecurity-style-guide">Bishop Fox Cybersecurity Style Guide&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="https://images.bishopfox.com/prod-1437/Documents/Guides/Bishop-Fox-Cybersecurity-Style-Guide-V2.pdf" target="_blank" rel="noreferrer">PDF&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://images.bishopfox.com/prod-1437/Documents/Guides/Bishop-Fox-Cybersecurity-Style-Guide-V2.pdf">PDF&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://support.apple.com/en-gb/guide/applestyleguide/welcome/web" target="_blank" rel="noreferrer">Apple Style Guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://devguide.python.org/documentation/style-guide/" target="_blank" rel="noreferrer">Python docs style guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.ubuntu.com/styleguide/en/" target="_blank" rel="noreferrer">Canonical Documentation Style Guide&lt;/a>
+&lt;li>&lt;a href="https://support.apple.com/en-gb/guide/applestyleguide/welcome/web">Apple Style Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://devguide.python.org/documentation/style-guide/">Python docs style guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.ubuntu.com/styleguide/en/">Canonical Documentation Style Guide&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/" target="_blank" rel="noreferrer">Canonical reStructuredText style guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/">Canonical reStructuredText style guide&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;p>And some other style guides:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://www.theguardian.com/guardian-observer-style-guide-a" target="_blank" rel="noreferrer">Guardian and Observer style guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style" target="_blank" rel="noreferrer">Wikipedia Manual of Style&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://styleguide.mailchimp.com/" target="_blank" rel="noreferrer">Mailchimp Content Style Guide&lt;/a>
+&lt;li>&lt;a href="https://www.theguardian.com/guardian-observer-style-guide-a">Guardian and Observer style guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style">Wikipedia Manual of Style&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://styleguide.mailchimp.com/">Mailchimp Content Style Guide&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="https://styleguide.mailchimp.com/writing-for-accessibility/" target="_blank" rel="noreferrer">Writing for Accessibility&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://styleguide.mailchimp.com/writing-for-accessibility/">Writing for Accessibility&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://english.meta.stackexchange.com/a/2579/9001" target="_blank" rel="noreferrer">and more&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://english.meta.stackexchange.com/a/2579/9001">and more&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>More on style guides:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://www.writethedocs.org/guide/writing/style-guides/" target="_blank" rel="noreferrer">Write the Docs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.writethedocs.org/guide/writing/style-guides/">Write the Docs&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>And a technical writing course:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://asrfs.github.io/Tech-Writing-for-Techies/output/html/00-00-course-overview.html" target="_blank" rel="noreferrer">Tech Writing for Techies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://asrfs.github.io/Tech-Writing-for-Techies/output/html/00-00-course-overview.html">Tech Writing for Techies&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;p>&lt;small>Header photo:

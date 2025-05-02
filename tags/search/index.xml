@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>search on Hugo van Kemenade</title><link>https://hugovk.dev/tags/search/</link><description>Recent content in search on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Fri, 09 Dec 2022 12:44:21 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/search/index.xml" rel="self" type="application/rss+xml"/><item><title>How to search 5,000 Python projects</title><link>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</link><pubDate>Fri, 09 Dec 2022 12:44:21 +0000</pubDate><guid>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</guid><description>&lt;h2 id="why" class="relative group">Why? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#why" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Often Python core developers think about deprecating and removing old bits of the
 language. But first it&amp;rsquo;s a good idea to get an idea of how much the old bits are used.
 Searching the
-&lt;a href="https://hugovk.github.io/top-pypi-packages/" target="_blank" rel="noreferrer">5,000 most-popular projects on PyPI&lt;/a> is a
+&lt;a href="https://hugovk.github.io/top-pypi-packages/">5,000 most-popular projects on PyPI&lt;/a> is a
 helpful proxy to gauge community use.&lt;/p>
-&lt;h2 id="how" class="relative group">How? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Core developer &lt;a href="https://vstinner.readthedocs.io/" target="_blank" rel="noreferrer">Victor Stinner&lt;/a> has written a couple
-of useful scripts that live in his &lt;a href="https://github.com/vstinner/misc" target="_blank" rel="noreferrer">misc&lt;/a> repo.&lt;/p>
+&lt;h2 id="how" class="relative group">How? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Core developer &lt;a href="https://vstinner.readthedocs.io/">Victor Stinner&lt;/a> has written a couple
+of useful scripts that live in his &lt;a href="https://github.com/vstinner/misc">misc&lt;/a> repo.&lt;/p>
 &lt;h2 id="setup" class="relative group">Setup &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#setup" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>First, clone the repo somewhere, doesn&amp;rsquo;t matter where:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">mkdir -p ~/github
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> ~/github/
@@ -107,9 +107,9 @@ took me just under 27 minutes to download 4,748 files, taking up 5.37 GB of spac
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="search" class="relative group">Search &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#search" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Next, we can search all the sdists using another script. And we don&amp;rsquo;t need to extract
 them!&lt;/p>
 &lt;p>For example, &lt;code>configparser&lt;/code>&amp;rsquo;s &lt;code>LegacyInterpolation&lt;/code> was deprecated in
-&lt;a href="https://peps.python.org/pep-0392/" target="_blank" rel="noreferrer">Python 3.2&lt;/a> (released February 2011), but only in
+&lt;a href="https://peps.python.org/pep-0392/">Python 3.2&lt;/a> (released February 2011), but only in
 docs and without raising a
-&lt;a href="https://docs.python.org/3/library/exceptions.html#DeprecationWarning" target="_blank" rel="noreferrer">&lt;code>DeprecationWarning&lt;/code>&lt;/a>.&lt;/p>
+&lt;a href="https://docs.python.org/3/library/exceptions.html#DeprecationWarning">&lt;code>DeprecationWarning&lt;/code>&lt;/a>.&lt;/p>
 &lt;p>How much is it used in the top 5k?&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> &lt;span class="nb">cd&lt;/span> ~/top-pypi/output/
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> python3 ~/github/misc/cpython/search_pypi_top.py -q . &lt;span class="s2">&amp;#34;LegacyInterpolation&amp;#34;&lt;/span>
@@ -215,9 +215,9 @@ docs and without raising a
 &lt;/p>
 &lt;p>Answer: very little, mostly backports and type stubs. This told us it&amp;rsquo;s a good candidate
 for removal, so a proper &lt;code>DeprecationWarning&lt;/code> was
-&lt;a href="https://docs.python.org/3/whatsnew/3.11.html#standard-library" target="_blank" rel="noreferrer">added in Python 3.11&lt;/a>
+&lt;a href="https://docs.python.org/3/whatsnew/3.11.html#standard-library">added in Python 3.11&lt;/a>
 (released October 2022) and it will be
-&lt;a href="https://peps.python.org/pep-0387/" target="_blank" rel="noreferrer">removed in Python 3.13&lt;/a> (October 2024).&lt;/p>
+&lt;a href="https://peps.python.org/pep-0387/">removed in Python 3.13&lt;/a> (October 2024).&lt;/p>
 &lt;p>The tool searches using a regex, so you can look for more complicated things like
 &lt;code>&amp;quot;\b(currentThread|activeCount|notifyAll|isSet|isDaemon|setDaemon)\b&amp;quot;&lt;/code>, and it can also
 log to file. See &lt;code>--help&lt;/code> for other options.&lt;/p>

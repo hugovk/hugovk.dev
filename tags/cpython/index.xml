@@ -5,7 +5,7 @@
 &lt;li>actions/setup-uv: &lt;code>t&lt;/code> suffix&lt;/li>
 &lt;li>actions/setup-python: &lt;code>freethreaded&lt;/code> variable&lt;/li>
 &lt;/ul>
-&lt;h2 id="actionssetup-python-t-suffix" class="relative group">actions/setup-python: &lt;code>t&lt;/code> suffix &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#actionssetup-python-t-suffix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Using &lt;a href="https://github.com/actions/setup-python#basic-usage" target="_blank" rel="noreferrer">actions/setup-python&lt;/a>, you
+&lt;h2 id="actionssetup-python-t-suffix" class="relative group">actions/setup-python: &lt;code>t&lt;/code> suffix &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#actionssetup-python-t-suffix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Using &lt;a href="https://github.com/actions/setup-python#basic-usage">actions/setup-python&lt;/a>, you
 can add the &lt;code>t&lt;/code> suffix for Python versions 3.13 and higher: &lt;code>3.13t&lt;/code> and &lt;code>3.14t&lt;/code>.&lt;/p>
 &lt;p>This is my preferred method, we can clearly see which versions are free-threaded and
 it&amp;rsquo;s straightforward to test both regular and free-threaded builds.&lt;/p>
@@ -47,9 +47,9 @@ Py_GIL_DISABLED: 0
 sys._is_gil_enabled: False
 Py_GIL_DISABLED: 1
 &lt;/code>&lt;/pre>&lt;p>For example:
-&lt;a href="https://github.com/hugovk/test/actions/runs/14057185035" target="_blank" rel="noreferrer">hugovk/test/actions/runs/14057185035&lt;/a>&lt;/p>
+&lt;a href="https://github.com/hugovk/test/actions/runs/14057185035">hugovk/test/actions/runs/14057185035&lt;/a>&lt;/p>
 &lt;h2 id="actionssetup-uv-t-suffix" class="relative group">actions/setup-uv: &lt;code>t&lt;/code> suffix &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#actionssetup-uv-t-suffix" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Similarly, you can install uv with
-&lt;a href="https://github.com/astral-sh/setup-uv#python-version" target="_blank" rel="noreferrer">astral/setup-uv&lt;/a> and use that to
+&lt;a href="https://github.com/astral-sh/setup-uv#python-version">astral/setup-uv&lt;/a> and use that to
 set up free-threaded Python using the &lt;code>t&lt;/code> suffix.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="l">push, pull_request, workflow_dispatch]&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
@@ -81,7 +81,7 @@ set up free-threaded Python using the &lt;code>t&lt;/code> suffix.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sys; print(&amp;#39;sys._is_gil_enabled:&amp;#39;, sys._is_gil_enabled())&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sysconfig; print(&amp;#39;Py_GIL_DISABLED:&amp;#39;, sysconfig.get_config_var(&amp;#39;Py_GIL_DISABLED&amp;#39;))&amp;#34;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For example:
-&lt;a href="https://github.com/hugovk/test/actions/runs/13967959519" target="_blank" rel="noreferrer">hugovk/test/actions/runs/13967959519&lt;/a>&lt;/p>
+&lt;a href="https://github.com/hugovk/test/actions/runs/13967959519">hugovk/test/actions/runs/13967959519&lt;/a>&lt;/p>
 &lt;h2 id="actionssetup-python-freethreaded-variable" class="relative group">actions/setup-python: &lt;code>freethreaded&lt;/code> variable &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#actionssetup-python-freethreaded-variable" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Back to actions/setup-python, you can also set the &lt;code>freethreaded&lt;/code> variable for &lt;code>3.13&lt;/code>
 and higher.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="l">push, pull_request, workflow_dispatch]&lt;/span>&lt;span class="w">
@@ -110,11 +110,11 @@ and higher.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sys; print(&amp;#39;sys._is_gil_enabled:&amp;#39;, sys._is_gil_enabled())&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sysconfig; print(&amp;#39;Py_GIL_DISABLED:&amp;#39;, sysconfig.get_config_var(&amp;#39;Py_GIL_DISABLED&amp;#39;))&amp;#34;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For example:
-&lt;a href="https://github.com/hugovk/test/actions/runs/39359291708" target="_blank" rel="noreferrer">hugovk/test/actions/runs/39359291708&lt;/a>&lt;/p>
+&lt;a href="https://github.com/hugovk/test/actions/runs/39359291708">hugovk/test/actions/runs/39359291708&lt;/a>&lt;/p>
 &lt;h2 id="python_gil0" class="relative group">&lt;code>PYTHON_GIL=0&lt;/code> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#python_gil0" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>And you may want to set &lt;code>PYTHON_GIL=0&lt;/code> to force Python to keep the GIL disabled, even
 after importing a module that doesn&amp;rsquo;t support running without it.&lt;/p>
 &lt;p>See
-&lt;a href="https://py-free-threading.github.io/running-gil-disabled/" target="_blank" rel="noreferrer">Running Python with the GIL Disabled&lt;/a>
+&lt;a href="https://py-free-threading.github.io/running-gil-disabled/">Running Python with the GIL Disabled&lt;/a>
 for more info.&lt;/p>
 &lt;p>With the &lt;code>t&lt;/code> suffix:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Set PYTHON_GIL&lt;/span>&lt;span class="w">
@@ -129,14 +129,14 @@ for more info.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="please-test" class="relative group">Please test! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#please-test" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>For free-threaded Python to succeed and become the default, it&amp;rsquo;s essential there is
 ecosystem and community support. Library maintainers: please test it and where needed,
 adapt your code, and publish
-&lt;a href="https://hugovk.github.io/free-threaded-wheels/" target="_blank" rel="noreferrer">free-threaded wheels&lt;/a> so others can
+&lt;a href="https://hugovk.github.io/free-threaded-wheels/">free-threaded wheels&lt;/a> so others can
 test &lt;em>their&lt;/em> code that depends on &lt;em>yours&lt;/em>. Everyone else: please test your code too!&lt;/p>
 &lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="../../2023/help-us-test-free-threaded-python-without-the-gil/">Help us test free-threaded Python without the GIL&lt;/a>
 for other ways to test and how to check your build&lt;/li>
-&lt;li>&lt;a href="https://py-free-threading.github.io/" target="_blank" rel="noreferrer">Python free-threading guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/actions/setup-python/pull/973" target="_blank" rel="noreferrer">actions/setup-python#973&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/actions/setup-python/releases/tag/v5.5.0" target="_blank" rel="noreferrer">actions/setup-python@v5.5.0&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://py-free-threading.github.io/">Python free-threading guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/actions/setup-python/pull/973">actions/setup-python#973&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/actions/setup-python/releases/tag/v5.5.0">actions/setup-python@v5.5.0&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;p>&lt;small>Header photo:
@@ -145,17 +145,17 @@ Room, Winding Bobbins with Woolen Yarn for Weaving, Philadelphia, PA&lt;/a>&amp;
 &lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/library-company-of-philadelphia/">Library
 Company of Philadelphia&lt;/a>, with
 &lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/">no
-known copyright restrictions&lt;/a>.&lt;/small>&lt;/p></description></item><item><title>Help us test free-threaded Python without the GIL</title><link>https://hugovk.dev/blog/2023/help-us-test-free-threaded-python-without-the-gil/</link><pubDate>Fri, 10 May 2024 12:18:27 +0000</pubDate><guid>https://hugovk.dev/blog/2023/help-us-test-free-threaded-python-without-the-gil/</guid><description>&lt;p>Python 3.13 is &lt;a href="https://peps.python.org/pep-0719/" target="_blank" rel="noreferrer">due out in October 2024&lt;/a> and work is
+known copyright restrictions&lt;/a>.&lt;/small>&lt;/p></description></item><item><title>Help us test free-threaded Python without the GIL</title><link>https://hugovk.dev/blog/2023/help-us-test-free-threaded-python-without-the-gil/</link><pubDate>Fri, 10 May 2024 12:18:27 +0000</pubDate><guid>https://hugovk.dev/blog/2023/help-us-test-free-threaded-python-without-the-gil/</guid><description>&lt;p>Python 3.13 is &lt;a href="https://peps.python.org/pep-0719/">due out in October 2024&lt;/a> and work is
 underway to implement &lt;em>experimental support&lt;/em> for
-&lt;a href="https://peps.python.org/pep-0703/" target="_blank" rel="noreferrer">PEP 703 - Making the Global Interpreter Lock Optional in CPython&lt;/a>.&lt;/p>
+&lt;a href="https://peps.python.org/pep-0703/">PEP 703 - Making the Global Interpreter Lock Optional in CPython&lt;/a>.&lt;/p>
 &lt;p>See also
-&lt;a href="https://docs.python.org/3.13/whatsnew/3.13.html#free-threaded-cpython" target="_blank" rel="noreferrer">Free-threaded CPython&lt;/a>
+&lt;a href="https://docs.python.org/3.13/whatsnew/3.13.html#free-threaded-cpython">Free-threaded CPython&lt;/a>
 in &amp;ldquo;What&amp;rsquo;s New in Python 3.13?&amp;rdquo;&lt;/p>
 &lt;p>As the Steering Council noted in their
-&lt;a href="https://discuss.python.org/t/pep-703-making-the-global-interpreter-lock-optional-in-cpython-acceptance/37075?u=hugovk" target="_blank" rel="noreferrer">acceptance of the PEP&lt;/a>,
+&lt;a href="https://discuss.python.org/t/pep-703-making-the-global-interpreter-lock-optional-in-cpython-acceptance/37075?u=hugovk">acceptance of the PEP&lt;/a>,
 to succeed it&amp;rsquo;s important to have community support.&lt;/p>
 &lt;p>Projects will need to test their code with free-threaded (aka &amp;ldquo;nogil&amp;rdquo; but
-&lt;a href="https://discuss.python.org/t/pep-703-making-the-global-interpreter-lock-optional-in-cpython-acceptance/37075?u=hugovk" target="_blank" rel="noreferrer">don&amp;rsquo;t call it that!&lt;/a>)
+&lt;a href="https://discuss.python.org/t/pep-703-making-the-global-interpreter-lock-optional-in-cpython-acceptance/37075?u=hugovk">don&amp;rsquo;t call it that!&lt;/a>)
 Python builds to help us find bugs in CPython, and to check their code is compatible.&lt;/p>
 &lt;p>Here&amp;rsquo;s some ways to test.&lt;/p>
 &lt;ul>
@@ -169,12 +169,12 @@ Python builds to help us find bugs in CPython, and to check their code is compat
 the free-threading binaries, which also installs &lt;code>python3.13t&lt;/code> alongside the regular
 &lt;code>python3.13&lt;/code>:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/python/cpython/issues/120098" target="_blank" rel="noreferrer">python/cpython#120098&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.python.org/3.13/using/windows.html#installing-free-threaded-binaries" target="_blank" rel="noreferrer">https://docs.python.org/3.13/using/windows.html#installing-free-threaded-binaries&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/python/cpython/issues/120098">python/cpython#120098&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3.13/using/windows.html#installing-free-threaded-binaries">https://docs.python.org/3.13/using/windows.html#installing-free-threaded-binaries&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="build-it-yourself" class="relative group">Build it yourself &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#build-it-yourself" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Check out the CPython Git repo and &lt;a href="https://devguide.python.org/" target="_blank" rel="noreferrer">build yourself&lt;/a> using
+&lt;h2 id="build-it-yourself" class="relative group">Build it yourself &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#build-it-yourself" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Check out the CPython Git repo and &lt;a href="https://devguide.python.org/">build yourself&lt;/a> using
 the
-&lt;a href="https://docs.python.org/3.13/using/configure.html#cmdoption-disable-gil" target="_blank" rel="noreferrer">&lt;code>--disable-gil&lt;/code> configuration flag&lt;/a>.&lt;/p>
+&lt;a href="https://docs.python.org/3.13/using/configure.html#cmdoption-disable-gil">&lt;code>--disable-gil&lt;/code> configuration flag&lt;/a>.&lt;/p>
 &lt;p>For example, on macOS I run:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> &lt;span class="nv">GDBM_CFLAGS&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;-I&lt;/span>&lt;span class="k">$(&lt;/span>brew --prefix gdbm&lt;span class="k">)&lt;/span>&lt;span class="s2">/include&amp;#34;&lt;/span> &lt;span class="se">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span>&lt;span class="go"> GDBM_LIBS=&amp;#34;-L$(brew --prefix gdbm)/lib -lgdbm&amp;#34; \
@@ -188,9 +188,9 @@ the
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">False
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>More details in the devguide:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://devguide.python.org/getting-started/setup-building/" target="_blank" rel="noreferrer">https://devguide.python.org/getting-started/setup-building/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://devguide.python.org/getting-started/setup-building/">https://devguide.python.org/getting-started/setup-building/&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="github-actions-deadsnakesaction" class="relative group">GitHub Actions: deadsnakes/action &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#github-actions-deadsnakesaction" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>We can use the &lt;a href="https://github.com/deadsnakes/action" target="_blank" rel="noreferrer">deadsnakes/action&lt;/a> to test Ubuntu.&lt;/p>
+&lt;h2 id="github-actions-deadsnakesaction" class="relative group">GitHub Actions: deadsnakes/action &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#github-actions-deadsnakesaction" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>We can use the &lt;a href="https://github.com/deadsnakes/action">deadsnakes/action&lt;/a> to test Ubuntu.&lt;/p>
 &lt;p>For example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="l">push, pull_request, workflow_dispatch]&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
@@ -218,16 +218,16 @@ the
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sysconfig; print(sysconfig.get_config_var(&amp;#39;Py_GIL_DISABLED&amp;#39;))&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> python -c &amp;#34;import sys; print(sys._is_gil_enabled())&amp;#34;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="github-actions-actionssetup-python" class="relative group">GitHub Actions: actions/setup-python &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#github-actions-actionssetup-python" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I&amp;rsquo;ve asked for support at
-&lt;a href="https://github.com/actions/setup-python/issues/771" target="_blank" rel="noreferrer">actions/setup-python#771&lt;/a>, they&amp;rsquo;re
+&lt;a href="https://github.com/actions/setup-python/issues/771">actions/setup-python#771&lt;/a>, they&amp;rsquo;re
 looking into it 🤞&lt;/p>
 &lt;p>In the meantime, give it an upvote, and use deadsnakes/action ⤴️&lt;/p>
 &lt;h2 id="deadsnakes-ppa" class="relative group">deadsnakes: PPA &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#deadsnakes-ppa" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>The deadsnakes project provides Personal Package Archives of Python packaged for Ubuntu,
 included free-threaded builds.&lt;/p>
 &lt;p>For example, &lt;code>python3.13-nogil&lt;/code> under &lt;code>python3.13 - 3.13.0~a2-1+focal1&lt;/code> and
 &lt;code>python3.13 - 3.13.0~a2-1+jammy1&lt;/code> at
-&lt;a href="https://launchpad.net/~deadsnakes/&amp;#43;archive/ubuntu/ppa/&amp;#43;packages" target="_blank" rel="noreferrer">https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa/+packages&lt;/a>&lt;/p>
+&lt;a href="https://launchpad.net/~deadsnakes/&amp;#43;archive/ubuntu/ppa/&amp;#43;packages">https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa/+packages&lt;/a>&lt;/p>
 &lt;h2 id="fedora" class="relative group">Fedora &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#fedora" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Fedora uses the &lt;code>python3.13t&lt;/code> executable name
-&lt;a href="https://github.com/python/steering-council/issues/221#issuecomment-1841593283" target="_blank" rel="noreferrer">as decided by the Steering Council&lt;/a>:&lt;/p>
+&lt;a href="https://github.com/python/steering-council/issues/221#issuecomment-1841593283">as decided by the Steering Council&lt;/a>:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> &lt;span class="c1"># Install&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> sudo dnf install python3.13-freethreading
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gp">$&lt;/span> &lt;span class="c1"># Run&lt;/span>
@@ -267,16 +267,16 @@ You can check with &lt;code>sys._is_gil_enabled()&lt;/code>:&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="go">True
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>References:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://docs.python.org/3.13/using/configure.html#cmdoption-disable-gil" target="_blank" rel="noreferrer">https://docs.python.org/3.13/using/configure.html#cmdoption-disable-gil&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.python.org/3.13/using/cmdline.html#envvar-PYTHON_GIL" target="_blank" rel="noreferrer">https://docs.python.org/3.13/using/cmdline.html#envvar-PYTHON_GIL&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.python.org/3.13/using/cmdline.html#cmdoption-X" target="_blank" rel="noreferrer">https://docs.python.org/3.13/using/cmdline.html#cmdoption-X&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3.13/using/configure.html#cmdoption-disable-gil">https://docs.python.org/3.13/using/configure.html#cmdoption-disable-gil&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3.13/using/cmdline.html#envvar-PYTHON_GIL">https://docs.python.org/3.13/using/cmdline.html#envvar-PYTHON_GIL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3.13/using/cmdline.html#cmdoption-X">https://docs.python.org/3.13/using/cmdline.html#cmdoption-X&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="../../2024/help-test-python-313/">Help test Python 3.13!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.python.org/3.13/howto/free-threading-extensions.html" target="_blank" rel="noreferrer">C API Extension Support for Free Threading&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://labs.quansight.org/blog/free-threaded-python-rollout" target="_blank" rel="noreferrer">Free-threaded CPython is ready to experiment with!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://py-free-threading.github.io/" target="_blank" rel="noreferrer">py-free-threading&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/Quansight-Labs/free-threaded-compatibility" target="_blank" rel="noreferrer">Improving Ecosystem Compatibility with Free-Threaded Python&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.python.org/3.13/howto/free-threading-extensions.html">C API Extension Support for Free Threading&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://labs.quansight.org/blog/free-threaded-python-rollout">Free-threaded CPython is ready to experiment with!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://py-free-threading.github.io/">py-free-threading&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Quansight-Labs/free-threaded-compatibility">Improving Ecosystem Compatibility with Free-Threaded Python&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;p>&lt;small>Header photo:

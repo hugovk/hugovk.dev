@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eol on Hugo van Kemenade</title><link>https://hugovk.dev/tags/eol/</link><description>Recent content in eol on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 22 Aug 2023 19:25:29 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/eol/index.xml" rel="self" type="application/rss+xml"/><item><title>Why are there still so many downloads for EOL Python 3.7?</title><link>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</link><pubDate>Tue, 22 Aug 2023 19:25:29 +0000</pubDate><guid>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</guid><description>&lt;p>Python 3.7 was first released on 2018-06-27 and recently reached end-of-life on
-2023-06-27 (&lt;a href="https://peps.python.org/pep-0537/" target="_blank" rel="noreferrer">PEP 537&lt;/a>).&lt;/p>
+2023-06-27 (&lt;a href="https://peps.python.org/pep-0537/">PEP 537&lt;/a>).&lt;/p>
 &lt;p>This means it is no longer receiving security updates and you should upgrade to a newer
 version (at least 3.8, but preferably 3.11):&lt;/p>
 &lt;p>
@@ -83,8 +83,8 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
 &lt;center>&lt;small>Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html">pypi-tools&lt;/a>&lt;/small>&lt;/center>
 &lt;p>But why does such an old Python version have so many downloads?&lt;/p>
 &lt;h2 id="all-downloads" class="relative group">All downloads &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Let&amp;rsquo;s dig into the numbers using a handy tool called
-&lt;a href="https://github.com/ofek/pypinfo" target="_blank" rel="noreferrer">pypinfo&lt;/a>, which helps us analyse the
-&lt;a href="https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/" target="_blank" rel="noreferrer">PyPI data from Google BigQuery&lt;/a>.&lt;/p>
+&lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a>, which helps us analyse the
+&lt;a href="https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/">PyPI data from Google BigQuery&lt;/a>.&lt;/p>
 &lt;p>This command fetches all of yesterday&amp;rsquo;s downloads per Python version:&lt;/p>
 &lt;p>&lt;code>pypinfo --days 1 --percent --markdown &amp;quot;&amp;quot; pyversion&lt;/code>&lt;/p>
 &lt;table>
@@ -351,4 +351,4 @@ package, for example:&lt;/p>
 &lt;hr>
 &lt;p>&lt;small>Header photo: Space shuttle Discovery landing at Edwards Air Force Base,
 California, 9th December, 1992
-(&lt;a href="https://www.flickr.com/photos/nasacommons/30498961044" target="_blank" rel="noreferrer">source: NASA on The Commons&lt;/a>)&lt;/small>&lt;/p></description></item></channel></rss>
+(&lt;a href="https://www.flickr.com/photos/nasacommons/30498961044">source: NASA on The Commons&lt;/a>)&lt;/small>&lt;/p></description></item></channel></rss>

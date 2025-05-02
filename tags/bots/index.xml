@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bots on Hugo van Kemenade</title><link>https://hugovk.dev/tags/bots/</link><description>Recent content in bots on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Sat, 18 Feb 2023 13:16:49 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/bots/index.xml" rel="self" type="application/rss+xml"/><item><title>Bits of Pluto on Mastodon</title><link>https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/</link><pubDate>Sat, 18 Feb 2023 13:16:49 +0000</pubDate><guid>https://hugovk.dev/blog/2023/bits-of-pluto-on-mastodon/</guid><description>&lt;h2 id="what-i-built" class="relative group">What I built &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-i-built" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I built a Mastodon bot that posts a a different bit of Pluto every six hours.&lt;/p>
 &lt;h3 id="category-submission" class="relative group">Category Submission &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#category-submission" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Wacky Wildcard&lt;/p>
-&lt;h3 id="app-link" class="relative group">App Link &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#app-link" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>&lt;a href="https://botsin.space/@bitsofpluto" target="_blank" rel="noreferrer">https://botsin.space/@bitsofpluto&lt;/a>&lt;/p>
+&lt;h3 id="app-link" class="relative group">App Link &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#app-link" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>&lt;a href="https://botsin.space/@bitsofpluto">https://botsin.space/@bitsofpluto&lt;/a>&lt;/p>
 &lt;h3 id="screenshots" class="relative group">Screenshots &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#screenshots" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;center>https://botsin.space/@bitsofpluto/109854013035140138&lt;/center>
 &lt;p>
 
@@ -546,11 +546,11 @@
 &lt;/p>
 &lt;h3 id="description" class="relative group">Description &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#description" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Bits of Pluto posts a different bit of Pluto to Mastodon every six hours. Each is a crop
 from an image by NASA&amp;rsquo;s New Horizons spacecraft.&lt;/p>
-&lt;h3 id="link-to-source-code" class="relative group">Link to Source Code &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#link-to-source-code" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>&lt;a href="https://github.com/hugovk/bitsofpluto" target="_blank" rel="noreferrer">https://github.com/hugovk/bitsofpluto&lt;/a>&lt;/p>
+&lt;h3 id="link-to-source-code" class="relative group">Link to Source Code &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#link-to-source-code" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>&lt;a href="https://github.com/hugovk/bitsofpluto">https://github.com/hugovk/bitsofpluto&lt;/a>&lt;/p>
 &lt;h3 id="permissive-license" class="relative group">Permissive License &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#permissive-license" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>MIT&lt;/p>
 &lt;h2 id="background" class="relative group">Background &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#background" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>For decades, Pluto had only been a speck of light until the NASA&amp;rsquo;s Hubble Space
 Telescope captured it in
-&lt;a href="https://hubblesite.org/contents/news-releases/2010/news-2010-06.html" target="_blank" rel="noreferrer">never-before-seen detail&lt;/a>:&lt;/p>
+&lt;a href="https://hubblesite.org/contents/news-releases/2010/news-2010-06.html">never-before-seen detail&lt;/a>:&lt;/p>
 &lt;p>
 
 
@@ -697,7 +697,7 @@ oranges, and deep reds. Many landforms have their own distinct colors, telling a
 complex geological and climatological story that scientists have only just begun to
 decode. The image resolves details and colors on scales as small as 0.8 miles (1.3
 kilometers). The viewer is encouraged to zoom in on the
-&lt;a href="http://www.nasa.gov/sites/default/files/thumbnails/image/crop_p_color2_enhanced_release.png" target="_blank" rel="noreferrer">full resolution&lt;/a>
+&lt;a href="http://www.nasa.gov/sites/default/files/thumbnails/image/crop_p_color2_enhanced_release.png">full resolution&lt;/a>
 image on a larger screen to fully appreciate the complexity of Pluto’s surface
 features.&lt;/p>&lt;/blockquote>
 &lt;p>I second the recommendation to zoom in on the full resolution! The detail and is
@@ -707,11 +707,11 @@ enjoy different aspects of the detail, to punctuate the doomscrolling with a mom
 wonder.&lt;/p>
 &lt;h3 id="how-i-built-it" class="relative group">How I built it &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-i-built-it" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>I built the bot in Python. Originally it posted to Twitter, but as the future of bots on
 Twitter is
-&lt;a href="https://www.theverge.com/2023/2/2/23582982/twitter-api-free-access-cutoff-bot-developers-shutdown" target="_blank" rel="noreferrer">less&lt;/a>
-&lt;a href="https://www.theverge.com/2023/2/2/23582982/twitter-api-free-access-cutoff-bot-developers-shutdown" target="_blank" rel="noreferrer">than&lt;/a>
-&lt;a href="https://www.vice.com/en/article/4axzzd/twitters-latest-chaotic-move-will-kill-the-sites-best-bots-account-owners-say" target="_blank" rel="noreferrer">certain&lt;/a>,
+&lt;a href="https://www.theverge.com/2023/2/2/23582982/twitter-api-free-access-cutoff-bot-developers-shutdown">less&lt;/a>
+&lt;a href="https://www.theverge.com/2023/2/2/23582982/twitter-api-free-access-cutoff-bot-developers-shutdown">than&lt;/a>
+&lt;a href="https://www.vice.com/en/article/4axzzd/twitters-latest-chaotic-move-will-kill-the-sites-best-bots-account-owners-say">certain&lt;/a>,
 the time was ready to port it over to
-&lt;a href="https://botwiki.org/resources/fediverse-bots/" target="_blank" rel="noreferrer">Mastodon&lt;/a> where bots are welcome.&lt;/p>
+&lt;a href="https://botwiki.org/resources/fediverse-bots/">Mastodon&lt;/a> where bots are welcome.&lt;/p>
 &lt;p>On the way, I learned how to calculate brightness in images, how to use the Mastodon
 API, and how to set up a bot on Linode and (the appropriately-named!) botsin.space.&lt;/p>
 &lt;p>The bot does two things:&lt;/p>
@@ -720,9 +720,9 @@ API, and how to set up a bot on Linode and (the appropriately-named!) botsin.spa
 &lt;li>Post to Mastodon&lt;/li>
 &lt;/ol>
 &lt;h4 id="1-get-a-bit-of-pluto" class="relative group">1. Get a bit of Pluto &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1-get-a-bit-of-pluto" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h4>&lt;p>The
-&lt;a href="https://github.com/hugovk/bitsofpluto/blob/d98c8fe4749c31c4d142b89a06d0241773794f00/bitsofpluto.py#L92-L139" target="_blank" rel="noreferrer">&lt;code>bitsofpluto()&lt;/code> function&lt;/a>
+&lt;a href="https://github.com/hugovk/bitsofpluto/blob/d98c8fe4749c31c4d142b89a06d0241773794f00/bitsofpluto.py#L92-L139">&lt;code>bitsofpluto()&lt;/code> function&lt;/a>
 takes a single parameter, the path to the full resolution Pluto image.&lt;/p>
-&lt;p>The image is opened using &lt;a href="https://pillow.readthedocs.io/" target="_blank" rel="noreferrer">Pillow&lt;/a>.&lt;/p>
+&lt;p>The image is opened using &lt;a href="https://pillow.readthedocs.io/">Pillow&lt;/a>.&lt;/p>
 &lt;p>We then choose a random width for the image, somewhere between 800 and 2000 pixels, with
 height is set to ¾ the width. This is to give a different zoom level each time. We then
 randomly select a window to crop. This is our potential bit of Pluto.&lt;/p>
@@ -734,7 +734,7 @@ are 6 or less, we save the image to a temporary directory.&lt;/p>
 &lt;p>Otherwise if there are too many dark points, we discard this crop, and start again from
 the top. I came up with these figures of 10 and 7 through trial-and-error. It&amp;rsquo;s quite
 nice to sometimes get an image with a
-&lt;a href="https://botsin.space/@bitsofpluto/109880910091459752" target="_blank" rel="noreferrer">corner of Pluto&amp;rsquo;s curvature against the darkness of space&lt;/a>:&lt;/p>
+&lt;a href="https://botsin.space/@bitsofpluto/109880910091459752">corner of Pluto&amp;rsquo;s curvature against the darkness of space&lt;/a>:&lt;/p>
 &lt;p>
 
 
@@ -801,14 +801,14 @@ nice to sometimes get an image with a
 
 &lt;/figure>
 &lt;/p>
-&lt;h4 id="2-post-to-mastodon" class="relative group">2. Post to Mastodon &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2-post-to-mastodon" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h4>&lt;p>We use the &lt;a href="https://mastodonpy.readthedocs.io/" target="_blank" rel="noreferrer">Mastodon.py library&lt;/a> to via the Mastodon
+&lt;h4 id="2-post-to-mastodon" class="relative group">2. Post to Mastodon &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2-post-to-mastodon" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h4>&lt;p>We use the &lt;a href="https://mastodonpy.readthedocs.io/">Mastodon.py library&lt;/a> to via the Mastodon
 API.&lt;/p>
 &lt;p>The
-&lt;a href="https://github.com/hugovk/bitsofpluto/blob/d98c8fe4749c31c4d142b89a06d0241773794f00/bitsofpluto.py#L46-L89" target="_blank" rel="noreferrer">&lt;code>toot_it() function&lt;/code>&lt;/a>
+&lt;a href="https://github.com/hugovk/bitsofpluto/blob/d98c8fe4749c31c4d142b89a06d0241773794f00/bitsofpluto.py#L46-L89">&lt;code>toot_it() function&lt;/code>&lt;/a>
 first reads in the credentials for posting. I generated them using a
-&lt;a href="https://github.com/hugovk/mastodon-tools/blob/main/mastodon_create_app.py" target="_blank" rel="noreferrer">helper script&lt;/a>
-I wrote based upon &lt;a href="https://www.decontextualize.com/" target="_blank" rel="noreferrer">Allison Parrish&lt;/a>&amp;rsquo;s
-&lt;a href="https://gist.github.com/aparrish/661fca5ce7b4882a8c6823db12d42d26" target="_blank" rel="noreferrer">instructions&lt;/a>.&lt;/p>
+&lt;a href="https://github.com/hugovk/mastodon-tools/blob/main/mastodon_create_app.py">helper script&lt;/a>
+I wrote based upon &lt;a href="https://www.decontextualize.com/">Allison Parrish&lt;/a>&amp;rsquo;s
+&lt;a href="https://gist.github.com/aparrish/661fca5ce7b4882a8c6823db12d42d26">instructions&lt;/a>.&lt;/p>
 &lt;p>Once authenticated, there&amp;rsquo;s a two-step process for posting:&lt;/p>
 &lt;ol>
 &lt;li>Upload the image using &lt;code>api.media_post()&lt;/code>, which returns a reference to the media&lt;/li>
@@ -886,7 +886,7 @@ enough for our needs.&lt;/p>
 for 5 years, until April 2027. And I chose the Frankfurt, DE region because it&amp;rsquo;s closest
 to me.&lt;/p>
 &lt;p>After creating a user, I logged in via SSH, and cloned the
-&lt;a href="https://github.com/hugovk/bitsofpluto" target="_blank" rel="noreferrer">bitsofpluto repo&lt;/a>.&lt;/p>
+&lt;a href="https://github.com/hugovk/bitsofpluto">bitsofpluto repo&lt;/a>.&lt;/p>
 &lt;p>I ran &lt;code>crontab -e&lt;/code> to schedule it to run once every six hours:&lt;/p>
 &lt;pre tabindex="0">&lt;code class="language-cron" data-lang="cron">0 */6 * * * /home/botuser/bin/scheduled/0000-06-repeat.sh &amp;gt; /tmp/logs/0000-06-repeat.log
 &lt;/code>&lt;/pre>&lt;p>Where &lt;code>0000-06-repeat.sh&lt;/code> contains:&lt;/p>
@@ -899,15 +899,15 @@ to me.&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which, when the cron triggers, switches to the repo, fetches any recent changes, and
 then runs the bot to make a post:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">python3 bitsofpluto.py --yaml ~/bin/data/bitsofpluto.yaml --no-web
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h5 id="botsinspace" class="relative group">botsin.space &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#botsinspace" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h5>&lt;p>The bot&amp;rsquo;s Mastodon account is on &lt;a href="https://muffinlabs.com/" target="_blank" rel="noreferrer">Colin Mitchell&lt;/a>&amp;rsquo;s
-&lt;a href="https://botsin.space/about" target="_blank" rel="noreferrer">botsin.space instance&lt;/a>, home to many other
-&lt;a href="https://botsin.space/public/local" target="_blank" rel="noreferrer">excellent bots&lt;/a>.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h5 id="botsinspace" class="relative group">botsin.space &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#botsinspace" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h5>&lt;p>The bot&amp;rsquo;s Mastodon account is on &lt;a href="https://muffinlabs.com/">Colin Mitchell&lt;/a>&amp;rsquo;s
+&lt;a href="https://botsin.space/about">botsin.space instance&lt;/a>, home to many other
+&lt;a href="https://botsin.space/public/local">excellent bots&lt;/a>.&lt;/p>
 &lt;h3 id="additional-resourcesinfo" class="relative group">Additional Resources/Info &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#additional-resourcesinfo" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>I&amp;rsquo;ve made two other Mastodon bots:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://botsin.space/@tiny_bus_stop" target="_blank" rel="noreferrer">@tiny_bus_stop&lt;/a> -
-&lt;a href="https://github.com/hugovk/cheapbotsdonequick/blob/main/tiny_bus_stop.json" target="_blank" rel="noreferrer">uses Tracery&lt;/a>
-and &lt;a href="https://cheapbotstootsweet.com/" target="_blank" rel="noreferrer">Cheap Bots, Toot Sweet!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://botsin.space/@FlagFacts" target="_blank" rel="noreferrer">@FlagFacts&lt;/a> -
-&lt;a href="https://github.com/hugovk/randimgbot" target="_blank" rel="noreferrer">uses Python&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://botsin.space/@tiny_bus_stop">@tiny_bus_stop&lt;/a> -
+&lt;a href="https://github.com/hugovk/cheapbotsdonequick/blob/main/tiny_bus_stop.json">uses Tracery&lt;/a>
+and &lt;a href="https://cheapbotstootsweet.com/">Cheap Bots, Toot Sweet!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://botsin.space/@FlagFacts">@FlagFacts&lt;/a> -
+&lt;a href="https://github.com/hugovk/randimgbot">uses Python&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Enjoy!&lt;/p></description></item></channel></rss>

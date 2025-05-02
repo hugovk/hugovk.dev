@@ -12,51 +12,51 @@
 ,/blog/2022/top-pypi-packages/feature_hu_2e76404e69679fc0.webp 1024w
 ,/blog/2022/top-pypi-packages/feature_hu_ff09014e275390.webp 1320w" sizes=100vw type=image/webp><img width=3872 height=2592 class="mb-6 rounded-md" src=/blog/2022/top-pypi-packages/feature_hu_ff7b8bb376d54430.jpg srcset="/blog/2022/top-pypi-packages/feature_hu_713815e4bf63eb63.jpg 330w,/blog/2022/top-pypi-packages/feature_hu_ff7b8bb376d54430.jpg 660w
 ,/blog/2022/top-pypi-packages/feature_hu_e53bff9e431edd7c.jpg 1024w
-,/blog/2022/top-pypi-packages/feature_hu_8aab51a230499385.jpg 1320w" sizes=100vw></picture></div></header><section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row"><div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8"><div class="toc pe-5 lg:sticky lg:top-10 print:hidden"><details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5"><summary class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">Table of Contents</summary><div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600"><nav id=TableOfContents><ul><li><a href=#how-its-used>How it&rsquo;s used</a></li><li><a href=#how-it-works>How it works</a><ul><li><a href=#in-more-detail>In more detail</a></li></ul></li><li><a href=#thanks>Thanks</a></li></ul></nav></div></details></div></div><div class="min-h-0 min-w-0 max-w-prose grow"><p><a href=https://hugovk.github.io/top-pypi-packages/ target=_blank rel=noreferrer>Top PyPI Packages</a> is a website that
+,/blog/2022/top-pypi-packages/feature_hu_8aab51a230499385.jpg 1320w" sizes=100vw></picture></div></header><section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row"><div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8"><div class="toc pe-5 lg:sticky lg:top-10 print:hidden"><details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5"><summary class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">Table of Contents</summary><div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600"><nav id=TableOfContents><ul><li><a href=#how-its-used>How it&rsquo;s used</a></li><li><a href=#how-it-works>How it works</a><ul><li><a href=#in-more-detail>In more detail</a></li></ul></li><li><a href=#thanks>Thanks</a></li></ul></nav></div></details></div></div><div class="min-h-0 min-w-0 max-w-prose grow"><p><a href=https://hugovk.github.io/top-pypi-packages/>Top PyPI Packages</a> is a website that
 creates a monthly dump of the 5,000 most-downloaded packages from the
-<a href=https://pypi.org/ target=_blank rel=noreferrer>Python Package Index (PyPI)</a>. It provides a human-readable list and
+<a href=https://pypi.org/>Python Package Index (PyPI)</a>. It provides a human-readable list and
 a machine-readable JSON file for programmatic use.</p><h2 id=how-its-used class="relative group">How it&rsquo;s used <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#how-its-used aria-label=Anchor>#</a></span></h2><p>The generated data is important for the Python community: it has been cited by many
 academic papers, covering research on topics such as software supply-chain attacks,
 genetic algorithms, neural type hints and technical debt.</p><p>Websites also use the data for analysing things like community adoption of Python 3 and
-of wheels package files, and for automated dependency updates.</p><p>Some are <a href=https://github.com/hugovk/top-pypi-packages/issues/23 target=_blank rel=noreferrer>listed here</a>.</p><p>Last but not least, CPython core developers often use the data for community analysis,
+of wheels package files, and for automated dependency updates.</p><p>Some are <a href=https://github.com/hugovk/top-pypi-packages/issues/23>listed here</a>.</p><p>Last but not least, CPython core developers often use the data for community analysis,
 for example to check how widespread certain language features are when considering
-deprecations and removals, or API changes of Python itself.</p><p>Some examples:</p><p><a href="https://mail.python.org/archives/search?q=top-pypi-packages" target=_blank rel=noreferrer>https://mail.python.org/archives/search?q=top-pypi-packages</a></p><h2 id=how-it-works class="relative group">How it works <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#how-it-works aria-label=Anchor>#</a></span></h2><p>It runs on the cheapest DigitalOcean Droplet to query a Google BigQuery dataset from the
+deprecations and removals, or API changes of Python itself.</p><p>Some examples:</p><p><a href="https://mail.python.org/archives/search?q=top-pypi-packages">https://mail.python.org/archives/search?q=top-pypi-packages</a></p><h2 id=how-it-works class="relative group">How it works <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#how-it-works aria-label=Anchor>#</a></span></h2><p>It runs on the cheapest DigitalOcean Droplet to query a Google BigQuery dataset from the
 Python Software Foundation, and builds the JSON file from that. The data is
 automatically committed from the droplet back to the GitHub repository, and GitHub
 Actions is used to automatically tag and create a release, which then creates a Digital
 Object Identifier (DOI) at Zenodo to help make it citable for researchers.</p><h3 id=in-more-detail class="relative group">In more detail <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#in-more-detail aria-label=Anchor>#</a></span></h3><p>A &ldquo;Droplet&rdquo; is the name DigitalOcean uses for virtual machines, which is basically a
 Linux server. I&rsquo;m using the cheapest $5/month running Ubuntu 20.04 (LTS) plus $1/month
 for automated backups. (In July 2022, I&rsquo;ll switch to the new
-<a href=https://www.digitalocean.com/try/new-pricing target=_blank rel=noreferrer>$4/month Droplet</a>.)</p><p>On the first of the month, it runs a cron job:</p><pre tabindex=0><code class=language-crontab data-lang=crontab>13 11 1 * * ( eval &#34;$(ssh-agent -s)&#34;; ssh-add ~/.ssh/id_rsa-top-pypi-packages; /home/botuser/github/top-pypi-packages/top-pypi-packages.sh ) &gt; /tmp/top-pypi-packages.log 2&gt;&amp;1
+<a href=https://www.digitalocean.com/try/new-pricing>$4/month Droplet</a>.)</p><p>On the first of the month, it runs a cron job:</p><pre tabindex=0><code class=language-crontab data-lang=crontab>13 11 1 * * ( eval &#34;$(ssh-agent -s)&#34;; ssh-add ~/.ssh/id_rsa-top-pypi-packages; /home/botuser/github/top-pypi-packages/top-pypi-packages.sh ) &gt; /tmp/top-pypi-packages.log 2&gt;&amp;1
 </code></pre><p>This
-<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/top-pypi-packages.sh target=_blank rel=noreferrer>script</a>
+<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/top-pypi-packages.sh>script</a>
 runs
-<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/build.sh target=_blank rel=noreferrer>some</a>
-<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/generate.sh target=_blank rel=noreferrer>others</a>
-to call <a href=https://github.com/ofek/pypinfo/ target=_blank rel=noreferrer>pypinfo</a>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>/home/botuser/.local/bin/pypinfo --json --indent <span class=m>0</span> --limit <span class=m>5000</span> --days  <span class=m>30</span> <span class=s2>&#34;&#34;</span> project &gt; top-pypi-packages-30-days.json
-</span></span></code></pre></div><p><a href=https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/ target=_blank rel=noreferrer>PyPI streams data about downloads to Google BigQuery</a>
+<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/build.sh>some</a>
+<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/generate.sh>others</a>
+to call <a href=https://github.com/ofek/pypinfo/>pypinfo</a>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>/home/botuser/.local/bin/pypinfo --json --indent <span class=m>0</span> --limit <span class=m>5000</span> --days  <span class=m>30</span> <span class=s2>&#34;&#34;</span> project &gt; top-pypi-packages-30-days.json
+</span></span></code></pre></div><p><a href=https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/>PyPI streams data about downloads to Google BigQuery</a>
 which are accessible as a public dataset. Google provides a free amount of queries per
 month, and I&rsquo;ve been adjusting the amount of data fetched to stay within the free quota
 (e.g. changing from the top 5k packages to 4k; it used to get data for top packages over
 the past 30 days and 365 days, but now only for 30 days; and bumping back up to 5k
 packages).</p><p>pypinfo is a handy command-line interface (CLI) to access this BigQuery data and dump it
-to a JSON file.</p><p>Another handy CLI tool called <a href=https://stedolan.github.io/jq/ target=_blank rel=noreferrer>jq</a> minifies the JSON
+to a JSON file.</p><p>Another handy CLI tool called <a href=https://stedolan.github.io/jq/>jq</a> minifies the JSON
 data:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>jq -c . &lt; top-pypi-packages-30-days.json &gt; top-pypi-packages-30-days.min.json
-</span></span></code></pre></div><p>These are then committed back to the repo, tagged using <a href=https://calver.org/ target=_blank rel=noreferrer>CalVer</a>
-(e.g. <a href=https://github.com/hugovk/top-pypi-packages/releases/tag/2022.05 target=_blank rel=noreferrer>2022-05</a>) and
+</span></span></code></pre></div><p>These are then committed back to the repo, tagged using <a href=https://calver.org/>CalVer</a>
+(e.g. <a href=https://github.com/hugovk/top-pypi-packages/releases/tag/2022.05>2022-05</a>) and
 pushed.
-<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/.github/workflows/release.yml target=_blank rel=noreferrer>GitHub Actions</a>
-creates <a href=https://github.com/hugovk/top-pypi-packages/releases target=_blank rel=noreferrer>a release</a> from the tag.</p><p>This then creates a
-<a href=https://zenodo.org/badge/latestdoi/116806538 target=_blank rel=noreferrer>Digital Object Identifier (DOI) at Zenodo</a>
-to help make it citable for researchers.</p><p>The <a href=https://hugovk.github.io/top-pypi-packages/ target=_blank rel=noreferrer>website</a>, on GitHub Pages, reads in
+<a href=https://github.com/hugovk/top-pypi-packages/blob/c8101970cbfde3aee2eb133ae0d2aa8eb8846a58/.github/workflows/release.yml>GitHub Actions</a>
+creates <a href=https://github.com/hugovk/top-pypi-packages/releases>a release</a> from the tag.</p><p>This then creates a
+<a href=https://zenodo.org/badge/latestdoi/116806538>Digital Object Identifier (DOI) at Zenodo</a>
+to help make it citable for researchers.</p><p>The <a href=https://hugovk.github.io/top-pypi-packages/>website</a>, on GitHub Pages, reads in
 the generated JSON file and shows the top 100 (or 1,000 or 5,000) packages in
-human-readable form. It&rsquo;s based on <a href=https://pythonwheels.com target=_blank rel=noreferrer>Python Wheels</a>, which in
-nice circular fashion, uses the JSON data from this project.</p><h2 id=thanks class="relative group">Thanks <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#thanks aria-label=Anchor>#</a></span></h2><p>Thanks to <a href=https://pypi.org/ target=_blank rel=noreferrer>PyPI</a> and
-<a href=https://cloud.google.com/bigquery/ target=_blank rel=noreferrer>Google BigQuery</a> for the data;
-<a href=https://github.com/ofek/pypinfo target=_blank rel=noreferrer>pypinfo</a> and <a href=https://stedolan.github.io/jq/ target=_blank rel=noreferrer>jq</a> for
-the tools; <a href=https://pythonwheels.com/ target=_blank rel=noreferrer>Python Wheels</a> for making their code open source;
-and <a href=https://m.do.co/c/431978e0c3e9 target=_blank rel=noreferrer>DigitalOcean</a> for sponsoring this project&rsquo;s
-hosting. Visit <a href=https://do.co/oss-sponsorship target=_blank rel=noreferrer>https://do.co/oss-sponsorship</a> to see if your project is eligible.</p><hr><p><small>Header photo:
+human-readable form. It&rsquo;s based on <a href=https://pythonwheels.com>Python Wheels</a>, which in
+nice circular fashion, uses the JSON data from this project.</p><h2 id=thanks class="relative group">Thanks <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#thanks aria-label=Anchor>#</a></span></h2><p>Thanks to <a href=https://pypi.org/>PyPI</a> and
+<a href=https://cloud.google.com/bigquery/>Google BigQuery</a> for the data;
+<a href=https://github.com/ofek/pypinfo>pypinfo</a> and <a href=https://stedolan.github.io/jq/>jq</a> for
+the tools; <a href=https://pythonwheels.com/>Python Wheels</a> for making their code open source;
+and <a href=https://m.do.co/c/431978e0c3e9>DigitalOcean</a> for sponsoring this project&rsquo;s
+hosting. Visit <a href=https://do.co/oss-sponsorship>https://do.co/oss-sponsorship</a> to see if your project is eligible.</p><hr><p><small>Header photo:
 &ldquo;<a target=_blank rel="noopener noreferrer" href=https://www.flickr.com/photos/49889874@N05/4772680734>PACKAGES</a>&rdquo;
 by
 <a target=_blank rel="noopener noreferrer" href=https://www.flickr.com/photos/49889874@N05>marc

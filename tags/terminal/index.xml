@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>terminal on Hugo van Kemenade</title><link>https://hugovk.dev/tags/terminal/</link><description>Recent content in terminal on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Fri, 04 Apr 2025 16:50:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/terminal/index.xml" rel="self" type="application/rss+xml"/><item><title>My most used command-line commands</title><link>https://hugovk.dev/blog/2025/my-most-used-command-line-commands/</link><pubDate>Fri, 04 Apr 2025 16:50:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/my-most-used-command-line-commands/</guid><description>&lt;p>Following
-&lt;a href="https://micro.webology.dev/2025/01/02/my-most-used-commands-in/" target="_blank" rel="noreferrer">Jeff Triplett&amp;rsquo;s lead&lt;/a>,
+&lt;a href="https://micro.webology.dev/2025/01/02/my-most-used-commands-in/">Jeff Triplett&amp;rsquo;s lead&lt;/a>,
 here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
 &lt;table>
  &lt;thead>
@@ -15,19 +15,19 @@ here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
  &lt;td>1.&lt;/td>
  &lt;td>1239&lt;/td>
  &lt;td>&lt;code>rg&lt;/code>&lt;/td>
- &lt;td>&lt;a href="https://github.com/BurntSushi/ripgrep" target="_blank" rel="noreferrer">ripgrep&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://github.com/BurntSushi/ripgrep">ripgrep&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>2.&lt;/td>
  &lt;td>1038&lt;/td>
  &lt;td>&lt;code>c&lt;/code>&lt;/td>
- &lt;td>aliased to &lt;a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noreferrer">&lt;code>pycharm&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>aliased to &lt;a href="https://www.jetbrains.com/pycharm/">&lt;code>pycharm&lt;/code>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>3.&lt;/td>
  &lt;td>847&lt;/td>
  &lt;td>&lt;code>gc&lt;/code>&lt;/td>
- &lt;td>aliased to &lt;code>git commit --verbose&lt;/code> via &lt;a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank" rel="noreferrer">Oh My Zsh&lt;/a> &lt;a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git" target="_blank" rel="noreferrer">Git plugin&lt;/a>&lt;/td>
+ &lt;td>aliased to &lt;code>git commit --verbose&lt;/code> via &lt;a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh&lt;/a> &lt;a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git">Git plugin&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>4.&lt;/td>
@@ -45,7 +45,7 @@ here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
  &lt;td>6.&lt;/td>
  &lt;td>384&lt;/td>
  &lt;td>&lt;code>./python.exe&lt;/code>&lt;/td>
- &lt;td>Python &lt;a href="https://devguide.python.org/" target="_blank" rel="noreferrer">built from source&lt;/a> on macOS&lt;/td>
+ &lt;td>Python &lt;a href="https://devguide.python.org/">built from source&lt;/a> on macOS&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>7.&lt;/td>
@@ -57,13 +57,13 @@ here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
  &lt;td>8.&lt;/td>
  &lt;td>359&lt;/td>
  &lt;td>&lt;code>cat&lt;/code>&lt;/td>
- &lt;td>aliased to &lt;a href="https://github.com/sharkdp/bat" target="_blank" rel="noreferrer">&lt;code>bat -p&lt;/code>&lt;/a>&lt;/td>
+ &lt;td>aliased to &lt;a href="https://github.com/sharkdp/bat">&lt;code>bat -p&lt;/code>&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>9.&lt;/td>
  &lt;td>336&lt;/td>
  &lt;td>&lt;code>gs&lt;/code>&lt;/td>
- &lt;td>aliased to &lt;code>scmpuff_status&lt;/code> via &lt;a href="https://mroth.github.io/scmpuff/" target="_blank" rel="noreferrer">scmpuff&lt;/a> to give numeric shortcuts for files&lt;/td>
+ &lt;td>aliased to &lt;code>scmpuff_status&lt;/code> via &lt;a href="https://mroth.github.io/scmpuff/">scmpuff&lt;/a> to give numeric shortcuts for files&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>10.&lt;/td>
@@ -99,13 +99,13 @@ here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
  &lt;td>15.&lt;/td>
  &lt;td>214&lt;/td>
  &lt;td>&lt;code>uv&lt;/code>&lt;/td>
- &lt;td>&lt;a href="https://docs.astral.sh/uv/" target="_blank" rel="noreferrer">Python package manager&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://docs.astral.sh/uv/">Python package manager&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>16.&lt;/td>
  &lt;td>203&lt;/td>
  &lt;td>&lt;code>f&lt;/code>&lt;/td>
- &lt;td>aliased to &lt;code>find . | rg&lt;/code> (TODO: learn &lt;a href="https://github.com/sharkdp/fd" target="_blank" rel="noreferrer">&lt;code>fd&lt;/code>&lt;/a>)&lt;/td>
+ &lt;td>aliased to &lt;code>find . | rg&lt;/code> (TODO: learn &lt;a href="https://github.com/sharkdp/fd">&lt;code>fd&lt;/code>&lt;/a>)&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>17.&lt;/td>
@@ -129,7 +129,7 @@ here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
  &lt;td>20.&lt;/td>
  &lt;td>165&lt;/td>
  &lt;td>&lt;code>em&lt;/code>&lt;/td>
- &lt;td>the &lt;a href="https://github.com/hugovk/em-keyboard" target="_blank" rel="noreferrer">CLI emoji keyboard&lt;/a>&lt;/td>
+ &lt;td>the &lt;a href="https://github.com/hugovk/em-keyboard">CLI emoji keyboard&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>21.&lt;/td>
@@ -177,7 +177,7 @@ here&amp;rsquo;s a list of my most used terminal commands.&lt;/p>
  &lt;td>28.&lt;/td>
  &lt;td>111&lt;/td>
  &lt;td>&lt;code>bc&lt;/code>&lt;/td>
- &lt;td>aliased to &lt;code>/usr/local/bin/bcompare&lt;/code> &lt;a href="https://www.scootersoftware.com/" target="_blank" rel="noreferrer">Beyond Compare&lt;/a> diff tool&lt;/td>
+ &lt;td>aliased to &lt;code>/usr/local/bin/bcompare&lt;/code> &lt;a href="https://www.scootersoftware.com/">Beyond Compare&lt;/a> diff tool&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>29.&lt;/td>
@@ -212,4 +212,4 @@ either &lt;code>pypi &amp;lt;package&amp;gt;&lt;/code> or let it try and guess t
 typewriter
 (&lt;a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC
 BY-NC-SA 2.0&lt;/a>
-&lt;a href="https://www.flickr.com/photos/hugovk/1482906651/" target="_blank" rel="noreferrer">Hugo van Kemenade&lt;/a>).&lt;/small>&lt;/p></description></item></channel></rss>
+&lt;a href="https://www.flickr.com/photos/hugovk/1482906651/">Hugo van Kemenade&lt;/a>).&lt;/small>&lt;/p></description></item></channel></rss>

@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>twitter on Hugo van Kemenade</title><link>https://hugovk.dev/tags/twitter/</link><description>Recent content in twitter on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 04 Feb 2025 18:55:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/twitter/index.xml" rel="self" type="application/rss+xml"/><item><title>How to delay a Python release</title><link>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</link><pubDate>Tue, 04 Feb 2025 18:55:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</guid><description>&lt;h2 id="prologue" class="relative group">Prologue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#prologue" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>This was a &lt;a href="https://www.wikihow.com/Delete-a-Twitter-Account" target="_blank" rel="noreferrer">Twitter&lt;/a>
-&lt;a href="https://web.archive.org/web/20220115150826/https://twitter.com/hugovk/status/1482367773577822208" target="_blank" rel="noreferrer">thread from 15th January 2022&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>twitter on Hugo van Kemenade</title><link>https://hugovk.dev/tags/twitter/</link><description>Recent content in twitter on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 04 Feb 2025 18:55:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/twitter/index.xml" rel="self" type="application/rss+xml"/><item><title>How to delay a Python release</title><link>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</link><pubDate>Tue, 04 Feb 2025 18:55:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</guid><description>&lt;h2 id="prologue" class="relative group">Prologue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#prologue" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>This was a &lt;a href="https://www.wikihow.com/Delete-a-Twitter-Account">Twitter&lt;/a>
+&lt;a href="https://web.archive.org/web/20220115150826/https://twitter.com/hugovk/status/1482367773577822208">thread from 15th January 2022&lt;/a>
 about my first CPython bug. Eight days from report to fix to merge, not bad!&lt;/p>
 &lt;hr>
 &lt;h2 id="delay" class="relative group">Delay &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#delay" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I helped
-&lt;a href="https://web.archive.org/web/20220114231910/https://twitter.com/pyblogsal/status/1482128909286227972" target="_blank" rel="noreferrer">delay the release of Python 3.11.0a4&lt;/a>!
+&lt;a href="https://web.archive.org/web/20220114231910/https://twitter.com/pyblogsal/status/1482128909286227972">delay the release of Python 3.11.0a4&lt;/a>!
 But in a good way! 😇&lt;/p>
 &lt;p>Python 3.11 is due out in October, but they make early alpha, beta and release
 candidates available for people to help test Python itself and their own code before the
 big release.&lt;/p>
-&lt;p>So I tested &lt;a href="https://fosstodon.org/@pillow" target="_blank" rel="noreferrer">Pillow&lt;/a>&amp;hellip;&lt;/p>
+&lt;p>So I tested &lt;a href="https://fosstodon.org/@pillow">Pillow&lt;/a>&amp;hellip;&lt;/p>
 &lt;p>
 
 
@@ -213,9 +213,9 @@ errors.&lt;/p>
 &lt;h2 id="sphinx" class="relative group">Sphinx &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sphinx" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Maybe Sphinx isn&amp;rsquo;t ready for Python 3.11?&lt;/p>
 &lt;p>Rather than submitting a report with the full Pillow documentation (lots of files) I
 made a
-&lt;a href="https://github.com/hugovk/test/tree/3.11-sphinx" target="_blank" rel="noreferrer">new, &amp;ldquo;minimal&amp;rdquo; example with just enough stuff to reproduce it&lt;/a>.&lt;/p>
+&lt;a href="https://github.com/hugovk/test/tree/3.11-sphinx">new, &amp;ldquo;minimal&amp;rdquo; example with just enough stuff to reproduce it&lt;/a>.&lt;/p>
 &lt;p>This makes it easier to investigate what&amp;rsquo;s up.&lt;/p>
-&lt;h2 id="report-1" class="relative group">Report 1 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#report-1" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I &lt;a href="https://github.com/sphinx-doc/sphinx/issues/10030" target="_blank" rel="noreferrer">reported this to Sphinx&lt;/a>. The
+&lt;h2 id="report-1" class="relative group">Report 1 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#report-1" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I &lt;a href="https://github.com/sphinx-doc/sphinx/issues/10030">reported this to Sphinx&lt;/a>. The
 problem was that a page in a subdirectory could load an image from one directory, but
 not from another, further away directory.&lt;/p>
 &lt;p>It occurs for the Python 3.11.0a3 alpha, but not 3.7-3.10.&lt;/p>
@@ -287,7 +287,7 @@ not from another, further away directory.&lt;/p>
 &lt;/p>
 &lt;h2 id="cpython" class="relative group">CPython &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cpython" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>A few hours later the Sphinx maintainer Takeshi said it looks like a change to a part of
 Python itself &amp;ndash; &lt;code>os.path.normpath()&lt;/code> &amp;ndash; since 3.11.0a3, and as it wasn&amp;rsquo;t mentioned on
-the &lt;a href="https://docs.python.org/3/whatsnew/3.11.html" target="_blank" rel="noreferrer">&amp;ldquo;What&amp;rsquo;s New in Python 3.11&amp;rdquo;&lt;/a> page it
+the &lt;a href="https://docs.python.org/3/whatsnew/3.11.html">&amp;ldquo;What&amp;rsquo;s New in Python 3.11&amp;rdquo;&lt;/a> page it
 could be a bug in Python.&lt;/p>
 &lt;p>He asked me to report it to Python.&lt;/p>
 &lt;p>
@@ -356,7 +356,7 @@ could be a bug in Python.&lt;/p>
 
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="report-2" class="relative group">Report 2 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#report-2" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I &lt;a href="https://bugs.python.org/issue46208" target="_blank" rel="noreferrer">reported it to Python&lt;/a> with Takeshi&amp;rsquo;s even more
+&lt;h2 id="report-2" class="relative group">Report 2 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#report-2" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I &lt;a href="https://bugs.python.org/issue46208">reported it to Python&lt;/a> with Takeshi&amp;rsquo;s even more
 minimal example.&lt;/p>
 &lt;p>Half an hour later Christian pointed out a change which may have caused this.&lt;/p>
 &lt;p>I tested and confirmed.&lt;/p>
@@ -365,7 +365,7 @@ minimal example.&lt;/p>
 testing.&lt;/p>
 &lt;p>I didn&amp;rsquo;t know how to fix the bug, but I could write some test cases!&lt;/p>
 &lt;p>neonene then took the tests and
-&lt;a href="https://github.com/python/cpython/pull/30362" target="_blank" rel="noreferrer">fixed the bug&lt;/a>! In doing so they found
+&lt;a href="https://github.com/python/cpython/pull/30362">fixed the bug&lt;/a>! In doing so they found
 even more bugs!&lt;/p>
 &lt;h2 id="merge" class="relative group">Merge &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#merge" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>These extra bugs also existed in earlier versions.&lt;/p>
 &lt;p>But it turns out path handling can get pretty complicated in places, so Steve decided to
@@ -378,7 +378,7 @@ the world in October. Along the way we found more issues to address.&lt;/p>
 Python itself 🚀&lt;/p>
 &lt;hr>
 &lt;h2 id="epilogue" class="relative group">Epilogue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#epilogue" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Back to 2025: Please test and delay
-&lt;a href="https://discuss.python.org/tag/release" target="_blank" rel="noreferrer">Python 3.14 alpha&lt;/a> &amp;ndash; but in a good way! 😇&lt;/p></description></item><item><title>Words of the year from Twitter, 2018</title><link>https://hugovk.dev/blog/2018/twitter-woty-2018/</link><pubDate>Mon, 31 Dec 2018 14:03:57 +0000</pubDate><guid>https://hugovk.dev/blog/2018/twitter-woty-2018/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
+&lt;a href="https://discuss.python.org/tag/release">Python 3.14 alpha&lt;/a> &amp;ndash; but in a good way! 😇&lt;/p></description></item><item><title>Words of the year from Twitter, 2018</title><link>https://hugovk.dev/blog/2018/twitter-woty-2018/</link><pubDate>Mon, 31 Dec 2018 14:03:57 +0000</pubDate><guid>https://hugovk.dev/blog/2018/twitter-woty-2018/</guid><description>&lt;h2>Three bots have been collecting words from Twitter for the past year.&lt;/h2>
 &lt;p>&amp;nbsp;&lt;/p>
 &lt;p>Short version:&lt;/p>
 &lt;p>In 2018, people on Twitter talked about the words stan, toxic, peoplekind, councel, beclowned, caucasity, kakistocracy, catastrofuck, shithole, bombogenesis, chucklefuck, trumpfuckery, clackwanker, wankpuffin, dipshittery, fucksicle, and fuckwangled.&amp;nbsp;&lt;/p>
@@ -1196,10 +1196,10 @@ Python itself 🚀&lt;/p>
 &lt;h2>2017&lt;/h2>
 &lt;p>For words causing a reaction in 2017, follow&amp;nbsp;&lt;a href="https://twitter.com/lovihatibot" target="_self">@lovihatibot&lt;/a>,&amp;nbsp;&lt;a href="https://twitter.com/nixibot" target="_self">@nixibot&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href="https://twitter.com/favibot" target="_self">@favibot&lt;/a>&amp;nbsp;on Twitter.&lt;/p></description></item><item><title>#woty15 nominations</title><link>https://hugovk.dev/blog/2016/woty15-nominations/</link><pubDate>Fri, 08 Jan 2016 21:34:16 +0000</pubDate><guid>https://hugovk.dev/blog/2016/woty15-nominations/</guid><description>&lt;p>Here&amp;rsquo;s some quick charts of some of the words nominated for American Dialect Society
 2015 Words of the Year
-&lt;a href="https://americandialect.org/wp-content/uploads/2015-WOTY-nominations.pdf" target="_blank" rel="noreferrer">PDF&lt;/a>), data
+&lt;a href="https://americandialect.org/wp-content/uploads/2015-WOTY-nominations.pdf">PDF&lt;/a>), data
 taken from a corpus of words talked about on Twitter
 (&lt;a href="../twitter-woty-2015">read more about them here&lt;/a>), as collected by
-&lt;a href="https://twitter.com/hugovk/lists/notabletwitterwordbots" target="_blank" rel="noreferrer">a trio of bots&lt;/a>. Notable
+&lt;a href="https://twitter.com/hugovk/lists/notabletwitterwordbots">a trio of bots&lt;/a>. Notable
 troughs are generally when the bots were offline.&lt;/p>
 &lt;p>
 
@@ -2874,11 +2874,11 @@ found some 18,360 new favourite words.&lt;/p>
 &lt;p>What does this tell us? I don&amp;rsquo;t know, but whilst the top ten contains lots of swearing,
 around half (or about 2/3 for favourites) of each list contains unique words. Browsing
 the lists shows lots of neologisms (and neoswearisms).&lt;/p>
-&lt;p>The word lists on Wordnik:&lt;br>&lt;a href="https://www.wordnik.com/lists/twitter-favourites" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/twitter-favourites&lt;/a>&lt;br>
-&lt;a href="https://www.wordnik.com/lists/twitter-favorites" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/twitter-favorites&lt;/a>&lt;br>
-&lt;a href="https://www.wordnik.com/lists/twitter-faves" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/twitter-faves&lt;/a>&lt;/p>
-&lt;p>Follow along:&lt;br>&lt;a href="https://twitter.com/favibot" target="_blank" rel="noreferrer">https://twitter.com/favibot&lt;/a>&lt;/p>
-&lt;p>See word clouds:&lt;br>&lt;a href="https://www.flickr.com/photos/hugovk/sets/72157636928894765/" target="_blank" rel="noreferrer">https://www.flickr.com/photos/hugovk/sets/72157636928894765/&lt;/a>&lt;/p>
+&lt;p>The word lists on Wordnik:&lt;br>&lt;a href="https://www.wordnik.com/lists/twitter-favourites">https://www.wordnik.com/lists/twitter-favourites&lt;/a>&lt;br>
+&lt;a href="https://www.wordnik.com/lists/twitter-favorites">https://www.wordnik.com/lists/twitter-favorites&lt;/a>&lt;br>
+&lt;a href="https://www.wordnik.com/lists/twitter-faves">https://www.wordnik.com/lists/twitter-faves&lt;/a>&lt;/p>
+&lt;p>Follow along:&lt;br>&lt;a href="https://twitter.com/favibot">https://twitter.com/favibot&lt;/a>&lt;/p>
+&lt;p>See word clouds:&lt;br>&lt;a href="https://www.flickr.com/photos/hugovk/sets/72157636928894765/">https://www.flickr.com/photos/hugovk/sets/72157636928894765/&lt;/a>&lt;/p>
 &lt;p>See the script:&lt;br>
-&lt;a href="https://github.com/hugovk/word-tools/blob/master/new_favourite_words.py" target="_blank" rel="noreferrer">https://github.com/hugovk/word-tools/blob/master/new_favourite_words.py&lt;/a>&lt;/p>
-&lt;p>Inspired by:&lt;br>&lt;a href="https://www.wordnik.com/lists/outcasts" target="_blank" rel="noreferrer">https://www.wordnik.com/lists/outcasts&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;a href="https://github.com/hugovk/word-tools/blob/master/new_favourite_words.py">https://github.com/hugovk/word-tools/blob/master/new_favourite_words.py&lt;/a>&lt;/p>
+&lt;p>Inspired by:&lt;br>&lt;a href="https://www.wordnik.com/lists/outcasts">https://www.wordnik.com/lists/outcasts&lt;/a>&lt;/p></description></item></channel></rss>

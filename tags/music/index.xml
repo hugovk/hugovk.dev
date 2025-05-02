@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>music on Hugo van Kemenade</title><link>https://hugovk.dev/tags/music/</link><description>Recent content in music on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Fri, 13 Jan 2012 13:05:26 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/music/index.xml" rel="self" type="application/rss+xml"/><item><title>How to toggle playing/pausing of Spotify using the Pause key in Ubuntu</title><link>https://hugovk.dev/blog/2012/how-to-toggle-playingpausing-of-spotify-using-the-pause-key-in-ubuntu/</link><pubDate>Fri, 13 Jan 2012 13:05:26 +0000</pubDate><guid>https://hugovk.dev/blog/2012/how-to-toggle-playingpausing-of-spotify-using-the-pause-key-in-ubuntu/</guid><description>&lt;p>According to
-&lt;a href="https://web.archive.org/web/20120509091435/http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/" target="_blank" rel="noreferrer">Mabishu&lt;/a>:&lt;/p>
+&lt;a href="https://web.archive.org/web/20120509091435/http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/">Mabishu&lt;/a>:&lt;/p>
 &lt;blockquote>
 &lt;p>After a lot of requests from Linux users, Spotify developers have integrated D-Bus
 support in version 0.4.8.282. So, what this means is simply and awesome! Now
@@ -23,8 +23,8 @@ events to Spotify and with this get Spotify fully integrate into our desktop.&lt
 &lt;li>Listen to music in Spotify and press the Pause/Break key to pause or play the music.&lt;/li>
 &lt;/ol>
 &lt;p>See the
-&lt;a href="http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/" target="_blank" rel="noreferrer">Mabishu&lt;/a>
+&lt;a href="http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/">Mabishu&lt;/a>
 post to see how to check the other commands you can hook up to other keys.&lt;/p>
 &lt;p>(Tested with Ubuntu 10.10 and
-&lt;a href="https://web.archive.org/web/20120105155314/https://www.spotify.com/fi/download/previews/" target="_blank" rel="noreferrer">Spotify&lt;/a>
+&lt;a href="https://web.archive.org/web/20120105155314/https://www.spotify.com/fi/download/previews/">Spotify&lt;/a>
 for Linux preview 0.6.291)&lt;/p></description></item></channel></rss>

@@ -71,28 +71,28 @@ many different things together.&lt;/p>
 &lt;center>&lt;small>The sprint room&lt;/small>&lt;/center>
 &lt;p>During the week, I reviewed 39 PRs, created 15, merged 10, updated 4, and closed 2
 issues.&lt;/p>
-&lt;h2 id="monday-highlights" class="relative group">Monday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>As release manager for &lt;a href="https://peps.python.org/pep-0745/" target="_blank" rel="noreferrer">Python 3.14&lt;/a>, I discussed
-with &lt;a href="https://fosstodon.org/@brettcannon" target="_blank" rel="noreferrer">Brett Cannon&lt;/a> one of his project ideas which
+&lt;h2 id="monday-highlights" class="relative group">Monday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>As release manager for &lt;a href="https://peps.python.org/pep-0745/">Python 3.14&lt;/a>, I discussed
+with &lt;a href="https://fosstodon.org/@brettcannon">Brett Cannon&lt;/a> one of his project ideas which
 will come after lock files, and after the next big one.&lt;/p>
-&lt;p>Also as RM, discussed with &lt;a href="https://cloudisland.nz/@freakboy3742" target="_blank" rel="noreferrer">Russell Keith-Magee&lt;/a>,
-Ned Deily, &lt;a href="https://mastodon.social/@ambv" target="_blank" rel="noreferrer">Łukasz Langa&lt;/a> and
-&lt;a href="https://social.coop/@Yhg1s" target="_blank" rel="noreferrer">Thomas Wouters&lt;/a> about
-&lt;a href="https://beeware.org/news/buzz/2024q4-roadmap/" target="_blank" rel="noreferrer">including official binaries for iOS and Android&lt;/a>,
+&lt;p>Also as RM, discussed with &lt;a href="https://cloudisland.nz/@freakboy3742">Russell Keith-Magee&lt;/a>,
+Ned Deily, &lt;a href="https://mastodon.social/@ambv">Łukasz Langa&lt;/a> and
+&lt;a href="https://social.coop/@Yhg1s">Thomas Wouters&lt;/a> about
+&lt;a href="https://beeware.org/news/buzz/2024q4-roadmap/">including official binaries for iOS and Android&lt;/a>,
 which wandered into ideas about security releases.&lt;/p>
 &lt;p>I did some maintenance of our PyPI projects, adding
-&lt;a href="https://peps.python.org/pep-0740/" target="_blank" rel="noreferrer">PEP 740 attestations&lt;/a>, support for the
-&lt;a href="https://peps.python.org/pep-0719/" target="_blank" rel="noreferrer">new Python 3.13&lt;/a> and dropping support for the
-&lt;a href="https://peps.python.org/pep-0569/" target="_blank" rel="noreferrer">very-nearly-EOL 3.8&lt;/a>.&lt;/p>
+&lt;a href="https://peps.python.org/pep-0740/">PEP 740 attestations&lt;/a>, support for the
+&lt;a href="https://peps.python.org/pep-0719/">new Python 3.13&lt;/a> and dropping support for the
+&lt;a href="https://peps.python.org/pep-0569/">very-nearly-EOL 3.8&lt;/a>.&lt;/p>
 &lt;h2 id="tuesday-highlights" class="relative group">Tuesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tuesday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Started investigating slow doctest on 3.13+ with
-&lt;a href="https://fosstodon.org/@AlexWaygood" target="_blank" rel="noreferrer">Alex Waygood&lt;/a>, who on Wednesday narrowed it down to
+&lt;a href="https://fosstodon.org/@AlexWaygood">Alex Waygood&lt;/a>, who on Wednesday narrowed it down to
 a problem with the
-&lt;a href="https://github.com/python/cpython/issues/124567" target="_blank" rel="noreferrer">new incremental garbage collector&lt;/a>,
+&lt;a href="https://github.com/python/cpython/issues/124567">new incremental garbage collector&lt;/a>,
 which would go on to be reverted by Friday and result in
-&lt;a href="https://discuss.python.org/t/python-3-12-7-and-3-13-0rc3-released/66306?u=hugovk" target="_blank" rel="noreferrer">Python 3.13&amp;rsquo;s Monday release to be postponed and replaced with an extra release candidate&lt;/a>.
+&lt;a href="https://discuss.python.org/t/python-3-12-7-and-3-13-0rc3-released/66306?u=hugovk">Python 3.13&amp;rsquo;s Monday release to be postponed and replaced with an extra release candidate&lt;/a>.
 Not ideal, but much better to discover these things before the big release.&lt;/p>
 &lt;p>We had a Q&amp;amp;A session with the Steering Council:
-&lt;a href="https://mastodon.social/@pumpichank" target="_blank" rel="noreferrer">Barry Warsaw&lt;/a>, Emily Morehouse,
-&lt;a href="https://infosec.exchange/@gpshead" target="_blank" rel="noreferrer">Gregory P. Smith&lt;/a>, Pablo Galindo Salgado and Thomas.&lt;/p>
+&lt;a href="https://mastodon.social/@pumpichank">Barry Warsaw&lt;/a>, Emily Morehouse,
+&lt;a href="https://infosec.exchange/@gpshead">Gregory P. Smith&lt;/a>, Pablo Galindo Salgado and Thomas.&lt;/p>
 &lt;p>
 
 
@@ -159,26 +159,26 @@ Not ideal, but much better to discover these things before the big release.&lt;/
 &lt;/p>
 &lt;center>&lt;small>The Python Steering Council&lt;/small>&lt;/center>
 &lt;p>Proofread Guido van Rossum&amp;rsquo;s
-&lt;a href="https://discuss.python.org/t/changing-pep-13-to-adopt-bloc-star-voting/64971?u=hugovk" target="_blank" rel="noreferrer">STAR voting proposal&lt;/a>
+&lt;a href="https://discuss.python.org/t/changing-pep-13-to-adopt-bloc-star-voting/64971?u=hugovk">STAR voting proposal&lt;/a>
 for electing future steering councils.&lt;/p>
 &lt;p>Discussed with Eric Snow his novel method for displaying many code samples in a table,
 using &lt;code>&amp;lt;details&amp;gt;&lt;/code> disclosures to prevent the table being too wide. Looks like a good
 solution!&lt;/p>
-&lt;h2 id="wednesday-highlights" class="relative group">Wednesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#wednesday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I applied the &lt;a href="https://github.com/python/peps/pull/3995" target="_blank" rel="noreferrer">finishing touches&lt;/a> to
-&lt;a href="https://peps.python.org/pep-2026/" target="_blank" rel="noreferrer">PEP 2026&lt;/a> (Calendar versioning for Python) and Barry
+&lt;h2 id="wednesday-highlights" class="relative group">Wednesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#wednesday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I applied the &lt;a href="https://github.com/python/peps/pull/3995">finishing touches&lt;/a> to
+&lt;a href="https://peps.python.org/pep-2026/">PEP 2026&lt;/a> (Calendar versioning for Python) and Barry
 gave it a final review. Ready for submission!&lt;/p>
-&lt;p>&lt;a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noreferrer">Seth Larson&lt;/a>, the PSF
-&lt;a href="https://sethmlarson.dev/security-developer-in-residence" target="_blank" rel="noreferrer">Security Developer-in-Residence&lt;/a>,
+&lt;p>&lt;a href="https://fosstodon.org/@sethmlarson">Seth Larson&lt;/a>, the PSF
+&lt;a href="https://sethmlarson.dev/security-developer-in-residence">Security Developer-in-Residence&lt;/a>,
 wasn&amp;rsquo;t at the sprint but we discussed our plan to stop providing GPG signatures for
 CPython and rely on SigStore instead. Expect a PEP soon!&lt;/p>
 &lt;p>Also not at the sprint, I recommended PSF
-&lt;a href="https://pyfound.blogspot.com/2024/07/announcing-our-new-infrastructure.html" target="_blank" rel="noreferrer">Infrastructure Engineer&lt;/a>
-&lt;a href="https://fosstodon.org/@Monorepo" target="_blank" rel="noreferrer">Jacob Coffee&lt;/a> as a &lt;a href="CPython">CPython triager&lt;/a>. Welcome
+&lt;a href="https://pyfound.blogspot.com/2024/07/announcing-our-new-infrastructure.html">Infrastructure Engineer&lt;/a>
+&lt;a href="https://fosstodon.org/@Monorepo">Jacob Coffee&lt;/a> as a &lt;a href="CPython">CPython triager&lt;/a>. Welcome
 aboard!&lt;/p>
 &lt;p>The whole room discussed including
-&lt;a href="https://discuss.python.org/t/static-type-annotations-in-cpython/65068?u=hugovk" target="_blank" rel="noreferrer">static type annotations in CPython&lt;/a>.&lt;/p>
+&lt;a href="https://discuss.python.org/t/static-type-annotations-in-cpython/65068?u=hugovk">static type annotations in CPython&lt;/a>.&lt;/p>
 &lt;p>We had a Q&amp;amp;A session with two of the three Developers-in-Residence, Łukasz and
-&lt;a href="https://mastodon.social/@encukou" target="_blank" rel="noreferrer">Petr Viktorin&lt;/a>.&lt;/p>
+&lt;a href="https://mastodon.social/@encukou">Petr Viktorin&lt;/a>.&lt;/p>
 &lt;p>
 
 
@@ -245,8 +245,8 @@ aboard!&lt;/p>
 &lt;/p>
 &lt;center>&lt;small>Q&amp;A with Łukasz and Petr&lt;/small>&lt;/center>
 &lt;p>Discussed
-&lt;a href="https://discuss.python.org/t/collecting-feedback-about-expanding-the-voter-pool-for-sc-elections?u=hugovk" target="_blank" rel="noreferrer">expanding the voter pool for Steering Council elections&lt;/a>
-with &lt;a href="https://fosstodon.org/@mariatta" target="_blank" rel="noreferrer">Mariatta&lt;/a>, Greg and Thomas.&lt;/p>
+&lt;a href="https://discuss.python.org/t/collecting-feedback-about-expanding-the-voter-pool-for-sc-elections?u=hugovk">expanding the voter pool for Steering Council elections&lt;/a>
+with &lt;a href="https://fosstodon.org/@mariatta">Mariatta&lt;/a>, Greg and Thomas.&lt;/p>
 &lt;p>Larry Hastings handed out, in return for &lt;em>oohs&lt;/em> and &lt;em>aahs&lt;/em>, some nice P.C.D.S. 2024
 stickers he generously designed and printed up for us. Thanks!&lt;/p>
 &lt;p>
@@ -315,13 +315,13 @@ stickers he generously designed and printed up for us. Thanks!&lt;/p>
 &lt;/p>
 &lt;center>&lt;small>PCDS 2024 stickers by Larry&lt;/small>&lt;/center>
 &lt;h2 id="thursday-highlights" class="relative group">Thursday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thursday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>On the 26th September, at 10:26 Bellevue time (20:26 Helsinki time), I
-&lt;a href="https://github.com/python/steering-council/issues/255" target="_blank" rel="noreferrer">submitted PEP 2026 to the Steering Council!&lt;/a>🤞&lt;/p>
+&lt;a href="https://github.com/python/steering-council/issues/255">submitted PEP 2026 to the Steering Council!&lt;/a>🤞&lt;/p>
 &lt;p>Brett discussed whether we should update
-&lt;a href="https://discuss.python.org/t/updating-pep-387-to-prefer-5-year-deprecations-instead-of-2-years/65166?u=hugovk" target="_blank" rel="noreferrer">PEP 387 to prefer 5 year deprecations instead of 2 years&lt;/a>.&lt;/p>
+&lt;a href="https://discuss.python.org/t/updating-pep-387-to-prefer-5-year-deprecations-instead-of-2-years/65166?u=hugovk">PEP 387 to prefer 5 year deprecations instead of 2 years&lt;/a>.&lt;/p>
 &lt;p>Brandt Bucher gave us all an update on the progress of the Just-in-Time (JIT) compiler
 (&amp;ldquo;we went from 0% slower to 0% faster!&amp;rdquo;) and we discussed plans for Python 3.14.&lt;/p>
 &lt;p>Because I couldn&amp;rsquo;t attend Thursday&amp;rsquo;s
-&lt;a href="https://helsinki-python.github.io/" target="_blank" rel="noreferrer">Helsinki Python meetup&lt;/a> due to being at another
+&lt;a href="https://helsinki-python.github.io/">Helsinki Python meetup&lt;/a> due to being at another
 kind of Python meetup on the other side of the world, I gave the famous HelPy quiz to
 the assembled core devs. Unsurprisingly they did pretty well, but the most incorrect
 answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributors to Python 3.13!&lt;/p>
@@ -395,16 +395,16 @@ answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributor
 &lt;h2 id="friday-highlights" class="relative group">Friday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#friday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Mariatta presented ideas to Jelle Zijlstra, Petr, Russell and me about to use modern
 tools to create a modern, interactive tutorial.&lt;/p>
 &lt;p>Also during the week, continued work with Adam Turner on improving the
-&lt;a href="https://docs.python.org/3/" target="_blank" rel="noreferrer">docs.python.org&lt;/a> build. Adam wasn&amp;rsquo;t at the sprint, so
+&lt;a href="https://docs.python.org/3/">docs.python.org&lt;/a> build. Adam wasn&amp;rsquo;t at the sprint, so
 tag-teamed PR reviews overnight. After
-&lt;a href="https://github.com/python/docsbuild-scripts/issues/169#issuecomment-2389743956" target="_blank" rel="noreferrer">much work straddling many teams, projects and repos&lt;/a>,
+&lt;a href="https://github.com/python/docsbuild-scripts/issues/169#issuecomment-2389743956">much work straddling many teams, projects and repos&lt;/a>,
 we&amp;rsquo;ve got the full HTML build loop for 13 languages × 3 versions down from over 40 hours
 to just under 9 hours, with more improvements coming.&lt;/p>
-&lt;p>Made a &lt;a href="https://hugovk-cpython.readthedocs.io/en/pydata-sphinx-theme/" target="_blank" rel="noreferrer">demo&lt;/a> of the
+&lt;p>Made a &lt;a href="https://hugovk-cpython.readthedocs.io/en/pydata-sphinx-theme/">demo&lt;/a> of the
 CPython docs using the
-&lt;a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/" target="_blank" rel="noreferrer">PyData Sphinx Theme&lt;/a>.&lt;/p>
+&lt;a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/">PyData Sphinx Theme&lt;/a>.&lt;/p>
 &lt;p>Along with around 25 others, I was on Łukasz and Pablo&amp;rsquo;s
-&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc" target="_blank" rel="noreferrer">core.py podcast&lt;/a>.&lt;/p>
+&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc">core.py podcast&lt;/a>.&lt;/p>
 &lt;p>
 
 
@@ -538,10 +538,10 @@ CPython docs using the
 &lt;center>&lt;small>cake.py. Photo by Itamar Oren.&lt;/small>&lt;/center>
 &lt;h2 id="thank-you" class="relative group">Thank you &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thank-you" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It was a hugely productive week, big thanks to Itamar Oren and Meta for organising and
 hosting!&lt;/p>
-&lt;p>See also Mariatta&amp;rsquo;s excellent &lt;a href="https://mariatta.ca/tags/sprint/" target="_blank" rel="noreferrer">blog posts&lt;/a>, and I
+&lt;p>See also Mariatta&amp;rsquo;s excellent &lt;a href="https://mariatta.ca/tags/sprint/">blog posts&lt;/a>, and I
 recommend the
-&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc" target="_blank" rel="noreferrer">core.py podcast&lt;/a>
+&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc">core.py podcast&lt;/a>
 with short interviews with some 25 attendees! Łukasz and Pablo were also guests on the
-&lt;a href="https://changelog.com/podcast/611" target="_blank" rel="noreferrer">Changelog podcast&lt;/a> during the sprint.&lt;/p>
+&lt;a href="https://changelog.com/podcast/611">Changelog podcast&lt;/a> during the sprint.&lt;/p>
 &lt;hr>
 &lt;p>&lt;small>Header photo by Itamar Oren&lt;/small>&lt;/p></description></item></channel></rss>
