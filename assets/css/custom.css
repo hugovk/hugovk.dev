@@ -28,6 +28,12 @@ html:not(.dark) {
   }
 }
 
+@media (max-width: 639px) {
+  header > nav > ul li:nth-child(n + 4) {
+    display: none;
+  }
+}
+
 a {
   overflow-wrap: break-word;
   word-wrap: break-word;
