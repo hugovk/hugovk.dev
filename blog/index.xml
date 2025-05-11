@@ -3230,10 +3230,62 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
 
 
 
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
 
  
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
  
-&lt;figure>&lt;img src="fkoa8vurrwrj71jde2f3.png" alt="Python download share over time" class="mx-auto my-0 rounded-md" />
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_d7ca1503ec2375fb.webp 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_62d8a9024264f67c.webp 660w
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_8f5d2b2a4c883985.webp 1024w
+ 
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_e0770254aedfc980.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1536"
+ height="1152"
+ class="mx-auto my-0 rounded-md"
+ alt="Python download share over time"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_5a536e509891075.png"
+ srcset="https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_e19a98a10f25c2a8.png 330w,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_5a536e509891075.png 660w
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_d4c9d4856167e7b6.png 1024w
+ 
+ 
+ ,/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/fkoa8vurrwrj71jde2f3_hu_76e7b9ff2df65960.png 1320w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
 &lt;/figure>
 &lt;/p>
 &lt;center>&lt;small>Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html">pypi-tools&lt;/a>&lt;/small>&lt;/center>
