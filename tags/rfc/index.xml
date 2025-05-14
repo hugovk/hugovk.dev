@@ -80,6 +80,10 @@ directly from that idea of the RFC&amp;rsquo;s standard.&lt;/p>&lt;/blockquote>
  &lt;td>&lt;a href="https://github.com/jmespath/jmespath.jep">JMESPath Enhancement Proposals&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td>JEP&lt;/td>
+ &lt;td>&lt;a href="https://jupyter.org/enhancement-proposals/README.html">Jupyter Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td>KEP&lt;/td>
  &lt;td>&lt;a href="https://www.kubernetes.dev/resources/keps/">Kubernetes Enhancement Proposals&lt;/a>&lt;/td>
  &lt;/tr>
