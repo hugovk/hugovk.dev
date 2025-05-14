@@ -61,6 +61,7 @@ Here's a collection of enhancement proposals from different communities.
 | IPEP    | [IPython Enhancement Proposals](https://github.com/ipython/ipython/wiki/IPEPs:-IPython-Enhancement-Proposals) |
 | JEP     | [JDK Enhancement Proposals](https://openjdk.org/jeps/0)                                                       |
 | JEP     | [JMESPath Enhancement Proposals](https://github.com/jmespath/jmespath.jep)                                    |
+| JEP     | [Jupyter Enhancement Proposals](https://jupyter.org/enhancement-proposals/README.html)                        |
 | KEP     | [Kubernetes Enhancement Proposals](https://www.kubernetes.dev/resources/keps/)                                |
 | NEP     | [NumPy Enhancement Proposals](https://numpy.org/neps/)                                                        |
 | PEEP    | [Pipenv Enhancement Proposals](https://github.com/pypa/pipenv/blob/main/peeps/PEEP-000.md)                    |
