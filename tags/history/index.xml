@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>history on Hugo van Kemenade</title><link>https://hugovk.dev/tags/history/</link><description>Recent content in history on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Wed, 14 May 2025 15:45:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/history/index.xml" rel="self" type="application/rss+xml"/><item><title>PEPs &amp; Co.</title><link>https://hugovk.dev/blog/2025/peps-and-co/</link><pubDate>Wed, 14 May 2025 15:45:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/peps-and-co/</guid><description>&lt;h2 id="peps" class="relative group">PEPs &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#peps" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Here&amp;rsquo;s &lt;a href="https://barry.warsaw.us/">Barry Warsaw&lt;/a> on the origin of
+&lt;a href="https://peps.python.org/">PEPs&lt;/a>, or Python Enhancement Proposals (edited from
+&lt;a href="https://www.youtube.com/embed/7NrPCsH0mBU?start=1662&amp;amp;end=1803">PyBay 2017&lt;/a>):&lt;/p>
+&lt;blockquote>
+&lt;p>I like backronyms. For those who don&amp;rsquo;t know: a backronym is where you come up with the
+acronym first and then you come up with the thing that the acronym stands for. And I
+like funny sounding words, like &lt;a href="https://peps.python.org/pep-0401/">FLUFL&lt;/a> was one of
+those. When we were working for CNRI, they also ran the IETF conferences. The IETF is
+the Internet Engineering Task Force, and they&amp;rsquo;re the ones who come up with the RFCs.
+If you look at &lt;a href="https://datatracker.ietf.org/doc/html/rfc822">RFC 822&lt;/a>, it defines
+what an email message looks like.&lt;/p>
+&lt;p>We got to a point, because we were at CNRI we were more intimately involved in the
+IETF and how they do standards and things, we observed at the time that there were so
+many interesting ideas coming in being proposed for Python that Guido really just
+didn&amp;rsquo;t have time to dive into the details of everything.&lt;/p>
+&lt;p>So I thought: well, we have this RFC process, let&amp;rsquo;s try to mirror some of that so that
+we can capture the essence of an idea in a document that would serve as a point of
+discussion, and that Guido could let people discuss and then come in and read the
+summary of the discussion.&lt;/p>
+&lt;p>And I was just kind of thinking: well, PEPs, that&amp;rsquo;s kind of peppy, it&amp;rsquo;s kind of a
+funny sounding word. I came up with the word and then I backronymed it into Python
+Enhancement Proposal. And then I wrote &lt;a href="https://peps.python.org/pep-0000/">PEP 0&lt;/a> and
+&lt;a href="https://peps.python.org/pep-0001/">PEP 1&lt;/a>. PEP 0 was originally handwritten, and so I
+was the first PEP author because I came up with the name PEP.&lt;/p>
+&lt;p>But the really interesting thing is that you see the E.P. part used in a lot of other
+places, like Debian has DEPs now. There&amp;rsquo;s a lot of other communities that have these
+enhancement proposals so it&amp;rsquo;s kind of interesting. And then the format of the PEP was
+directly from that idea of the RFC&amp;rsquo;s standard.&lt;/p>&lt;/blockquote>
+&lt;h2 id="-co" class="relative group">&amp;amp; Co. &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#-co" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Here&amp;rsquo;s a collection of enhancement proposals from different communities.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Acronym&lt;/th>
+ &lt;th>Name&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>AIP&lt;/td>
+ &lt;td>&lt;a href="https://google.aip.dev/">API Improvement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>APE&lt;/td>
+ &lt;td>&lt;a href="https://github.com/astropy/astropy-APEs">Astropy Proposals for Enhancement&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>BIP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/bitcoin/bips">Bitcoin Improvement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CEP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/conda-incubator/ceps">Conda Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CFEP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/conda-forge/cfep">conda-forge&amp;rsquo;s Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DEP&lt;/td>
+ &lt;td>&lt;a href="https://dep-team.pages.debian.net/">Debian Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DEP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/django/deps">Django Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FEP&lt;/td>
+ &lt;td>&lt;a href="https://codeberg.org/fediverse/fep">Fediverse Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>IPEP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/ipython/ipython/wiki/IPEPs:-IPython-Enhancement-Proposals">IPython Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>JEP&lt;/td>
+ &lt;td>&lt;a href="https://openjdk.org/jeps/0">JDK Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>JEP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/jmespath/jmespath.jep">JMESPath Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>KEP&lt;/td>
+ &lt;td>&lt;a href="https://www.kubernetes.dev/resources/keps/">Kubernetes Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>NEP&lt;/td>
+ &lt;td>&lt;a href="https://numpy.org/neps/">NumPy Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>PEEP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/pypa/pipenv/blob/main/peeps/PEEP-000.md">Pipenv Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>PEP&lt;/td>
+ &lt;td>&lt;a href="https://peps.python.org/">Python Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>SKIP&lt;/td>
+ &lt;td>&lt;a href="https://scikit-image.org/docs/stable/skips/">scikit-image proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>SLEP&lt;/td>
+ &lt;td>&lt;a href="https://scikit-learn-enhancement-proposals.readthedocs.io">Scikit-learn enhancement proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>SPEC&lt;/td>
+ &lt;td>&lt;a href="https://scientific-python.org/specs/">Scientific Python Ecosystem Coordination&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>TIP&lt;/td>
+ &lt;td>&lt;a href="https://core.tcl-lang.org/tips/doc/trunk/index.md">Tcl Improvement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>WEP&lt;/td>
+ &lt;td>&lt;a href="https://github.com/writethedocs/weps">Write the Docs Enhancement Proposals&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Are there more? Let me know!&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo:
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/library_of_congress/2179931106/">Grand
+Grocery Co., Lincoln, Nebraska, USA (1942)&lt;/a> by
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/library_of_congress/">The
+Library of Congress&lt;/a>, with
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/">no
+known copyright restrictions&lt;/a>.&lt;/small>&lt;/p></description></item></channel></rss>
