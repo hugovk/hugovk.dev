@@ -48,31 +48,32 @@ Here's [Barry Warsaw](https://barry.warsaw.us/) on the origin of
 
 Here's a collection of enhancement proposals from different communities.
 
-| Acronym | Name                                                                                                          |
-| ------- | ------------------------------------------------------------------------------------------------------------- |
-| AIP     | [API Improvement Proposals](https://google.aip.dev/)                                                          |
-| APE     | [Astropy Proposals for Enhancement](https://github.com/astropy/astropy-APEs)                                  |
-| BIP     | [Bitcoin Improvement Proposals](https://github.com/bitcoin/bips)                                              |
-| CEP     | [Conda Enhancement Proposals](https://github.com/conda-incubator/ceps)                                        |
-| CFEP    | [conda-forge's Enhancement Proposals](https://github.com/conda-forge/cfep)                                    |
-| DEP     | [Debian Enhancement Proposals](https://dep-team.pages.debian.net/)                                            |
-| DEP     | [Django Enhancement Proposals](https://github.com/django/deps)                                                |
-| FEP     | [Fediverse Enhancement Proposals](https://codeberg.org/fediverse/fep)                                         |
-| IPEP    | [IPython Enhancement Proposals](https://github.com/ipython/ipython/wiki/IPEPs:-IPython-Enhancement-Proposals) |
-| JEP     | [JDK Enhancement Proposals](https://openjdk.org/jeps/0)                                                       |
-| JEP     | [JMESPath Enhancement Proposals](https://github.com/jmespath/jmespath.jep)                                    |
-| JEP     | [Jupyter Enhancement Proposals](https://jupyter.org/enhancement-proposals/README.html)                        |
-| KEP     | [Kubernetes Enhancement Proposals](https://www.kubernetes.dev/resources/keps/)                                |
-| NEP     | [NumPy Enhancement Proposals](https://numpy.org/neps/)                                                        |
-| PEEP    | [Pipenv Enhancement Proposals](https://github.com/pypa/pipenv/blob/main/peeps/PEEP-000.md)                    |
-| PEP     | [Python Enhancement Proposals](https://peps.python.org/)                                                      |
-| SKIP    | [scikit-image proposals](https://scikit-image.org/docs/stable/skips/)                                         |
-| SLEP    | [Scikit-learn enhancement proposals](https://scikit-learn-enhancement-proposals.readthedocs.io)               |
-| SPEC    | [Scientific Python Ecosystem Coordination](https://scientific-python.org/specs/)                              |
-| TIP     | [Tcl Improvement Proposals](https://core.tcl-lang.org/tips/doc/trunk/index.md)                                |
-| WEP     | [Write the Docs Enhancement Proposals](https://github.com/writethedocs/weps)                                  |
-| XEP     | [XMPP Extension Protocols](https://xmpp.org/extensions/)                                                      |
-| YTEP    | [yt Enhancement Proposals](https://ytep.readthedocs.io/)                                                      |
+| Acronym | Name                                                                                                               |
+| ------- | ------------------------------------------------------------------------------------------------------------------ |
+| AIP     | [Airflow Improvement Proposals](https://cwiki.apache.org/confluence/display/AIRFLOW/Airflow+Improvement+Proposals) |
+| AIP     | [API Improvement Proposals](https://google.aip.dev/)                                                               |
+| APE     | [Astropy Proposals for Enhancement](https://github.com/astropy/astropy-APEs)                                       |
+| BIP     | [Bitcoin Improvement Proposals](https://github.com/bitcoin/bips)                                                   |
+| CEP     | [Conda Enhancement Proposals](https://github.com/conda-incubator/ceps)                                             |
+| CFEP    | [conda-forge's Enhancement Proposals](https://github.com/conda-forge/cfep)                                         |
+| DEP     | [Debian Enhancement Proposals](https://dep-team.pages.debian.net/)                                                 |
+| DEP     | [Django Enhancement Proposals](https://github.com/django/deps)                                                     |
+| FEP     | [Fediverse Enhancement Proposals](https://codeberg.org/fediverse/fep)                                              |
+| IPEP    | [IPython Enhancement Proposals](https://github.com/ipython/ipython/wiki/IPEPs:-IPython-Enhancement-Proposals)      |
+| JEP     | [JDK Enhancement Proposals](https://openjdk.org/jeps/0)                                                            |
+| JEP     | [JMESPath Enhancement Proposals](https://github.com/jmespath/jmespath.jep)                                         |
+| JEP     | [Jupyter Enhancement Proposals](https://jupyter.org/enhancement-proposals/README.html)                             |
+| KEP     | [Kubernetes Enhancement Proposals](https://www.kubernetes.dev/resources/keps/)                                     |
+| NEP     | [NumPy Enhancement Proposals](https://numpy.org/neps/)                                                             |
+| PEEP    | [Pipenv Enhancement Proposals](https://github.com/pypa/pipenv/blob/main/peeps/PEEP-000.md)                         |
+| PEP     | [Python Enhancement Proposals](https://peps.python.org/)                                                           |
+| SKIP    | [scikit-image proposals](https://scikit-image.org/docs/stable/skips/)                                              |
+| SLEP    | [Scikit-learn enhancement proposals](https://scikit-learn-enhancement-proposals.readthedocs.io)                    |
+| SPEC    | [Scientific Python Ecosystem Coordination](https://scientific-python.org/specs/)                                   |
+| TIP     | [Tcl Improvement Proposals](https://core.tcl-lang.org/tips/doc/trunk/index.md)                                     |
+| WEP     | [Write the Docs Enhancement Proposals](https://github.com/writethedocs/weps)                                       |
+| XEP     | [XMPP Extension Protocols](https://xmpp.org/extensions/)                                                           |
+| YTEP    | [yt Enhancement Proposals](https://ytep.readthedocs.io/)                                                           |
 
 Are there more? Let me know!
 
