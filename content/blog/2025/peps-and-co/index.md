@@ -59,6 +59,7 @@ Here's a collection of enhancement proposals from different communities.
 | DEP     | [Debian Enhancement Proposals](https://dep-team.pages.debian.net/)                                                 |
 | DEP     | [Django Enhancement Proposals](https://github.com/django/deps)                                                     |
 | FEP     | [Fediverse Enhancement Proposals](https://codeberg.org/fediverse/fep)                                              |
+| GLEP    | [Gentoo Linux Enhancement Proposal](https://www.gentoo.org/glep/glep-0001.html)                                    |
 | IPEP    | [IPython Enhancement Proposals](https://github.com/ipython/ipython/wiki/IPEPs:-IPython-Enhancement-Proposals)      |
 | JEP     | [JDK Enhancement Proposals](https://openjdk.org/jeps/0)                                                            |
 | JEP     | [JMESPath Enhancement Proposals](https://github.com/jmespath/jmespath.jep)                                         |
