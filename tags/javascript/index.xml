@@ -29,12 +29,12 @@ we have some pages with tabs for different operating systems:&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_1541441e45a7fc79.webp 330w,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_1b9f3b8440668f33.webp 660w
+ srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_1541441e45a7fc79.webp 330w,https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_1b9f3b8440668f33.webp 660w
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_4f1c1d8c2605b4a2.webp 1024w
+ ,https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_4f1c1d8c2605b4a2.webp 1024w
  
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_99868368c07d7cd7.webp 1320w
+ ,https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_99868368c07d7cd7.webp 1320w
  "
  
  sizes="100vw"
@@ -48,13 +48,12 @@ we have some pages with tabs for different operating systems:&lt;/p>
  alt="Screenshot showing instructions how to build Python. Some parts have Unix, macOS and Windows tabs. The macOS tab is active, showing a configure command to run in your terminal. Underneath is a second step with its own tabs and a macOS command. There&amp;rsquo;s a macOS-specific note underneath."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_af735922a8dc1b5f.png"
- srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_2dbcf2fe4b62a9be.png 330w,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_af735922a8dc1b5f.png 660w
+ src="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_af735922a8dc1b5f.png" srcset="https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_2dbcf2fe4b62a9be.png 330w,https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_af735922a8dc1b5f.png 660w
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_40864b97f3d19988.png 1024w
+ ,https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_40864b97f3d19988.png 1024w
  
  
- ,/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_8174716000619f50.png 1320w
+ ,https://hugovk.dev/blog/2024/sphinx-docs-how-to-activate-tabs-for-your-os/knze2ghlj0qmjucz354t_hu_8174716000619f50.png 1320w
  "
  sizes="100vw"
  

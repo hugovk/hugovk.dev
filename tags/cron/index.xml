@@ -45,12 +45,12 @@ only uses up extra CI resources on the fork:&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_4052d6fd5f0bf6ef.webp 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_c4721597b82fe41a.webp 660w
+ srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_4052d6fd5f0bf6ef.webp 330w,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_c4721597b82fe41a.webp 660w
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_f96f583f820ce7ac.webp 1024w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_f96f583f820ce7ac.webp 1024w
  
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_45e9a70c66689cf9.webp 1320w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_45e9a70c66689cf9.webp 1320w
  "
  
  sizes="100vw"
@@ -64,13 +64,12 @@ only uses up extra CI resources on the fork:&lt;/p>
  alt="A list of daily GitHub Actions runs"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_d2a2284598a72855.png"
- srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_f34d2002f4942ab6.png 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_d2a2284598a72855.png 660w
+ src="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_d2a2284598a72855.png" srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_f34d2002f4942ab6.png 330w,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_d2a2284598a72855.png 660w
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_bef6f958ed8a1ba4.png 1024w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_bef6f958ed8a1ba4.png 1024w
  
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_61cb668e3824c212.png 1320w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/tc2y55vsrfl3ulss4629_hu_61cb668e3824c212.png 1320w
  "
  sizes="100vw"
  
@@ -110,12 +109,12 @@ only uses up extra CI resources on the fork:&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_5459ecf1d164d7ba.webp 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_af3d253d425ba1c9.webp 660w
+ srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_5459ecf1d164d7ba.webp 330w,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_af3d253d425ba1c9.webp 660w
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_7ec2667f6dc783.webp 1024w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_7ec2667f6dc783.webp 1024w
  
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_fc2c9e16acdffb03.webp 1320w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_fc2c9e16acdffb03.webp 1320w
  "
  
  sizes="100vw"
@@ -129,13 +128,12 @@ only uses up extra CI resources on the fork:&lt;/p>
  alt="A daily email from GitHub: &amp;ldquo;hugovk/packaging.python.org Run failed: Test - main&amp;rdquo;"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_955be7effdc5471a.png"
- srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_ee2e0284124955a.png 330w,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_955be7effdc5471a.png 660w
+ src="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_955be7effdc5471a.png" srcset="https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_ee2e0284124955a.png 330w,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_955be7effdc5471a.png 660w
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_c93fc6aedbe2c2f8.png 1024w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_c93fc6aedbe2c2f8.png 1024w
  
  
- ,/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_4560db3e2c548f97.png 1320w
+ ,https://hugovk.dev/blog/2023/til-how-to-disable-cron-for-github-forks/eqdmv5m766yif5qgjols_hu_4560db3e2c548f97.png 1320w
  "
  sizes="100vw"
  

@@ -37,12 +37,12 @@ big release.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_1a285f0d90966c8c.webp 330w,/blog/2025/how-to-delay-a-python-release/pablo_hu_6329ba064ce19b7b.webp 660w
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_1a285f0d90966c8c.webp 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_6329ba064ce19b7b.webp 660w
  
- ,/blog/2025/how-to-delay-a-python-release/pablo_hu_257a23053aa7f6b6.webp 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_257a23053aa7f6b6.webp 1024w
  
  
- ,/blog/2025/how-to-delay-a-python-release/pablo_hu_c5cdc6182813beac.webp 1320w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_c5cdc6182813beac.webp 1320w
  "
  
  sizes="100vw"
@@ -56,13 +56,12 @@ big release.&lt;/p>
  alt="Release manager Pablo tweeting: Yeah, no kidding! 😵‍💫 3.11.0a4 had a ridiculous amount of release blockers 🧐 we needed to solve and while everything was on fire we discovered something that made us make an early 3.10.2 release 🤯(you should upgrade: read the release notes for more info⚠️)! What a week 😅"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_75f173606e2cad95.png"
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_93eba480630d0e67.png 330w,/blog/2025/how-to-delay-a-python-release/pablo_hu_75f173606e2cad95.png 660w
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_75f173606e2cad95.png" srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_93eba480630d0e67.png 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_75f173606e2cad95.png 660w
  
- ,/blog/2025/how-to-delay-a-python-release/pablo_hu_50deca9cff8bc5a5.png 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_50deca9cff8bc5a5.png 1024w
  
  
- ,/blog/2025/how-to-delay-a-python-release/pablo_hu_c1bc78ab097bfeed.png 1320w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/pablo_hu_c1bc78ab097bfeed.png 1320w
  "
  sizes="100vw"
  
@@ -106,13 +105,13 @@ errors.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_7bbe76a48d7c226a.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_61cccac32a6d5644.webp 660w
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_7bbe76a48d7c226a.webp 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_61cccac32a6d5644.webp 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2c4147de3c848de5.webp 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2c4147de3c848de5.webp 1024w
  
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_a9bb4b3f81f5d891.webp 1200w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_a9bb4b3f81f5d891.webp 1200w
  
  "
  
@@ -127,13 +126,12 @@ errors.&lt;/p>
  alt="Sphinx output showing &amp;ldquo;WARNING: image file not readable&amp;rdquo;"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2f718fa74beb8777.jpg"
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_a430f9d625751c48.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2f718fa74beb8777.jpg 660w
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2f718fa74beb8777.jpg" srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_a430f9d625751c48.jpg 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_2f718fa74beb8777.jpg 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx1_hu_7cbc75f94ea650b.jpg 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1_hu_7cbc75f94ea650b.jpg 1024w
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx1.jpg 1200w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx1.jpg 1200w
  "
  sizes="100vw"
  
@@ -172,13 +170,13 @@ errors.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_7ece0bd22701090f.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_4dd0964be0070811.webp 660w
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_7ece0bd22701090f.webp 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_4dd0964be0070811.webp 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_5a0c76d1911f65da.webp 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_5a0c76d1911f65da.webp 1024w
  
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_74857cd42aa1d63d.webp 1082w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_74857cd42aa1d63d.webp 1082w
  
  "
  
@@ -193,13 +191,12 @@ errors.&lt;/p>
  alt="Sphinx output turning the warning into an error"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_9af2d4db071fc699.jpg"
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_7f9354d3abdde0b6.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_9af2d4db071fc699.jpg 660w
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_9af2d4db071fc699.jpg" srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_7f9354d3abdde0b6.jpg 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_9af2d4db071fc699.jpg 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx2_hu_397edcb0f6736026.jpg 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2_hu_397edcb0f6736026.jpg 1024w
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx2.jpg 1082w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx2.jpg 1082w
  "
  sizes="100vw"
  
@@ -247,13 +244,13 @@ not from another, further away directory.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6c1dc8f46067a19.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_c904614bd2b18ddd.webp 660w
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6c1dc8f46067a19.webp 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_c904614bd2b18ddd.webp 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_8b4230436c446188.webp 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_8b4230436c446188.webp 1024w
  
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_24c8631293a16342.webp 1044w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_24c8631293a16342.webp 1044w
  
  "
  
@@ -268,13 +265,12 @@ not from another, further away directory.&lt;/p>
  alt="A screenshot of a GitHub bug report"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6f88fb6be0af20a.jpg"
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_5b7c3b0145311743.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6f88fb6be0af20a.jpg 660w
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6f88fb6be0af20a.jpg" srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_5b7c3b0145311743.jpg 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_6f88fb6be0af20a.jpg 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx3_hu_24e4e906b21b98fb.jpg 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3_hu_24e4e906b21b98fb.jpg 1024w
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx3.jpg 1044w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx3.jpg 1044w
  "
  sizes="100vw"
  
@@ -318,13 +314,13 @@ could be a bug in Python.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_c7e10738c0b7220.webp 330w,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_dfd0876b7b880a05.webp 660w
+ srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_c7e10738c0b7220.webp 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_dfd0876b7b880a05.webp 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_2bdb7d4962c5870c.webp 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_2bdb7d4962c5870c.webp 1024w
  
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_21bf5c8d7edc26e7.webp 1200w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_21bf5c8d7edc26e7.webp 1200w
  
  "
  
@@ -339,13 +335,12 @@ could be a bug in Python.&lt;/p>
  alt="Screenshot of Takeshi&amp;rsquo;s reply"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_491035a5d95deee7.jpg"
- srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_4a5005a7a8dac55b.jpg 330w,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_491035a5d95deee7.jpg 660w
+ src="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_491035a5d95deee7.jpg" srcset="https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_4a5005a7a8dac55b.jpg 330w,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_491035a5d95deee7.jpg 660w
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx4_hu_ba0a46bbb862b06.jpg 1024w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4_hu_ba0a46bbb862b06.jpg 1024w
  
  
- ,/blog/2025/how-to-delay-a-python-release/sphinx4.jpg 1200w
+ ,https://hugovk.dev/blog/2025/how-to-delay-a-python-release/sphinx4.jpg 1200w
  "
  sizes="100vw"
  
@@ -1229,15 +1224,15 @@ troughs are generally when the bots were offline.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_a29ce766b7825a68.webp 330w,/blog/2016/woty15-nominations/squad_hu_419227b881e7d73.webp 660w
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_a29ce766b7825a68.webp 330w,https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_419227b881e7d73.webp 660w
  
  
- ,/blog/2016/woty15-nominations/squad_hu_322e89be8a4b0304.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_322e89be8a4b0304.webp 700w
  
  
  
  
- ,/blog/2016/woty15-nominations/squad_hu_322e89be8a4b0304.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_322e89be8a4b0304.webp 700w
  
  "
  
@@ -1252,13 +1247,12 @@ troughs are generally when the bots were offline.&lt;/p>
  alt="squad"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_3b8474b49afe8606.png"
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_4d7c577f3da6a5e3.png 330w,/blog/2016/woty15-nominations/squad_hu_3b8474b49afe8606.png 660w
+ src="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_3b8474b49afe8606.png" srcset="https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_4d7c577f3da6a5e3.png 330w,https://hugovk.dev/blog/2016/woty15-nominations/squad_hu_3b8474b49afe8606.png 660w
  
- ,/blog/2016/woty15-nominations/squad.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/squad.png 700w
  
  
- ,/blog/2016/woty15-nominations/squad.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/squad.png 700w
  "
  sizes="100vw"
  
@@ -1297,15 +1291,15 @@ troughs are generally when the bots were offline.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_d81dea212f44e5a5.webp 330w,/blog/2016/woty15-nominations/fuckboy_hu_be76a97614527e35.webp 660w
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_d81dea212f44e5a5.webp 330w,https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_be76a97614527e35.webp 660w
  
  
- ,/blog/2016/woty15-nominations/fuckboy_hu_5dae82b6bfa7fd18.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_5dae82b6bfa7fd18.webp 700w
  
  
  
  
- ,/blog/2016/woty15-nominations/fuckboy_hu_5dae82b6bfa7fd18.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_5dae82b6bfa7fd18.webp 700w
  
  "
  
@@ -1320,13 +1314,12 @@ troughs are generally when the bots were offline.&lt;/p>
  alt="fuckboy"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_7b56a9a762ee81d1.png"
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_deb1a1d05267bf13.png 330w,/blog/2016/woty15-nominations/fuckboy_hu_7b56a9a762ee81d1.png 660w
+ src="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_7b56a9a762ee81d1.png" srcset="https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_deb1a1d05267bf13.png 330w,https://hugovk.dev/blog/2016/woty15-nominations/fuckboy_hu_7b56a9a762ee81d1.png 660w
  
- ,/blog/2016/woty15-nominations/fuckboy.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fuckboy.png 700w
  
  
- ,/blog/2016/woty15-nominations/fuckboy.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fuckboy.png 700w
  "
  sizes="100vw"
  
@@ -1365,15 +1358,15 @@ troughs are generally when the bots were offline.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_d7367617d03daf1e.webp 330w,/blog/2016/woty15-nominations/af_hu_239f5758b1f1814a.webp 660w
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_d7367617d03daf1e.webp 330w,https://hugovk.dev/blog/2016/woty15-nominations/af_hu_239f5758b1f1814a.webp 660w
  
  
- ,/blog/2016/woty15-nominations/af_hu_67d1690f68d8966f.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/af_hu_67d1690f68d8966f.webp 700w
  
  
  
  
- ,/blog/2016/woty15-nominations/af_hu_67d1690f68d8966f.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/af_hu_67d1690f68d8966f.webp 700w
  
  "
  
@@ -1388,13 +1381,12 @@ troughs are generally when the bots were offline.&lt;/p>
  alt="af"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_92c970f6bc910e46.png"
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_ccd45b37361d1b20.png 330w,/blog/2016/woty15-nominations/af_hu_92c970f6bc910e46.png 660w
+ src="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_92c970f6bc910e46.png" srcset="https://hugovk.dev/blog/2016/woty15-nominations/af_hu_ccd45b37361d1b20.png 330w,https://hugovk.dev/blog/2016/woty15-nominations/af_hu_92c970f6bc910e46.png 660w
  
- ,/blog/2016/woty15-nominations/af.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/af.png 700w
  
  
- ,/blog/2016/woty15-nominations/af.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/af.png 700w
  "
  sizes="100vw"
  
@@ -1433,15 +1425,15 @@ troughs are generally when the bots were offline.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_e6712213ba0227bb.webp 330w,/blog/2016/woty15-nominations/lit_hu_fdcb7373bbea3bc0.webp 660w
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_e6712213ba0227bb.webp 330w,https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_fdcb7373bbea3bc0.webp 660w
  
  
- ,/blog/2016/woty15-nominations/lit_hu_5318cb1fc11bda5b.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_5318cb1fc11bda5b.webp 700w
  
  
  
  
- ,/blog/2016/woty15-nominations/lit_hu_5318cb1fc11bda5b.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_5318cb1fc11bda5b.webp 700w
  
  "
  
@@ -1456,13 +1448,12 @@ troughs are generally when the bots were offline.&lt;/p>
  alt="lit"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_d0a1546f14aa9b2f.png"
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_908079dc61f46e57.png 330w,/blog/2016/woty15-nominations/lit_hu_d0a1546f14aa9b2f.png 660w
+ src="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_d0a1546f14aa9b2f.png" srcset="https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_908079dc61f46e57.png 330w,https://hugovk.dev/blog/2016/woty15-nominations/lit_hu_d0a1546f14aa9b2f.png 660w
  
- ,/blog/2016/woty15-nominations/lit.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/lit.png 700w
  
  
- ,/blog/2016/woty15-nominations/lit.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/lit.png 700w
  "
  sizes="100vw"
  
@@ -1501,15 +1492,15 @@ troughs are generally when the bots were offline.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_de5ed5af7457de7a.webp 330w,/blog/2016/woty15-nominations/fleek_hu_ce0ec36f1f7788ac.webp 660w
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_de5ed5af7457de7a.webp 330w,https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_ce0ec36f1f7788ac.webp 660w
  
  
- ,/blog/2016/woty15-nominations/fleek_hu_e09705614c9dbef6.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_e09705614c9dbef6.webp 700w
  
  
  
  
- ,/blog/2016/woty15-nominations/fleek_hu_e09705614c9dbef6.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_e09705614c9dbef6.webp 700w
  
  "
  
@@ -1524,13 +1515,12 @@ troughs are generally when the bots were offline.&lt;/p>
  alt="fleek"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_6d3452889112d7e1.png"
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_1dbc9993fffad957.png 330w,/blog/2016/woty15-nominations/fleek_hu_6d3452889112d7e1.png 660w
+ src="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_6d3452889112d7e1.png" srcset="https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_1dbc9993fffad957.png 330w,https://hugovk.dev/blog/2016/woty15-nominations/fleek_hu_6d3452889112d7e1.png 660w
  
- ,/blog/2016/woty15-nominations/fleek.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fleek.png 700w
  
  
- ,/blog/2016/woty15-nominations/fleek.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fleek.png 700w
  "
  sizes="100vw"
  
@@ -1570,15 +1560,15 @@ troughs are generally when the bots were offline.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_741900589d39ceb5.webp 330w,/blog/2016/woty15-nominations/fam_hu_a5ed24e3a65dacad.webp 660w
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_741900589d39ceb5.webp 330w,https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_a5ed24e3a65dacad.webp 660w
  
  
- ,/blog/2016/woty15-nominations/fam_hu_61e54d6a758c627b.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_61e54d6a758c627b.webp 700w
  
  
  
  
- ,/blog/2016/woty15-nominations/fam_hu_61e54d6a758c627b.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_61e54d6a758c627b.webp 700w
  
  "
  
@@ -1593,13 +1583,12 @@ troughs are generally when the bots were offline.&lt;/p>
  alt="fam"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_f03f56487b72d343.png"
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_bc092dc4dd4745e0.png 330w,/blog/2016/woty15-nominations/fam_hu_f03f56487b72d343.png 660w
+ src="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_f03f56487b72d343.png" srcset="https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_bc092dc4dd4745e0.png 330w,https://hugovk.dev/blog/2016/woty15-nominations/fam_hu_f03f56487b72d343.png 660w
  
- ,/blog/2016/woty15-nominations/fam.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fam.png 700w
  
  
- ,/blog/2016/woty15-nominations/fam.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/fam.png 700w
  "
  sizes="100vw"
  
@@ -1638,15 +1627,15 @@ troughs are generally when the bots were offline.&lt;/p>
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_98bab57bf8d4299e.webp 330w,/blog/2016/woty15-nominations/slay_hu_c7271f4364680a5b.webp 660w
+ srcset="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_98bab57bf8d4299e.webp 330w,https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_c7271f4364680a5b.webp 660w
  
  
- ,/blog/2016/woty15-nominations/slay_hu_84b99142e234985d.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_84b99142e234985d.webp 700w
  
  
  
  
- ,/blog/2016/woty15-nominations/slay_hu_84b99142e234985d.webp 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_84b99142e234985d.webp 700w
  
  "
  
@@ -1661,13 +1650,12 @@ troughs are generally when the bots were offline.&lt;/p>
  alt="slay"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_7d228f44fe3fe596.png"
- srcset="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_c7b8df41b203e9e6.png 330w,/blog/2016/woty15-nominations/slay_hu_7d228f44fe3fe596.png 660w
+ src="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_7d228f44fe3fe596.png" srcset="https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_c7b8df41b203e9e6.png 330w,https://hugovk.dev/blog/2016/woty15-nominations/slay_hu_7d228f44fe3fe596.png 660w
  
- ,/blog/2016/woty15-nominations/slay.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/slay.png 700w
  
  
- ,/blog/2016/woty15-nominations/slay.png 700w
+ ,https://hugovk.dev/blog/2016/woty15-nominations/slay.png 700w
  "
  sizes="100vw"
  
