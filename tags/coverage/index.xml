@@ -3,8 +3,8 @@
 &lt;a href="https://nedbatchelder.com/blog/201908/dont_omit_tests_from_coverage.html">coverage&lt;/a>
 &lt;a href="https://nedbatchelder.com/blog/202008/you_should_include_your_tests_in_coverage.html">on your tests&lt;/a>.&lt;/p>
 &lt;p>Here&amp;rsquo;s a couple of reasons why, from the past couple of months.&lt;/p>
-&lt;h2 id="example-one" class="relative group">Example one &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#example-one" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>When writing tests, it&amp;rsquo;s common to copy and paste test functions but forget to rename
-the new one (see also: the
+&lt;h2 id="example-one" class="relative group">Example one &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#example-one" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>When writing tests, it&amp;rsquo;s common to copy and paste test functions, but sometimes you
+forget to rename the new one (see also: the
 &lt;a href="https://pvs-studio.com/en/blog/posts/cpp/0260/">Last Line Effect&lt;/a>).&lt;/p>
 &lt;p>For example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">test_get_install_to_run_with_platform&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">patched_installs&lt;/span>&lt;span class="p">):&lt;/span>
