@@ -1,4 +1,141 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>testing on Hugo van Kemenade</title><link>https://hugovk.dev/tags/testing/</link><description>Recent content in testing on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 25 Mar 2025 10:25:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/testing/index.xml" rel="self" type="application/rss+xml"/><item><title>Free-threaded Python on GitHub Actions</title><link>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</link><pubDate>Tue, 25 Mar 2025 10:25:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</guid><description>&lt;p>GitHub Actions now supports &lt;em>experimental&lt;/em> free-threaded CPython!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>testing on Hugo van Kemenade</title><link>https://hugovk.dev/tags/testing/</link><description>Recent content in testing on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Fri, 27 Jun 2025 17:41:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/testing/index.xml" rel="self" type="application/rss+xml"/><item><title>Run coverage on tests</title><link>https://hugovk.dev/blog/2025/run-coverage-on-tests/</link><pubDate>Fri, 27 Jun 2025 17:41:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/run-coverage-on-tests/</guid><description>&lt;p>I recommend
+&lt;a href="https://nedbatchelder.com/blog/201106/running_coverage_on_your_tests.html">running&lt;/a>
+&lt;a href="https://nedbatchelder.com/blog/201908/dont_omit_tests_from_coverage.html">coverage&lt;/a>
+&lt;a href="https://nedbatchelder.com/blog/202008/you_should_include_your_tests_in_coverage.html">on your tests&lt;/a>.&lt;/p>
+&lt;p>Here&amp;rsquo;s a couple of reasons why, from the past couple of months.&lt;/p>
+&lt;h2 id="example-one" class="relative group">Example one &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#example-one" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>When writing tests, it&amp;rsquo;s common to copy and paste test functions but forget to rename
+the new one (see also: the
+&lt;a href="https://pvs-studio.com/en/blog/posts/cpp/0260/">Last Line Effect&lt;/a>).&lt;/p>
+&lt;p>For example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">test_get_install_to_run_with_platform&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">patched_installs&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">installs&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">get_install_to_run&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;none&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">None&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;1.0-32&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;PythonCore-1.0-32&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;executable&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="k">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;python.exe&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">installs&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">get_install_to_run&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;none&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">None&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;2.0-arm64&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;PythonCore-2.0-arm64&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;executable&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="k">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;python.exe&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">test_get_install_to_run_with_platform&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">patched_installs&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">installs&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">get_install_to_run&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;none&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">None&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;1.0-32&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">windowed&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;PythonCore-1.0-32&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;executable&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="k">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;pythonw.exe&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">installs&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">get_install_to_run&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;none&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">None&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;2.0-arm64&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">windowed&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;PythonCore-2.0-arm64&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;executable&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="k">match&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;pythonw.exe&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The tests pass, but the first one is never run because its name is redefined. This
+clearly shows up as a non-run test in the coverage report. In this
+&lt;a href="https://github.com/python/pymanager/pull/17">case&lt;/a>, we only need to rename one of them,
+and both are covered and pass.&lt;/p>
+&lt;p>But &lt;a href="https://github.com/python/cpython/pull/109139">sometimes&lt;/a> there&amp;rsquo;s a bug in the test
+which would cause it to fail, but we just don&amp;rsquo;t know because it&amp;rsquo;s not run.&lt;/p>
+&lt;p>&lt;div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+ &lt;span class="pe-3 text-primary-400">
+ &lt;span class="icon relative inline-block px-1 align-text-bottom">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">&lt;path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/>&lt;/svg>
+&lt;/span>
+ &lt;/span>
+ &lt;span class="dark:text-neutral-300">&lt;strong>Tip 1:&lt;/strong> This can also be found by
+&lt;a href="https://docs.astral.sh/ruff/rules/redefined-while-unused/">Ruff&amp;rsquo;s F811 rule&lt;/a>.&lt;/span>
+&lt;/div>
+   &lt;div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+ &lt;span class="pe-3 text-primary-400">
+ &lt;span class="icon relative inline-block px-1 align-text-bottom">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">&lt;path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/>&lt;/svg>
+&lt;/span>
+ &lt;/span>
+ &lt;span class="dark:text-neutral-300">&lt;strong>Tip 2:&lt;/strong>
+&lt;a href="https://docs.pytest.org/en/stable/how-to/parametrize.html">pytest&amp;rsquo;s parametrize&lt;/a> is a
+great way to combine similar test functions with different input data.&lt;/span>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="example-two" class="relative group">Example two &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#example-two" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>This is more subtle:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">im&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Image&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">new&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;RGB&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">colors&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="p">((&lt;/span>&lt;span class="s2">&amp;#34;#f00&amp;#34;&lt;/span>&lt;span class="p">,),&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;#f00&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;#0f0&amp;#34;&lt;/span>&lt;span class="p">)):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">append_images&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">Image&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">new&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;RGB&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">color&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">color&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">colors&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">im_reloaded&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">roundtrip&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">im&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">save_all&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">append_images&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">append_images&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">assert_image_equal&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">im&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">im_reloaded&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="nb">isinstance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">im_reloaded&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">MpoImagePlugin&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">MpoImageFile&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">im_reloaded&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mpinfo&lt;/span> &lt;span class="ow">is&lt;/span> &lt;span class="ow">not&lt;/span> &lt;span class="kc">None&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">im_reloaded&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mpinfo&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">45056&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="sa">b&lt;/span>&lt;span class="s2">&amp;#34;0100&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="n">im_expected&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">append_images&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">im_reloaded&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">seek&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">im_reloaded&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">tell&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">assert_image_similar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">im_reloaded&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">im_expected&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It&amp;rsquo;s not so obvious when looking at the code, but Codecov highlights a problem:&lt;/p>
+&lt;p>
+
+
+
+
+
+&lt;figure>
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ >
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_f2ef93612c483eee.webp 330w,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_53301836a4ad6926.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_3eb23e09e7ef99bb.webp 1024w
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_58804642f53fc4ec.webp 1290w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ />
+ 
+ &lt;img
+ width="1290"
+ height="726"
+ class="mx-auto my-0 rounded-md"
+ alt="The same code, but Codecov has flagged the last two lines were not covered"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_be71052f8b6d19bd.png" srcset="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_6f138772bb8012ab.png 330w,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_be71052f8b6d19bd.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_ea598a8acbde17f.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage.png 1290w
+ "
+ sizes="100vw"
+ 
+ />
+ &lt;/picture>
+ 
+
+
+&lt;/figure>
+&lt;/p>
+&lt;p>The &lt;code>append_images&lt;/code> generator is being consumed inside &lt;code>roundtrip()&lt;/code>, so we have nothing
+to iterate over in the &lt;code>for&lt;/code> loop &amp;ndash; hence no coverage. The
+&lt;a href="https://github.com/python-pillow/Pillow/pull/8979#discussion_r2172250301">fix&lt;/a> is to
+use a list instead of a generator.&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo: Misplaced manhole cover
+(&lt;a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC
+BY-NC-SA 2.0&lt;/a>
+&lt;a href="https://www.flickr.com/photos/hugovk/10375735084/">Hugo van Kemenade&lt;/a>).&lt;/small>&lt;/p></description></item><item><title>Free-threaded Python on GitHub Actions</title><link>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</link><pubDate>Tue, 25 Mar 2025 10:25:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</guid><description>&lt;p>GitHub Actions now supports &lt;em>experimental&lt;/em> free-threaded CPython!&lt;/p>
 &lt;p>There are three ways to add it to your test matrix:&lt;/p>
 &lt;ul>
 &lt;li>actions/setup-python: &lt;code>t&lt;/code> suffix&lt;/li>
