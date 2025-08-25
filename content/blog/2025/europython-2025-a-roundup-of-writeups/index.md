@@ -7,6 +7,13 @@ featureAlt:
   about becoming a core developer?'"
 ---
 
+Some out-of-context quotes:
+
+- _"We can just bump the version and move on."_ -- Dr. Brett Cannon
+- _"You just show up. That’s it."_ -- Rodrigo Girão Serrão
+- _"If it kwargs like a dorg, it's a dorg."_ -- Sebastián Ramírez
+- _"Our job will be to put the human in."_ -- Paul Everitt
+
 20 July 2025
 
 - [Is AI Leaving the Python Community Behind?](https://georgiker.com/blog/is-ai-leaving-python-community-behind/)
