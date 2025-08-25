@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/2025/</link><description>Recent content in 2025 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Mon, 25 Aug 2025 13:59:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/2025/index.xml" rel="self" type="application/rss+xml"/><item><title>EuroPython 2025: A roundup of writeups</title><link>https://hugovk.dev/blog/2025/europython-2025-a-roundup-of-writeups/</link><pubDate>Mon, 25 Aug 2025 13:59:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/europython-2025-a-roundup-of-writeups/</guid><description>&lt;p>20 July 2025&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://georgiker.com/blog/is-ai-leaving-python-community-behind/">Is AI Leaving the Python Community Behind?&lt;/a>
+by &lt;a href="https://mastodon.social/@georgically/114891414072680058">Georgi Ker&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>21 July 2025&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://wsvincent.com/europython2025-recap/">EuroPython 2025 in Prague Recap&lt;/a> by
+&lt;a href="https://fosstodon.org/@wsvincent/114891651350217561">Will Vincent&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://honzajavorek.cz/blog/tydenni-poznamky-nataceni-promo-videa-a-europython/#europython">Týdenní poznámky: Natáčení promo videa a EuroPython&lt;/a>
+by &lt;a href="https://mastodonczech.cz/@honzajavorek/114892035602713856">Honza Javorek&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>23 July 2025&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://raffaella.bearblog.dev/first-europython/">First EuroPython&lt;/a> by
+&lt;a href="https://mastodon.social/@raffaellasuardini/114908865884572072">Raffaella Suardini&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>24 July 2025&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cheuk.dev/posts/2025-07-24-europython25-recap/">EuroPython 2025 Recap&lt;/a> by
+&lt;a href="https://fosstodon.org/@cheukting_ho/114913173274810806/">Cheuk Ting Ho&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>11 August 2025&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://mathspp.com/blog/personal-highlights-of-europython-2025">Personal highlights of EuroPython 2025&lt;/a>
+by &lt;a href="https://bsky.app/profile/mathspp.com/post/3lw4z7e4nds2p">Rodrigo Girão Serrão&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>12 August 2025&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://discourse.ubuntu.com/t/europython-2025-i-came-for-the-language-but-stayed-for-the-community/65986">EuroPython 2025: “I came for the language, but stayed for the community”&lt;/a>
+by &lt;a href="https://fosstodon.org/@jugmac00/115016290243228831">Jürgen Gmach&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>21 August 2025&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gihyo.jp/article/2025/08/europython-2025-01">EuroPython 2025開幕までの道のり⁠⁠、Day 1の注目セッション&lt;/a>
+by &lt;a href="https://github.com/takanory">Takanori Suzuki&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>And a bunch of LinkedIn posts:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/activity-7353091873093181442-jUko">Alicja Kocieniewska&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/diegor_back-fromeuropython-2025and-still-buzzing-activity-7353354177646845953-4nNo">Diego Russo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/ece-akdeniz_europython2025-python-ai-ugcPost-7353399096734375936-8_LF">Ece Akdeniz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/jodieburchell_last-weeks-europython-was-one-of-the-most-ugcPost-7354418947993042947-NsXG/">Jodie Burchell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/kseniia-usyk_europython2025-pythoncommunity-opensource-ugcPost-7352790573398818818-RkFf">Kseniia Usyk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/lara-kraemer_i-went-to-my-first-europython-in-prague-ugcPost-7355554412565536769-Au4o">Lara Krämer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/libor-vanek_europython-europython2025-activity-7353313753125322754-feTT">Libor Vaněk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/marco-richetta_a-week-since-europython-ended-the-post-conference-ugcPost-7354551181865578496-cTw1">Marco Richetta&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/o-yefymenko_last-week-i-participated-in-a-major-conference-activity-7355536964810416153-sPP2">Olena Yefymenko&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/activity-7355237790462148608-VYL-">Vassiliki Dalakiari&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Finally, the &lt;a href="https://www.flickr.com/photos/europython">official photos&lt;/a> and
+&lt;a href="https://www.youtube.com/@EuroPythonConference">videos&lt;/a> should be up soon, and here are
+&lt;a href="https://www.flickr.com/photos/hugovk/collections/72157724094370661/">my photos&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;small>Header photo: Savannah Bailey&amp;rsquo;s keynote
+(&lt;a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC
+BY-NC-SA 2.0&lt;/a>
+&lt;a href="https://www.flickr.com/photos/hugovk/54735485531/in/album-72177720328581986">Hugo van Kemenade&lt;/a>).&lt;/small>&lt;/p></description></item></channel></rss>
