@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python2 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python2/</link><description>Recent content in python2 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Wed, 01 Jan 2020 16:36:25 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python2/index.xml" rel="self" type="application/rss+xml"/><item><title>Python version share over time, 6</title><link>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</link><pubDate>Wed, 01 Jan 2020 16:36:25 +0000</pubDate><guid>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</guid><description>&lt;h2 id="january-2016--december-2019" class="relative group">January 2016 — December 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2019" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the end of life of &lt;a href="https://www.python.org/doc/sunset-python-2/">Python 2&lt;/a>
-on &lt;a href="https://peps.python.org/pep-0373/">1st January 2020&lt;/a>, here’s some statistics showing
-how much different Python versions have been used over four years.&lt;/p>
-&lt;p>Here’s the pip installs for all packages from the
-&lt;a href="https://pypi.org/">Python Package Index (PyPI)&lt;/a>, between January 2016 and December
-2019:&lt;/p>
-&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python2 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python2/</link><description>Recent content in python2 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 01 Jan 2020 16:36:25 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python2/index.xml" rel="self" type="application/rss+xml"/><item><title>Python version share over time, 6</title><link>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</link><pubDate>Wed, 01 Jan 2020 16:36:25 +0000</pubDate><guid>https://hugovk.dev/blog/2020/python-version-share-over-time-6/</guid><description>&lt;h2 id="january-2016--december-2019" class="relative group"&gt;January 2016 — December 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2019" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the end of life of &lt;a href="https://www.python.org/doc/sunset-python-2/"&gt;Python 2&lt;/a&gt;
+on &lt;a href="https://peps.python.org/pep-0373/"&gt;1st January 2020&lt;/a&gt;, here’s some statistics showing
+how much different Python versions have been used over four years.&lt;/p&gt;
+&lt;p&gt;Here’s the pip installs for all packages from the
+&lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and December
+2019:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -25,7 +25,7 @@ how much different Python versions have been used over four years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -42,7 +42,7 @@ how much different Python versions have been used over four years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -60,28 +60,15 @@ how much different Python versions have been used over four years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pip" class="relative group">&lt;a href="https://github.com/pypa/pip">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
-&lt;p>
-
-
-
-
-
-
- 
- 
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643625-af087280-2cc4-11ea-9997-10aae072ac1d.png" alt="pip" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="six" class="relative group">&lt;a href="https://github.com/benjaminp/six">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pip" class="relative group"&gt;&lt;a href="https://github.com/pypa/pip"&gt;pip&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;The package installer&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -90,11 +77,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643630-b62f8080-2cc4-11ea-9461-1204f4dd117e.png" alt="six" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="numpy" class="relative group">&lt;a href="https://github.com/numpy/numpy">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643625-af087280-2cc4-11ea-9997-10aae072ac1d.png" alt="pip" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="six" class="relative group"&gt;&lt;a href="https://github.com/benjaminp/six"&gt;six&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Python 2 and 3 compatibility library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -103,11 +90,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643635-bb8ccb00-2cc4-11ea-9c4f-7095b15210f6.png" alt="numpy" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643630-b62f8080-2cc4-11ea-9461-1204f4dd117e.png" alt="six" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="numpy" class="relative group"&gt;&lt;a href="https://github.com/numpy/numpy"&gt;NumPy&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Scientific computing library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -116,11 +103,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643639-c0ea1580-2cc4-11ea-9aef-2a0d9cf816ae.png" alt="pytest" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643635-bb8ccb00-2cc4-11ea-9c4f-7095b15210f6.png" alt="numpy" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pytest" class="relative group"&gt;&lt;a href="https://github.com/pytest-dev/pytest"&gt;pytest&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Testing framework&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -129,11 +116,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643641-c8a9ba00-2cc4-11ea-8f58-9c244ff958aa.png" alt="pandas" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="coveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643639-c0ea1580-2cc4-11ea-9aef-2a0d9cf816ae.png" alt="pytest" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pandas" class="relative group"&gt;&lt;a href="https://github.com/pandas-dev/pandas"&gt;pandas&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandas" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Data analysis toolkit&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -142,11 +129,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643645-ce070480-2cc4-11ea-85b5-e408ea682e31.png" alt="coverage" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643641-c8a9ba00-2cc4-11ea-8f58-9c244ff958aa.png" alt="pandas" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="coveragepy" class="relative group"&gt;&lt;a href="https://github.com/nedbat/coveragepy"&gt;Coverage.py&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Code coverage testing&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -155,11 +142,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643648-d3644f00-2cc4-11ea-9b3e-7271788d1f5d.png" alt="pillow" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="django" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643645-ce070480-2cc4-11ea-85b5-e408ea682e31.png" alt="coverage" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pillow" class="relative group"&gt;&lt;a href="https://github.com/python-pillow/Pillow"&gt;Pillow&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Imaging library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -168,11 +155,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643651-d95a3000-2cc4-11ea-891e-a218090c5db9.png" alt="django" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="matplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643648-d3644f00-2cc4-11ea-9b3e-7271788d1f5d.png" alt="pillow" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="django" class="relative group"&gt;&lt;a href="https://github.com/python-pillow/Pillow"&gt;Django&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Web framework&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -181,11 +168,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643656-e6771f00-2cc4-11ea-808a-464ee01f88b5.png" alt="matplotlib" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="flake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643651-d95a3000-2cc4-11ea-891e-a218090c5db9.png" alt="django" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="matplotlib" class="relative group"&gt;&lt;a href="https://github.com/matplotlib/matplotlib"&gt;Matplotlib&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;2D plotting library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -194,11 +181,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643661-ec6d0000-2cc4-11ea-9ef8-f5da11826684.png" alt="flake8" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643656-e6771f00-2cc4-11ea-808a-464ee01f88b5.png" alt="matplotlib" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="flake8" class="relative group"&gt;&lt;a href="https://gitlab.com/pycqa/flake8"&gt;Flake8&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Linter&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -207,11 +194,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643663-f42ca480-2cc4-11ea-9588-7290df0fa003.png" alt="pylint" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="tensorflow" class="relative group">&lt;a href="https://github.com/tensorflow/tensorflow/">TensorFlow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tensorflow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Machine learning library&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643661-ec6d0000-2cc4-11ea-9ef8-f5da11826684.png" alt="flake8" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pylint" class="relative group"&gt;&lt;a href="https://github.com/PyCQA/pylint/"&gt;Pylint&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Linter&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -220,11 +207,11 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71645996-1506f100-2ce9-11ea-80d8-43b499348a54.png" alt="tensorflow" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pylast" class="relative group">&lt;a href="https://github.com/pylast/pylast">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643663-f42ca480-2cc4-11ea-9588-7290df0fa003.png" alt="pylint" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="tensorflow" class="relative group"&gt;&lt;a href="https://github.com/tensorflow/tensorflow/"&gt;TensorFlow&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tensorflow" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Machine learning library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -233,51 +220,64 @@ how much different Python versions have been used over four years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/71643665-f989ef00-2cc4-11ea-921e-1d705524151c.png" alt="pylast" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py">pypi-trends.py&lt;/a>, a
-wrapper around &lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a> and
-&lt;a href="https://github.com/hugovk/pypistats">pypistats&lt;/a> to fetch all monthly downloads from the
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71645996-1506f100-2ce9-11ea-80d8-43b499348a54.png" alt="tensorflow" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pylast" class="relative group"&gt;&lt;a href="https://github.com/pylast/pylast"&gt;pylast&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Interface to Last.fm&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+ 
+ 
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/71643665-f989ef00-2cc4-11ea-921e-1d705524151c.png" alt="pylast" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="how" class="relative group"&gt;How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py"&gt;pypi-trends.py&lt;/a&gt;, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt; and
+&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt; to fetch all monthly downloads from the
 PyPI database on Google BigQuery and save them as JSON files. Data was downloaded over
 several days as getting all months uses up a lot of free BigQuery quota. Then
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py">jsons2csv.py&lt;/a> plots a
-chart using &lt;a href="https://github.com/matplotlib/matplotlib">matplotlib&lt;/a>. Raw JSON data is in
-the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data">repo&lt;/a>.&lt;/p>
-&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
-1&lt;/a> (January
-2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
-2&lt;/a> (January
-2016 — October 2018)&lt;/li>
-&lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
-(January 2016 — December 2018)&lt;/li>
-&lt;li>&lt;a href="../../2019/python-version-share-over-time-4/">Python version share over time, 4&lt;/a>
-(January 2016 — March 2019)&lt;/li>
-&lt;li>&lt;a href="../../2019/python-version-share-over-time-5/">Python version share over time, 5&lt;/a>
-(January 2016 — October 2019)&lt;/li>
-&lt;li>&lt;a href="https://pypistats.org/">PyPI Stats&lt;/a>: See package download data for the past 180 days,
-without needing to sign up for BigQuery&lt;/li>
-&lt;li>&lt;a href="https://github.com/hugovk/pypistats">pypistats&lt;/a>: A command-line tool to access data
-from PyPI Stats&lt;/li>
-&lt;/ul></description></item><item><title>Python version share over time, 5</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</link><pubDate>Mon, 04 Nov 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</guid><description>&lt;h2 id="january-2016--october-2019" class="relative group">January 2016 — October 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--october-2019" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
-&lt;a href="https://discuss.python.org/t/python-3-8-0-is-now-available/2478?u=hugovk">Python 3.8.0&lt;/a>
-on &lt;a href="https://peps.python.org/pep-0569/">14th October 2019&lt;/a>, and with
-&lt;a href="https://python2woop.pw/">less than two months left for Python 2&lt;/a>, here’s some
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py"&gt;jsons2csv.py&lt;/a&gt; plots a
+chart using &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib&lt;/a&gt;. Raw JSON data is in
+the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data"&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/"&gt;Data Driven Decisions Using PyPI Download Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/"&gt;Python version share over time,
+1&lt;/a&gt; (January
+2016 — June 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/"&gt;Python version share over time,
+2&lt;/a&gt; (January
+2016 — October 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="../../2019/python-version-share-over-time-3/"&gt;Python version share over time, 3&lt;/a&gt;
+(January 2016 — December 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="../../2019/python-version-share-over-time-4/"&gt;Python version share over time, 4&lt;/a&gt;
+(January 2016 — March 2019)&lt;/li&gt;
+&lt;li&gt;&lt;a href="../../2019/python-version-share-over-time-5/"&gt;Python version share over time, 5&lt;/a&gt;
+(January 2016 — October 2019)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pypistats.org/"&gt;PyPI Stats&lt;/a&gt;: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt;: A command-line tool to access data
+from PyPI Stats&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Python version share over time, 5</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</link><pubDate>Mon, 04 Nov 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-5/</guid><description>&lt;h2 id="january-2016--october-2019" class="relative group"&gt;January 2016 — October 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--october-2019" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of
+&lt;a href="https://discuss.python.org/t/python-3-8-0-is-now-available/2478?u=hugovk"&gt;Python 3.8.0&lt;/a&gt;
+on &lt;a href="https://peps.python.org/pep-0569/"&gt;14th October 2019&lt;/a&gt;, and with
+&lt;a href="https://python2woop.pw/"&gt;less than two months left for Python 2&lt;/a&gt;, here’s some
 statistics showing how much different Python versions have been used over nearly four
-years.&lt;/p>
-&lt;p>Here’s the pip installs for all packages from the
-&lt;a href="https://pypi.org/">Python Package Index (PyPI)&lt;/a>, between January 2016 and October 2019:&lt;/p>
-&lt;p>
+years.&lt;/p&gt;
+&lt;p&gt;Here’s the pip installs for all packages from the
+&lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and October 2019:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -292,7 +292,7 @@ years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -309,7 +309,7 @@ years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -327,28 +327,15 @@ years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pip" class="relative group">&lt;a href="https://github.com/pypa/pip">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
-&lt;p>
-
-
-
-
-
-
- 
- 
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128596-ab54ab80-ff20-11e9-96fa-867b403efc89.png" alt="pip" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="six" class="relative group">&lt;a href="https://github.com/benjaminp/six">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pip" class="relative group"&gt;&lt;a href="https://github.com/pypa/pip"&gt;pip&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;The package installer&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -357,11 +344,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128614-b60f4080-ff20-11e9-92e3-892f29ecceea.png" alt="six" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="numpy" class="relative group">&lt;a href="https://github.com/numpy/numpy">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128596-ab54ab80-ff20-11e9-96fa-867b403efc89.png" alt="pip" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="six" class="relative group"&gt;&lt;a href="https://github.com/benjaminp/six"&gt;six&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Python 2 and 3 compatibility library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -370,11 +357,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128663-d0491e80-ff20-11e9-9442-0546e1a9843c.png" alt="numpy" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128614-b60f4080-ff20-11e9-92e3-892f29ecceea.png" alt="six" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="numpy" class="relative group"&gt;&lt;a href="https://github.com/numpy/numpy"&gt;NumPy&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Scientific computing library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -383,11 +370,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128691-e0f99480-ff20-11e9-9bd8-87e12318d149.png" alt="pytest" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pandas" class="relative group">&lt;a href="https://github.com/pandas-dev/pandas">pandas&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandas" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Data analysis toolkit&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128663-d0491e80-ff20-11e9-9442-0546e1a9843c.png" alt="numpy" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pytest" class="relative group"&gt;&lt;a href="https://github.com/pytest-dev/pytest"&gt;pytest&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Testing framework&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -396,11 +383,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68142151-9cc5be80-ff37-11e9-93d9-72edd2e35e6b.png" alt="pandas" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="coveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128691-e0f99480-ff20-11e9-9bd8-87e12318d149.png" alt="pytest" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pandas" class="relative group"&gt;&lt;a href="https://github.com/pandas-dev/pandas"&gt;pandas&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pandas" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Data analysis toolkit&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -409,11 +396,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128715-ea82fc80-ff20-11e9-80a9-515c4b5265c2.png" alt="coverage" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68142151-9cc5be80-ff37-11e9-93d9-72edd2e35e6b.png" alt="pandas" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="coveragepy" class="relative group"&gt;&lt;a href="https://github.com/nedbat/coveragepy"&gt;Coverage.py&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Code coverage testing&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -422,11 +409,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128908-49e10c80-ff21-11e9-977e-f25dfa13b2d4.png" alt="pillow" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="django" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128715-ea82fc80-ff20-11e9-80a9-515c4b5265c2.png" alt="coverage" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pillow" class="relative group"&gt;&lt;a href="https://github.com/python-pillow/Pillow"&gt;Pillow&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Imaging library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -435,11 +422,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128927-52394780-ff21-11e9-80d6-1dadf2525ebc.png" alt="django" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="matplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128908-49e10c80-ff21-11e9-977e-f25dfa13b2d4.png" alt="pillow" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="django" class="relative group"&gt;&lt;a href="https://github.com/python-pillow/Pillow"&gt;Django&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Web framework&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -448,11 +435,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128947-5b2a1900-ff21-11e9-9386-d366a030fe7c.png" alt="matplotlib" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="flake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128927-52394780-ff21-11e9-80d6-1dadf2525ebc.png" alt="django" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="matplotlib" class="relative group"&gt;&lt;a href="https://github.com/matplotlib/matplotlib"&gt;Matplotlib&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;2D plotting library&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -461,11 +448,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128961-62e9bd80-ff21-11e9-8a45-001c7ae06c1d.png" alt="flake8" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128947-5b2a1900-ff21-11e9-9386-d366a030fe7c.png" alt="matplotlib" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="flake8" class="relative group"&gt;&lt;a href="https://gitlab.com/pycqa/flake8"&gt;Flake8&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Linter&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -474,11 +461,11 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128981-6bda8f00-ff21-11e9-9a97-903892a47823.png" alt="pylint" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pylast" class="relative group">&lt;a href="https://github.com/pylast/pylast">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
-&lt;p>
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128961-62e9bd80-ff21-11e9-8a45-001c7ae06c1d.png" alt="flake8" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pylint" class="relative group"&gt;&lt;a href="https://github.com/PyCQA/pylint/"&gt;Pylint&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Linter&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -487,48 +474,61 @@ years.&lt;/p>
 
  
  
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/1324225/68128999-77c65100-ff21-11e9-9ac0-7f9c6071b07a.png" alt="pylast" class="mx-auto my-0 rounded-md" />
-&lt;/figure>
-&lt;/p>
-&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py">pypi-trends.py&lt;/a>, a
-wrapper around &lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a> and
-&lt;a href="https://github.com/hugovk/pypistats">pypistats&lt;/a> to fetch all monthly downloads from the
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128981-6bda8f00-ff21-11e9-9a97-903892a47823.png" alt="pylint" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pylast" class="relative group"&gt;&lt;a href="https://github.com/pylast/pylast"&gt;pylast&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Interface to Last.fm&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+ 
+ 
+&lt;figure&gt;&lt;img src="https://user-images.githubusercontent.com/1324225/68128999-77c65100-ff21-11e9-9ac0-7f9c6071b07a.png" alt="pylast" class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="how" class="relative group"&gt;How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py"&gt;pypi-trends.py&lt;/a&gt;, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt; and
+&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt; to fetch all monthly downloads from the
 PyPI database on Google BigQuery and save them as JSON files. Data was downloaded over
 several days as getting all months uses up a lot of free BigQuery quota. Then
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py">jsons2csv.py&lt;/a> plots a
-chart using &lt;a href="https://github.com/matplotlib/matplotlib">matplotlib&lt;/a>. Raw JSON data is in
-the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data">repo&lt;/a>.&lt;/p>
-&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
-1&lt;/a> (January
-2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
-2&lt;/a> (January
-2016 — October 2018)&lt;/li>
-&lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
-(January 2016 — December 2018)&lt;/li>
-&lt;li>&lt;a href="../../2019/python-version-share-over-time-4/">Python version share over time, 4&lt;/a>
-(January 2016 — March 2019)&lt;/li>
-&lt;li>&lt;a href="https://pypistats.org/">PyPI Stats&lt;/a>: See package download data for the past 180 days,
-without needing to sign up for BigQuery&lt;/li>
-&lt;li>&lt;a href="https://github.com/hugovk/pypistats">pypistats&lt;/a>: A command-line tool to access data
-from PyPI Stats&lt;/li>
-&lt;/ul></description></item><item><title>Python version share over time, 4</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</link><pubDate>Thu, 04 Apr 2019 14:58:18 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</guid><description>&lt;h2 id="january-2016--march-2019" class="relative group">January 2016 — March 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--march-2019" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
-&lt;a href="https://www.python.org/downloads/release/python-373/">Python 3.7.3&lt;/a> on
-&lt;a href="https://peps.python.org/pep-0537/">25th March 2019&lt;/a>, and with under
-&lt;a href="https://python2woop.pw/">nine months left for Python 2&lt;/a>, here’s some statistics showing
-how much different Python versions have been used over the past three years.&lt;/p>
-&lt;p>Here’s the pip installs for all packages from the
-&lt;a href="https://pypi.org/">Python Package Index (PyPI)&lt;/a>, between January 2016 and March 2019:&lt;/p>
-&lt;p>
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py"&gt;jsons2csv.py&lt;/a&gt; plots a
+chart using &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib&lt;/a&gt;. Raw JSON data is in
+the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data"&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/"&gt;Data Driven Decisions Using PyPI Download Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/"&gt;Python version share over time,
+1&lt;/a&gt; (January
+2016 — June 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/"&gt;Python version share over time,
+2&lt;/a&gt; (January
+2016 — October 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="../../2019/python-version-share-over-time-3/"&gt;Python version share over time, 3&lt;/a&gt;
+(January 2016 — December 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="../../2019/python-version-share-over-time-4/"&gt;Python version share over time, 4&lt;/a&gt;
+(January 2016 — March 2019)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pypistats.org/"&gt;PyPI Stats&lt;/a&gt;: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt;: A command-line tool to access data
+from PyPI Stats&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Python version share over time, 4</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</link><pubDate>Thu, 04 Apr 2019 14:58:18 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-4/</guid><description>&lt;h2 id="january-2016--march-2019" class="relative group"&gt;January 2016 — March 2019 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--march-2019" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of
+&lt;a href="https://www.python.org/downloads/release/python-373/"&gt;Python 3.7.3&lt;/a&gt; on
+&lt;a href="https://peps.python.org/pep-0537/"&gt;25th March 2019&lt;/a&gt;, and with under
+&lt;a href="https://python2woop.pw/"&gt;nine months left for Python 2&lt;/a&gt;, here’s some statistics showing
+how much different Python versions have been used over the past three years.&lt;/p&gt;
+&lt;p&gt;Here’s the pip installs for all packages from the
+&lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and March 2019:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -543,7 +543,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -560,7 +560,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -578,21 +578,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pip" class="relative group">&lt;a href="https://github.com/pypa/pip">pip&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>The package installer&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pip" class="relative group"&gt;&lt;a href="https://github.com/pypa/pip"&gt;pip&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pip" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;The package installer&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -607,7 +607,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -624,7 +624,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -642,21 +642,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="six" class="relative group">&lt;a href="https://github.com/benjaminp/six">six&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Python 2 and 3 compatibility library&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="six" class="relative group"&gt;&lt;a href="https://github.com/benjaminp/six"&gt;six&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#six" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Python 2 and 3 compatibility library&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -671,7 +671,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -688,7 +688,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -706,21 +706,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="numpy" class="relative group">&lt;a href="https://github.com/numpy/numpy">NumPy&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Scientific computing library&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="numpy" class="relative group"&gt;&lt;a href="https://github.com/numpy/numpy"&gt;NumPy&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#numpy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Scientific computing library&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -735,7 +735,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -752,7 +752,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -770,21 +770,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pytest" class="relative group">&lt;a href="https://github.com/pytest-dev/pytest">pytest&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Testing framework&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pytest" class="relative group"&gt;&lt;a href="https://github.com/pytest-dev/pytest"&gt;pytest&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pytest" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Testing framework&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -799,7 +799,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -816,7 +816,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -834,21 +834,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="coveragepy" class="relative group">&lt;a href="https://github.com/nedbat/coveragepy">Coverage.py&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Code coverage testing&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="coveragepy" class="relative group"&gt;&lt;a href="https://github.com/nedbat/coveragepy"&gt;Coverage.py&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#coveragepy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Code coverage testing&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -863,7 +863,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -880,7 +880,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -898,21 +898,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pillow" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow">Pillow&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Imaging library&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pillow" class="relative group"&gt;&lt;a href="https://github.com/python-pillow/Pillow"&gt;Pillow&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pillow" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Imaging library&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -927,7 +927,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -944,7 +944,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -962,21 +962,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="django" class="relative group">&lt;a href="https://github.com/python-pillow/Pillow">Django&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Web framework&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="django" class="relative group"&gt;&lt;a href="https://github.com/python-pillow/Pillow"&gt;Django&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#django" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Web framework&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -991,7 +991,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1008,7 +1008,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1026,21 +1026,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="matplotlib" class="relative group">&lt;a href="https://github.com/matplotlib/matplotlib">Matplotlib&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>2D plotting library&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="matplotlib" class="relative group"&gt;&lt;a href="https://github.com/matplotlib/matplotlib"&gt;Matplotlib&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#matplotlib" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;2D plotting library&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1055,7 +1055,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1072,7 +1072,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1090,21 +1090,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="flake8" class="relative group">&lt;a href="https://gitlab.com/pycqa/flake8">Flake8&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="flake8" class="relative group"&gt;&lt;a href="https://gitlab.com/pycqa/flake8"&gt;Flake8&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#flake8" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Linter&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1119,7 +1119,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1136,7 +1136,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1154,21 +1154,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pylint" class="relative group">&lt;a href="https://github.com/PyCQA/pylint/">Pylint&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Linter&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pylint" class="relative group"&gt;&lt;a href="https://github.com/PyCQA/pylint/"&gt;Pylint&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylint" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Linter&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1183,7 +1183,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1200,7 +1200,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1218,21 +1218,21 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h3 id="pylast" class="relative group">&lt;a href="https://github.com/pylast/pylast">pylast&lt;/a> &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h3>&lt;p>Interface to Last.fm&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="pylast" class="relative group"&gt;&lt;a href="https://github.com/pylast/pylast"&gt;pylast&lt;/a&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pylast" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Interface to Last.fm&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1247,7 +1247,7 @@ how much different Python versions have been used over the past three years.&lt;
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1264,7 +1264,7 @@ how much different Python versions have been used over the past three years.&lt;
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1282,51 +1282,51 @@ how much different Python versions have been used over the past three years.&lt;
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py">pypi-trends.py&lt;/a>, a
-wrapper around &lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a> to fetch all monthly downloads
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="how" class="relative group"&gt;How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py"&gt;pypi-trends.py&lt;/a&gt;, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt; to fetch all monthly downloads
 from the PyPI database on Google BigQuery and save them as JSON files. Data was
 downloaded over several days as getting all months uses up a lot of free BigQuery quota.
-Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py">jsons2csv.py&lt;/a> plots
-a chart using &lt;a href="https://github.com/matplotlib/matplotlib">matplotlib&lt;/a>. Raw JSON data is
-in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data">repo&lt;/a>.&lt;/p>
-&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
-1&lt;/a> (January
-2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
-2&lt;/a> (January
-2016 — October 2018)&lt;/li>
-&lt;li>&lt;a href="../../2019/python-version-share-over-time-3/">Python version share over time, 3&lt;/a>
-(January 2016 — December 2018)&lt;/li>
-&lt;li>&lt;a href="https://pypistats.org/">PyPI Stats&lt;/a>: See package download data for the past 180 days,
-without needing to sign up for BigQuery&lt;/li>
-&lt;li>&lt;a href="https://github.com/hugovk/pypistats">pypistats&lt;/a>: A command-line tool to access data
-from PyPI Stats&lt;/li>
-&lt;/ul></description></item><item><title>Python version share over time, 3</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</link><pubDate>Tue, 01 Jan 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</guid><description>&lt;h2 id="january-2016--december-2018" class="relative group">January 2016 — December 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2018" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
-&lt;a href="https://www.python.org/downloads/release/python-372/">Python 3.7.2&lt;/a> on
-&lt;a href="https://peps.python.org/pep-0537/">Christmas Eve 2018&lt;/a>, and with
-u&lt;a href="https://hugovk.github.io/python2-progress-bar/">nder a year left for Python 2&lt;/a>, here&amp;rsquo;s
+Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py"&gt;jsons2csv.py&lt;/a&gt; plots
+a chart using &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib&lt;/a&gt;. Raw JSON data is
+in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data"&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/"&gt;Data Driven Decisions Using PyPI Download Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/"&gt;Python version share over time,
+1&lt;/a&gt; (January
+2016 — June 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/"&gt;Python version share over time,
+2&lt;/a&gt; (January
+2016 — October 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="../../2019/python-version-share-over-time-3/"&gt;Python version share over time, 3&lt;/a&gt;
+(January 2016 — December 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pypistats.org/"&gt;PyPI Stats&lt;/a&gt;: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt;: A command-line tool to access data
+from PyPI Stats&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Python version share over time, 3</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</link><pubDate>Tue, 01 Jan 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</guid><description>&lt;h2 id="january-2016--december-2018" class="relative group"&gt;January 2016 — December 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2018" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of
+&lt;a href="https://www.python.org/downloads/release/python-372/"&gt;Python 3.7.2&lt;/a&gt; on
+&lt;a href="https://peps.python.org/pep-0537/"&gt;Christmas Eve 2018&lt;/a&gt;, and with
+u&lt;a href="https://hugovk.github.io/python2-progress-bar/"&gt;nder a year left for Python 2&lt;/a&gt;, here&amp;rsquo;s
 some statistics showing how much different Python versions have been used over the past
-three years.&lt;/p>
-&lt;p>Here&amp;rsquo;s the pip installs for all packages from the
-&lt;a href="https://pypi.org/">Python Package Index (PyPI)&lt;/a>, between January 2016 and December
-2018:&lt;/p>
-&lt;p>
+three years.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the pip installs for all packages from the
+&lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and December
+2018:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1341,7 +1341,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1358,7 +1358,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1376,21 +1376,21 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;p>For the &lt;a href="https://github.com/numpy/numpy">NumPy&lt;/a> scientific computing library:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/numpy/numpy"&gt;NumPy&lt;/a&gt; scientific computing library:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1405,7 +1405,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1422,7 +1422,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1440,21 +1440,21 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;p>For the &lt;a href="https://github.com/pytest-dev/pytest">pytest&lt;/a> testing framework:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/pytest-dev/pytest"&gt;pytest&lt;/a&gt; testing framework:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1469,7 +1469,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1486,7 +1486,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1504,21 +1504,21 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;p>For the &lt;a href="https://github.com/python-pillow/Pillow">Pillow&lt;/a> imaging library:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/python-pillow/Pillow"&gt;Pillow&lt;/a&gt; imaging library:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1533,7 +1533,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1550,7 +1550,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1568,21 +1568,21 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;p>For the &lt;a href="https://github.com/django/django">Django&lt;/a> web framework:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/django/django"&gt;Django&lt;/a&gt; web framework:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1597,7 +1597,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1614,7 +1614,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1632,21 +1632,21 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;p>For the &lt;a href="https://github.com/matplotlib/matplotlib">matplotlib&lt;/a> 2D plotting library:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib&lt;/a&gt; 2D plotting library:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1661,7 +1661,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1678,7 +1678,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1696,21 +1696,21 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;p>For the &lt;a href="https://github.com/PyCQA/pylint">Pylint&lt;/a> linter:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/PyCQA/pylint"&gt;Pylint&lt;/a&gt; linter:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1725,7 +1725,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1742,7 +1742,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1760,21 +1760,21 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;p>And for the &lt;a href="https://github.com/pylast/pylast">pylast&lt;/a> interface to Last.fm:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;And for the &lt;a href="https://github.com/pylast/pylast"&gt;pylast&lt;/a&gt; interface to Last.fm:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1789,7 +1789,7 @@ three years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1806,7 +1806,7 @@ three years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1824,47 +1824,47 @@ three years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py">pypi-trends.py&lt;/a> a
-wrapper around &lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a> to fetch all monthly downloads
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="how" class="relative group"&gt;How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py"&gt;pypi-trends.py&lt;/a&gt; a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt; to fetch all monthly downloads
 from the PyPI database on Google BigQuery and save them as JSON files. Data was
 downloaded over several days as getting all months uses up a lot of free BigQuery quota.
-Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py">jsons2csv.py&lt;/a> plots
-a chart using &lt;a href="https://github.com/matplotlib/matplotlib">matplotlib&lt;/a>. Raw JSON data is
-in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data">repo&lt;/a>.&lt;/p>
-&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
-1&lt;/a> (January
-2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/">Python version share over time,
-2&lt;/a> (January
-2016 — October 2018)&lt;/li>
-&lt;li>&lt;a href="https://pypistats.org/">PyPI Stats&lt;/a>: See package download data for the past 180 days,
-without needing to sign up for BigQuery&lt;/li>
-&lt;li>&lt;a href="https://github.com/hugovk/pypistats">pypistats&lt;/a>: A command-line tool to access data
-from PyPI Stats&lt;/li>
-&lt;/ul></description></item><item><title>Python version share over time, 2</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</link><pubDate>Sat, 03 Nov 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</guid><description>&lt;h2 id="january-2016--october-2018" class="relative group">January 2016 — October 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--october-2018" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of
-&lt;a href="https://www.python.org/downloads/release/python-371/">Python 3.7.1&lt;/a> on
-&lt;a href="https://peps.python.org/pep-0537/">20th October 2018&lt;/a>, here’s some statistics showing
+Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py"&gt;jsons2csv.py&lt;/a&gt; plots
+a chart using &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib&lt;/a&gt;. Raw JSON data is
+in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data"&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/"&gt;Data Driven Decisions Using PyPI Download Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/"&gt;Python version share over time,
+1&lt;/a&gt; (January
+2016 — June 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-2/"&gt;Python version share over time,
+2&lt;/a&gt; (January
+2016 — October 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pypistats.org/"&gt;PyPI Stats&lt;/a&gt;: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt;: A command-line tool to access data
+from PyPI Stats&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Python version share over time, 2</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</link><pubDate>Sat, 03 Nov 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-2/</guid><description>&lt;h2 id="january-2016--october-2018" class="relative group"&gt;January 2016 — October 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--october-2018" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of
+&lt;a href="https://www.python.org/downloads/release/python-371/"&gt;Python 3.7.1&lt;/a&gt; on
+&lt;a href="https://peps.python.org/pep-0537/"&gt;20th October 2018&lt;/a&gt;, here’s some statistics showing
 how much different Python versions have been used over the past two and five-sixths
-years.&lt;/p>
-&lt;p>Here&amp;rsquo;s the pip installs for all packages from the
-&lt;a href="https://pypi.org/">Python Package Index (PyPI)&lt;/a>, between January 2016 and October 2018:&lt;/p>
-&lt;p>
+years.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the pip installs for all packages from the
+&lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and October 2018:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1879,7 +1879,7 @@ years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1896,7 +1896,7 @@ years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1914,22 +1914,22 @@ years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
-&lt;p>For the &lt;a href="https://github.com/numpy/numpy">NumPy&lt;/a> scientific computing library:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;pip installs from PyPI over time, by Python version&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/numpy/numpy"&gt;NumPy&lt;/a&gt; scientific computing library:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -1944,7 +1944,7 @@ years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -1961,7 +1961,7 @@ years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -1979,22 +1979,22 @@ years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Numpy's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
-&lt;p>For the &lt;a href="https://github.com/python-pillow/Pillow">Pillow&lt;/a> imaging library:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Numpy's pip installs from PyPI over time, by Python version&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/python-pillow/Pillow"&gt;Pillow&lt;/a&gt; imaging library:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -2009,7 +2009,7 @@ years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -2026,7 +2026,7 @@ years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -2044,22 +2044,22 @@ years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Pillow's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
-&lt;p>For the &lt;a href="https://github.com/django/django">Django&lt;/a> web framework:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Pillow's pip installs from PyPI over time, by Python version&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;For the &lt;a href="https://github.com/django/django"&gt;Django&lt;/a&gt; web framework:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -2074,7 +2074,7 @@ years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -2091,7 +2091,7 @@ years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -2109,22 +2109,22 @@ years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>pylast's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
-&lt;p>And for the &lt;a href="https://github.com/pylast/pylast">pylast&lt;/a> interface to Last.fm:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;pylast's pip installs from PyPI over time, by Python version&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;And for the &lt;a href="https://github.com/pylast/pylast"&gt;pylast&lt;/a&gt; interface to Last.fm:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -2139,7 +2139,7 @@ years.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -2156,7 +2156,7 @@ years.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -2174,43 +2174,43 @@ years.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Pillow's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
-&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py">pypi-trends.py&lt;/a>, a
-wrapper around &lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a> to fetch all monthly downloads
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Pillow's pip installs from PyPI over time, by Python version&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="how" class="relative group"&gt;How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py"&gt;pypi-trends.py&lt;/a&gt;, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt; to fetch all monthly downloads
 from the PyPI database on Google BigQuery and save them as JSON files. Data was
 downloaded over several days as getting all months uses up a lot of free BigQuery quota.
-Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py">jsons2csv.py&lt;/a> plots
-a chart using &lt;a href="https://github.com/matplotlib/matplotlib">matplotlib&lt;/a>. Raw JSON data is
-in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data">repo&lt;/a>.&lt;/p>
-&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/">Data Driven Decisions Using PyPI Download Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/">Python version share over time,
-1&lt;/a> (January
-2016 — June 2018)&lt;/li>
-&lt;li>&lt;a href="https://pypistats.org/">PyPI Stats&lt;/a>: See package download data for the past 180 days,
-without needing to sign up for BigQuery&lt;/li>
-&lt;li>&lt;a href="https://github.com/hugovk/pypistats">pypistats&lt;/a>: A command-line tool to access data
-from PyPI Stats&lt;/li>
-&lt;/ul></description></item><item><title>Python version share over time, 1</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</link><pubDate>Thu, 05 Jul 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</guid><description>&lt;h2 id="january-2016--june-2018" class="relative group">January 2016 — June 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--june-2018" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To celebrate the release of &lt;a href="https://realpython.com/python37-new-features/">Python 3.7&lt;/a>
-on &lt;a href="https://peps.python.org/pep-0537/">27th June 2018&lt;/a>, here’s some statistics showing
-how much different Python versions have been used over the past two and a half years.&lt;/p>
-&lt;p>Here&amp;rsquo;s the pip installs for all packages from the
-&lt;a href="https://pypi.org/">Python Package Index (PyPI)&lt;/a>, between January 2016 and June 2018:&lt;/p>
-&lt;p>
+Then &lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py"&gt;jsons2csv.py&lt;/a&gt; plots
+a chart using &lt;a href="https://github.com/matplotlib/matplotlib"&gt;matplotlib&lt;/a&gt;. Raw JSON data is
+in the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data"&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/"&gt;Data Driven Decisions Using PyPI Download Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2018/python-version-share-over-time-1/"&gt;Python version share over time,
+1&lt;/a&gt; (January
+2016 — June 2018)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pypistats.org/"&gt;PyPI Stats&lt;/a&gt;: See package download data for the past 180 days,
+without needing to sign up for BigQuery&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt;: A command-line tool to access data
+from PyPI Stats&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Python version share over time, 1</title><link>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</link><pubDate>Thu, 05 Jul 2018 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2018/python-version-share-over-time-1/</guid><description>&lt;h2 id="january-2016--june-2018" class="relative group"&gt;January 2016 — June 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--june-2018" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of &lt;a href="https://realpython.com/python37-new-features/"&gt;Python 3.7&lt;/a&gt;
+on &lt;a href="https://peps.python.org/pep-0537/"&gt;27th June 2018&lt;/a&gt;, here’s some statistics showing
+how much different Python versions have been used over the past two and a half years.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the pip installs for all packages from the
+&lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and June 2018:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -2225,7 +2225,7 @@ how much different Python versions have been used over the past two and a half y
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -2242,7 +2242,7 @@ how much different Python versions have been used over the past two and a half y
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1756"
@@ -2260,22 +2260,22 @@ how much different Python versions have been used over the past two and a half y
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
-&lt;p>And for the &lt;a href="https://github.com/python-pillow/Pillow">Pillow&lt;/a> imaging library:&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;pip installs from PyPI over time, by Python version&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;And for the &lt;a href="https://github.com/python-pillow/Pillow"&gt;Pillow&lt;/a&gt; imaging library:&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -2290,7 +2290,7 @@ how much different Python versions have been used over the past two and a half y
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -2307,7 +2307,7 @@ how much different Python versions have been used over the past two and a half y
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1495"
@@ -2325,27 +2325,27 @@ how much different Python versions have been used over the past two and a half y
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Pillow's pip installs from PyPI over time, by Python version&lt;/small>&lt;/center>
-&lt;h2 id="how" class="relative group">How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Statistics were collected using
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py">pypi-trends.py&lt;/a>, a
-wrapper around &lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a> to fetch all monthly downloads
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Pillow's pip installs from PyPI over time, by Python version&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="how" class="relative group"&gt;How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Statistics were collected using
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/pypi-trends.py"&gt;pypi-trends.py&lt;/a&gt;, a
+wrapper around &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt; to fetch all monthly downloads
 from the PyPI database on Google BigQuery and save them as JSON files. Data was
 downloaded over three or four days as getting all months uses up a lot of free BigQuery
 quota. Then
-&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py">jsons2csv.py&lt;/a> converts
+&lt;a href="https://github.com/hugovk/pypi-tools/blob/master/jsons2csv.py"&gt;jsons2csv.py&lt;/a&gt; converts
 them into a single CSV file for chart-wrangling in Excel. Raw CSV and JSON data is in
-the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data">repo&lt;/a>.&lt;/p>
-&lt;h2 id="see-also" class="relative group">See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Paul Kehrer fetched similar stats from BigQuery in December 2016, writing in
-&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/">Data Driven Decisions Using PyPI Download Statistics&lt;/a>:&lt;/p>
-&lt;blockquote>
-&lt;p>Data ingestion into the BigQuery data set was spotty prior to June 2016*, but you can
+the &lt;a href="https://github.com/hugovk/pypi-tools/tree/master/data"&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Paul Kehrer fetched similar stats from BigQuery in December 2016, writing in
+&lt;a href="https://langui.sh/2016/12/09/data-driven-decisions/"&gt;Data Driven Decisions Using PyPI Download Statistics&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Data ingestion into the BigQuery data set was spotty prior to June 2016*, but you can
 see a significant uptick in Python 3 based downloads over 2016.
-&lt;a href="https://frinkiac.com/caption/S08E11/289555">If these trends continue…&lt;/a>&lt;/p>
-&lt;p>* But it shouldn’t be biased, so these percentages are likely to be accurate.&lt;/p>&lt;/blockquote></description></item></channel></rss>
+&lt;a href="https://frinkiac.com/caption/S08E11/289555"&gt;If these trends continue…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;* But it shouldn’t be biased, so these percentages are likely to be accurate.&lt;/p&gt;&lt;/blockquote&gt;</description></item></channel></rss>

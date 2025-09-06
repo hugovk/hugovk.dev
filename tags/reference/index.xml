@@ -1,53 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>reference on Hugo van Kemenade</title><link>https://hugovk.dev/tags/reference/</link><description>Recent content in reference on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Sat, 02 Mar 2024 15:25:54 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Tech style guides</title><link>https://hugovk.dev/blog/2024/tech-style-guides/</link><pubDate>Sat, 02 Mar 2024 15:25:54 +0000</pubDate><guid>https://hugovk.dev/blog/2024/tech-style-guides/</guid><description>&lt;p>Here&amp;rsquo;s some tech style guides:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://developers.google.com/style">Google developer documentation style guide&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="https://developers.google.com/style/word-list">Word list&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://learn.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stylepedia.net/">Red Hat Technical Writing Style Guide&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="https://redhat-documentation.github.io/supplementary-style-guide/">Red Hat supplementary style guide for product documentation&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://bishopfox.com/cybersecurity-style-guide">Bishop Fox Cybersecurity Style Guide&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="https://images.bishopfox.com/prod-1437/Documents/Guides/Bishop-Fox-Cybersecurity-Style-Guide-V2.pdf">PDF&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://support.apple.com/en-gb/guide/applestyleguide/welcome/web">Apple Style Guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://devguide.python.org/documentation/style-guide/">Python docs style guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.ubuntu.com/styleguide/en/">Canonical Documentation Style Guide&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/">Canonical reStructuredText style guide&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>And some other style guides:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.theguardian.com/guardian-observer-style-guide-a">Guardian and Observer style guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style">Wikipedia Manual of Style&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://styleguide.mailchimp.com/">Mailchimp Content Style Guide&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="https://styleguide.mailchimp.com/writing-for-accessibility/">Writing for Accessibility&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://english.meta.stackexchange.com/a/2579/9001">and more&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>More on style guides:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.writethedocs.org/guide/writing/style-guides/">Write the Docs&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>And a technical writing course:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://asrfs.github.io/Tech-Writing-for-Techies/output/html/00-00-course-overview.html">Tech Writing for Techies&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>&lt;small>Header photo:
-&amp;ldquo;&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/statelibraryofnsw/48910246623">Cootamundra
-Cycle Club, Cootamundra, New South Wales, c. 1900&lt;/a>&amp;rdquo; by
-&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/24029425@N06">Mitchell
-Library, State Library of New South Wales&lt;/a>, with
-&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/">no
-known copyright restrictions&lt;/a>.&lt;/small>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>reference on Hugo van Kemenade</title><link>https://hugovk.dev/tags/reference/</link><description>Recent content in reference on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 02 Mar 2024 15:25:54 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Tech style guides</title><link>https://hugovk.dev/blog/2024/tech-style-guides/</link><pubDate>Sat, 02 Mar 2024 15:25:54 +0000</pubDate><guid>https://hugovk.dev/blog/2024/tech-style-guides/</guid><description>&lt;p&gt;Here&amp;rsquo;s some tech style guides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.google.com/style"&gt;Google developer documentation style guide&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.google.com/style/word-list"&gt;Word list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/style-guide/welcome/"&gt;Microsoft Writing Style Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stylepedia.net/"&gt;Red Hat Technical Writing Style Guide&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://redhat-documentation.github.io/supplementary-style-guide/"&gt;Red Hat supplementary style guide for product documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bishopfox.com/cybersecurity-style-guide"&gt;Bishop Fox Cybersecurity Style Guide&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://images.bishopfox.com/prod-1437/Documents/Guides/Bishop-Fox-Cybersecurity-Style-Guide-V2.pdf"&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://support.apple.com/en-gb/guide/applestyleguide/welcome/web"&gt;Apple Style Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://devguide.python.org/documentation/style-guide/"&gt;Python docs style guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.ubuntu.com/styleguide/en/"&gt;Canonical Documentation Style Guide&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://canonical-documentation-with-sphinx-and-readthedocscom.readthedocs-hosted.com/style-guide/"&gt;Canonical reStructuredText style guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And some other style guides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.theguardian.com/guardian-observer-style-guide-a"&gt;Guardian and Observer style guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style"&gt;Wikipedia Manual of Style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://styleguide.mailchimp.com/"&gt;Mailchimp Content Style Guide&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://styleguide.mailchimp.com/writing-for-accessibility/"&gt;Writing for Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://english.meta.stackexchange.com/a/2579/9001"&gt;and more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More on style guides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.writethedocs.org/guide/writing/style-guides/"&gt;Write the Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a technical writing course:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://asrfs.github.io/Tech-Writing-for-Techies/output/html/00-00-course-overview.html"&gt;Tech Writing for Techies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo:
+&amp;ldquo;&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/statelibraryofnsw/48910246623"&gt;Cootamundra
+Cycle Club, Cootamundra, New South Wales, c. 1900&lt;/a&gt;&amp;rdquo; by
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/24029425@N06"&gt;Mitchell
+Library, State Library of New South Wales&lt;/a&gt;, with
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/"&gt;no
+known copyright restrictions&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item></channel></rss>

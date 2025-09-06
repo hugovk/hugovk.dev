@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2024 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/2024/</link><description>Recent content in 2024 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Sat, 05 Oct 2024 19:39:48 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/2024/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Developer Sprint 2024</title><link>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</link><pubDate>Sat, 05 Oct 2024 19:39:48 +0000</pubDate><guid>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</guid><description>&lt;p>🐍🏃The week before last was the annual Python Core Dev Sprint, graciously hosted by
-Meta in Bellevue, WA!&lt;/p>
-&lt;p>The idea: bring a bunch of Python core team members, triagers, and special guests to the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2024 on Hugo van Kemenade</title><link>https://hugovk.dev/tags/2024/</link><description>Recent content in 2024 on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 05 Oct 2024 19:39:48 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/2024/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Developer Sprint 2024</title><link>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</link><pubDate>Sat, 05 Oct 2024 19:39:48 +0000</pubDate><guid>https://hugovk.dev/blog/2024/python-core-developer-sprint-2024/</guid><description>&lt;p&gt;🐍🏃The week before last was the annual Python Core Dev Sprint, graciously hosted by
+Meta in Bellevue, WA!&lt;/p&gt;
+&lt;p&gt;The idea: bring a bunch of Python core team members, triagers, and special guests to the
 same room for a week. It&amp;rsquo;s hugely beneficial and productive, we held many in-depth
 discussions that just don&amp;rsquo;t happen when we&amp;rsquo;re all remote and async, and got to work on
-many different things together.&lt;/p>
-&lt;p>
+many different things together.&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -25,7 +25,7 @@ many different things together.&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -42,7 +42,7 @@ many different things together.&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="4096"
@@ -60,45 +60,45 @@ many different things together.&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>The sprint room&lt;/small>&lt;/center>
-&lt;p>During the week, I reviewed 39 PRs, created 15, merged 10, updated 4, and closed 2
-issues.&lt;/p>
-&lt;h2 id="monday-highlights" class="relative group">Monday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>As release manager for &lt;a href="https://peps.python.org/pep-0745/">Python 3.14&lt;/a>, I discussed
-with &lt;a href="https://fosstodon.org/@brettcannon">Brett Cannon&lt;/a> one of his project ideas which
-will come after lock files, and after the next big one.&lt;/p>
-&lt;p>Also as RM, discussed with &lt;a href="https://cloudisland.nz/@freakboy3742">Russell Keith-Magee&lt;/a>,
-Ned Deily, &lt;a href="https://mastodon.social/@ambv">Łukasz Langa&lt;/a> and
-&lt;a href="https://social.coop/@Yhg1s">Thomas Wouters&lt;/a> about
-&lt;a href="https://beeware.org/news/buzz/2024q4-roadmap/">including official binaries for iOS and Android&lt;/a>,
-which wandered into ideas about security releases.&lt;/p>
-&lt;p>I did some maintenance of our PyPI projects, adding
-&lt;a href="https://peps.python.org/pep-0740/">PEP 740 attestations&lt;/a>, support for the
-&lt;a href="https://peps.python.org/pep-0719/">new Python 3.13&lt;/a> and dropping support for the
-&lt;a href="https://peps.python.org/pep-0569/">very-nearly-EOL 3.8&lt;/a>.&lt;/p>
-&lt;h2 id="tuesday-highlights" class="relative group">Tuesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tuesday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Started investigating slow doctest on 3.13+ with
-&lt;a href="https://fosstodon.org/@AlexWaygood">Alex Waygood&lt;/a>, who on Wednesday narrowed it down to
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;The sprint room&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;During the week, I reviewed 39 PRs, created 15, merged 10, updated 4, and closed 2
+issues.&lt;/p&gt;
+&lt;h2 id="monday-highlights" class="relative group"&gt;Monday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;As release manager for &lt;a href="https://peps.python.org/pep-0745/"&gt;Python 3.14&lt;/a&gt;, I discussed
+with &lt;a href="https://fosstodon.org/@brettcannon"&gt;Brett Cannon&lt;/a&gt; one of his project ideas which
+will come after lock files, and after the next big one.&lt;/p&gt;
+&lt;p&gt;Also as RM, discussed with &lt;a href="https://cloudisland.nz/@freakboy3742"&gt;Russell Keith-Magee&lt;/a&gt;,
+Ned Deily, &lt;a href="https://mastodon.social/@ambv"&gt;Łukasz Langa&lt;/a&gt; and
+&lt;a href="https://social.coop/@Yhg1s"&gt;Thomas Wouters&lt;/a&gt; about
+&lt;a href="https://beeware.org/news/buzz/2024q4-roadmap/"&gt;including official binaries for iOS and Android&lt;/a&gt;,
+which wandered into ideas about security releases.&lt;/p&gt;
+&lt;p&gt;I did some maintenance of our PyPI projects, adding
+&lt;a href="https://peps.python.org/pep-0740/"&gt;PEP 740 attestations&lt;/a&gt;, support for the
+&lt;a href="https://peps.python.org/pep-0719/"&gt;new Python 3.13&lt;/a&gt; and dropping support for the
+&lt;a href="https://peps.python.org/pep-0569/"&gt;very-nearly-EOL 3.8&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="tuesday-highlights" class="relative group"&gt;Tuesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tuesday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Started investigating slow doctest on 3.13+ with
+&lt;a href="https://fosstodon.org/@AlexWaygood"&gt;Alex Waygood&lt;/a&gt;, who on Wednesday narrowed it down to
 a problem with the
-&lt;a href="https://github.com/python/cpython/issues/124567">new incremental garbage collector&lt;/a>,
+&lt;a href="https://github.com/python/cpython/issues/124567"&gt;new incremental garbage collector&lt;/a&gt;,
 which would go on to be reverted by Friday and result in
-&lt;a href="https://discuss.python.org/t/python-3-12-7-and-3-13-0rc3-released/66306?u=hugovk">Python 3.13&amp;rsquo;s Monday release to be postponed and replaced with an extra release candidate&lt;/a>.
-Not ideal, but much better to discover these things before the big release.&lt;/p>
-&lt;p>We had a Q&amp;amp;A session with the Steering Council:
-&lt;a href="https://mastodon.social/@pumpichank">Barry Warsaw&lt;/a>, Emily Morehouse,
-&lt;a href="https://infosec.exchange/@gpshead">Gregory P. Smith&lt;/a>, Pablo Galindo Salgado and Thomas.&lt;/p>
-&lt;p>
+&lt;a href="https://discuss.python.org/t/python-3-12-7-and-3-13-0rc3-released/66306?u=hugovk"&gt;Python 3.13&amp;rsquo;s Monday release to be postponed and replaced with an extra release candidate&lt;/a&gt;.
+Not ideal, but much better to discover these things before the big release.&lt;/p&gt;
+&lt;p&gt;We had a Q&amp;amp;A session with the Steering Council:
+&lt;a href="https://mastodon.social/@pumpichank"&gt;Barry Warsaw&lt;/a&gt;, Emily Morehouse,
+&lt;a href="https://infosec.exchange/@gpshead"&gt;Gregory P. Smith&lt;/a&gt;, Pablo Galindo Salgado and Thomas.&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -113,7 +113,7 @@ Not ideal, but much better to discover these things before the big release.&lt;/
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -130,7 +130,7 @@ Not ideal, but much better to discover these things before the big release.&lt;/
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="4000"
@@ -148,42 +148,42 @@ Not ideal, but much better to discover these things before the big release.&lt;/
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>The Python Steering Council&lt;/small>&lt;/center>
-&lt;p>Proofread Guido van Rossum&amp;rsquo;s
-&lt;a href="https://discuss.python.org/t/changing-pep-13-to-adopt-bloc-star-voting/64971?u=hugovk">STAR voting proposal&lt;/a>
-for electing future steering councils.&lt;/p>
-&lt;p>Discussed with Eric Snow his novel method for displaying many code samples in a table,
-using &lt;code>&amp;lt;details&amp;gt;&lt;/code> disclosures to prevent the table being too wide. Looks like a good
-solution!&lt;/p>
-&lt;h2 id="wednesday-highlights" class="relative group">Wednesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#wednesday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>I applied the &lt;a href="https://github.com/python/peps/pull/3995">finishing touches&lt;/a> to
-&lt;a href="https://peps.python.org/pep-2026/">PEP 2026&lt;/a> (Calendar versioning for Python) and Barry
-gave it a final review. Ready for submission!&lt;/p>
-&lt;p>&lt;a href="https://fosstodon.org/@sethmlarson">Seth Larson&lt;/a>, the PSF
-&lt;a href="https://sethmlarson.dev/security-developer-in-residence">Security Developer-in-Residence&lt;/a>,
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;The Python Steering Council&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;Proofread Guido van Rossum&amp;rsquo;s
+&lt;a href="https://discuss.python.org/t/changing-pep-13-to-adopt-bloc-star-voting/64971?u=hugovk"&gt;STAR voting proposal&lt;/a&gt;
+for electing future steering councils.&lt;/p&gt;
+&lt;p&gt;Discussed with Eric Snow his novel method for displaying many code samples in a table,
+using &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; disclosures to prevent the table being too wide. Looks like a good
+solution!&lt;/p&gt;
+&lt;h2 id="wednesday-highlights" class="relative group"&gt;Wednesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#wednesday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I applied the &lt;a href="https://github.com/python/peps/pull/3995"&gt;finishing touches&lt;/a&gt; to
+&lt;a href="https://peps.python.org/pep-2026/"&gt;PEP 2026&lt;/a&gt; (Calendar versioning for Python) and Barry
+gave it a final review. Ready for submission!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fosstodon.org/@sethmlarson"&gt;Seth Larson&lt;/a&gt;, the PSF
+&lt;a href="https://sethmlarson.dev/security-developer-in-residence"&gt;Security Developer-in-Residence&lt;/a&gt;,
 wasn&amp;rsquo;t at the sprint but we discussed our plan to stop providing GPG signatures for
-CPython and rely on SigStore instead. Expect a PEP soon!&lt;/p>
-&lt;p>Also not at the sprint, I recommended PSF
-&lt;a href="https://pyfound.blogspot.com/2024/07/announcing-our-new-infrastructure.html">Infrastructure Engineer&lt;/a>
-&lt;a href="https://fosstodon.org/@Monorepo">Jacob Coffee&lt;/a> as a &lt;a href="CPython">CPython triager&lt;/a>. Welcome
-aboard!&lt;/p>
-&lt;p>The whole room discussed including
-&lt;a href="https://discuss.python.org/t/static-type-annotations-in-cpython/65068?u=hugovk">static type annotations in CPython&lt;/a>.&lt;/p>
-&lt;p>We had a Q&amp;amp;A session with two of the three Developers-in-Residence, Łukasz and
-&lt;a href="https://mastodon.social/@encukou">Petr Viktorin&lt;/a>.&lt;/p>
-&lt;p>
+CPython and rely on SigStore instead. Expect a PEP soon!&lt;/p&gt;
+&lt;p&gt;Also not at the sprint, I recommended PSF
+&lt;a href="https://pyfound.blogspot.com/2024/07/announcing-our-new-infrastructure.html"&gt;Infrastructure Engineer&lt;/a&gt;
+&lt;a href="https://fosstodon.org/@Monorepo"&gt;Jacob Coffee&lt;/a&gt; as a &lt;a href="CPython"&gt;CPython triager&lt;/a&gt;. Welcome
+aboard!&lt;/p&gt;
+&lt;p&gt;The whole room discussed including
+&lt;a href="https://discuss.python.org/t/static-type-annotations-in-cpython/65068?u=hugovk"&gt;static type annotations in CPython&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We had a Q&amp;amp;A session with two of the three Developers-in-Residence, Łukasz and
+&lt;a href="https://mastodon.social/@encukou"&gt;Petr Viktorin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -198,7 +198,7 @@ aboard!&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -215,7 +215,7 @@ aboard!&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="4000"
@@ -233,26 +233,26 @@ aboard!&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Q&amp;A with Łukasz and Petr&lt;/small>&lt;/center>
-&lt;p>Discussed
-&lt;a href="https://discuss.python.org/t/collecting-feedback-about-expanding-the-voter-pool-for-sc-elections?u=hugovk">expanding the voter pool for Steering Council elections&lt;/a>
-with &lt;a href="https://fosstodon.org/@mariatta">Mariatta&lt;/a>, Greg and Thomas.&lt;/p>
-&lt;p>Larry Hastings handed out, in return for &lt;em>oohs&lt;/em> and &lt;em>aahs&lt;/em>, some nice P.C.D.S. 2024
-stickers he generously designed and printed up for us. Thanks!&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Q&amp;A with Łukasz and Petr&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;Discussed
+&lt;a href="https://discuss.python.org/t/collecting-feedback-about-expanding-the-voter-pool-for-sc-elections?u=hugovk"&gt;expanding the voter pool for Steering Council elections&lt;/a&gt;
+with &lt;a href="https://fosstodon.org/@mariatta"&gt;Mariatta&lt;/a&gt;, Greg and Thomas.&lt;/p&gt;
+&lt;p&gt;Larry Hastings handed out, in return for &lt;em&gt;oohs&lt;/em&gt; and &lt;em&gt;aahs&lt;/em&gt;, some nice P.C.D.S. 2024
+stickers he generously designed and printed up for us. Thanks!&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -267,7 +267,7 @@ stickers he generously designed and printed up for us. Thanks!&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -284,7 +284,7 @@ stickers he generously designed and printed up for us. Thanks!&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="4000"
@@ -302,33 +302,33 @@ stickers he generously designed and printed up for us. Thanks!&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>PCDS 2024 stickers by Larry&lt;/small>&lt;/center>
-&lt;h2 id="thursday-highlights" class="relative group">Thursday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thursday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>On the 26th September, at 10:26 Bellevue time (20:26 Helsinki time), I
-&lt;a href="https://github.com/python/steering-council/issues/255">submitted PEP 2026 to the Steering Council!&lt;/a>🤞&lt;/p>
-&lt;p>Brett discussed whether we should update
-&lt;a href="https://discuss.python.org/t/updating-pep-387-to-prefer-5-year-deprecations-instead-of-2-years/65166?u=hugovk">PEP 387 to prefer 5 year deprecations instead of 2 years&lt;/a>.&lt;/p>
-&lt;p>Brandt Bucher gave us all an update on the progress of the Just-in-Time (JIT) compiler
-(&amp;ldquo;we went from 0% slower to 0% faster!&amp;rdquo;) and we discussed plans for Python 3.14.&lt;/p>
-&lt;p>Because I couldn&amp;rsquo;t attend Thursday&amp;rsquo;s
-&lt;a href="https://helsinki-python.github.io/">Helsinki Python meetup&lt;/a> due to being at another
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;PCDS 2024 stickers by Larry&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="thursday-highlights" class="relative group"&gt;Thursday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thursday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;On the 26th September, at 10:26 Bellevue time (20:26 Helsinki time), I
+&lt;a href="https://github.com/python/steering-council/issues/255"&gt;submitted PEP 2026 to the Steering Council!&lt;/a&gt;🤞&lt;/p&gt;
+&lt;p&gt;Brett discussed whether we should update
+&lt;a href="https://discuss.python.org/t/updating-pep-387-to-prefer-5-year-deprecations-instead-of-2-years/65166?u=hugovk"&gt;PEP 387 to prefer 5 year deprecations instead of 2 years&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Brandt Bucher gave us all an update on the progress of the Just-in-Time (JIT) compiler
+(&amp;ldquo;we went from 0% slower to 0% faster!&amp;rdquo;) and we discussed plans for Python 3.14.&lt;/p&gt;
+&lt;p&gt;Because I couldn&amp;rsquo;t attend Thursday&amp;rsquo;s
+&lt;a href="https://helsinki-python.github.io/"&gt;Helsinki Python meetup&lt;/a&gt; due to being at another
 kind of Python meetup on the other side of the world, I gave the famous HelPy quiz to
 the assembled core devs. Unsurprisingly they did pretty well, but the most incorrect
-answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributors to Python 3.13!&lt;/p>
-&lt;p>Pablo performed card tricks!&lt;/p>
-&lt;p>
+answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributors to Python 3.13!&lt;/p&gt;
+&lt;p&gt;Pablo performed card tricks!&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -343,7 +343,7 @@ answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributor
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -360,7 +360,7 @@ answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributor
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="4000"
@@ -378,35 +378,35 @@ answer was a pleasant surprise: we&amp;rsquo;ve had ~400 not ~80 new contributor
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Magic from Pablo&lt;/small>&lt;/center>
-&lt;p>Meta took us out for a delicious dinner at a local fish restaurant. Thank you!&lt;/p>
-&lt;h2 id="friday-highlights" class="relative group">Friday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#friday-highlights" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Mariatta presented ideas to Jelle Zijlstra, Petr, Russell and me about to use modern
-tools to create a modern, interactive tutorial.&lt;/p>
-&lt;p>Also during the week, continued work with Adam Turner on improving the
-&lt;a href="https://docs.python.org/3/">docs.python.org&lt;/a> build. Adam wasn&amp;rsquo;t at the sprint, so
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Magic from Pablo&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;Meta took us out for a delicious dinner at a local fish restaurant. Thank you!&lt;/p&gt;
+&lt;h2 id="friday-highlights" class="relative group"&gt;Friday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#friday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Mariatta presented ideas to Jelle Zijlstra, Petr, Russell and me about to use modern
+tools to create a modern, interactive tutorial.&lt;/p&gt;
+&lt;p&gt;Also during the week, continued work with Adam Turner on improving the
+&lt;a href="https://docs.python.org/3/"&gt;docs.python.org&lt;/a&gt; build. Adam wasn&amp;rsquo;t at the sprint, so
 tag-teamed PR reviews overnight. After
-&lt;a href="https://github.com/python/docsbuild-scripts/issues/169#issuecomment-2389743956">much work straddling many teams, projects and repos&lt;/a>,
+&lt;a href="https://github.com/python/docsbuild-scripts/issues/169#issuecomment-2389743956"&gt;much work straddling many teams, projects and repos&lt;/a&gt;,
 we&amp;rsquo;ve got the full HTML build loop for 13 languages × 3 versions down from over 40 hours
-to just under 9 hours, with more improvements coming.&lt;/p>
-&lt;p>Made a &lt;a href="https://hugovk-cpython.readthedocs.io/en/pydata-sphinx-theme/">demo&lt;/a> of the
+to just under 9 hours, with more improvements coming.&lt;/p&gt;
+&lt;p&gt;Made a &lt;a href="https://hugovk-cpython.readthedocs.io/en/pydata-sphinx-theme/"&gt;demo&lt;/a&gt; of the
 CPython docs using the
-&lt;a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/">PyData Sphinx Theme&lt;/a>.&lt;/p>
-&lt;p>Along with around 25 others, I was on Łukasz and Pablo&amp;rsquo;s
-&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc">core.py podcast&lt;/a>.&lt;/p>
-&lt;p>
+&lt;a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/"&gt;PyData Sphinx Theme&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Along with around 25 others, I was on Łukasz and Pablo&amp;rsquo;s
+&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc"&gt;core.py podcast&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -421,7 +421,7 @@ CPython docs using the
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -438,7 +438,7 @@ CPython docs using the
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="4000"
@@ -456,22 +456,22 @@ CPython docs using the
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room&lt;/small>&lt;/center>
-&lt;p>Itamar gave us cake for the podcast&amp;rsquo;s first birthday!&lt;/p>
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Łukasz and Pablo in their ad-hoc podcast studio in a Meta meeting room&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;Itamar gave us cake for the podcast&amp;rsquo;s first birthday!&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -486,7 +486,7 @@ CPython docs using the
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -503,7 +503,7 @@ CPython docs using the
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="2439"
@@ -521,102 +521,102 @@ CPython docs using the
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>cake.py. Photo by Itamar Oren.&lt;/small>&lt;/center>
-&lt;h2 id="thank-you" class="relative group">Thank you &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thank-you" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>It was a hugely productive week, big thanks to Itamar Oren and Meta for organising and
-hosting!&lt;/p>
-&lt;p>See also Mariatta&amp;rsquo;s excellent &lt;a href="https://mariatta.ca/tags/sprint/">blog posts&lt;/a>, and I
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;cake.py. Photo by Itamar Oren.&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="thank-you" class="relative group"&gt;Thank you &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thank-you" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;It was a hugely productive week, big thanks to Itamar Oren and Meta for organising and
+hosting!&lt;/p&gt;
+&lt;p&gt;See also Mariatta&amp;rsquo;s excellent &lt;a href="https://mariatta.ca/tags/sprint/"&gt;blog posts&lt;/a&gt;, and I
 recommend the
-&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc">core.py podcast&lt;/a>
+&lt;a href="https://podcasters.spotify.com/pod/show/corepy/episodes/Episode-15-Core-sprint-at-Meta-e2p64tc"&gt;core.py podcast&lt;/a&gt;
 with short interviews with some 25 attendees! Łukasz and Pablo were also guests on the
-&lt;a href="https://changelog.com/podcast/611">Changelog podcast&lt;/a> during the sprint.&lt;/p>
-&lt;hr>
-&lt;p>&lt;small>Header photo by Itamar Oren&lt;/small>&lt;/p></description></item><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description>&lt;p>If you read just one, check
-&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html">Kati&amp;rsquo;s thorough recap&lt;/a>!&lt;/p>
-&lt;p>22nd May 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html">Echos of the People API user guide&lt;/a>
-by &lt;a href="https://mastodon.social/@nedbat@hachyderm.io/112479219635272740">Ned Batchelder&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>24th May 2024&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://wagtail.org/blog/pycon-2024/">Wagtailers spread their wings at PyCon 2024&lt;/a> by
-&lt;a href="https://fosstodon.org/@vossisboss">Meagen Voss&lt;/a> (@vossisboss)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://flet.dev/blog/flet-at-pycon-us-2024/">Flet at PyCon US 2024&lt;/a> by Feodor
-Fitsner&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>27th May 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.tomy.me/en/posts/pycon-us-2024/">PyCon US 2024: My First PyCon in US 🫶🏻&lt;/a>
-by &lt;a href="https://mastodon.social/@tomyhsieh">Tomy Hsieh&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>28th May 2024&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://treyhunner.com/2024/05/pycon-2024-reflection/">PyCon 2024 Reflection&lt;/a> by
-&lt;a href="https://mastodon.social/@treyhunner/112520554890667118">Trey Hunner&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://simonwillison.net/2024/May/28/weeknotes/">Weeknotes: PyCon US 2024&lt;/a> by
-&lt;a href="https://fedi.simonwillison.net/@simon/112520529116346191">Simon Willison&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://stacklok.com/blog/3-key-takeaways-from-pycon-us-2024">3 key takeaways from PyCon US 2024&lt;/a>
-by Luis Juncal &amp;amp; Yolanda Robla&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>30th May 2024&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://www.pyopensci.org/blog/recap-pyos-pyconus-2024.html">pyOpenSci at PyCon US 2024 - Python packaging and community &lt;/a>
-by &lt;a href="https://fosstodon.org/@leahawasser/112554205196871020">Leah Wasser&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://kafkai.com/en/blog/our-experience-at-pycon-us-2024-in-pittsburgh/">Our Experience at PyCon US 2024 in Pittsburgh&lt;/a>
-by &lt;a href="https://hachyderm.io/@muheuenga/112530136789502549">Ngazetungue Muheue&lt;/a>
-(@ngazetungue)&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>1st June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html">PyCon US 2024 Recap&lt;/a>
-by &lt;a href="https://fosstodon.org/@kati/112542145378019538">Kati Michel&lt;/a> (@katherinemichel)&lt;/li>
-&lt;/ul>
-&lt;p>4th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://mangoumbrella.com/post/pycon-us-2024">PyCon US 2024&lt;/a> by
-&lt;a href="https://mastodon.social/@y2mango/112556835094650562">Yilei Yang&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>13th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://sethmlarson.dev/security-developer-in-residence-report-37">PyCon US 2024 as Security Developer-in-Residence&lt;/a>
-by &lt;a href="https://fosstodon.org/@sethmlarson">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
-&lt;/ul>
-&lt;p>14th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html">The Python Language Summit 2024&lt;/a>
-by &lt;a href="https://fosstodon.org/@sethmlarson">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
-&lt;/ul>
-&lt;p>16th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://dafoster.net/articles/2024/06/16/pycon-us-2024-highlights/">PyCon US 2024 Highlights&lt;/a>
-by &lt;a href="https://mastodon.world/@davidfstr">David Foster&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>19th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://medium.com/@monicaoyugi/from-pittsburgh-to-new-york-a-pycon-us-2024-adventure-1727c952509c">From Pittsburgh to New York: A PyCon US 2024 Adventure&lt;/a>
-by &lt;a href="https://mastodon.social/@monics">Monica Oyugi&lt;/a> (@monicaoyugi)&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>&lt;small>Header photo: Downtown Pittsburgh seen between the Andy Warhol Bridge and Roberto
-Clemente Bridge&lt;/small>&lt;/p></description></item></channel></rss>
+&lt;a href="https://changelog.com/podcast/611"&gt;Changelog podcast&lt;/a&gt; during the sprint.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo by Itamar Oren&lt;/small&gt;&lt;/p&gt;</description></item><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description>&lt;p&gt;If you read just one, check
+&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html"&gt;Kati&amp;rsquo;s thorough recap&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;22nd May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html"&gt;Echos of the People API user guide&lt;/a&gt;
+by &lt;a href="https://mastodon.social/@nedbat@hachyderm.io/112479219635272740"&gt;Ned Batchelder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;24th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://wagtail.org/blog/pycon-2024/"&gt;Wagtailers spread their wings at PyCon 2024&lt;/a&gt; by
+&lt;a href="https://fosstodon.org/@vossisboss"&gt;Meagen Voss&lt;/a&gt; (@vossisboss)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://flet.dev/blog/flet-at-pycon-us-2024/"&gt;Flet at PyCon US 2024&lt;/a&gt; by Feodor
+Fitsner&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;27th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.tomy.me/en/posts/pycon-us-2024/"&gt;PyCon US 2024: My First PyCon in US 🫶🏻&lt;/a&gt;
+by &lt;a href="https://mastodon.social/@tomyhsieh"&gt;Tomy Hsieh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;28th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://treyhunner.com/2024/05/pycon-2024-reflection/"&gt;PyCon 2024 Reflection&lt;/a&gt; by
+&lt;a href="https://mastodon.social/@treyhunner/112520554890667118"&gt;Trey Hunner&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://simonwillison.net/2024/May/28/weeknotes/"&gt;Weeknotes: PyCon US 2024&lt;/a&gt; by
+&lt;a href="https://fedi.simonwillison.net/@simon/112520529116346191"&gt;Simon Willison&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://stacklok.com/blog/3-key-takeaways-from-pycon-us-2024"&gt;3 key takeaways from PyCon US 2024&lt;/a&gt;
+by Luis Juncal &amp;amp; Yolanda Robla&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;30th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.pyopensci.org/blog/recap-pyos-pyconus-2024.html"&gt;pyOpenSci at PyCon US 2024 - Python packaging and community &lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@leahawasser/112554205196871020"&gt;Leah Wasser&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://kafkai.com/en/blog/our-experience-at-pycon-us-2024-in-pittsburgh/"&gt;Our Experience at PyCon US 2024 in Pittsburgh&lt;/a&gt;
+by &lt;a href="https://hachyderm.io/@muheuenga/112530136789502549"&gt;Ngazetungue Muheue&lt;/a&gt;
+(@ngazetungue)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1st June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html"&gt;PyCon US 2024 Recap&lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@kati/112542145378019538"&gt;Kati Michel&lt;/a&gt; (@katherinemichel)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;4th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mangoumbrella.com/post/pycon-us-2024"&gt;PyCon US 2024&lt;/a&gt; by
+&lt;a href="https://mastodon.social/@y2mango/112556835094650562"&gt;Yilei Yang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;13th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sethmlarson.dev/security-developer-in-residence-report-37"&gt;PyCon US 2024 as Security Developer-in-Residence&lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@sethmlarson"&gt;Seth Michael Larson&lt;/a&gt; (@sethmlarson)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;14th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html"&gt;The Python Language Summit 2024&lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@sethmlarson"&gt;Seth Michael Larson&lt;/a&gt; (@sethmlarson)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;16th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://dafoster.net/articles/2024/06/16/pycon-us-2024-highlights/"&gt;PyCon US 2024 Highlights&lt;/a&gt;
+by &lt;a href="https://mastodon.world/@davidfstr"&gt;David Foster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;19th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@monicaoyugi/from-pittsburgh-to-new-york-a-pycon-us-2024-adventure-1727c952509c"&gt;From Pittsburgh to New York: A PyCon US 2024 Adventure&lt;/a&gt;
+by &lt;a href="https://mastodon.social/@monics"&gt;Monica Oyugi&lt;/a&gt; (@monicaoyugi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo: Downtown Pittsburgh seen between the Andy Warhol Bridge and Roberto
+Clemente Bridge&lt;/small&gt;&lt;/p&gt;</description></item></channel></rss>

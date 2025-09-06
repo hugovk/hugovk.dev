@@ -1,83 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pycon-us on Hugo van Kemenade</title><link>https://hugovk.dev/tags/pycon-us/</link><description>Recent content in pycon-us on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Thu, 13 Jun 2024 14:41:55 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/pycon-us/index.xml" rel="self" type="application/rss+xml"/><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description>&lt;p>If you read just one, check
-&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html">Kati&amp;rsquo;s thorough recap&lt;/a>!&lt;/p>
-&lt;p>22nd May 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html">Echos of the People API user guide&lt;/a>
-by &lt;a href="https://mastodon.social/@nedbat@hachyderm.io/112479219635272740">Ned Batchelder&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>24th May 2024&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://wagtail.org/blog/pycon-2024/">Wagtailers spread their wings at PyCon 2024&lt;/a> by
-&lt;a href="https://fosstodon.org/@vossisboss">Meagen Voss&lt;/a> (@vossisboss)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://flet.dev/blog/flet-at-pycon-us-2024/">Flet at PyCon US 2024&lt;/a> by Feodor
-Fitsner&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>27th May 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.tomy.me/en/posts/pycon-us-2024/">PyCon US 2024: My First PyCon in US 🫶🏻&lt;/a>
-by &lt;a href="https://mastodon.social/@tomyhsieh">Tomy Hsieh&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>28th May 2024&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://treyhunner.com/2024/05/pycon-2024-reflection/">PyCon 2024 Reflection&lt;/a> by
-&lt;a href="https://mastodon.social/@treyhunner/112520554890667118">Trey Hunner&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://simonwillison.net/2024/May/28/weeknotes/">Weeknotes: PyCon US 2024&lt;/a> by
-&lt;a href="https://fedi.simonwillison.net/@simon/112520529116346191">Simon Willison&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://stacklok.com/blog/3-key-takeaways-from-pycon-us-2024">3 key takeaways from PyCon US 2024&lt;/a>
-by Luis Juncal &amp;amp; Yolanda Robla&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>30th May 2024&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://www.pyopensci.org/blog/recap-pyos-pyconus-2024.html">pyOpenSci at PyCon US 2024 - Python packaging and community &lt;/a>
-by &lt;a href="https://fosstodon.org/@leahawasser/112554205196871020">Leah Wasser&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://kafkai.com/en/blog/our-experience-at-pycon-us-2024-in-pittsburgh/">Our Experience at PyCon US 2024 in Pittsburgh&lt;/a>
-by &lt;a href="https://hachyderm.io/@muheuenga/112530136789502549">Ngazetungue Muheue&lt;/a>
-(@ngazetungue)&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>1st June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html">PyCon US 2024 Recap&lt;/a>
-by &lt;a href="https://fosstodon.org/@kati/112542145378019538">Kati Michel&lt;/a> (@katherinemichel)&lt;/li>
-&lt;/ul>
-&lt;p>4th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://mangoumbrella.com/post/pycon-us-2024">PyCon US 2024&lt;/a> by
-&lt;a href="https://mastodon.social/@y2mango/112556835094650562">Yilei Yang&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>13th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://sethmlarson.dev/security-developer-in-residence-report-37">PyCon US 2024 as Security Developer-in-Residence&lt;/a>
-by &lt;a href="https://fosstodon.org/@sethmlarson">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
-&lt;/ul>
-&lt;p>14th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html">The Python Language Summit 2024&lt;/a>
-by &lt;a href="https://fosstodon.org/@sethmlarson">Seth Michael Larson&lt;/a> (@sethmlarson)&lt;/li>
-&lt;/ul>
-&lt;p>16th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://dafoster.net/articles/2024/06/16/pycon-us-2024-highlights/">PyCon US 2024 Highlights&lt;/a>
-by &lt;a href="https://mastodon.world/@davidfstr">David Foster&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>19th June 2024&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://medium.com/@monicaoyugi/from-pittsburgh-to-new-york-a-pycon-us-2024-adventure-1727c952509c">From Pittsburgh to New York: A PyCon US 2024 Adventure&lt;/a>
-by &lt;a href="https://mastodon.social/@monics">Monica Oyugi&lt;/a> (@monicaoyugi)&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>&lt;small>Header photo: Downtown Pittsburgh seen between the Andy Warhol Bridge and Roberto
-Clemente Bridge&lt;/small>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pycon-us on Hugo van Kemenade</title><link>https://hugovk.dev/tags/pycon-us/</link><description>Recent content in pycon-us on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Thu, 13 Jun 2024 14:41:55 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/pycon-us/index.xml" rel="self" type="application/rss+xml"/><item><title>PyCon US 2024: A roundup of writeups</title><link>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</link><pubDate>Thu, 13 Jun 2024 14:41:55 +0000</pubDate><guid>https://hugovk.dev/blog/2024/pycon-us-2024-a-roundup-of-writeups/</guid><description>&lt;p&gt;If you read just one, check
+&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html"&gt;Kati&amp;rsquo;s thorough recap&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;22nd May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html"&gt;Echos of the People API user guide&lt;/a&gt;
+by &lt;a href="https://mastodon.social/@nedbat@hachyderm.io/112479219635272740"&gt;Ned Batchelder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;24th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://wagtail.org/blog/pycon-2024/"&gt;Wagtailers spread their wings at PyCon 2024&lt;/a&gt; by
+&lt;a href="https://fosstodon.org/@vossisboss"&gt;Meagen Voss&lt;/a&gt; (@vossisboss)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://flet.dev/blog/flet-at-pycon-us-2024/"&gt;Flet at PyCon US 2024&lt;/a&gt; by Feodor
+Fitsner&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;27th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.tomy.me/en/posts/pycon-us-2024/"&gt;PyCon US 2024: My First PyCon in US 🫶🏻&lt;/a&gt;
+by &lt;a href="https://mastodon.social/@tomyhsieh"&gt;Tomy Hsieh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;28th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://treyhunner.com/2024/05/pycon-2024-reflection/"&gt;PyCon 2024 Reflection&lt;/a&gt; by
+&lt;a href="https://mastodon.social/@treyhunner/112520554890667118"&gt;Trey Hunner&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://simonwillison.net/2024/May/28/weeknotes/"&gt;Weeknotes: PyCon US 2024&lt;/a&gt; by
+&lt;a href="https://fedi.simonwillison.net/@simon/112520529116346191"&gt;Simon Willison&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://stacklok.com/blog/3-key-takeaways-from-pycon-us-2024"&gt;3 key takeaways from PyCon US 2024&lt;/a&gt;
+by Luis Juncal &amp;amp; Yolanda Robla&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;30th May 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.pyopensci.org/blog/recap-pyos-pyconus-2024.html"&gt;pyOpenSci at PyCon US 2024 - Python packaging and community &lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@leahawasser/112554205196871020"&gt;Leah Wasser&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://kafkai.com/en/blog/our-experience-at-pycon-us-2024-in-pittsburgh/"&gt;Our Experience at PyCon US 2024 in Pittsburgh&lt;/a&gt;
+by &lt;a href="https://hachyderm.io/@muheuenga/112530136789502549"&gt;Ngazetungue Muheue&lt;/a&gt;
+(@ngazetungue)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1st June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://katherinemichel.github.io/portfolio/pycon-us-2024-recap.html"&gt;PyCon US 2024 Recap&lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@kati/112542145378019538"&gt;Kati Michel&lt;/a&gt; (@katherinemichel)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;4th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mangoumbrella.com/post/pycon-us-2024"&gt;PyCon US 2024&lt;/a&gt; by
+&lt;a href="https://mastodon.social/@y2mango/112556835094650562"&gt;Yilei Yang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;13th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sethmlarson.dev/security-developer-in-residence-report-37"&gt;PyCon US 2024 as Security Developer-in-Residence&lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@sethmlarson"&gt;Seth Michael Larson&lt;/a&gt; (@sethmlarson)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;14th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html"&gt;The Python Language Summit 2024&lt;/a&gt;
+by &lt;a href="https://fosstodon.org/@sethmlarson"&gt;Seth Michael Larson&lt;/a&gt; (@sethmlarson)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;16th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://dafoster.net/articles/2024/06/16/pycon-us-2024-highlights/"&gt;PyCon US 2024 Highlights&lt;/a&gt;
+by &lt;a href="https://mastodon.world/@davidfstr"&gt;David Foster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;19th June 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@monicaoyugi/from-pittsburgh-to-new-york-a-pycon-us-2024-adventure-1727c952509c"&gt;From Pittsburgh to New York: A PyCon US 2024 Adventure&lt;/a&gt;
+by &lt;a href="https://mastodon.social/@monics"&gt;Monica Oyugi&lt;/a&gt; (@monicaoyugi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo: Downtown Pittsburgh seen between the Andy Warhol Bridge and Roberto
+Clemente Bridge&lt;/small&gt;&lt;/p&gt;</description></item></channel></rss>

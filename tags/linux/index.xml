@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on Hugo van Kemenade</title><link>https://hugovk.dev/tags/linux/</link><description>Recent content in linux on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">{{&lt; icon "cc" >}}&amp;hairsp;{{&lt; icon "cc-by" >}}&amp;hairsp;{{&lt; icon "cc-sa" >}}&lt;/a>&amp;nbsp;Hugo van Kemenade&lt;br>&lt;p class="text-xs text-neutral-500 dark:text-neutral-400">Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo&lt;/a> &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer">Hugo&lt;/a>&lt;/p></copyright><lastBuildDate>Tue, 22 Aug 2023 19:25:29 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Why are there still so many downloads for EOL Python 3.7?</title><link>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</link><pubDate>Tue, 22 Aug 2023 19:25:29 +0000</pubDate><guid>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</guid><description>&lt;p>Python 3.7 was first released on 2018-06-27 and recently reached end-of-life on
-2023-06-27 (&lt;a href="https://peps.python.org/pep-0537/">PEP 537&lt;/a>).&lt;/p>
-&lt;p>This means it is no longer receiving security updates and you should upgrade to a newer
-version (at least 3.8, but preferably 3.11):&lt;/p>
-&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on Hugo van Kemenade</title><link>https://hugovk.dev/tags/linux/</link><description>Recent content in linux on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Tue, 22 Aug 2023 19:25:29 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Why are there still so many downloads for EOL Python 3.7?</title><link>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</link><pubDate>Tue, 22 Aug 2023 19:25:29 +0000</pubDate><guid>https://hugovk.dev/blog/2023/why-are-there-still-so-many-downloads-for-eol-python-37/</guid><description>&lt;p&gt;Python 3.7 was first released on 2018-06-27 and recently reached end-of-life on
+2023-06-27 (&lt;a href="https://peps.python.org/pep-0537/"&gt;PEP 537&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;This means it is no longer receiving security updates and you should upgrade to a newer
+version (at least 3.8, but preferably 3.11):&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -23,7 +23,7 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -40,7 +40,7 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1530"
@@ -58,22 +58,22 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Source: &lt;a href="https://devguide.python.org/versions/">Python Developer's Guide&lt;/a>&lt;/small>&lt;/center>
-&lt;P>However, if you look at download numbers from PyPI, 3.7 still accounts for a large share. 3.7 accounted for 25% of all downloads from PyPI in July 2023, compared with 27% for 3.8:
-&lt;p>
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://devguide.python.org/versions/"&gt;Python Developer's Guide&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
+&lt;P&gt;However, if you look at download numbers from PyPI, 3.7 still accounts for a large share. 3.7 accounted for 25% of all downloads from PyPI in July 2023, compared with 27% for 3.8:
+&lt;p&gt;
 
 
 
 
 
-&lt;figure>
+&lt;figure&gt;
  
  
 
@@ -88,7 +88,7 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  &lt;picture
  class="mx-auto my-0 rounded-md"
  
- >
+ &gt;
  
  
  
@@ -105,7 +105,7 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  
  sizes="100vw"
  type="image/webp"
- />
+ /&gt;
  
  &lt;img
  width="1536"
@@ -123,311 +123,311 @@ version (at least 3.8, but preferably 3.11):&lt;/p>
  "
  sizes="100vw"
  
- />
- &lt;/picture>
+ /&gt;
+ &lt;/picture&gt;
  
 
 
-&lt;/figure>
-&lt;/p>
-&lt;center>&lt;small>Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html">pypi-tools&lt;/a>&lt;/small>&lt;/center>
-&lt;p>But why does such an old Python version have so many downloads?&lt;/p>
-&lt;h2 id="all-downloads" class="relative group">All downloads &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>Let&amp;rsquo;s dig into the numbers using a handy tool called
-&lt;a href="https://github.com/ofek/pypinfo">pypinfo&lt;/a>, which helps us analyse the
-&lt;a href="https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/">PyPI data from Google BigQuery&lt;/a>.&lt;/p>
-&lt;p>This command fetches all of yesterday&amp;rsquo;s downloads per Python version:&lt;/p>
-&lt;p>&lt;code>pypinfo --days 1 --percent --markdown &amp;quot;&amp;quot; pyversion&lt;/code>&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Python version&lt;/th>
- &lt;th style="text-align: right">percent&lt;/th>
- &lt;th style="text-align: right">download count&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>3.8&lt;/td>
- &lt;td style="text-align: right">25.00%&lt;/td>
- &lt;td style="text-align: right">189,678,872&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.7&lt;/td>
- &lt;td style="text-align: right">23.35%&lt;/td>
- &lt;td style="text-align: right">177,150,010&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.9&lt;/td>
- &lt;td style="text-align: right">20.25%&lt;/td>
- &lt;td style="text-align: right">153,663,903&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.10&lt;/td>
- &lt;td style="text-align: right">15.52%&lt;/td>
- &lt;td style="text-align: right">117,751,108&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.11&lt;/td>
- &lt;td style="text-align: right">6.90%&lt;/td>
- &lt;td style="text-align: right">52,381,884&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.6&lt;/td>
- &lt;td style="text-align: right">6.29%&lt;/td>
- &lt;td style="text-align: right">47,749,879&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2.7&lt;/td>
- &lt;td style="text-align: right">2.32%&lt;/td>
- &lt;td style="text-align: right">17,602,650&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.5&lt;/td>
- &lt;td style="text-align: right">0.23%&lt;/td>
- &lt;td style="text-align: right">1,778,388&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.4&lt;/td>
- &lt;td style="text-align: right">0.10%&lt;/td>
- &lt;td style="text-align: right">770,135&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.12&lt;/td>
- &lt;td style="text-align: right">0.03%&lt;/td>
- &lt;td style="text-align: right">224,223&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.13&lt;/td>
- &lt;td style="text-align: right">0.00%&lt;/td>
- &lt;td style="text-align: right">3,920&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.3&lt;/td>
- &lt;td style="text-align: right">0.00%&lt;/td>
- &lt;td style="text-align: right">1,165&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2.8&lt;/td>
- &lt;td style="text-align: right">0.00%&lt;/td>
- &lt;td style="text-align: right">57&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3.2&lt;/td>
- &lt;td style="text-align: right">0.00%&lt;/td>
- &lt;td style="text-align: right">35&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>None&lt;/td>
- &lt;td style="text-align: right">0.00%&lt;/td>
- &lt;td style="text-align: right">3&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Total&lt;/td>
- &lt;td style="text-align: right">&lt;/td>
- &lt;td style="text-align: right">758,756,232&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="all-downloads-by-os" class="relative group">All downloads by OS &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads-by-os" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>But what happens if we check which distros are responsible for those downloads?&lt;/p>
-&lt;p>This command gives us the top 20:&lt;/p>
-&lt;p>&lt;code>pypinfo --days 1 --limit 20 --percent --markdown &amp;quot;&amp;quot; system distro pyversion&lt;/code>&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>system name&lt;/th>
- &lt;th>distro name&lt;/th>
- &lt;th>Python version&lt;/th>
- &lt;th style="text-align: right">percent&lt;/th>
- &lt;th style="text-align: right">download count&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Ubuntu&lt;/td>
- &lt;td>3.8&lt;/td>
- &lt;td style="text-align: right">18.87%&lt;/td>
- &lt;td style="text-align: right">128,991,062&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Amazon Linux&lt;/td>
- &lt;td>3.7&lt;/td>
- &lt;td style="text-align: right">14.44%&lt;/td>
- &lt;td style="text-align: right">98,738,952&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Ubuntu&lt;/td>
- &lt;td>3.9&lt;/td>
- &lt;td style="text-align: right">12.14%&lt;/td>
- &lt;td style="text-align: right">83,019,828&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Ubuntu&lt;/td>
- &lt;td>3.10&lt;/td>
- &lt;td style="text-align: right">9.66%&lt;/td>
- &lt;td style="text-align: right">66,019,309&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Ubuntu&lt;/td>
- &lt;td>3.7&lt;/td>
- &lt;td style="text-align: right">5.89%&lt;/td>
- &lt;td style="text-align: right">40,257,060&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Debian GNU/Linux&lt;/td>
- &lt;td>3.8&lt;/td>
- &lt;td style="text-align: right">5.70%&lt;/td>
- &lt;td style="text-align: right">38,958,367&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Debian GNU/Linux&lt;/td>
- &lt;td>3.9&lt;/td>
- &lt;td style="text-align: right">5.63%&lt;/td>
- &lt;td style="text-align: right">38,482,436&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Debian GNU/Linux&lt;/td>
- &lt;td>3.7&lt;/td>
- &lt;td style="text-align: right">4.25%&lt;/td>
- &lt;td style="text-align: right">29,035,532&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Debian GNU/Linux&lt;/td>
- &lt;td>3.10&lt;/td>
- &lt;td style="text-align: right">4.15%&lt;/td>
- &lt;td style="text-align: right">28,348,346&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Debian GNU/Linux&lt;/td>
- &lt;td>3.6&lt;/td>
- &lt;td style="text-align: right">3.14%&lt;/td>
- &lt;td style="text-align: right">21,441,883&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Ubuntu&lt;/td>
- &lt;td>3.11&lt;/td>
- &lt;td style="text-align: right">3.01%&lt;/td>
- &lt;td style="text-align: right">20,570,619&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Debian GNU/Linux&lt;/td>
- &lt;td>3.11&lt;/td>
- &lt;td style="text-align: right">2.72%&lt;/td>
- &lt;td style="text-align: right">18,588,584&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Amazon Linux&lt;/td>
- &lt;td>3.9&lt;/td>
- &lt;td style="text-align: right">2.43%&lt;/td>
- &lt;td style="text-align: right">16,593,595&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>CentOS Linux&lt;/td>
- &lt;td>3.6&lt;/td>
- &lt;td style="text-align: right">1.70%&lt;/td>
- &lt;td style="text-align: right">11,605,142&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Amazon Linux&lt;/td>
- &lt;td>3.8&lt;/td>
- &lt;td style="text-align: right">1.47%&lt;/td>
- &lt;td style="text-align: right">10,035,087&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Amazon Linux&lt;/td>
- &lt;td>3.10&lt;/td>
- &lt;td style="text-align: right">1.46%&lt;/td>
- &lt;td style="text-align: right">9,969,514&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Ubuntu&lt;/td>
- &lt;td>2.7&lt;/td>
- &lt;td style="text-align: right">1.02%&lt;/td>
- &lt;td style="text-align: right">6,960,697&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Amazon Linux AMI&lt;/td>
- &lt;td>3.6&lt;/td>
- &lt;td style="text-align: right">0.79%&lt;/td>
- &lt;td style="text-align: right">5,390,823&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Linux&lt;/td>
- &lt;td>Ubuntu&lt;/td>
- &lt;td>3.6&lt;/td>
- &lt;td style="text-align: right">0.79%&lt;/td>
- &lt;td style="text-align: right">5,388,370&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Windows&lt;/td>
- &lt;td>None&lt;/td>
- &lt;td>3.10&lt;/td>
- &lt;td style="text-align: right">0.76%&lt;/td>
- &lt;td style="text-align: right">5,227,519&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Total&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td style="text-align: right">&lt;/td>
- &lt;td style="text-align: right">683,622,725&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>We can see Ubuntu with 3.8 is responsible for the largest share of 17%. (That&amp;rsquo;s fine,
-3.8 is supported until 2024-10-14.)&lt;/p>
-&lt;p>The next is Amazon Linux with 3.7, responsible for a whopping 15% of all downloads!&lt;/p>
-&lt;p>The others responsible for 3.7 have a much lower share: Ubuntu (6%) and Debian (4%).&lt;/p>
-&lt;p>Tip: replace &lt;code>&amp;quot;&amp;quot;&lt;/code> in the commands above with a package name to get data for just that
-package, for example:&lt;/p>
-&lt;p>&lt;code>pypinfo --days 1 --limit 20 --percent --markdown requests system distro pyversion&lt;/code>&lt;/p>
-&lt;hr>
-&lt;p>&lt;small>Header photo: Space shuttle Discovery landing at Edwards Air Force Base,
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html"&gt;pypi-tools&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;But why does such an old Python version have so many downloads?&lt;/p&gt;
+&lt;h2 id="all-downloads" class="relative group"&gt;All downloads &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s dig into the numbers using a handy tool called
+&lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt;, which helps us analyse the
+&lt;a href="https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/"&gt;PyPI data from Google BigQuery&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This command fetches all of yesterday&amp;rsquo;s downloads per Python version:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pypinfo --days 1 --percent --markdown &amp;quot;&amp;quot; pyversion&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Python version&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;percent&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;download count&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.8&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;25.00%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;189,678,872&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.7&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;23.35%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;177,150,010&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.9&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;20.25%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;153,663,903&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.10&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;15.52%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;117,751,108&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.11&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;6.90%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;52,381,884&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.6&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;6.29%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;47,749,879&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2.7&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;2.32%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;17,602,650&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.5&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.23%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;1,778,388&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.4&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.10%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;770,135&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.12&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.03%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;224,223&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.13&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.00%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;3,920&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.3&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.00%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;1,165&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2.8&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.00%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;57&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3.2&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.00%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;35&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;None&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.00%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Total&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;758,756,232&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="all-downloads-by-os" class="relative group"&gt;All downloads by OS &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads-by-os" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;But what happens if we check which distros are responsible for those downloads?&lt;/p&gt;
+&lt;p&gt;This command gives us the top 20:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pypinfo --days 1 --limit 20 --percent --markdown &amp;quot;&amp;quot; system distro pyversion&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;system name&lt;/th&gt;
+ &lt;th&gt;distro name&lt;/th&gt;
+ &lt;th&gt;Python version&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;percent&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;download count&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;3.8&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;18.87%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;128,991,062&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Amazon Linux&lt;/td&gt;
+ &lt;td&gt;3.7&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;14.44%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;98,738,952&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;3.9&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;12.14%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;83,019,828&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;3.10&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;9.66%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;66,019,309&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;3.7&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;5.89%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;40,257,060&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Debian GNU/Linux&lt;/td&gt;
+ &lt;td&gt;3.8&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;5.70%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;38,958,367&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Debian GNU/Linux&lt;/td&gt;
+ &lt;td&gt;3.9&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;5.63%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;38,482,436&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Debian GNU/Linux&lt;/td&gt;
+ &lt;td&gt;3.7&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;4.25%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;29,035,532&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Debian GNU/Linux&lt;/td&gt;
+ &lt;td&gt;3.10&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;4.15%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;28,348,346&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Debian GNU/Linux&lt;/td&gt;
+ &lt;td&gt;3.6&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;3.14%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;21,441,883&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;3.11&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;3.01%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;20,570,619&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Debian GNU/Linux&lt;/td&gt;
+ &lt;td&gt;3.11&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;2.72%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;18,588,584&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Amazon Linux&lt;/td&gt;
+ &lt;td&gt;3.9&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;2.43%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;16,593,595&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;CentOS Linux&lt;/td&gt;
+ &lt;td&gt;3.6&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;1.70%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;11,605,142&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Amazon Linux&lt;/td&gt;
+ &lt;td&gt;3.8&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;1.47%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;10,035,087&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Amazon Linux&lt;/td&gt;
+ &lt;td&gt;3.10&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;1.46%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;9,969,514&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;2.7&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;1.02%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;6,960,697&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Amazon Linux AMI&lt;/td&gt;
+ &lt;td&gt;3.6&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.79%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;5,390,823&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;3.6&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.79%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;5,388,370&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Windows&lt;/td&gt;
+ &lt;td&gt;None&lt;/td&gt;
+ &lt;td&gt;3.10&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;0.76%&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;5,227,519&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Total&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;683,622,725&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We can see Ubuntu with 3.8 is responsible for the largest share of 17%. (That&amp;rsquo;s fine,
+3.8 is supported until 2024-10-14.)&lt;/p&gt;
+&lt;p&gt;The next is Amazon Linux with 3.7, responsible for a whopping 15% of all downloads!&lt;/p&gt;
+&lt;p&gt;The others responsible for 3.7 have a much lower share: Ubuntu (6%) and Debian (4%).&lt;/p&gt;
+&lt;p&gt;Tip: replace &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt; in the commands above with a package name to get data for just that
+package, for example:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pypinfo --days 1 --limit 20 --percent --markdown requests system distro pyversion&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo: Space shuttle Discovery landing at Edwards Air Force Base,
 California, 9th December, 1992
-(&lt;a href="https://www.flickr.com/photos/nasacommons/30498961044">source: NASA on The Commons&lt;/a>)&lt;/small>&lt;/p></description></item><item><title>How to toggle playing/pausing of Spotify using the Pause key in Ubuntu</title><link>https://hugovk.dev/blog/2012/how-to-toggle-playingpausing-of-spotify-using-the-pause-key-in-ubuntu/</link><pubDate>Fri, 13 Jan 2012 13:05:26 +0000</pubDate><guid>https://hugovk.dev/blog/2012/how-to-toggle-playingpausing-of-spotify-using-the-pause-key-in-ubuntu/</guid><description>&lt;p>According to
-&lt;a href="https://web.archive.org/web/20120509091435/http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/">Mabishu&lt;/a>:&lt;/p>
-&lt;blockquote>
-&lt;p>After a lot of requests from Linux users, Spotify developers have integrated D-Bus
+(&lt;a href="https://www.flickr.com/photos/nasacommons/30498961044"&gt;source: NASA on The Commons&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;</description></item><item><title>How to toggle playing/pausing of Spotify using the Pause key in Ubuntu</title><link>https://hugovk.dev/blog/2012/how-to-toggle-playingpausing-of-spotify-using-the-pause-key-in-ubuntu/</link><pubDate>Fri, 13 Jan 2012 13:05:26 +0000</pubDate><guid>https://hugovk.dev/blog/2012/how-to-toggle-playingpausing-of-spotify-using-the-pause-key-in-ubuntu/</guid><description>&lt;p&gt;According to
+&lt;a href="https://web.archive.org/web/20120509091435/http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/"&gt;Mabishu&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;After a lot of requests from Linux users, Spotify developers have integrated D-Bus
 support in version 0.4.8.282. So, what this means is simply and awesome! Now
 Linux developers could use this programmatic interface to interact with Spotify from
-other apps.&lt;/p>&lt;/p>
-&lt;p>In other words, now is quite simple to send «play», «pause», «move next/previous song»
-events to Spotify and with this get Spotify fully integrate into our desktop.&lt;/p>&lt;/blockquote>
-&lt;p>To toggle playing and pausing from the terminal, run:&lt;/p>
-&lt;p>&lt;code>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause&lt;/code>&lt;/p>
-&lt;p>To hook it to the Pause/Break keyboard key:&lt;/p>
-&lt;ol>
-&lt;li>Select System -&amp;gt; Preferences -&amp;gt; Keyboard Shortcuts&lt;/li>
-&lt;li>Click Add&lt;/li>
-&lt;li>Enter any Name: Play or pause Spotify&lt;/li>
-&lt;li>Paste in the Command:
-&lt;code>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause&lt;/code>&lt;/li>
-&lt;li>Click Apply&lt;/li>
-&lt;li>Click Disabled on the right so it changes to New Shortcut&amp;hellip;&lt;/li>
-&lt;li>Press the Pause/Break key&lt;/li>
-&lt;li>Click Close&lt;/li>
-&lt;li>Listen to music in Spotify and press the Pause/Break key to pause or play the music.&lt;/li>
-&lt;/ol>
-&lt;p>See the
-&lt;a href="http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/">Mabishu&lt;/a>
-post to see how to check the other commands you can hook up to other keys.&lt;/p>
-&lt;p>(Tested with Ubuntu 10.10 and
-&lt;a href="https://web.archive.org/web/20120105155314/https://www.spotify.com/fi/download/previews/">Spotify&lt;/a>
-for Linux preview 0.6.291)&lt;/p></description></item></channel></rss>
+other apps.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;In other words, now is quite simple to send «play», «pause», «move next/previous song»
+events to Spotify and with this get Spotify fully integrate into our desktop.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;To toggle playing and pausing from the terminal, run:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To hook it to the Pause/Break keyboard key:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select System -&amp;gt; Preferences -&amp;gt; Keyboard Shortcuts&lt;/li&gt;
+&lt;li&gt;Click Add&lt;/li&gt;
+&lt;li&gt;Enter any Name: Play or pause Spotify&lt;/li&gt;
+&lt;li&gt;Paste in the Command:
+&lt;code&gt;dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click Apply&lt;/li&gt;
+&lt;li&gt;Click Disabled on the right so it changes to New Shortcut&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Press the Pause/Break key&lt;/li&gt;
+&lt;li&gt;Click Close&lt;/li&gt;
+&lt;li&gt;Listen to music in Spotify and press the Pause/Break key to pause or play the music.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;See the
+&lt;a href="http://www.mabishu.com/blog/2010/11/15/playing-with-d-bus-interface-of-spotify-for-linux/"&gt;Mabishu&lt;/a&gt;
+post to see how to check the other commands you can hook up to other keys.&lt;/p&gt;
+&lt;p&gt;(Tested with Ubuntu 10.10 and
+&lt;a href="https://web.archive.org/web/20120105155314/https://www.spotify.com/fi/download/previews/"&gt;Spotify&lt;/a&gt;
+for Linux preview 0.6.291)&lt;/p&gt;</description></item></channel></rss>
