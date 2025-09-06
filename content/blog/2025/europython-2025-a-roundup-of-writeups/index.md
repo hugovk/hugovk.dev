@@ -47,6 +47,11 @@ Some out-of-context quotes:
 - [EuroPython 2025: “I came for the language, but stayed for the community”](https://discourse.ubuntu.com/t/europython-2025-i-came-for-the-language-but-stayed-for-the-community/65986)
   by [Jürgen Gmach](https://fosstodon.org/@jugmac00/115016290243228831)
 
+17 August 2025
+
+- [PyLadies, PacMan, and Public Health](https://www.gaudengalea.com/blog/pyladies-pacman-and-public-health/)
+  by Gauden Galea
+
 21 August 2025
 
 - [EuroPython 2025開幕までの道のり⁠⁠、Day 1の注目セッション](https://gihyo.jp/article/2025/08/europython-2025-01)
@@ -68,6 +73,10 @@ And a bunch of LinkedIn posts:
 Finally, the [official photos](https://www.flickr.com/photos/europython) and
 [videos](https://www.youtube.com/@EuroPythonConference) should be up soon, and here are
 [my photos](https://www.flickr.com/photos/hugovk/collections/72157724094370661/).
+
+## Update
+
+2025-09-06: Added Gauden Galea's writeup.
 
 ---
 
