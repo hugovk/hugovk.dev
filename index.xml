@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo van Kemenade</title><link>https://hugovk.dev/</link><description>Recent content on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Mon, 25 Aug 2025 13:59:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>I'm excited to join the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</link><pubDate>Thu, 06 Feb 2025 11:40:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</guid><description>&lt;p&gt;For the duration of 2025, I&amp;rsquo;m thrilled to join the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo van Kemenade</title><link>https://hugovk.dev/</link><description>Recent content on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 06 Sep 2025 15:50:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>I'm excited to join the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</link><pubDate>Thu, 06 Feb 2025 11:40:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</guid><description>&lt;p&gt;For the duration of 2025, I&amp;rsquo;m thrilled to join the
 &lt;a href="https://www.sovereign.tech/programs/fellowship"&gt;Sovereign Tech Fellowship for Maintainers&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;This is a pilot programme from the &lt;a href="https://www.sovereign.tech/"&gt;Sovereign Tech Agency&lt;/a&gt;
 to pay maintainers of critical open source technologies in the public interest.&lt;/p&gt;
@@ -56,7 +56,107 @@ meetings, improving build processes, and focusing on accessibility&lt;/li&gt;
 &lt;p&gt;Meet my
 &lt;a href="https://www.sovereign.tech/news/meet-the-sovereign-tech-fellows"&gt;fellow Sovereign Tech Fellows&lt;/a&gt;,
 and by the way, the Sovereign Tech Agency is currently hiring, check out their
-&lt;a href="https://www.sovereign.tech/jobs"&gt;open positions&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>EuroPython 2025: A roundup of writeups</title><link>https://hugovk.dev/blog/2025/europython-2025-a-roundup-of-writeups/</link><pubDate>Mon, 25 Aug 2025 13:59:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/europython-2025-a-roundup-of-writeups/</guid><description>&lt;p&gt;Some out-of-context quotes:&lt;/p&gt;
+&lt;a href="https://www.sovereign.tech/jobs"&gt;open positions&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Ready prek go!</title><link>https://hugovk.dev/blog/2025/ready-prek-go/</link><pubDate>Sat, 06 Sep 2025 15:50:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/ready-prek-go/</guid><description>&lt;p&gt;I&amp;rsquo;ve been using &lt;a href="https://prek.j178.dev/"&gt;prek&lt;/a&gt; recently as a drop-in replacement for
+&lt;a href="https://pre-commit.com/"&gt;pre-commit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It uses uv for managing Python virtual environments and dependencies, is rewritten in
+Rust (because of course) and uses the same &lt;code&gt;.pre-commit-config.yaml&lt;/code&gt; as pre-commit.&lt;/p&gt;
+&lt;p&gt;Its homepage says it&amp;rsquo;s not yet production ready, but
+&lt;a href="https://prek.j178.dev/#who-is-using-prek"&gt;several projects like Apache Airflow and PDM&lt;/a&gt;
+are already using it. I&amp;rsquo;ve been using it for a while and reporting issues as I find
+them; the maintainer is quick with fixes and releases. All the hooks I need are now
+supported.&lt;/p&gt;
+&lt;h2 id="getting-started" class="relative group"&gt;Getting started &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#getting-started" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;First install using one of the &lt;a href="https://prek.j178.dev/installation/"&gt;many methods&lt;/a&gt;,
+then:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; my-repo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pre-commit uninstall &lt;span class="c1"&gt;# remove the old hooks&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;prek install &lt;span class="c1"&gt;# install the new hooks&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;prek run --all-files &lt;span class="c1"&gt;# run all lints on all files&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s2"&gt;&amp;#34;my commit&amp;#34;&lt;/span&gt; &lt;span class="c1"&gt;# run on the changed files in a commit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="benchmarks" class="relative group"&gt;Benchmarks &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#benchmarks" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;prek is noticeably quicker at installing hooks.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡ About &lt;a href="https://prek.j178.dev/benchmark/"&gt;10x faster&lt;/a&gt; than pre-commit and uses
+only a third of disk space.&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;This 10x is a comparison of installing hooks using the excellent
+&lt;a href="https://github.com/sharkdp/hyperfine"&gt;hyperfine&lt;/a&gt; benchmarking tool.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s my own comparison.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In the first test, I initially ran &lt;code&gt;pre-commit clean&lt;/code&gt; or &lt;code&gt;prek clean&lt;/code&gt; to clear their
+caches. I then ran each tool with &lt;code&gt;run --all-files&lt;/code&gt; in serial on the 126 repos I have
+cloned right now, 84 of which have a &lt;code&gt;.pre-commit-config.yaml&lt;/code&gt; file. Each then
+downloads and installs the hooks when needed, then runs the lint tools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Second, because running the lint tools should be independent and constant time for
+both tools, the next test ran &lt;code&gt;install-hooks&lt;/code&gt; instead of &lt;code&gt;run --all files&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To get an idea of the amount of work for these two tests, pre-commit reported
+initialising environments 217 times.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally, let&amp;rsquo;s run hyperfine on the
+&lt;a href="https://github.com/python-pillow/Pillow/blob/eef4848a0a7ca0ea5ecd1f647603d85526d88ca7/.pre-commit-config.yaml"&gt;Pillow config&lt;/a&gt;,
+which installs hooks from 14 repos:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;❯ hyperfine &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;--prepare &lt;span class="s1"&gt;&amp;#39;rm -rf ~/.cache/prek/ &amp;amp;&amp;amp; rm -rf ~/.cache/pre-commit &amp;amp;&amp;amp; rm -rf ~/.cache/uv&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;--setup &lt;span class="s1"&gt;&amp;#39;prek --version &amp;amp;&amp;amp; pre-commit --version&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;prek install-hooks&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pre-commit install-hooks&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="results" class="relative group"&gt;Results &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#results" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;code&gt;pre-commit&lt;/code&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;code&gt;prek&lt;/code&gt;&lt;/th&gt;
+ &lt;th&gt;Times faster&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;run --all-files&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;17m13s&lt;/td&gt;
+ &lt;td&gt;7m59s&lt;/td&gt;
+ &lt;td&gt;2.16&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;install-hooks&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;10m48s&lt;/td&gt;
+ &lt;td&gt;2m24s&lt;/td&gt;
+ &lt;td&gt;4.50&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;hyperfine&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;39.841s&lt;/td&gt;
+ &lt;td&gt;5.539s&lt;/td&gt;
+ &lt;td&gt;7.19&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The hyperfine results:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Benchmark 1: prek install-hooks
+ Time (mean ± σ): 5.539 s ± 0.176 s [User: 8.973 s, System: 5.692 s]
+ Range (min … max): 5.231 s … 5.834 s 10 runs
+
+Benchmark 2: pre-commit install-hooks
+ Time (mean ± σ): 39.841 s ± 2.017 s [User: 19.760 s, System: 8.203 s]
+ Range (min … max): 36.930 s … 43.976 s 10 runs
+
+Summary
+ prek install-hooks ran
+ 7.19 ± 0.43 times faster than pre-commit install-hooks
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Give it a try and give it a &lt;a href="https://www.star-history.com/#j178/prek&amp;amp;Date"&gt;⭐&lt;/a&gt;!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo:
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/sdasmarchives/51500757435//"&gt;AH-1G
+Aircraft Maintenance Test Flight Handbook and handwritten checklist for helicopters&lt;/a&gt;
+in the
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/sdasmarchives/"&gt;San
+Diego Air and Space Museum Archive&lt;/a&gt;, with
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/"&gt;no
+known copyright restrictions&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item><item><title>EuroPython 2025: A roundup of writeups</title><link>https://hugovk.dev/blog/2025/europython-2025-a-roundup-of-writeups/</link><pubDate>Mon, 25 Aug 2025 13:59:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/europython-2025-a-roundup-of-writeups/</guid><description>&lt;p&gt;Some out-of-context quotes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;&amp;ldquo;We can just bump the version and move on.&amp;rdquo;&lt;/em&gt; &amp;ndash; Dr. Brett Cannon&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&amp;ldquo;You just show up. That’s it.&amp;rdquo;&lt;/em&gt; &amp;ndash; Rodrigo Girão Serrão&lt;/li&gt;
