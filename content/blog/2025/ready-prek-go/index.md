@@ -93,6 +93,27 @@ Summary
 
 Give it a try and give it a [⭐](https://www.star-history.com/#j178/prek&Date)!
 
+## Bonus
+
+These are the aliases I have set for pre-commit and prek:
+
+```bash
+alias pci="pre-commit install --allow-missing-config"
+alias pcu="pre-commit uninstall"
+alias pca="pre-commit autoupdate --jobs 0"
+alias pcr="pre-commit run --all-files"
+alias pki="prek install --allow-missing-config"
+alias pku="prek uninstall"
+alias pka="prek autoupdate --jobs 0"
+alias pkr="prek run --all-files"
+```
+
+Where:
+
+- `install`'s `--allow-missing-config` prevents failing with an error code when a repo
+  has no config file
+- `autoupdate`'s `--jobs 0` uses all the available threads to make it faster
+
 ---
 
 <small>Header photo:
