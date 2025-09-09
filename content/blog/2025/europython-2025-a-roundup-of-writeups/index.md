@@ -57,6 +57,11 @@ Some out-of-context quotes:
 - [EuroPython 2025開幕までの道のり⁠⁠、Day 1の注目セッション](https://gihyo.jp/article/2025/08/europython-2025-01)
   by [Takanori Suzuki](https://github.com/takanory)
 
+8 September 2025
+
+- [Recap EuroPython 2025](https://blog.qstars.nl/posts/europython-2025/) by Victor
+  Brinkhorst
+
 And a bunch of LinkedIn posts:
 
 - [Alicja Kocieniewska](https://www.linkedin.com/posts/activity-7353091873093181442-jUko)
@@ -76,7 +81,8 @@ Finally, the [official photos](https://www.flickr.com/photos/europython) and
 
 ## Update
 
-2025-09-06: Added Gauden Galea's writeup.
+- 2025-09-06: Added Gauden Galea's writeup
+- 2025-09-09: Added Victor Brinkhorst's writeup
 
 ---
 
