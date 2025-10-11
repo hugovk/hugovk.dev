@@ -64,7 +64,6 @@ and by the way, the Sovereign Tech Agency is currently hiring, check out their
 &lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115293209822115988"&gt;&lt;em&gt;Tue, Sep 30, 2025, 15:19 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="three-days" class="relative group"&gt;Three days &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#three-days" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Three days until release and a bug in the Linux kernel has turned a dozen
 &lt;a href="https://buildbot.python.org/#/release_status"&gt;buildbots&lt;/a&gt; red&amp;hellip;&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s already been fixed in the kernel, but will take some time to bubble up. We&amp;rsquo;ll skip
@@ -267,7 +266,6 @@ that test for relevant kernel versions in the meantime.&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115316079113681802"&gt;&lt;em&gt;Sat, Oct 4, 2025, 16:15 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="green" class="relative group"&gt;Green &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#green" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;And back to green!&lt;/p&gt;
 &lt;p&gt;
 
@@ -337,7 +335,6 @@ that test for relevant kernel versions in the meantime.&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115321909749435460"&gt;&lt;em&gt;Sun, Oct 5, 2025, 16:58 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="release-day" class="relative group"&gt;Release day! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#release-day" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;First off, check blockers and buildbots.&lt;/p&gt;
 &lt;p&gt;A new &lt;a href="https://github.com/python/cpython/labels/release-blocker"&gt;release-blocker&lt;/a&gt;
 appeared yesterday (because of course) but it can wait until 3.14.1.&lt;/p&gt;
@@ -351,7 +348,6 @@ need some reconfiguration. Can ignore.&lt;/p&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115331985979927140"&gt;&lt;em&gt;Tue, Oct 7, 2025, 11:40 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="run_releasepy" class="relative group"&gt;&lt;code&gt;run_release.py&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#run_releasepy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Next up, merge and backport the
 &lt;a href="https://github.com/python/cpython/pull/139631"&gt;final change&lt;/a&gt; to
 &lt;a href="https://docs.python.org/3/whatsnew/3.14.html"&gt;What&amp;rsquo;s New in Python 3.14&lt;/a&gt; to declare it
@@ -428,7 +424,6 @@ to build source zips, docs and Android binaries.&lt;/p&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115332234337389060"&gt;&lt;em&gt;Tue, Oct 7, 2025, 12:43 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="installers" class="relative group"&gt;Installers &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#installers" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;(That&amp;rsquo;s actually the second CI attempt, we had to update some script arguments following
 an Android test runner update.)&lt;/p&gt;
 &lt;p&gt;This build takes about half an hour.&lt;/p&gt;
@@ -441,7 +436,6 @@ and we don&amp;rsquo;t need to follow it all manually.&lt;/p&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115332266999944269"&gt;&lt;em&gt;Tue, Oct 7, 2025, 12:52 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="windows" class="relative group"&gt;Windows &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#windows" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;The
 &lt;a href="https://dev.azure.com/Python/cpython/_build/results?buildId=164907&amp;amp;view=results"&gt;Windows build&lt;/a&gt;
 has been started.&lt;/p&gt;
@@ -517,7 +511,6 @@ to where they need to go with SBOMs created.&lt;/p&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115332496234142659"&gt;&lt;em&gt;Tue, Oct 7, 2025, 13:50 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="macos" class="relative group"&gt;macOS &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#macos" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;The Windows build is ready and macOS is underway.&lt;/p&gt;
 &lt;p&gt;
 
@@ -586,7 +579,6 @@ to where they need to go with SBOMs created.&lt;/p&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115332912443887856"&gt;&lt;em&gt;Tue, Oct 7, 2025, 15:36 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="final-steps" class="relative group"&gt;Final steps &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#final-steps" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;macOS installer done, next on to the final publishing and announcing steps.&lt;/p&gt;
 &lt;p&gt;
 
@@ -657,7 +649,6 @@ to where they need to go with SBOMs created.&lt;/p&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115333249425273213"&gt;&lt;em&gt;Tue, Oct 7, 2025, 17:02 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="-its-out" class="relative group"&gt;🚀 It&amp;rsquo;s out! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#-its-out" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;🥧 Please install and enjoy
 &lt;a href="https://discuss.python.org/t/python-3-14-0-final-is-here/104210?u=hugovk"&gt;Python 3.14&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;
@@ -716,7 +707,6 @@ to where they need to go with SBOMs created.&lt;/p&gt;
 &lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
 &lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://mastodon.social/@hugovk/115333348041057866"&gt;&lt;em&gt;Tue, Oct 7, 2025, 17:27 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id="finally" class="relative group"&gt;Finally &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#finally" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;And the last few tasks: announce also on the
 &lt;a href="https://blog.python.org/2025/10/python-3140-final-is-here.html"&gt;blog&lt;/a&gt; &amp;amp;
 &lt;a href="https://mail.python.org/archives/list/python-list@python.org/thread/UDOUFTTWDO7IXHLPQSHTEW2FWGF7ZY2C/"&gt;mailing lists&lt;/a&gt;,
