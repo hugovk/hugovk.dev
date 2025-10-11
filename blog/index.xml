@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Hugo van Kemenade</title><link>https://hugovk.dev/blog/</link><description>Recent content in Blog on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 06 Sep 2025 15:50:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>I'm excited to join the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</link><pubDate>Thu, 06 Feb 2025 11:40:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</guid><description>&lt;p&gt;For the duration of 2025, I&amp;rsquo;m thrilled to join the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Hugo van Kemenade</title><link>https://hugovk.dev/blog/</link><description>Recent content in Blog on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 11 Oct 2025 17:04:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>I'm excited to join the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</link><pubDate>Thu, 06 Feb 2025 11:40:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</guid><description>&lt;p&gt;For the duration of 2025, I&amp;rsquo;m thrilled to join the
 &lt;a href="https://www.sovereign.tech/programs/fellowship"&gt;Sovereign Tech Fellowship for Maintainers&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;This is a pilot programme from the &lt;a href="https://www.sovereign.tech/"&gt;Sovereign Tech Agency&lt;/a&gt;
 to pay maintainers of critical open source technologies in the public interest.&lt;/p&gt;
@@ -56,7 +56,745 @@ meetings, improving build processes, and focusing on accessibility&lt;/li&gt;
 &lt;p&gt;Meet my
 &lt;a href="https://www.sovereign.tech/news/meet-the-sovereign-tech-fellows"&gt;fellow Sovereign Tech Fellows&lt;/a&gt;,
 and by the way, the Sovereign Tech Agency is currently hiring, check out their
-&lt;a href="https://www.sovereign.tech/jobs"&gt;open positions&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Ready prek go!</title><link>https://hugovk.dev/blog/2025/ready-prek-go/</link><pubDate>Sat, 06 Sep 2025 15:50:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/ready-prek-go/</guid><description>&lt;p&gt;I&amp;rsquo;ve been using &lt;a href="https://prek.j178.dev/"&gt;prek&lt;/a&gt; recently as a drop-in replacement for
+&lt;a href="https://www.sovereign.tech/jobs"&gt;open positions&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Releasing Python 3.14.0</title><link>https://hugovk.dev/blog/2025/releasing-python-3-14-0/</link><pubDate>Sat, 11 Oct 2025 17:04:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/releasing-python-3-14-0/</guid><description>&lt;h2 id="prologue" class="relative group"&gt;Prologue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#prologue" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I livetooted the release of Python 3.14.0. Here it is in blogpost form!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="one-week" class="relative group"&gt;One week &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#one-week" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Only &lt;a href="https://peps.python.org/pep-0745/"&gt;one week left&lt;/a&gt; until the release of
+&lt;a href="https://docs.python.org/3.14/whatsnew/3.14.html"&gt;Python 3.14.0 final&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;What are you looking forward to?&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115293209822115988"&gt;&lt;em&gt;Tue, Sep 30, 2025, 15:19 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="three-days" class="relative group"&gt;Three days &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#three-days" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Three days until release and a bug in the Linux kernel has turned a dozen
+&lt;a href="https://buildbot.python.org/#/release_status"&gt;buildbots&lt;/a&gt; red&amp;hellip;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s already been fixed in the kernel, but will take some time to bubble up. We&amp;rsquo;ll skip
+that test for relevant kernel versions in the meantime.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_dcfda0e5364cd86.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_a05cf625dc998b4b.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_f8a4725e89adf213.webp 1024w
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_f912030b9e4848e.webp 1278w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1278"
+ height="632"
+ class="mx-auto my-0 rounded-md"
+ alt="Python Release Status Dashboard: 3.15-3.13 are red and &amp;lsquo;✘ Unreleasable: Tier-1 build failed&amp;rsquo;"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_95e12e5c2b8d5ef0.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_b0ce06a26f44b4cb.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_95e12e5c2b8d5ef0.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red_hu_7e8dbf6e9ca0e2.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-red.png 1278w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details_hu_bd2b271bc929a810.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details_hu_4c313b3f6999caaf.webp 660w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details_hu_aa5efd39ef94c84d.webp 772w
+ 
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details_hu_aa5efd39ef94c84d.webp 772w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="772"
+ height="678"
+ class="mx-auto my-0 rounded-md"
+ alt="3.14 Tier-1 build failed (5), Tier-2 build failed (2), Tier-3 build failed (6), Disconnected Tier-1 builder (with recent build) (1), Disconnected Tier-2 builder (1), Disconnected Tier-3 builder (1), Disconnected Tierless builder (1), Warnings from Tier-1 build (1), Warnings from Tier-2 build (3), Warnings from Tier-3 build (2), Unstable build failed (18), Warnings from unstable build (4), Disconnected unstable builder (30), No problem detected (72)"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details_hu_b6cfefc0c1f55f0.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details_hu_3535a0766ed8c7f3.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details_hu_b6cfefc0c1f55f0.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details.png 772w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-details.png 772w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_18369ea2fe9067e0.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_351db68c3b99d684.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_1221068a94f10602.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_5cf23d37721357d1.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1382"
+ height="700"
+ class="mx-auto my-0 rounded-md"
+ alt="ERROR: test_aead_aes_gcm (test.test_socket.LinuxKernelCryptoAPI.test_aead_aes_gcm)"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_93d891f58501a388.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_a5e73ca1dd91e769.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_93d891f58501a388.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_3fe9e5522c1f947.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/kernel-error_hu_f20af4d0f0ed03c4.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115316079113681802"&gt;&lt;em&gt;Sat, Oct 4, 2025, 16:15 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="green" class="relative group"&gt;Green &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#green" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;And back to green!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_d64230ca27ee143d.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_197bd5376fcd04b4.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_7b12a7f551ad0790.webp 1024w
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_8de1e45610f2c114.webp 1138w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1138"
+ height="644"
+ class="mx-auto my-0 rounded-md"
+ alt="Python Release Status Dashboard: 3.15 is red: ✘ Unreleasable Tier-1 build failed. 3.14 is green: ✔ Releasable Disconnected Tier-2 builder. 3.13 is orange: ⚠ Concern Tierless build failed"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_be8eb149a9f6c3bc.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_d5f4c7e05e552a11.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_be8eb149a9f6c3bc.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green_hu_a27e6fa86d527dd6.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/buildbots-green.png 1138w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115321909749435460"&gt;&lt;em&gt;Sun, Oct 5, 2025, 16:58 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="release-day" class="relative group"&gt;Release day! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#release-day" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;First off, check blockers and buildbots.&lt;/p&gt;
+&lt;p&gt;A new &lt;a href="https://github.com/python/cpython/labels/release-blocker"&gt;release-blocker&lt;/a&gt;
+appeared yesterday (because of course) but it can wait until 3.14.1.&lt;/p&gt;
+&lt;p&gt;Three &lt;a href="https://github.com/python/cpython/labels/deferred-blocker"&gt;deferred-blockers&lt;/a&gt; are
+also waiting until 3.14.1.&lt;/p&gt;
+&lt;p&gt;A new tier-2 &lt;a href="https://buildbot.python.org/#/release_status"&gt;buildbot&lt;/a&gt; failure appeared
+yesterday (because of course) but it had previously been offline for a month and will
+need some reconfiguration. Can ignore.&lt;/p&gt;
+&lt;p&gt;OK, let&amp;rsquo;s make a Python!&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115331985979927140"&gt;&lt;em&gt;Tue, Oct 7, 2025, 11:40 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="run_releasepy" class="relative group"&gt;&lt;code&gt;run_release.py&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#run_releasepy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Next up, merge and backport the
+&lt;a href="https://github.com/python/cpython/pull/139631"&gt;final change&lt;/a&gt; to
+&lt;a href="https://docs.python.org/3/whatsnew/3.14.html"&gt;What&amp;rsquo;s New in Python 3.14&lt;/a&gt; to declare it
+latest stable.&lt;/p&gt;
+&lt;p&gt;Now start &lt;code&gt;run_release.py&lt;/code&gt;, the main release automation script, which does a bunch of
+pre-checks, runs blurb to create a merged changelog, bumps some numbers, and pushes a
+branch and tag to my fork. It&amp;rsquo;ll go upstream at the end of a successful build.&lt;/p&gt;
+&lt;p&gt;Then kick off the &lt;a href="https://github.com/python/release-tools/actions/runs/18308460797"&gt;CI&lt;/a&gt;
+to build source zips, docs and Android binaries.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_209c88a1b139d9ea.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_50f012a51757851a.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_f75dfa876a84adcf.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_fb5db736c5a86590.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1650"
+ height="720"
+ class="mx-auto my-0 rounded-md"
+ alt="A GitHub Actions build matrix showing an initial verify-input followed by parallel build-source (itself followed by test-source), build-docs, and build-android (consisting of aarch64 and x86_64 jobs)."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_75bb8592f49ecdd4.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_8925fe2b3c70c1ec.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_75bb8592f49ecdd4.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_b4cbe0ae06245a65.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/ci-build_hu_3d4d45bf61fe4b4.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115332234337389060"&gt;&lt;em&gt;Tue, Oct 7, 2025, 12:43 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="installers" class="relative group"&gt;Installers &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#installers" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;(That&amp;rsquo;s actually the second CI attempt, we had to update some script arguments following
+an Android test runner update.)&lt;/p&gt;
+&lt;p&gt;This build takes about half an hour.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve also informed the Windows and macOS release managers about the tag and they will
+start up installer builds.&lt;/p&gt;
+&lt;p&gt;This takes a few hours, so I&amp;rsquo;ve got time to finish up the release notes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://peps.python.org/pep-0101/"&gt;PEP 101&lt;/a&gt; is the full process, but much is automated
+and we don&amp;rsquo;t need to follow it all manually.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115332266999944269"&gt;&lt;em&gt;Tue, Oct 7, 2025, 12:52 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="windows" class="relative group"&gt;Windows &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#windows" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;The
+&lt;a href="https://dev.azure.com/Python/cpython/_build/results?buildId=164907&amp;amp;view=results"&gt;Windows build&lt;/a&gt;
+has been started.&lt;/p&gt;
+&lt;p&gt;The jobs with profile-guided optimisation (PGO) build once, then collect a profile by
+running the tests, and then build again using that profile, to see how &amp;lsquo;real&amp;rsquo; code
+executes and optimises for that.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_ca35751d71c893ab.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_3988fded6ea9116f.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_20dac014b46f0777.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_3232d93695aa1e21.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="3052"
+ height="1504"
+ class="mx-auto my-0 rounded-md"
+ alt="The Windows build on Azure Pipelines. Lots of boxes for each of &amp;lsquo;build binaries&amp;rsquo;, &amp;lsquo;sign binaries&amp;rsquo;, &amp;lsquo;generate layouts&amp;rsquo;, &amp;lsquo;pack&amp;rsquo;, &amp;rsquo;test&amp;rsquo; and finally &amp;lsquo;publish&amp;rsquo;. So far nearing the end of the build binaries stage."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_85f5eb5187adc74b.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_d065da38381cb030.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_85f5eb5187adc74b.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_92b7bbf48d35c3d5.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/windows-build_hu_839a4ded4aa48032.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Meanwhile, the docs+source+Android build has finished and the artifacts have been copied
+to where they need to go with SBOMs created.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115332496234142659"&gt;&lt;em&gt;Tue, Oct 7, 2025, 13:50 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="macos" class="relative group"&gt;macOS &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#macos" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;The Windows build is ready and macOS is underway.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_3b0caa2a571dec6b.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_708f9e1ae00c4d6a.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_e1d28896db59e36e.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_aea64a09f287be74.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1372"
+ height="1388"
+ class="mx-auto my-0 rounded-md"
+ alt="Terminal prompt showing the output of run_release.py with lots of checked tasks and ending with: Waiting for files: Linux ✅ Windows ✅ Mac ❌"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_dee5301954cf4074.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_27608543300aba11.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_dee5301954cf4074.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_72031c63e0f9556c.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/waiting-for-files_hu_aa3971730295b04e.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115332912443887856"&gt;&lt;em&gt;Tue, Oct 7, 2025, 15:36 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="final-steps" class="relative group"&gt;Final steps &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#final-steps" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;macOS installer done, next on to the final publishing and announcing steps.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_cfb255aaed49022f.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_5397ea4917cb54d7.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_3b456aac257b57e9.webp 1024w
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_22d7c349bdc923da.webp 1170w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1170"
+ height="128"
+ class="mx-auto my-0 rounded-md"
+ alt="Terminal showing: ✅ Wait until all files are ready. Go to https://www.python.org/admin/downloads/release/add/ and create a new release. Have you already created a new release for 3.14.0? Enter yes or no:"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_266c28b71dd0eec.png" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_957be0c4198e52ea.png 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_266c28b71dd0eec.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release_hu_d14caaadbe2a86af.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/create-release.png 1170w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115333249425273213"&gt;&lt;em&gt;Tue, Oct 7, 2025, 17:02 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-its-out" class="relative group"&gt;🚀 It&amp;rsquo;s out! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#-its-out" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;🥧 Please install and enjoy
+&lt;a href="https://discuss.python.org/t/python-3-14-0-final-is-here/104210?u=hugovk"&gt;Python 3.14&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/python-3.14_hu_3ea41222bb7b4787.webp"
+ 
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="538"
+ height="507"
+ class="mx-auto my-0 rounded-md"
+ alt="Two snakes enjoying a pie with 3.14 on the top and π crimping."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/python-3.14.png"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115333348041057866"&gt;&lt;em&gt;Tue, Oct 7, 2025, 17:27 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="finally" class="relative group"&gt;Finally &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#finally" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;And the last few tasks: announce also on the
+&lt;a href="https://blog.python.org/2025/10/python-3140-final-is-here.html"&gt;blog&lt;/a&gt; &amp;amp;
+&lt;a href="https://mail.python.org/archives/list/python-list@python.org/thread/UDOUFTTWDO7IXHLPQSHTEW2FWGF7ZY2C/"&gt;mailing lists&lt;/a&gt;,
+update the &lt;a href="https://peps.python.org/pep-0745/"&gt;PEP&lt;/a&gt; &amp;amp;
+&lt;a href="https://www.python.org/downloads/"&gt;downloads landing page&lt;/a&gt;, fix
+&lt;a href="https://discuss.python.org/t/python-3-14-0-final-is-here/104210?u=hugovk"&gt;Discourse post&lt;/a&gt;
+links, unlock the &lt;a href="https://github.com/python/cpython/tree/3.14"&gt;&lt;code&gt;3.14&lt;/code&gt; branch&lt;/a&gt; for the
+core team to start landing PRs that didn&amp;rsquo;t need to be in the RC, and eat the pie.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_9f8e658943f87b5e.webp 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_82c1f66f2e6c0b7e.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_9cadb0759f50765c.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_892b99bd0cab3a4d.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="3325"
+ height="2494"
+ class="mx-auto my-0 rounded-md"
+ alt="A circular lemon meringue pie in front of a Mac showing the release logo."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_9bf3528348b8c200.jpg" srcset="https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_a3f9f84b5ebf5ddd.jpg 330w,https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_9bf3528348b8c200.jpg 660w
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_18e564e1188f6ef2.jpg 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/releasing-python-3-14-0/pie_hu_9ee27d049b1b4a1d.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A HUGE thanks to &lt;a href="https://mastodon.social/@sovtechfund"&gt;@sovtechfund&lt;/a&gt;
+&lt;a href="https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/"&gt;Fellowship&lt;/a&gt;
+for allowing me to dedicate my time on getting this out 🎉&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;a href="https://mastodon.social/tags/Python"&gt;#Python&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/Python314"&gt;#Python314&lt;/a&gt;
+&lt;a href="https://mastodon.social/tags/release"&gt;#release&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://mastodon.social/@hugovk/115333826029083841"&gt;&lt;em&gt;Tue, Oct 7, 2025, 19:28 EEST&lt;/em&gt;&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;</description></item><item><title>Ready prek go!</title><link>https://hugovk.dev/blog/2025/ready-prek-go/</link><pubDate>Sat, 06 Sep 2025 15:50:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/ready-prek-go/</guid><description>&lt;p&gt;I&amp;rsquo;ve been using &lt;a href="https://prek.j178.dev/"&gt;prek&lt;/a&gt; recently as a drop-in replacement for
 &lt;a href="https://pre-commit.com/"&gt;pre-commit&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It uses uv for managing Python virtual environments and dependencies, is rewritten in
 Rust (because of course) and uses the same &lt;code&gt;.pre-commit-config.yaml&lt;/code&gt; as pre-commit.&lt;/p&gt;
