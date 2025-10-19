@@ -1,7 +1,7 @@
 ---
 title: "Releasing Python 3.14.0"
 date: "2025-10-11T17:04:00Z"
-tags: ["python", "python314", "mastodon"]
+tags: ["python", "python3.14", "mastodon"]
 ---
 
 ## Prologue
