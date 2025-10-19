@@ -19,7 +19,8 @@ then:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;⚡ About &lt;a href="https://prek.j178.dev/benchmark/"&gt;10x faster&lt;/a&gt; than pre-commit and uses
 only a third of disk space.&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;This 10x is a comparison of installing hooks using the excellent
 &lt;a href="https://github.com/sharkdp/hyperfine"&gt;hyperfine&lt;/a&gt; benchmarking tool.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s my own comparison.&lt;/p&gt;

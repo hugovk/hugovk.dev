@@ -409,7 +409,8 @@ support in version 0.4.8.282. So, what this means is simply and awesome! Now
 Linux developers could use this programmatic interface to interact with Spotify from
 other apps.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;In other words, now is quite simple to send «play», «pause», «move next/previous song»
-events to Spotify and with this get Spotify fully integrate into our desktop.&lt;/p&gt;&lt;/blockquote&gt;
+events to Spotify and with this get Spotify fully integrate into our desktop.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;To toggle playing and pausing from the terminal, run:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;To hook it to the Pause/Break keyboard key:&lt;/p&gt;

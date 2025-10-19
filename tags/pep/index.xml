@@ -1,4 +1,259 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PEP on Hugo van Kemenade</title><link>https://hugovk.dev/tags/pep/</link><description>Recent content in PEP on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 14 May 2025 15:45:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/pep/index.xml" rel="self" type="application/rss+xml"/><item><title>PEPs &amp; Co.</title><link>https://hugovk.dev/blog/2025/peps-and-co/</link><pubDate>Wed, 14 May 2025 15:45:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/peps-and-co/</guid><description>&lt;h2 id="peps" class="relative group"&gt;PEPs &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#peps" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s &lt;a href="https://barry.warsaw.us/"&gt;Barry Warsaw&lt;/a&gt; on the origin of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PEP on Hugo van Kemenade</title><link>https://hugovk.dev/tags/pep/</link><description>Recent content in PEP on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sun, 19 Oct 2025 16:05:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/pep/index.xml" rel="self" type="application/rss+xml"/><item><title>Three times faster with lazy imports</title><link>https://hugovk.dev/blog/2025/lazy-imports/</link><pubDate>Sun, 19 Oct 2025 16:05:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/lazy-imports/</guid><description>&lt;p&gt;&lt;a href="https://peps.python.org/pep-0810/"&gt;PEP 810&lt;/a&gt; proposes &amp;ldquo;explicit lazy imports&amp;rdquo; for Python
+3.15:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lazy imports defer the loading and execution of a module until the first time the
+imported name is used, in contrast to ‘normal’ imports, which eagerly load and execute
+a module at the point of the import statement.&lt;/p&gt;
+&lt;p&gt;By allowing developers to mark individual imports as lazy with explicit syntax, Python
+programs can reduce startup time, memory usage, and unnecessary work. This is
+particularly beneficial for command-line tools, test suites, and applications with
+large dependency graphs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s not been accepted yet, but let&amp;rsquo;s try out the
+&lt;a href="https://github.com/LazyImportsCabal/cpython/tree/lazy"&gt;reference implementation&lt;/a&gt; on one
+of my CLI tools, &lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="setup" class="relative group"&gt;Setup &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#setup" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;First fetch the reference implementation. From a CPython checkout:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git remote add LazyImportsCabal https://github.com/LazyImportsCabal/cpython
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git fetch LazyImportsCabal
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gco lazy &lt;span class="c1"&gt;# see https://hugovk.dev/blog/2025/my-most-used-command-line-commands/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Because we want to install NumPy and pandas, let&amp;rsquo;s pretend to be Python 3.14 so we can
+use the binary wheels instead of having to build from source:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-diff" data-lang="diff"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;--- a/Include/patchlevel.h
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;&lt;/span&gt;&lt;span class="gi"&gt;+++ b/Include/patchlevel.h
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gi"&gt;&lt;/span&gt; /* Version parsed out into numeric values */
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; /*--start constants--*/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; #define PY_MAJOR_VERSION 3
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;-#define PY_MINOR_VERSION 15
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;&lt;/span&gt;&lt;span class="gi"&gt;+#define PY_MINOR_VERSION 14
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gi"&gt;&lt;/span&gt; #define PY_MICRO_VERSION 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; #define PY_RELEASE_LEVEL PY_RELEASE_LEVEL_ALPHA
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; #define PY_RELEASE_SERIAL 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; /* Version as a string */
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;-#define PY_VERSION &amp;#34;3.15.0a0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;&lt;/span&gt;&lt;span class="gi"&gt;+#define PY_VERSION &amp;#34;3.14.0a0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gi"&gt;&lt;/span&gt; /*--end constants--*/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-diff" data-lang="diff"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;--- a/configure.ac
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;&lt;/span&gt;&lt;span class="gi"&gt;+++ b/configure.ac
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gi"&gt;&lt;/span&gt;&lt;span class="gd"&gt;-m4_define([PYTHON_VERSION], [3.15])
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;&lt;/span&gt;&lt;span class="gi"&gt;+m4_define([PYTHON_VERSION], [3.14])
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Build non-debug CPython with optimisations:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;GDBM_CFLAGS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;-I&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;brew --prefix gdbm&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;/include&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt; &lt;span class="nv"&gt;GDBM_LIBS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;-L&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;brew --prefix gdbm&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;/lib -lgdbm&amp;#34;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt; ./configure --enable-optimizations --with-lto &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt; --with-system-libmpdec --config-cache &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt; --with-openssl&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;brew --prefix openssl@3&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make -s -j8
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install NumPy and pandas:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./python.exe -m pip install numpy pandas
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And then an editable install of the CLI, because we&amp;rsquo;ll also test changing the imports:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./python.exe -m pip install -e ~/github/pypistats
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s check the dependencies with &lt;a href="https://github.com/tox-dev/pipdeptree"&gt;pipdeptree&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;uvx &lt;span class="s2"&gt;&amp;#34;pipdeptree[graphviz]&amp;#34;&lt;/span&gt; --python ./python.exe --packages pypistats --graph-output svg &amp;gt; pipdeptree.svg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;pypistats has seven direct dependencies, which result in a total of 41 dependencies six
+layers deep, not counting NumPy and pandas:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="mx-auto my-0 rounded-md" &gt;
+ &lt;img
+ src="https://hugovk.dev/blog/2025/lazy-imports/pipdeptree.svg"
+ width="1355"
+ height="729"
+ class="mx-auto my-0 rounded-md"
+ alt="A tree of dependencies: seven wide, and about six layers deep."
+ loading="lazy" decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="benchmarks" class="relative group"&gt;Benchmarks &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#benchmarks" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s benchmark running &lt;code&gt;pypistats --help&lt;/code&gt;, which is meant to be quick, using
+&lt;a href="https://github.com/sharkdp/hyperfine"&gt;hyperfine&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;brew install hyperfine
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="inline-imports" class="relative group"&gt;Inline imports &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#inline-imports" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;In the pypistats CLI, I had already applied the trick of moving heavier imports into the
+functions that call them (the PEP calls these
+&lt;a href="https://peps.python.org/pep-0810/#motivation"&gt;&amp;ldquo;inline imports&amp;rdquo;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Instead of the &lt;a href="https://peps.python.org/pep-0810/#specification"&gt;&lt;code&gt;lazy&lt;/code&gt; keyword&lt;/a&gt;, I&amp;rsquo;m
+using the
+&lt;a href="https://peps.python.org/pep-0810/#global-lazy-imports-control"&gt;&lt;code&gt;PYTHON_LAZY_IMPORTS&lt;/code&gt; env var&lt;/a&gt;
+here to make it easy to compare two different runs.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;❯ hyperfine --warmup 10 --runs 20 --export-json out.json \
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;./python.exe -m pypistats --help&amp;#34; \
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Benchmark 1: ./python.exe -m pypistats --help
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Time (mean ± σ): 46.2 ms ± 1.1 ms [User: 38.8 ms, System: 6.4 ms]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Range (min … max): 45.1 ms … 49.6 ms 20 runs
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;&lt;/span&gt;&lt;span class="err"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;&lt;/span&gt;&lt;span class="go"&gt;Benchmark 2: PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Time (mean ± σ): 35.3 ms ± 0.5 ms [User: 29.5 ms, System: 4.8 ms]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Range (min … max): 34.6 ms … 36.3 ms 20 runs
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;&lt;/span&gt;&lt;span class="err"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;&lt;/span&gt;&lt;span class="go"&gt;Summary
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help ran
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; 1.31 ± 0.04 times faster than ./python.exe -m pypistats --help
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Plotted with
+&lt;a href="https://github.com/sharkdp/hyperfine/tree/master/scripts"&gt;plot_progression.py&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ 
+ srcset="https://hugovk.dev/blog/2025/lazy-imports/inline-imports_hu_1e88f1aa313287ea.webp"
+ 
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="640"
+ height="480"
+ class="mx-auto my-0 rounded-md"
+ alt="A progression chart of 20 runs for each benchmark: non-lazy runs are about 46 ms, lazy are about 35 ms."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/lazy-imports/inline-imports.png"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;From 46 to 35 milliseconds, or, 1.31 times faster, not bad.&lt;/p&gt;
+&lt;h3 id="fully-lazy" class="relative group"&gt;Fully lazy &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#fully-lazy" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;But we no longer need the inline imports trick with PEP 810!&lt;/p&gt;
+&lt;p&gt;I modified the CLI so all imports are at the top, and also removed &lt;code&gt;if TYPE_CHECKING:&lt;/code&gt;
+guards. Here&amp;rsquo;s a
+&lt;a href="https://github.com/hugovk/pypistats/commit/646bc6f70656df26d55a0bf4977a878a2b4379e5"&gt;diff&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;❯ hyperfine --warmup 10 --runs 20 --export-json out2.json \
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;./python.exe -m pypistats --help&amp;#34; \
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Benchmark 1: ./python.exe -m pypistats --help
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Time (mean ± σ): 104.1 ms ± 1.6 ms [User: 88.2 ms, System: 14.5 ms]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Range (min … max): 101.9 ms … 109.5 ms 20 runs
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;&lt;/span&gt;&lt;span class="err"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;&lt;/span&gt;&lt;span class="go"&gt;Benchmark 2: PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Time (mean ± σ): 35.7 ms ± 0.5 ms [User: 29.8 ms, System: 4.8 ms]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Range (min … max): 34.7 ms … 36.5 ms 20 runs
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;&lt;/span&gt;&lt;span class="err"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;&lt;/span&gt;&lt;span class="go"&gt;Summary
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help ran
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; 2.92 ± 0.06 times faster than ./python.exe -m pypistats --help
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ 
+ srcset="https://hugovk.dev/blog/2025/lazy-imports/fully-lazy_hu_7a7809c6a539dfb2.webp"
+ 
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="640"
+ height="480"
+ class="mx-auto my-0 rounded-md"
+ alt="A progression chart of 20 runs for each benchmark: non-lazy runs are about 104 ms, lazy are about 36 ms."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/lazy-imports/fully-lazy.png"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;From 104 to 36 milliseconds, or 2.92 times faster, much better!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo:
+&lt;a target="_blank" rel="noopener noreferrer" href="https://flickr.com/photos/usnationalarchives/4272370812/"&gt;
+&amp;ldquo;Lazy Man Fishing&amp;rdquo; at Cascade Locks on the Columbia River 05/1973&lt;/a&gt; in the
+&lt;a target="_blank" rel="noopener noreferrer" href="https://flickr.com/photos/usnationalarchives/"&gt;U.S.
+National Archives &lt;/a&gt;, with
+&lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/"&gt;no
+known copyright restrictions&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item><item><title>PEPs &amp; Co.</title><link>https://hugovk.dev/blog/2025/peps-and-co/</link><pubDate>Wed, 14 May 2025 15:45:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/peps-and-co/</guid><description>&lt;h2 id="peps" class="relative group"&gt;PEPs &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#peps" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s &lt;a href="https://barry.warsaw.us/"&gt;Barry Warsaw&lt;/a&gt; on the origin of
 &lt;a href="https://peps.python.org/"&gt;PEPs&lt;/a&gt;, or Python Enhancement Proposals (edited from
 &lt;a href="https://www.youtube.com/embed/7NrPCsH0mBU?start=1662&amp;amp;end=1803"&gt;PyBay 2017&lt;/a&gt;):&lt;/p&gt;
 &lt;blockquote&gt;
@@ -25,7 +280,8 @@ was the first PEP author because I came up with the name PEP.&lt;/p&gt;
 &lt;p&gt;But the really interesting thing is that you see the E.P. part used in a lot of other
 places, like Debian has DEPs now. There&amp;rsquo;s a lot of other communities that have these
 enhancement proposals so it&amp;rsquo;s kind of interesting. And then the format of the PEP was
-directly from that idea of the RFC&amp;rsquo;s standard.&lt;/p&gt;&lt;/blockquote&gt;
+directly from that idea of the RFC&amp;rsquo;s standard.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id="-co" class="relative group"&gt;&amp;amp; Co. &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#-co" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s a collection of enhancement proposals from different communities.&lt;/p&gt;
 &lt;table&gt;
  &lt;thead&gt;

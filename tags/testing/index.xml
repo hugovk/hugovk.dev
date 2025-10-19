@@ -19,7 +19,8 @@ then:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;⚡ About &lt;a href="https://prek.j178.dev/benchmark/"&gt;10x faster&lt;/a&gt; than pre-commit and uses
 only a third of disk space.&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;This 10x is a comparison of installing hooks using the excellent
 &lt;a href="https://github.com/sharkdp/hyperfine"&gt;hyperfine&lt;/a&gt; benchmarking tool.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s my own comparison.&lt;/p&gt;
@@ -646,7 +647,8 @@ possible that features may be modified or, in rare cases, deleted up until the s
 of the release candidate phase (Tuesday 2024-07-30). Our goal is to have no ABI
 changes after beta 4 and as few code changes as possible after 3.13.0rc1, the first
 release candidate. To achieve that, it will be &lt;strong&gt;extremely important&lt;/strong&gt; to get as much
-exposure for 3.13 as possible during the beta phase.&lt;/p&gt;&lt;/blockquote&gt;
+exposure for 3.13 as possible during the beta phase.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id="test-with-313" class="relative group"&gt;Test with 3.13 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-313" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s now time for us library maintainers to start testing our projects with 3.13.
 There&amp;rsquo;s two big benefits:&lt;/p&gt;
 &lt;ol&gt;
@@ -723,7 +725,8 @@ to the filename:&lt;/p&gt;
 &lt;p&gt;The wheel filename is
 &lt;code&gt;{distribution}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;build tag: [&amp;hellip;] Acts as a tie-breaker if two wheel file names are the same in all
-other respects (i.e. name, version, and other tags).&lt;/p&gt;&lt;/blockquote&gt;
+other respects (i.e. name, version, and other tags).&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;For example, this updates the filename and metadata with build number 1, and removes the
 original file:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python -m pip install &lt;span class="s2"&gt;&amp;#34;wheel&amp;gt;=0.4.0&amp;#34;&lt;/span&gt;
@@ -901,7 +904,8 @@ projects for 3.12 compatibilities during this phase, and where necessary publish
 Python 3.12 wheels on PyPI to be ready for the final release of 3.12.0. Any binary
 wheels built against Python 3.12.0rc3 will work with future versions of Python 3.12.
 As always, report any issues to
-&lt;a href="https://github.com/python/cpython/issues"&gt;the Python bug tracker&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;a href="https://github.com/python/cpython/issues"&gt;the Python bug tracker&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id="test-with-312" class="relative group"&gt;Test with 3.12 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-312" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s now time for us library maintainers to start testing our projects with 3.12.
 There&amp;rsquo;s two big benefits:&lt;/p&gt;
 &lt;ol&gt;
@@ -986,7 +990,8 @@ wheels will help them test and prepare.&lt;/p&gt;
 &lt;p&gt;There will be &lt;strong&gt;no ABI changes&lt;/strong&gt; from this point forward in the 3.12 series. The
 intent is for the final release of 3.12.0, scheduled for Monday, 2023-10-02, to be
 identical to this release candidate. &lt;strong&gt;This really is the last chance to find critical
-problems in Python 3.12.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+problems in Python 3.12.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Let&amp;rsquo;s start testing and releasing for 3.12 now! 🚀&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;small&gt;Header photo: The carpet of the Salt Palace Convention Center grand ballroom,
@@ -1014,7 +1019,8 @@ possible that features may be modified or, in rare cases, deleted up until the s
 of the release candidate phase (Monday, 2021-08-02). Our goal is have no ABI changes
 after beta 4 and as few code changes as possible after 3.11.0rc1, the first release
 candidate. To achieve that, it will be &lt;strong&gt;extremely important&lt;/strong&gt; to get as much exposure
-for 3.11 as possible during the beta phase.&lt;/p&gt;&lt;/blockquote&gt;
+for 3.11 as possible during the beta phase.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id="test-with-311" class="relative group"&gt;Test with 3.11 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-311" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s now time for library maintainers to start testing 3.11 with your project. You don&amp;rsquo;t
 need to declare support and release for 3.11 yet, but there&amp;rsquo;s two big benefits to
 testing with 3.11 on CI:&lt;/p&gt;
@@ -1092,7 +1098,8 @@ final is released.&lt;/p&gt;
 &lt;p&gt;Or, as mentioned above:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Our goal is have no ABI changes after beta 4 and as few code changes as possible after
-3.11.0rc1, the first release candidate.&lt;/p&gt;&lt;/blockquote&gt;
+3.11.0rc1, the first release candidate.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;If you have a pure Python project, you could release now.&lt;/p&gt;
 &lt;p&gt;If you have C extensions, you might want to wait until the release candidate phase,
 although if other projects depend on yours, a preview release would help them test and
