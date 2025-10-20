@@ -1,63 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sun, 19 Oct 2025 16:05:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>I'm excited to join the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</link><pubDate>Thu, 06 Feb 2025 11:40:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</guid><description>&lt;p&gt;For the duration of 2025, I&amp;rsquo;m thrilled to join the
-&lt;a href="https://www.sovereign.tech/programs/fellowship"&gt;Sovereign Tech Fellowship for Maintainers&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;This is a pilot programme from the &lt;a href="https://www.sovereign.tech/"&gt;Sovereign Tech Agency&lt;/a&gt;
-to pay maintainers of critical open source technologies in the public interest.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m one of six participants in this first cohort and I&amp;rsquo;ll be working on Python, with a
-focus on &lt;a href="https://github.com/python/cpython"&gt;CPython&lt;/a&gt;, including as release manager for
-&lt;a href="https://peps.python.org/pep-0745/"&gt;Python 3.14&lt;/a&gt; (under development with full release
-due in October 2025, supported until 2030) and the next one (development starts in May
-2025 for release in October 2026, supported until 2031).&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m delighted to work with the Sovereign Tech Agency as they really get open source.
-Supported by Germany&amp;rsquo;s Ministry for Economic Affairs and Climate Action, they recognise
-the importance of open source and its place as critical digital infrastructure in the
-public interest. In their &lt;a href="https://www.sovereign.tech/mission"&gt;own words&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The Sovereign Tech Agency supports the development, improvement, and maintenance of
-open digital infrastructure. Our goal is to sustainably strengthen the open source
-ecosystem. We focus on security, resilience, technological diversity, and the people
-behind the code.&lt;/p&gt;
-&lt;p&gt;We often don’t notice how much our lives depend on digital infrastructure until it
-stops working. But making it available, accessible and secure is key for
-digitalization in the public interest. The Sovereign Tech Agency invests in open
-digital infrastructure. It is critical for innovation and economic growth, and forms
-the foundation for digitalization across sectors.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;In addition to CPython core development and release management, I&amp;rsquo;ll continue to
-maintain other Python projects such as &lt;a href="https://pillow.readthedocs.io/"&gt;Pillow&lt;/a&gt;,
-&lt;a href="https://github.com/python-humanize/humanize"&gt;humanize&lt;/a&gt; and
-&lt;a href="https://github.com/termcolor/termcolor"&gt;termcolor&lt;/a&gt;, and CLI utilities such as
-&lt;a href="https://github.com/hugovk/norwegianblue"&gt;norwegianblue&lt;/a&gt;,
-&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt; and
-&lt;a href="https://github.com/hugovk/pepotron"&gt;pepotron&lt;/a&gt;, and help out more widely in the Python
-ecosystem.&lt;/p&gt;
-&lt;p&gt;Tasks include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Bug fixing, issue triaging, PR review and security improvements&lt;/li&gt;
-&lt;li&gt;Mentoring new contributors to foster community growth and diversity&lt;/li&gt;
-&lt;li&gt;Communicating updates to the wider community via &lt;a href="https://hugovk.dev/"&gt;blog posts&lt;/a&gt; and
-&lt;a href="https://mastodon.social/@hugovk"&gt;social&lt;/a&gt; &lt;a href="https://bsky.app/profile/hugovk.dev"&gt;media&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/python/core-workflow"&gt;Workflow&lt;/a&gt;,
-&lt;a href="https://github.com/python/cpython/actions/"&gt;CI&lt;/a&gt;, and infrastructure optimisations to
-streamline core development tasks&lt;/li&gt;
-&lt;li&gt;Maintenance and improvement of &lt;a href="http://peps.python.org/"&gt;PEP&lt;/a&gt; editing infrastructure
-and related documentation tools&lt;/li&gt;
-&lt;li&gt;Automation and &lt;a href="https://hugovk.github.io/dashboard/"&gt;dashboard&lt;/a&gt; creation for triage
-scripts to assist other contributors&lt;/li&gt;
-&lt;li&gt;Process and workflow improvements for CI and core contributor environments&lt;/li&gt;
-&lt;li&gt;Ongoing documentation enhancements, including hosting monthly
-&lt;a href="https://docs-community.readthedocs.io/en/latest/"&gt;Documentation Working Group&lt;/a&gt;
-meetings, improving build processes, and focusing on accessibility&lt;/li&gt;
-&lt;li&gt;Updating and modernising projects for compatibility with the latest Python versions&lt;/li&gt;
-&lt;li&gt;Implementing stronger security measures and using
-&lt;a href="https://docs.pypi.org/trusted-publishers/"&gt;Trusted Publishing&lt;/a&gt; and
-&lt;a href="https://docs.pypi.org/attestations/"&gt;digital attestations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Adding and maintaining Python support for widely used PyPI packages&lt;/li&gt;
-&lt;li&gt;Improving community-wide tooling, documentation, and accessibility&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Meet my
-&lt;a href="https://www.sovereign.tech/news/meet-the-sovereign-tech-fellows"&gt;fellow Sovereign Tech Fellows&lt;/a&gt;,
-and by the way, the Sovereign Tech Agency is currently hiring, check out their
-&lt;a href="https://www.sovereign.tech/jobs"&gt;open positions&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Three times faster with lazy imports</title><link>https://hugovk.dev/blog/2025/lazy-imports/</link><pubDate>Sun, 19 Oct 2025 16:05:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/lazy-imports/</guid><description>&lt;p&gt;&lt;a href="https://peps.python.org/pep-0810/"&gt;PEP 810&lt;/a&gt; proposes &amp;ldquo;explicit lazy imports&amp;rdquo; for Python
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sun, 19 Oct 2025 16:05:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Three times faster with lazy imports</title><link>https://hugovk.dev/blog/2025/lazy-imports/</link><pubDate>Sun, 19 Oct 2025 16:05:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/lazy-imports/</guid><description>&lt;p&gt;&lt;a href="https://peps.python.org/pep-0810/"&gt;PEP 810&lt;/a&gt; proposes &amp;ldquo;explicit lazy imports&amp;rdquo; for Python
 3.15:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Lazy imports defer the loading and execution of a module until the first time the
@@ -1793,7 +1734,66 @@ Earhart&amp;rsquo;s 1932 pilot licence&lt;/a&gt; in the
 &lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/sdasmarchives/"&gt;San
 Diego Air and Space Museum Archive&lt;/a&gt;, with
 &lt;a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/commons/usage/"&gt;no
-known copyright restrictions&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item><item><title>How to delay a Python release</title><link>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</link><pubDate>Tue, 04 Feb 2025 18:55:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</guid><description>&lt;h2 id="prologue" class="relative group"&gt;Prologue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#prologue" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This was a &lt;a href="https://www.wikihow.com/Delete-a-Twitter-Account"&gt;Twitter&lt;/a&gt;
+known copyright restrictions&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item><item><title>I'm excited to join the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</link><pubDate>Thu, 06 Feb 2025 11:40:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/im-excited-to-join-the-sovereign-tech-fellowship/</guid><description>&lt;p&gt;For the duration of 2025, I&amp;rsquo;m thrilled to join the
+&lt;a href="https://www.sovereign.tech/programs/fellowship"&gt;Sovereign Tech Fellowship for Maintainers&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;This is a pilot programme from the &lt;a href="https://www.sovereign.tech/"&gt;Sovereign Tech Agency&lt;/a&gt;
+to pay maintainers of critical open source technologies in the public interest.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m one of six participants in this first cohort and I&amp;rsquo;ll be working on Python, with a
+focus on &lt;a href="https://github.com/python/cpython"&gt;CPython&lt;/a&gt;, including as release manager for
+&lt;a href="https://peps.python.org/pep-0745/"&gt;Python 3.14&lt;/a&gt; (under development with full release
+due in October 2025, supported until 2030) and the next one (development starts in May
+2025 for release in October 2026, supported until 2031).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m delighted to work with the Sovereign Tech Agency as they really get open source.
+Supported by Germany&amp;rsquo;s Ministry for Economic Affairs and Climate Action, they recognise
+the importance of open source and its place as critical digital infrastructure in the
+public interest. In their &lt;a href="https://www.sovereign.tech/mission"&gt;own words&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Sovereign Tech Agency supports the development, improvement, and maintenance of
+open digital infrastructure. Our goal is to sustainably strengthen the open source
+ecosystem. We focus on security, resilience, technological diversity, and the people
+behind the code.&lt;/p&gt;
+&lt;p&gt;We often don’t notice how much our lives depend on digital infrastructure until it
+stops working. But making it available, accessible and secure is key for
+digitalization in the public interest. The Sovereign Tech Agency invests in open
+digital infrastructure. It is critical for innovation and economic growth, and forms
+the foundation for digitalization across sectors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In addition to CPython core development and release management, I&amp;rsquo;ll continue to
+maintain other Python projects such as &lt;a href="https://pillow.readthedocs.io/"&gt;Pillow&lt;/a&gt;,
+&lt;a href="https://github.com/python-humanize/humanize"&gt;humanize&lt;/a&gt; and
+&lt;a href="https://github.com/termcolor/termcolor"&gt;termcolor&lt;/a&gt;, and CLI utilities such as
+&lt;a href="https://github.com/hugovk/norwegianblue"&gt;norwegianblue&lt;/a&gt;,
+&lt;a href="https://github.com/hugovk/pypistats"&gt;pypistats&lt;/a&gt; and
+&lt;a href="https://github.com/hugovk/pepotron"&gt;pepotron&lt;/a&gt;, and help out more widely in the Python
+ecosystem.&lt;/p&gt;
+&lt;p&gt;Tasks include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bug fixing, issue triaging, PR review and security improvements&lt;/li&gt;
+&lt;li&gt;Mentoring new contributors to foster community growth and diversity&lt;/li&gt;
+&lt;li&gt;Communicating updates to the wider community via &lt;a href="https://hugovk.dev/"&gt;blog posts&lt;/a&gt; and
+&lt;a href="https://mastodon.social/@hugovk"&gt;social&lt;/a&gt; &lt;a href="https://bsky.app/profile/hugovk.dev"&gt;media&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/core-workflow"&gt;Workflow&lt;/a&gt;,
+&lt;a href="https://github.com/python/cpython/actions/"&gt;CI&lt;/a&gt;, and infrastructure optimisations to
+streamline core development tasks&lt;/li&gt;
+&lt;li&gt;Maintenance and improvement of &lt;a href="http://peps.python.org/"&gt;PEP&lt;/a&gt; editing infrastructure
+and related documentation tools&lt;/li&gt;
+&lt;li&gt;Automation and &lt;a href="https://hugovk.github.io/dashboard/"&gt;dashboard&lt;/a&gt; creation for triage
+scripts to assist other contributors&lt;/li&gt;
+&lt;li&gt;Process and workflow improvements for CI and core contributor environments&lt;/li&gt;
+&lt;li&gt;Ongoing documentation enhancements, including hosting monthly
+&lt;a href="https://docs-community.readthedocs.io/en/latest/"&gt;Documentation Working Group&lt;/a&gt;
+meetings, improving build processes, and focusing on accessibility&lt;/li&gt;
+&lt;li&gt;Updating and modernising projects for compatibility with the latest Python versions&lt;/li&gt;
+&lt;li&gt;Implementing stronger security measures and using
+&lt;a href="https://docs.pypi.org/trusted-publishers/"&gt;Trusted Publishing&lt;/a&gt; and
+&lt;a href="https://docs.pypi.org/attestations/"&gt;digital attestations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Adding and maintaining Python support for widely used PyPI packages&lt;/li&gt;
+&lt;li&gt;Improving community-wide tooling, documentation, and accessibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meet my
+&lt;a href="https://www.sovereign.tech/news/meet-the-sovereign-tech-fellows"&gt;fellow Sovereign Tech Fellows&lt;/a&gt;,
+and by the way, the Sovereign Tech Agency is currently hiring, check out their
+&lt;a href="https://www.sovereign.tech/jobs"&gt;open positions&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>How to delay a Python release</title><link>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</link><pubDate>Tue, 04 Feb 2025 18:55:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/how-to-delay-a-python-release/</guid><description>&lt;h2 id="prologue" class="relative group"&gt;Prologue &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#prologue" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This was a &lt;a href="https://www.wikihow.com/Delete-a-Twitter-Account"&gt;Twitter&lt;/a&gt;
 &lt;a href="https://web.archive.org/web/20220115150826/https://twitter.com/hugovk/status/1482367773577822208"&gt;thread from 15th January 2022&lt;/a&gt;
 about my first CPython bug. Eight days from report to fix to merge, not bad!&lt;/p&gt;
 &lt;hr&gt;
