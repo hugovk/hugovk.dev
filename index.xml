@@ -165,8 +165,8 @@ functions that call them (the PEP calls these
 using the
 &lt;a href="https://peps.python.org/pep-0810/#global-lazy-imports-control"&gt;&lt;code&gt;PYTHON_LAZY_IMPORTS&lt;/code&gt; env var&lt;/a&gt;
 here to make it easy to compare two different runs.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;❯ hyperfine --warmup 10 --runs 20 --export-json out.json \
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;./python.exe -m pypistats --help&amp;#34; \
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gp"&gt;$&lt;/span&gt; hyperfine --warmup &lt;span class="m"&gt;10&lt;/span&gt; --runs &lt;span class="m"&gt;20&lt;/span&gt; --export-json out.json &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;&lt;span class="go"&gt; &amp;#34;./python.exe -m pypistats --help&amp;#34; \
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Benchmark 1: ./python.exe -m pypistats --help
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Time (mean ± σ): 46.2 ms ± 1.1 ms [User: 38.8 ms, System: 6.4 ms]
@@ -238,8 +238,8 @@ here to make it easy to compare two different runs.&lt;/p&gt;
 &lt;p&gt;I modified the CLI so all imports are at the top, and also removed &lt;code&gt;if TYPE_CHECKING:&lt;/code&gt;
 guards. Here&amp;rsquo;s a
 &lt;a href="https://github.com/hugovk/pypistats/commit/646bc6f70656df26d55a0bf4977a878a2b4379e5"&gt;diff&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;❯ hyperfine --warmup 10 --runs 20 --export-json out2.json \
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;./python.exe -m pypistats --help&amp;#34; \
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gp"&gt;$&lt;/span&gt; hyperfine --warmup &lt;span class="m"&gt;10&lt;/span&gt; --runs &lt;span class="m"&gt;20&lt;/span&gt; --export-json out2.json &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;&lt;span class="go"&gt; &amp;#34;./python.exe -m pypistats --help&amp;#34; \
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; &amp;#34;PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Benchmark 1: ./python.exe -m pypistats --help
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt; Time (mean ± σ): 104.1 ms ± 1.6 ms [User: 88.2 ms, System: 14.5 ms]

@@ -61,8 +61,8 @@ functions that call them (the PEP calls these
 <a href=https://peps.python.org/pep-0810/#motivation>&ldquo;inline imports&rdquo;</a>).</p><p>Instead of the <a href=https://peps.python.org/pep-0810/#specification><code>lazy</code> keyword</a>, I&rsquo;m
 using the
 <a href=https://peps.python.org/pep-0810/#global-lazy-imports-control><code>PYTHON_LAZY_IMPORTS</code> env var</a>
-here to make it easy to compare two different runs.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-console data-lang=console><span class=line><span class=cl><span class=go>❯ hyperfine --warmup 10 --runs 20 --export-json out.json \
-</span></span></span><span class=line><span class=cl><span class=go>  &#34;./python.exe -m pypistats --help&#34; \
+here to make it easy to compare two different runs.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-console data-lang=console><span class=line><span class=cl><span class=gp>$</span> hyperfine --warmup <span class=m>10</span> --runs <span class=m>20</span> --export-json out.json <span class=se>\
+</span></span></span><span class=line><span class=cl><span class=se></span><span class=go>  &#34;./python.exe -m pypistats --help&#34; \
 </span></span></span><span class=line><span class=cl><span class=go>  &#34;PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help&#34;
 </span></span></span><span class=line><span class=cl><span class=go>Benchmark 1: ./python.exe -m pypistats --help
 </span></span></span><span class=line><span class=cl><span class=go>  Time (mean ± σ):      46.2 ms ±   1.1 ms    [User: 38.8 ms, System: 6.4 ms]
@@ -78,8 +78,8 @@ here to make it easy to compare two different runs.</p><div class=highlight><pre
 </span></span></span></code></pre></div><p>Plotted with
 <a href=https://github.com/sharkdp/hyperfine/tree/master/scripts>plot_progression.py</a>:</p><p><figure><picture class="mx-auto my-0 rounded-md"><source srcset=https://hugovk.dev/blog/2025/lazy-imports/inline-imports_hu_1e88f1aa313287ea.webp sizes=100vw type=image/webp><img width=640 height=480 class="mx-auto my-0 rounded-md" alt="A progression chart of 20 runs for each benchmark: non-lazy runs are about 46 ms, lazy are about 35 ms." loading=lazy decoding=async src=https://hugovk.dev/blog/2025/lazy-imports/inline-imports.png></picture></figure></p><p>From 46 to 35 milliseconds, or, 1.31 times faster, not bad.</p><h3 id=fully-lazy class="relative group">Fully lazy <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#fully-lazy aria-label=Anchor>#</a></span></h3><p>But we no longer need the inline imports trick with PEP 810!</p><p>I modified the CLI so all imports are at the top, and also removed <code>if TYPE_CHECKING:</code>
 guards. Here&rsquo;s a
-<a href=https://github.com/hugovk/pypistats/commit/646bc6f70656df26d55a0bf4977a878a2b4379e5>diff</a>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-console data-lang=console><span class=line><span class=cl><span class=go>❯ hyperfine --warmup 10 --runs 20 --export-json out2.json \
-</span></span></span><span class=line><span class=cl><span class=go>  &#34;./python.exe -m pypistats --help&#34; \
+<a href=https://github.com/hugovk/pypistats/commit/646bc6f70656df26d55a0bf4977a878a2b4379e5>diff</a>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-console data-lang=console><span class=line><span class=cl><span class=gp>$</span> hyperfine --warmup <span class=m>10</span> --runs <span class=m>20</span> --export-json out2.json <span class=se>\
+</span></span></span><span class=line><span class=cl><span class=se></span><span class=go>  &#34;./python.exe -m pypistats --help&#34; \
 </span></span></span><span class=line><span class=cl><span class=go>  &#34;PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help&#34;
 </span></span></span><span class=line><span class=cl><span class=go>Benchmark 1: ./python.exe -m pypistats --help
 </span></span></span><span class=line><span class=cl><span class=go>  Time (mean ± σ):     104.1 ms ±   1.6 ms    [User: 88.2 ms, System: 14.5 ms]
