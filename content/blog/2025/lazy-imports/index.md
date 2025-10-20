@@ -122,7 +122,7 @@ using the
 here to make it easy to compare two different runs.
 
 ```console
-❯ hyperfine --warmup 10 --runs 20 --export-json out.json \
+$ hyperfine --warmup 10 --runs 20 --export-json out.json \
   "./python.exe -m pypistats --help" \
   "PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help"
 Benchmark 1: ./python.exe -m pypistats --help
@@ -154,7 +154,7 @@ guards. Here's a
 [diff](https://github.com/hugovk/pypistats/commit/646bc6f70656df26d55a0bf4977a878a2b4379e5).
 
 ```console
-❯ hyperfine --warmup 10 --runs 20 --export-json out2.json \
+$ hyperfine --warmup 10 --runs 20 --export-json out2.json \
   "./python.exe -m pypistats --help" \
   "PYTHON_LAZY_IMPORTS=on ./python.exe -m pypistats --help"
 Benchmark 1: ./python.exe -m pypistats --help
