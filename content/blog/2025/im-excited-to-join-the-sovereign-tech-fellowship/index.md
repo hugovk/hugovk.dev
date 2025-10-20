@@ -3,7 +3,6 @@ title: "I'm excited to join the Sovereign Tech Fellowship"
 date: "2025-02-06T11:40:00Z"
 tags: ["python", "Sovereign-Tech-Fellowship"]
 featureAlt: "Sovereign Tech Fellowship logo"
-weight: 100
 ---
 
 For the duration of 2025, I'm thrilled to join the
