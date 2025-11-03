@@ -392,7 +392,7 @@ hoodie (Lys)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://youtube.com/watch?v=ri3Wli6PVVo&amp;amp;list=PLrkpavSsBQZ62noXYqRezmjdE7_CCbT9_&amp;amp;index=2"&gt;Localization and translation of programming languages, Felienne Hermans&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=vrVXgeD2fts&amp;amp;list=PLrkpavSsBQZ62noXYqRezmjdE7_CCbT9_&amp;amp;index=7"&gt;The tale of PEP 765 SyntaxWarning on &lt;code&gt;return&lt;/code&gt; in &lt;code&gt;finally&lt;/code&gt;, Irit Katriel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=sxT2UikIyeQ&amp;amp;list=PLrkpavSsBQZ6MjNYXtWm_YFEcrLkCxN2w&amp;amp;index=3"&gt;Oh no! Your project became really popular! Deb Nicholson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=3MmfY5UIquk&amp;amp;list=PLrkpavSsBQZ6MjNYXtWm_YFEcrLkCxN2w&amp;amp;index=6"&gt;Why len 4 and other weird things you should know about strings in Python, Yngve Mardal Moe &amp;amp; Marie Roald&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=3MmfY5UIquk&amp;amp;list=PLrkpavSsBQZ6MjNYXtWm_YFEcrLkCxN2w&amp;amp;index=6"&gt;Why &lt;code&gt;len('😶‍🌫️') == 4&lt;/code&gt; and other weird things you should know about strings in Python, Yngve Mardal Moe &amp;amp; Marie Roald&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The conference also included &lt;a href="https://2025.pyconuk.org/sprints/"&gt;sprints&lt;/a&gt;, and Adam and
 I ran the CPython sprint. We had a big table full of contributors and a few made their
