@@ -113,7 +113,7 @@ types of mentorship and how we can improve, followed by an open discussion.&lt;/
 &lt;p&gt;&lt;a href="https://infosec.exchange/@gpshead"&gt;Gregory P. Smith&lt;/a&gt; gave a demo on how we can use
 tools like Claude with CPython.&lt;/p&gt;
 &lt;p&gt;Tania, &lt;a href="https://publicidentity.net/@jezdez"&gt;Jannis Leidel&lt;/a&gt;,
-&lt;a href="https://hachyderm.io/@willingc"&gt;Carol Willing&lt;/a&gt; and I had a discussion about the
+&lt;a href="https://hachyderm.io/@willingc"&gt;Carol Willing&lt;/a&gt; and I discussed the
 &lt;a href="https://github.com/psf/user-success-wg"&gt;User Success Workgroup&lt;/a&gt; and we came up with
 some ideas on next steps.&lt;/p&gt;
 &lt;p&gt;We ended the day with a punting tour on the river Cam and dinner at Jesus College, thank
@@ -385,10 +385,18 @@ hoodie (Lys)&lt;/li&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;center&gt;&lt;small&gt;The 3.14.0rc3 release in progress&lt;/small&gt;&lt;/center&gt;
-&lt;h2 id="friday-highlights" class="relative group"&gt;Friday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#friday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I went to Manchester to attend &lt;a href="https://2025.pyconuk.org/"&gt;PyCon UK&lt;/a&gt;! This also included
-a sprint, and Adam and I ran the CPython sprint. We had a big table full of contributors
-and a few made their very first contributions, which is always rewarding for all
-involved!&lt;/p&gt;
+&lt;h2 id="friday-highlights" class="relative group"&gt;Friday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#friday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I went to Manchester to attend &lt;a href="https://2025.pyconuk.org/"&gt;PyCon UK&lt;/a&gt;. Some highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=gDvwRpl9erE&amp;amp;list=PLrkpavSsBQZ6bnFa93KWXtMJoBA-a4_f_&amp;amp;index=2"&gt;Python&amp;rsquo;s True Superpower, Hynek Schlawack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=CtrsssksCNU&amp;amp;list=PLrkpavSsBQZ41YpNF6EUDUB5wAwwfbKPV&amp;amp;index=7"&gt;Ada by Emily Holyoake, a rehearsed reading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://youtube.com/watch?v=ri3Wli6PVVo&amp;amp;list=PLrkpavSsBQZ62noXYqRezmjdE7_CCbT9_&amp;amp;index=2"&gt;Localization and translation of programming languages, Felienne Hermans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=vrVXgeD2fts&amp;amp;list=PLrkpavSsBQZ62noXYqRezmjdE7_CCbT9_&amp;amp;index=7"&gt;The tale of PEP 765 SyntaxWarning on &lt;code&gt;return&lt;/code&gt; in &lt;code&gt;finally&lt;/code&gt;, Irit Katriel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=sxT2UikIyeQ&amp;amp;list=PLrkpavSsBQZ6MjNYXtWm_YFEcrLkCxN2w&amp;amp;index=3"&gt;Oh no! Your project became really popular! Deb Nicholson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=3MmfY5UIquk&amp;amp;list=PLrkpavSsBQZ6MjNYXtWm_YFEcrLkCxN2w&amp;amp;index=6"&gt;Why len 4 and other weird things you should know about strings in Python, Yngve Mardal Moe &amp;amp; Marie Roald&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The conference also included &lt;a href="https://2025.pyconuk.org/sprints/"&gt;sprints&lt;/a&gt;, and Adam and
+I ran the CPython sprint. We had a big table full of contributors and a few made their
+very first contributions, which is always rewarding for all involved!&lt;/p&gt;
 &lt;p&gt;
 
 
