@@ -106,7 +106,7 @@ so not today.
 
 Lightning talks:
 
-- ⚡ [Guido van Rossum](https://github.com/gvanrossum) on collecting an aural history
+- ⚡ [Guido van Rossum](https://github.com/gvanrossum) on collecting an oral history
 - ⚡ [Ee Durbin](https://mastodon.social/@EWDurbin) on modernising the last bits of
   infra and bots
 - ⚡ [Steve Dower](https://github.com/zooba) demoed the new Windows installer
