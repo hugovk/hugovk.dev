@@ -1,4 +1,484 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sprint on Hugo van Kemenade</title><link>https://hugovk.dev/tags/sprint/</link><description>Recent content in sprint on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 05 Oct 2024 19:39:48 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/sprint/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Sprint 2024</title><link>https://hugovk.dev/blog/2024/python-core-sprint/</link><pubDate>Sat, 05 Oct 2024 19:39:48 +0000</pubDate><guid>https://hugovk.dev/blog/2024/python-core-sprint/</guid><description>&lt;p&gt;🐍🏃The week before last was the annual Python Core Dev Sprint, graciously hosted by
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sprint on Hugo van Kemenade</title><link>https://hugovk.dev/tags/sprint/</link><description>Recent content in sprint on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Mon, 03 Nov 2025 08:58:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/sprint/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Sprint 2025</title><link>https://hugovk.dev/blog/2025/python-core-sprint/</link><pubDate>Mon, 03 Nov 2025 08:58:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/python-core-sprint/</guid><description>&lt;p&gt;🐍🏃In September, the annual Python Core Sprint was hosted by
+&lt;a href="https://developer.arm.com/"&gt;Arm&lt;/a&gt; in Cambridge, UK!&lt;/p&gt;
+&lt;p&gt;The plan: put 35 core developers and 13 special guests in a room for a week, and see
+what they cook up.&lt;/p&gt;
+&lt;h2 id="monday-highlights" class="relative group"&gt;Monday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;We kicked off the first day with a round of five-word intros (mine: &amp;ldquo;three&amp;rdquo;, &amp;ldquo;dot&amp;rdquo;,
+&amp;ldquo;fourteen&amp;rdquo;, &amp;ldquo;release&amp;rdquo;, &amp;ldquo;manager&amp;rdquo;), lots of talks, and lots of discussion about talks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/fidget-spinner"&gt;Ken Jin Ooi&lt;/a&gt; - Building a JIT Community &lt;em&gt;and&lt;/em&gt; Demo
+[effect] of new C API&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@antocuni"&gt;Antonio Cuni&lt;/a&gt; - Tracing JITs on real code&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mastodon.social/@brettcannon"&gt;Brett Cannon&lt;/a&gt; - WASI update &lt;em&gt;and&lt;/em&gt; Precompiled
+binaries from python.org&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/hoodmane"&gt;Hood Chatham&lt;/a&gt; - Upstreaming Pyodide FFI&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cloudisland.nz/@freakboy3742"&gt;Russell Keith-Magee&lt;/a&gt; - Managing cross-platform
+wheel builds&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/steering-council"&gt;Steering Council&lt;/a&gt; -
+&lt;a href="https://peps.python.org/pep-0793/"&gt;PEP 793&lt;/a&gt; and abi3/abi3t/abi4&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mjp41"&gt;Matthew Parkinson&lt;/a&gt; - Designing Deep Immutability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I did some &lt;del&gt;sprint&lt;/del&gt; spring cleaning of our PyPI projects, dropping support for
+&lt;a href="https://devguide.python.org/versions/"&gt;then-&lt;em&gt;almost&lt;/em&gt;-EOL&lt;/a&gt;
+&lt;a href="https://peps.python.org/pep-0596/"&gt;Python 3.9&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/blurb/pull/68"&gt;python/blurb#68&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/cherry-picker/pull/164"&gt;python/cherry-picker#164&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/peps/pull/4587"&gt;python/peps#4587&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/pyperformance/pull/414"&gt;python/pyperformance#414&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sphinx-contrib/sphinx-lint/pull/145"&gt;sphinx-contrib/sphinx-lint#145&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And because &lt;a href="https://fosstodon.org/@mariatta"&gt;Mariatta&lt;/a&gt; wasn&amp;rsquo;t with us, here&amp;rsquo;s the
+all-important
+&lt;a href="https://mariatta.ca/posts/python-core-sprint-2024-day-1/#python-conference-t-shirts"&gt;Python T-shirt census&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pythoninsider.blogspot.com/2016/09/python-core-development-sprint-2016-36.html"&gt;Menlo Park 2016 core sprint&lt;/a&gt;
+(Greg, Guido)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ep2023.europython.eu/"&gt;EuroPython 2023&lt;/a&gt; (Antonio)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ep2023.europython.eu/"&gt;EuroPython 2024 volunteer&lt;/a&gt; (Hugo)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://2016.pycon.ca/en/"&gt;PyCon Canada 2016&lt;/a&gt; (Brett)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://us.pycon.org/"&gt;PyCon US&lt;/a&gt; Pittsburgh Charlas (Thomas)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2025/python-core-sprint-2025/"&gt;Cambridge 2025 core sprint&lt;/a&gt;
+(Diego)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/python-core-sprint/room_hu_6ec3931f96cbe3dc.webp 330w,https://hugovk.dev/blog/2025/python-core-sprint/room_hu_5d3b0939b2649cb0.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/room_hu_f2b2d05e7a10465f.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/room_hu_22179a36b2b5cf35.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="A room of people at desks with monitors. Steve has a mic and is asking a question to Brett who&amp;rsquo;s standing at and presenting."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/python-core-sprint/room_hu_dc2322865633caa1.jpg" srcset="https://hugovk.dev/blog/2025/python-core-sprint/room_hu_ab0740fe7dcd55e.jpg 330w,https://hugovk.dev/blog/2025/python-core-sprint/room_hu_dc2322865633caa1.jpg 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/room_hu_c9a06cad28a58694.jpg 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/room_hu_80fd08224c61fa52.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;The sprint room&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="tuesday-highlights" class="relative group"&gt;Tuesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tuesday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Release day?&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d originally planned to release &lt;a href="https://peps.python.org/pep-0745/"&gt;Python 3.14.0rc3&lt;/a&gt;
+on the Tuesday, but the morning was full of presentations, and the afternoon had an
+early departure for the social event, so I moved it to Wednesday instead.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chaos.social/@trallard"&gt;Tania Allard&lt;/a&gt; gave a presentation about the different
+types of mentorship and how we can improve, followed by an open discussion.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://infosec.exchange/@gpshead"&gt;Gregory P. Smith&lt;/a&gt; gave a demo on how we can use
+tools like Claude with CPython.&lt;/p&gt;
+&lt;p&gt;Tania, &lt;a href="https://publicidentity.net/@jezdez"&gt;Jannis Leidel&lt;/a&gt;,
+&lt;a href="https://hachyderm.io/@willingc"&gt;Carol Willing&lt;/a&gt; and I had a discussion about the
+&lt;a href="https://github.com/psf/user-success-wg"&gt;User Success Workgroup&lt;/a&gt; and we came up with
+some ideas on next steps.&lt;/p&gt;
+&lt;p&gt;We ended the day with a punting tour on the river Cam and dinner at Jesus College, thank
+you, Arm!&lt;/p&gt;
+&lt;p&gt;And &lt;a href="https://social.coop/@Yhg1s"&gt;Thomas Wouters&lt;/a&gt; gave a fun session of his
+&lt;a href="https://discuss.python.org/t/shall-we-play-a-game/96085"&gt;Feuding Pythonistas game&lt;/a&gt;
+(spoiler: people are wrong on the internet).&lt;/p&gt;
+&lt;p&gt;Python/tech t-shirt census:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python &lt;del&gt;2&lt;/del&gt;3.7, Menlo Park 201&lt;del&gt;6&lt;/del&gt;7 core sprint (Carl)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://2025.pycon.it/en"&gt;PyCon Italia 2025&lt;/a&gt; (Antonio)&lt;/li&gt;
+&lt;li&gt;Python 3.14 pie (Hugo)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://why2025.org/"&gt;WHY 2025&lt;/a&gt; (Thomas)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://us.pycon.org/2025/"&gt;PyCon US 2025&lt;/a&gt; (Diego)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.pycascades.com/"&gt;PyCascades&lt;/a&gt; (Guido)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ep2022.europython.eu/"&gt;EuroPython 2022&lt;/a&gt; (Mark)&lt;/li&gt;
+&lt;li&gt;Pythonista (Jacob)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_6434a64f5c332dce.webp 330w,https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_2e49d6c045b3d72a.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_9340d597cc038019.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_d13f7884faf95fcc.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="People sitting in a small boat, with a man standing at the back with a long pole in the water, in front of grand Cambridge college"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_4177426dc01a7f62.jpg" srcset="https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_4cc08b861ff19b9f.jpg 330w,https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_4177426dc01a7f62.jpg 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_f8d4758d16c33602.jpg 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/punt_hu_6934796aaf0674f.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;Punting on the Cam&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="wednesday-highlights" class="relative group"&gt;Wednesday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#wednesday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Release day?&lt;/p&gt;
+&lt;p&gt;The Steering Council asked for an extra day to decide about a possible typing revert
+(&lt;a href="https://github.com/python/steering-council/issues/307"&gt;python/steering-council#307&lt;/a&gt;),
+so not today.&lt;/p&gt;
+&lt;p&gt;Lightning talks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡ &lt;a href="https://github.com/gvanrossum"&gt;Guido van Rossum&lt;/a&gt; on collecting an aural history&lt;/li&gt;
+&lt;li&gt;⚡ &lt;a href="https://mastodon.social/@EWDurbin"&gt;Ee Durbin&lt;/a&gt; on modernising the last bits of
+infra and bots&lt;/li&gt;
+&lt;li&gt;⚡ &lt;a href="https://github.com/zooba"&gt;Steve Dower&lt;/a&gt; demoed the new Windows installer&lt;/li&gt;
+&lt;li&gt;⚡ &lt;a href="https://github.com/larryhastings"&gt;Larry Hastings&lt;/a&gt; on a &lt;code&gt;linked_list&lt;/code&gt; date type&lt;/li&gt;
+&lt;li&gt;⚡ &lt;a href="https://github.com/aa-turner"&gt;Adam Turner&lt;/a&gt; asked shall we close old issues&lt;/li&gt;
+&lt;li&gt;⚡ Greg shared a &lt;a href="https://github.com/python/peps/pull/4592"&gt;draft PEP&lt;/a&gt; for timestamps
+on async tracebacks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Carol, Adam, Thomas, &lt;a href="https://mastodon.social/@encukou"&gt;Petr Viktorin&lt;/a&gt; and I discussed a
+number of docs topics.&lt;/p&gt;
+&lt;p&gt;I released the
+&lt;a href="https://github.com/python/python-docs-theme/releases/tag/2025.9.2"&gt;Python Docs Sphinx Theme &lt;/a&gt;
+with more translations.&lt;/p&gt;
+&lt;p&gt;We had a Q&amp;amp;A session with the Steering Council, three in-person and two joining
+remotely.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fosstodon.org/@Monorepo"&gt;Jacob Coffee&lt;/a&gt; and I looked into upgrading the
+&lt;a href="https://blog.python.org/"&gt;Python Insider&lt;/a&gt; and &lt;a href="https://pyfound.blogspot.com/"&gt;PSF&lt;/a&gt;
+blogs into something a little more modern.&lt;/p&gt;
+&lt;p&gt;T-shirt census:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://2025.pycon.gr/en/"&gt;PyCon Greece 2025&lt;/a&gt; (Hugo)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://2025.pycon.kr/"&gt;PyCon Korea 2025&lt;/a&gt; (Donghee)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pyladies.com/"&gt;PyLadies&lt;/a&gt; (Savannah, Petr)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ep2023.europython.eu/"&gt;EuroPython 2024&lt;/a&gt; (Lys)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://2023.pycon.it/en"&gt;PyCon Italia 2023&lt;/a&gt; (Antonio)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2025/python-core-sprint-2025/"&gt;Cambridge 2025 core sprint&lt;/a&gt;
+(Guido)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_b02a60f60a12ee07.webp 330w,https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_3cf885964fa9d410.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_683c5640e6f84bb2.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_ac55a20a4b641c6d.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="Steering Council Q&amp;amp;A: Greg, Pablo and Donghee on stools and Barry and Emily on screen."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_a48508f84fe37ef0.jpg" srcset="https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_b02a2fb64355b551.jpg 330w,https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_a48508f84fe37ef0.jpg 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_36f254101c65a3d5.jpg 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/steering-council_hu_abea5191865b4e0a.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;The Python Steering Council&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="thursday-highlights" class="relative group"&gt;Thursday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thursday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Release day? Yes!&lt;/p&gt;
+&lt;p&gt;The Steering Council
+&lt;a href="https://discuss.python.org/t/types-uniontype-was-merged-with-wrong-class-not-even-a-class/102275/30"&gt;decided not to revert&lt;/a&gt;,
+so full steam ahead with the
+&lt;a href="https://discuss.python.org/t/python-3-14-0rc3-is-go/103815"&gt;release&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fosstodon.org/@savannah"&gt;Savannah Ostrowski&lt;/a&gt;, release manager for 3.16 and
+3.17, &lt;a href="https://bsky.app/profile/savannah.dev/post/3lz4ek7aw6224"&gt;shadowed&lt;/a&gt; to see what
+the process looks like (not as bad as it looks like in
+&lt;a href="https://peps.python.org/pep-0101/"&gt;PEP 101&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Time for a couple of &lt;a href="https://github.com/python/release-tools/pull/280"&gt;quick&lt;/a&gt;
+&lt;a href="https://github.com/python/peps/pull/4596"&gt;PRs&lt;/a&gt; and an interview with
+&lt;a href="https://bsky.app/profile/pablogsal.com"&gt;Pablo Galindo Salgado&lt;/a&gt; and
+&lt;a href="https://mastodon.social/@ambv"&gt;Łukasz Langa&lt;/a&gt; on the
+&lt;a href="https://creators.spotify.com/pod/profile/corepy/episodes/Episode-26-1-CPython-Sprint-Week-in-Cambridge-UK--Part-1-e39jabg"&gt;core.py podcast&lt;/a&gt;,
+along with 29 others!&lt;/p&gt;
+&lt;p&gt;T-census:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://web.archive.org/web/20160419232557/http://ua.pycon.org/"&gt;PyCon UA&lt;/a&gt; 2016
+(Łukasz)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugovk.dev/blog/2025/python-core-sprint-2025/"&gt;Cambridge 2025 core sprint&lt;/a&gt;
+(Donghee)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.readthedocs.com/read-the-docs-2014-stats/"&gt;Read the Docs Budapest 2014&lt;/a&gt;
+(Petr)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://labs.quansight.org/"&gt;Quansight Labs&lt;/a&gt; &amp;ldquo;Sustaining the future of Open Source&amp;rdquo;
+hoodie (Lys)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_db71fd0b4dc1aad5.webp 330w,https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_ba4f8e6c59964997.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_e060491ac956352b.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_1c4b07adb79f1307.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="The 3.14 release room, two laptops on a table and the release CI build shown on a screen. The laptop with the &amp;ldquo;365 PARTYGIRL&amp;rdquo; sticker isn&amp;rsquo;t mine."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_f0eb1fd2c69b17bb.jpg" srcset="https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_534836e2e217cd53.jpg 330w,https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_f0eb1fd2c69b17bb.jpg 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_7c67b60d4f713f5c.jpg 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/release-room_hu_eda002b6eff3ba88.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;The 3.14.0rc3 release in progress&lt;/small&gt;&lt;/center&gt;
+&lt;h2 id="friday-highlights" class="relative group"&gt;Friday highlights &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#friday-highlights" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I went to Manchester to attend &lt;a href="https://2025.pyconuk.org/"&gt;PyCon UK&lt;/a&gt;! This also included
+a sprint, and Adam and I ran the CPython sprint. We had a big table full of contributors
+and a few made their very first contributions, which is always rewarding for all
+involved!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_e057d3dcd1885cca.webp 330w,https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_1e79ed12a0f0273.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_22dce97c5a751881.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_b9b3bcf692c0d01a.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="4000"
+ height="3000"
+ class="mx-auto my-0 rounded-md"
+ alt="Another roomful of people working at laptops around tables"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_7654b273c6ec0cd1.jpg" srcset="https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_5dad9d2cc6bbb9ea.jpg 330w,https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_7654b273c6ec0cd1.jpg 660w
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_36b53f62150fc72e.jpg 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/python-core-sprint/pycon-uk-sprint_hu_e340dd8f1a7f6fd7.jpg 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;small&gt;PyCon UK sprint&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;Some numbers for me during the week:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python release candidates released: 1&lt;/li&gt;
+&lt;li&gt;Issues created: 1&lt;/li&gt;
+&lt;li&gt;PRs created: 8&lt;/li&gt;
+&lt;li&gt;Issues closed: 7&lt;/li&gt;
+&lt;li&gt;PRs merged: 28&lt;/li&gt;
+&lt;li&gt;PRs closed: 1&lt;/li&gt;
+&lt;li&gt;Total issues involved with: 18&lt;/li&gt;
+&lt;li&gt;Total PRs involved with: 70&lt;/li&gt;
+&lt;li&gt;Repositories affected: 19&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="thank-you" class="relative group"&gt;Thank you &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thank-you" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Huge thanks to &lt;a href="https://bsky.app/profile/did:plc:4vk3ag3wqcgrcrl2ax3xzcxt"&gt;Diego Russo&lt;/a&gt;
+and &lt;a href="https://developer.arm.com/"&gt;Arm&lt;/a&gt; for arranging and hosting us. The core sprint is
+always a highlight of the year and an incredibly productive week.&lt;/p&gt;
+&lt;p&gt;Read writeups by
+&lt;a href="https://community.arm.com/arm-community-blogs/b/tools-software-ides-blog/posts/cpython-core-dev-sprint-2025-at-arm-cambridge-the-biggest-one-yet"&gt;Diego&lt;/a&gt;
+and
+&lt;a href="https://antocuni.eu/2025/09/24/tracing-jits-in-the-real-world--cpython-core-dev-sprint/"&gt;Antonio&lt;/a&gt;,
+and I recommend listening to Łukasz and Pablo&amp;rsquo;s core.py podcast for interviews with 18
+(&lt;a href="https://creators.spotify.com/pod/profile/corepy/episodes/Episode-26-1-CPython-Sprint-Week-in-Cambridge-UK--Part-1-e39jabg"&gt;part one&lt;/a&gt;)
+and 12 sprinters
+(&lt;a href="https://creators.spotify.com/pod/profile/corepy/episodes/Episode-26-2-CPython-Sprint-Week-in-Cambridge-UK--Part-2-e3a1hot"&gt;part two&lt;/a&gt;).
+They&amp;rsquo;re long, but it&amp;rsquo;s fascinating to hear all the different things everyone is working
+on.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Header photo by Arm&lt;/small&gt;&lt;/p&gt;</description></item><item><title>Python Core Sprint 2024</title><link>https://hugovk.dev/blog/2024/python-core-sprint/</link><pubDate>Sat, 05 Oct 2024 19:39:48 +0000</pubDate><guid>https://hugovk.dev/blog/2024/python-core-sprint/</guid><description>&lt;p&gt;🐍🏃The week before last was the annual Python Core Dev Sprint, graciously hosted by
 Meta in Bellevue, WA!&lt;/p&gt;
 &lt;p&gt;The idea: bring a bunch of Python core team members, triagers, and special guests to the
 same room for a week. It&amp;rsquo;s hugely beneficial and productive, we held many in-depth
