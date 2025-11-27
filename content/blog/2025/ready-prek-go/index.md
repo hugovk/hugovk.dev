@@ -117,7 +117,7 @@ Where:
 ---
 
 <small>Header photo:
-<a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/sdasmarchives/51500757435//">AH-1G
+<a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/sdasmarchives/51500757435/">AH-1G
 Aircraft Maintenance Test Flight Handbook and handwritten checklist for helicopters</a>
 in the
 <a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/sdasmarchives/">San
