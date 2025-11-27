@@ -166,8 +166,8 @@ a way of giving back to the open source community.
 ---
 
 <small>Header photo:
-[Slaymaker Barry Co. Sprocket Locks](https://archive.org/details/bearings1218951896cycl/page/n1077/mode/2up)
+[Slaymaker Barry Co. Sprocket Locks](https://archive.org/details/bearings1218951896cycl/page/n1161/mode/2up)
 in
-[The Bearings (vol. XII no. 1, 1st August 1895)](https://library.si.edu/digital-library/book/bearings)
+[The Bearings (vol. XII no. 23, 2nd January 1896)](https://library.si.edu/digital-library/book/bearings)
 in the [Smithsonian Libraries and Archives](https://library.si.edu/digital-library/),
 with [no known copyright restrictions](https://library.si.edu/copyright).</small>
