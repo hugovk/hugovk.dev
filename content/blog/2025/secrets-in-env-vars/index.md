@@ -3,8 +3,8 @@ title: "Setting secrets in env vars"
 date: "2025-11-27T12:55:00Z"
 tags: ["security", "1Password", "direnv", "cli"]
 featureAlt:
-  "An AH-1G Aircraft Maintenance Test Flight Handbook and handwritten checklist for
-  rotary wing helicopters from 1971-1972. Both handbooks are bound with metal rings."
+  "An 1895 magazine advert for The Slaymaker Barry Co. showing five padlocks with chunky
+  chains and the slogan: 'Bicycle Owners Like Them. Thieves Do Not."
 ---
 
 Sometimes you need to set environment variables with secrets, API keys or tokens, but
