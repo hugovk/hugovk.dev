@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in Python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Mon, 08 Dec 2025 19:50:58 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Steering Council election</title><link>https://hugovk.dev/blog/2025/steering-council-election/</link><pubDate>Mon, 08 Dec 2025 19:50:58 +0000</pubDate><guid>https://hugovk.dev/blog/2025/steering-council-election/</guid><description>&lt;p&gt;The Python Steering Council election is on!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in Python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 13 Dec 2025 14:40:12 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Steering Council results</title><link>https://hugovk.dev/blog/2025/steering-council-results/</link><pubDate>Sat, 13 Dec 2025 14:40:12 +0000</pubDate><guid>https://hugovk.dev/blog/2025/steering-council-results/</guid><description>&lt;p&gt;The &lt;a href="https://peps.python.org/pep-8107/"&gt;Python Steering Council 2026&lt;/a&gt; election
+&lt;a href="https://discuss.python.org/t/steering-council-election-results-2026-term/105296/?u=hugovk"&gt;results are in&lt;/a&gt;
+and congratulations to the new Python Steering Council!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://fosstodon.org/@flufl"&gt;Barry Warsaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fosstodon.org/@dongheena"&gt;Donghee Na&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bsky.app/profile/pablogsal.com"&gt;Pablo Galindo Salgado&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fosstodon.org/@savannah"&gt;Savannah Ostrowski&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://social.coop/@Yhg1s"&gt;Thomas Wouters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Welcome Savannah for the first time and thank you to
+&lt;a href="https://infosec.exchange/@gpshead"&gt;Greg Smith&lt;/a&gt; for four years&amp;rsquo; service.&lt;/p&gt;
+&lt;p&gt;Three are starting their sixth terms, and four members have been or are
+&lt;a href="https://devguide.python.org/versions/"&gt;release managers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://hugovk.github.io/python-steering-council/"&gt;chart above&lt;/a&gt; only covers the
+Steering Council years. Let&amp;rsquo;s also not forget Guido van Rossum&amp;rsquo;s
+&lt;a href="https://hugovk.github.io/python-steering-council/bdfl.html"&gt;BDFL years&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_bb8f587b03a0944f.webp 330w,https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_2405bae10334dd39.webp 660w
+ 
+ ,https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_203aeae8456100e0.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_8f4d101bbb897fd.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="2808"
+ height="1138"
+ class="mx-auto my-0 rounded-md"
+ alt="The same chart but including Guido&amp;rsquo;s 28 year stint as BDFL."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_2fca86368efa2b5a.png" srcset="https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_478fa7ef3fc5bfb4.png 330w,https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_2fca86368efa2b5a.png 660w
+ 
+ ,https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_fef95fa27b10b632.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2025/steering-council-results/bdfl_hu_82bb61311be2d91c.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;</description></item><item><title>Steering Council election</title><link>https://hugovk.dev/blog/2025/steering-council-election/</link><pubDate>Mon, 08 Dec 2025 19:50:58 +0000</pubDate><guid>https://hugovk.dev/blog/2025/steering-council-election/</guid><description>&lt;p&gt;The Python Steering Council election is on!&lt;/p&gt;
 &lt;p&gt;This year six candidates are running for the five seats. See
 &lt;a href="https://peps.python.org/pep-8107/"&gt;PEP 8107&lt;/a&gt; for links to their nomination statements
 and &lt;a href="https://peps.python.org/pep-0013/"&gt;PEP 13&lt;/a&gt; for more on Python language governance.&lt;/p&gt;
