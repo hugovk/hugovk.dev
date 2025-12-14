@@ -79,7 +79,14 @@ Steering Council years. Let&amp;rsquo;s also not forget Guido van Rossum&amp;rsq
 
 
 &lt;/figure&gt;
-&lt;/p&gt;</description></item><item><title>Steering Council election</title><link>https://hugovk.dev/blog/2025/steering-council-election/</link><pubDate>Mon, 08 Dec 2025 19:50:58 +0000</pubDate><guid>https://hugovk.dev/blog/2025/steering-council-election/</guid><description>&lt;p&gt;The Python Steering Council election is on!&lt;/p&gt;
+&lt;/p&gt;</description></item><item><title>Steering Council election</title><link>https://hugovk.dev/blog/2025/steering-council-election/</link><pubDate>Mon, 08 Dec 2025 19:50:58 +0000</pubDate><guid>https://hugovk.dev/blog/2025/steering-council-election/</guid><description>&lt;div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900"&gt;
+ &lt;span class="pe-3 text-primary-400"&gt;
+ 
+ &lt;/span&gt;
+ &lt;span class="dark:text-neutral-300"&gt;&lt;strong&gt;🗳️ Update:&lt;/strong&gt; See the &lt;a href="../steering-council-results/"&gt;results&lt;/a&gt;!&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Python Steering Council election is on!&lt;/p&gt;
 &lt;p&gt;This year six candidates are running for the five seats. See
 &lt;a href="https://peps.python.org/pep-8107/"&gt;PEP 8107&lt;/a&gt; for links to their nomination statements
 and &lt;a href="https://peps.python.org/pep-0013/"&gt;PEP 13&lt;/a&gt; for more on Python language governance.&lt;/p&gt;
