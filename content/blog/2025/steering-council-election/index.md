@@ -10,6 +10,9 @@ featureAlt: "9 nominations in 2019, 4 within 8-15 days, the rest within 2 days.
 2025: 6 nominations, spread out within 10 days."
 ---
 
+{{< alert " " >}} **🗳️ Update:** See the [results](../steering-council-results/)!
+{{< /alert >}}
+
 The Python Steering Council election is on!
 
 This year six candidates are running for the five seats. See
