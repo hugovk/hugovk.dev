@@ -11,10 +11,10 @@ The [Python Steering Council 2026](https://peps.python.org/pep-8107/) election
 [results are in](https://discuss.python.org/t/steering-council-election-results-2026-term/105296/?u=hugovk)
 and congratulations to the new Python Steering Council!
 
-- [Barry Warsaw](https://fosstodon.org/@flufl)
-- [Donghee Na](https://fosstodon.org/@dongheena)
-- [Pablo Galindo Salgado](https://bsky.app/profile/pablogsal.com)
-- [Savannah Ostrowski](https://fosstodon.org/@savannah)
+- [Barry Warsaw](https://bsky.app/profile/pumpichank.bsky.social/post/3m7vgyr7q5s23)
+- [Donghee Na](https://bsky.app/profile/corona10.bsky.social/post/3m7uuvphz3c2j)
+- [Pablo Galindo Salgado](https://bsky.app/profile/pablogsal.com/post/3m7uyldewf22p)
+- [Savannah Ostrowski](https://fosstodon.org/@savannah/115712735914446109)
 - [Thomas Wouters](https://social.coop/@Yhg1s)
 
 Welcome Savannah for the first time, and thank you to
