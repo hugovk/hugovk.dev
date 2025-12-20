@@ -24,10 +24,14 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Get Hugo version
+        id: hugo-version
+        run: echo "version=$(cat .hugo-version)" >> "$GITHUB_OUTPUT"
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          hugo-version: ${{ steps.hugo-version.outputs.version }}
           extended: true
 
       - name: Build
