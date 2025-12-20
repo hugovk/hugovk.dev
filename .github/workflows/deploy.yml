@@ -1,12 +1,8 @@
 name: Deploy
 
-on:
-  push:
-    branches:
-      - main
+on: [push, pull_request, workflow_dispatch]
 
-permissions:
-  contents: write
+permissions: {}
 
 env:
   FORCE_COLOR: 1
@@ -16,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
