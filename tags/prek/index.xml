@@ -44,10 +44,10 @@ which installs hooks from 14 repos:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;❯ hyperfine &lt;span class="se"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;--prepare &lt;span class="s1"&gt;&amp;#39;rm -rf ~/.cache/prek/ &amp;amp;&amp;amp; rm -rf ~/.cache/pre-commit &amp;amp;&amp;amp; rm -rf ~/.cache/uv&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;--setup &lt;span class="s1"&gt;&amp;#39;prek --version &amp;amp;&amp;amp; pre-commit --version&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;prek install-hooks&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="se"&gt;&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pre-commit install-hooks&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;--prepare &lt;span class="s1"&gt;&amp;#39;rm -rf ~/.cache/prek/ &amp;amp;&amp;amp; rm -rf ~/.cache/pre-commit &amp;amp;&amp;amp; rm -rf ~/.cache/uv&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;--setup &lt;span class="s1"&gt;&amp;#39;prek --version &amp;amp;&amp;amp; pre-commit --version&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s1"&gt;&amp;#39;prek install-hooks&amp;#39;&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s1"&gt;&amp;#39;pre-commit install-hooks&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="results" class="relative group"&gt;Results &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#results" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;

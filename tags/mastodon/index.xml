@@ -1608,7 +1608,7 @@ to me.&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code class="language-cron" data-lang="cron"&gt;0 */6 * * * /home/botuser/bin/scheduled/0000-06-repeat.sh &amp;gt; /tmp/logs/0000-06-repeat.log
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Where &lt;code&gt;0000-06-repeat.sh&lt;/code&gt; contains:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#!/bin/bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&lt;/span&gt;&lt;span class="c1"&gt;#set -e&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#set -e&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;mkdir -p /tmp/logs/
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
