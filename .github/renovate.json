@@ -1,23 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    ":semanticCommitsDisabled"
-  ],
-  "labels": [
-    "changelog: skip",
-    "dependencies"
-  ],
+  "extends": ["config:recommended", ":semanticCommitsDisabled"],
+  "labels": ["changelog: skip", "dependencies"],
   "minimumReleaseAge": "7 days",
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": [
-        "/^\\.hugo-version$/"
-      ],
-      "matchStrings": [
-        "(?<currentValue>\\d+\\.\\d+\\.\\d+)"
-      ],
+      "managerFilePatterns": ["/^\\.hugo-version$/"],
+      "matchStrings": ["(?<currentValue>\\d+\\.\\d+\\.\\d+)"],
       "depNameTemplate": "gohugoio/hugo",
       "datasourceTemplate": "github-releases",
       "extractVersionTemplate": "^v(?<version>.*)$"
@@ -26,19 +16,13 @@
   "packageRules": [
     {
       "groupName": "github-actions",
-      "matchManagers": [
-        "github-actions"
-      ],
+      "matchManagers": ["github-actions"],
       "separateMajorMinor": false
     },
     {
       "groupName": "go",
-      "matchManagers": [
-        "gomod"
-      ]
+      "matchManagers": ["gomod"]
     }
   ],
-  "schedule": [
-    "on the first day of the month"
-  ]
+  "schedule": ["on the first day of the month"]
 }
