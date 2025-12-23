@@ -56,3 +56,9 @@ a {
 .prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
   content: none;
 }
+
+/* Wrap long unbroken strings like lots of pi */
+.prose p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
