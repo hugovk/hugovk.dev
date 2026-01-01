@@ -206,13 +206,13 @@ great way to combine similar test functions with different input data.&lt;/span&
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_f2ef93612c483eee.webp 330w,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_53301836a4ad6926.webp 660w
+ srcset="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_bc400a05d72e8144.webp 330w,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_f31ff28b88fadcc3.webp 660w
  
- ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_3eb23e09e7ef99bb.webp 1024w
+ ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_3b6766957c9cd7fd.webp 1024w
  
  
  
- ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_58804642f53fc4ec.webp 1290w
+ ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_5c396df3c22389e8.webp 1290w
  
  "
  
@@ -227,9 +227,9 @@ great way to combine similar test functions with different input data.&lt;/span&
  alt="The same code, but Codecov has flagged the last two lines were not covered"
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_be71052f8b6d19bd.png" srcset="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_6f138772bb8012ab.png 330w,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_be71052f8b6d19bd.png 660w
+ src="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_4e6b566be4276c38.png" srcset="https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_860efdeee832f948.png 330w,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_4e6b566be4276c38.png 660w
  
- ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_ea598a8acbde17f.png 1024w
+ ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage_hu_a7b7dce21898e4e6.png 1024w
  
  
  ,https://hugovk.dev/blog/2025/run-coverage-on-tests/coverage.png 1290w
