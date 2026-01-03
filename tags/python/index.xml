@@ -1,4 +1,344 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Mon, 29 Dec 2025 16:53:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Replacing python-dateutil to remove six</title><link>https://hugovk.dev/blog/2025/minus-six/</link><pubDate>Mon, 29 Dec 2025 16:53:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/minus-six/</guid><description>&lt;p&gt;The dateutil library is a popular and powerful Python library for dealing with dates and
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in Python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Sat, 03 Jan 2026 14:06:51 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Localising xkcd</title><link>https://hugovk.dev/blog/2026/localising-xkcd/</link><pubDate>Sat, 03 Jan 2026 14:06:51 +0000</pubDate><guid>https://hugovk.dev/blog/2026/localising-xkcd/</guid><description>&lt;p&gt;I gave a lightning talk at a bunch of conferences in 2025 about some of the exciting new
+things coming in &lt;a href="https://hugovk.dev/blog/2025/and-now/"&gt;Python 3.14&lt;/a&gt;, including
+&lt;a href="https://t-strings.help/"&gt;template strings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One thing we can use t-strings for is to prevent SQL injection. The user gives you an
+untrusted T-string, and you can sanitise it, before using it in a safer way.&lt;/p&gt;
+&lt;p&gt;I illustrated this with &lt;a href="https://xkcd.com/327/"&gt;xkcd 327&lt;/a&gt;, titled &amp;ldquo;Exploits of a Mom&amp;rdquo;,
+but commonly known as &amp;ldquo;Little Bobby Tables&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;I localised most of the slides for the PyCon I was at, including this comic. Here they
+are!&lt;/p&gt;
+&lt;h2 id="pycon-italia" class="relative group"&gt;PyCon Italia &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pycon-italia" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;May, Bologna&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_995e2f2e16770508.webp 330w,https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_6a9e2dccbb28c515.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_28f444017a20f626.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_e5d7409854dfeb32.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1480"
+ height="455"
+ class="mx-auto my-0 rounded-md"
+ alt="Did you really name your son Roberto&amp;rsquo;); DROP TABLE Students;&amp;ndash; ? Oh, yes. Piccolo Berto Tables, we call him."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_f37ee9781ddd6c04.png" srcset="https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_1fe19a9843221c5f.png 330w,https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_f37ee9781ddd6c04.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_983cee40d8a7df8a.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/italia_hu_636e648764ba49c0.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="pycon-greece" class="relative group"&gt;PyCon Greece &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pycon-greece" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;August, Athens&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_b998c56a680f1740.webp 330w,https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_dd21f49cc0d5fcc3.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_a6fa45b89775c954.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_f7a86970f8e419a5.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1480"
+ height="455"
+ class="mx-auto my-0 rounded-md"
+ alt="Did you really name your son Κωνσταντίνος&amp;rsquo;); DROP TABLE Students;&amp;ndash; ? Oh, yes. Μικρός Ντίνος Tables, we call him."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_d3cd5d4db080600e.png" srcset="https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_864b681980aacf4b.png 330w,https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_d3cd5d4db080600e.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_e5f987a1869d3d8.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/greece_hu_df9734df0a3b8cf2.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="pycon-estonia" class="relative group"&gt;PyCon Estonia &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pycon-estonia" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;October, Tallinn&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_66f79b383f76eb90.webp 330w,https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_e2f5c29c9147d2c6.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_9ec1ae1dbd122955.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_1f02e918756eeb05.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1480"
+ height="456"
+ class="mx-auto my-0 rounded-md"
+ alt="Did you really name your son Raivo&amp;rsquo;); DROP TABLE Students;&amp;ndash; ? Oh, yes. Pisikene Tables, we call him."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_c96a282ef803f3a2.png" srcset="https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_18f7b90a95d0855f.png 330w,https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_c96a282ef803f3a2.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_6d311c9260c8fca5.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/estonia_hu_c0d9cd8c668d3add.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="pycon-finland" class="relative group"&gt;PyCon Finland &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pycon-finland" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;October, Jyväskylä&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_318aa6666404e224.webp 330w,https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_b8bbc612292d722f.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_c514fb93cbf48753.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_f846147908bd5e4f.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1480"
+ height="456"
+ class="mx-auto my-0 rounded-md"
+ alt="Did you really name your son Juhani&amp;rsquo;); DROP TABLE Students;&amp;ndash; ? Oh, yes. Pikku Jussi, we call him."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_daf02ba348f2e3a7.png" srcset="https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_88df9802a4cddf44.png 330w,https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_daf02ba348f2e3a7.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_d85823f003af379b.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/finland_hu_e0daf49d92b129d2.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="pycon-sweden" class="relative group"&gt;PyCon Sweden &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pycon-sweden" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;October, Stockholm&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_ed3f2f550a46718.webp 330w,https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_cfab5fa00c7f24db.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_c69d817d779ef38e.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_3a53e97ac889d9cb.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1480"
+ height="456"
+ class="mx-auto my-0 rounded-md"
+ alt="Did you really name your son Oskar&amp;rsquo;); DROP TABLE Students;&amp;ndash; ? Oh, yes. Lille Ogge Bord, we call him."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_d1bc0862c613bdf0.png" srcset="https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_dd6bb05b88dd2994.png 330w,https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_d1bc0862c613bdf0.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_b169ef5e792c325d.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/localising-xkcd/sweden_hu_1940d36e84c40c54.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="thanks" class="relative group"&gt;Thanks &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thanks" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Thanks to Randall Munroe for licensing the comic under a
+&lt;a href="https://creativecommons.org/licenses/by-nc/2.5/"&gt;Creative Commons Attribution-NonCommercial 2.5 License&lt;/a&gt;.
+These adaptations are therefore licensed the same way.&lt;/p&gt;
+&lt;p&gt;Finally, here&amp;rsquo;s links for 2026, I recommend them all:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://2026.pycon.it/en"&gt;PyCon Italia, 27-30 May&lt;/a&gt;: the
+&lt;a href="https://2026.pycon.it/en/call-for-proposals"&gt;CFP&lt;/a&gt; is open until 6th January&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pycon.ee/"&gt;PyCon Estonia, 8-9 October&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://2026.pycon.gr/"&gt;PyCon Greece, 12-13 October&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pycon.se/"&gt;PyCon Sweden, TBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fi.pycon.org/"&gt;PyCon Finland, TBA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Replacing python-dateutil to remove six</title><link>https://hugovk.dev/blog/2025/minus-six/</link><pubDate>Mon, 29 Dec 2025 16:53:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/minus-six/</guid><description>&lt;p&gt;The dateutil library is a popular and powerful Python library for dealing with dates and
 times.&lt;/p&gt;
 &lt;p&gt;However, it still supports Python 2.7 by
 &lt;a href="https://sethmlarson.dev/winning-a-bet-about-six-the-python-2-compatibility-shim"&gt;depending on the six compatibility shim&lt;/a&gt;,
