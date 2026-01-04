@@ -2,7 +2,7 @@
 things coming in &lt;a href="https://hugovk.dev/blog/2025/and-now/"&gt;Python 3.14&lt;/a&gt;, including
 &lt;a href="https://t-strings.help/"&gt;template strings&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;One thing we can use t-strings for is to prevent SQL injection. The user gives you an
-untrusted T-string, and you can sanitise it, before using it in a safer way.&lt;/p&gt;
+untrusted t-string, and you can sanitise it, before using it in a safer way.&lt;/p&gt;
 &lt;p&gt;I illustrated this with &lt;a href="https://xkcd.com/327/"&gt;xkcd 327&lt;/a&gt;, titled &amp;ldquo;Exploits of a Mom&amp;rdquo;,
 but commonly known as &amp;ldquo;Little Bobby Tables&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;I localised most of the slides for the PyCon I was at, including this comic. Here they
