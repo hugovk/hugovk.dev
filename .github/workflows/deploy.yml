@@ -32,6 +32,14 @@ jobs:
           hugo-version: ${{ steps.hugo-version.outputs.version }}
           extended: true
 
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: hugo-resources-${{ hashFiles('content/**') }}
+          restore-keys: |
+            hugo-resources-
+
       - name: Build
         run: hugo --minify
 
