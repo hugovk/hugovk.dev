@@ -6,6 +6,7 @@ permissions: {}
 
 env:
   FORCE_COLOR: 1
+  HUGO_CACHEDIR: /tmp/hugo_cache
 
 jobs:
   build-deploy:
@@ -35,10 +36,12 @@ jobs:
       - name: Cache Hugo resources
         uses: actions/cache@v4
         with:
-          path: resources/_gen
-          key: hugo-resources-${{ hashFiles('content/**') }}
+          path: |
+            resources/_gen
+            /tmp/hugo_cache
+          key: hugo-${{ hashFiles('content/**', 'go.sum') }}
           restore-keys: |
-            hugo-resources-
+            hugo-
 
       - name: Build
         run: hugo --minify
