@@ -915,6 +915,20 @@ need to do this when editing &lt;code&gt;.envrc&lt;/code&gt; later:&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="bonus" class="relative group"&gt;Bonus &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#bonus" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;1Password offers
 &lt;a href="https://github.com/1Password/for-open-source"&gt;Team accounts to open-source projects&lt;/a&gt; as
 a way of giving back to the open source community.&lt;/p&gt;
+&lt;h2 id="update" class="relative group"&gt;Update &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#update" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;2026-01-11:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;See how &lt;a href="https://hachyderm.io/@nedbat/115621970327022883"&gt;Ned Batchelder&lt;/a&gt; explicitly
+&lt;a href="https://github.com/nedbat/dotfiles/blob/main/dot_config/shellrc/opvars.sh"&gt;sets and unsets env vars&lt;/a&gt;,
+and updates the prompt and window title to make it clear they&amp;rsquo;re active.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;See how &lt;a href="https://mstdn.social/@miguelgrinberg/115718649906994917"&gt;Miguel Grinberg&lt;/a&gt;
+uses
+&lt;a href="https://blog.miguelgrinberg.com/post/how-to-securely-store-secrets-in-environment-variables"&gt;process substitution&lt;/a&gt;
+to limit access to secrets from Bash scripts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;small&gt;Header photo:
 &lt;a href="https://archive.org/details/bearings1218951896cycl/page/n1161/mode/2up"&gt;Slaymaker Barry Co. Sprocket Locks&lt;/a&gt;
