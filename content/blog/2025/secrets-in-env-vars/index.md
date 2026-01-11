@@ -163,6 +163,19 @@ nope
 [Team accounts to open-source projects](https://github.com/1Password/for-open-source) as
 a way of giving back to the open source community.
 
+## Update
+
+2026-01-11:
+
+- See how [Ned Batchelder](https://hachyderm.io/@nedbat/115621970327022883) explicitly
+  [sets and unsets env vars](https://github.com/nedbat/dotfiles/blob/main/dot_config/shellrc/opvars.sh),
+  and updates the prompt and window title to make it clear they're active.
+
+- See how [Miguel Grinberg](https://mstdn.social/@miguelgrinberg/115718649906994917)
+  uses
+  [process substitution](https://blog.miguelgrinberg.com/post/how-to-securely-store-secrets-in-environment-variables)
+  to limit access to secrets from Bash scripts.
+
 ---
 
 <small>Header photo:
