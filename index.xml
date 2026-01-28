@@ -122,7 +122,7 @@ and &lt;code&gt;JpegImagePlugin&lt;/code&gt; (hover over the &lt;code&gt;&amp;lt
 &lt;code&gt;WebpImagePlugin&lt;/code&gt;, &lt;code&gt;DcxImagePlugin&lt;/code&gt;, &lt;code&gt;DdsImagePlugin&lt;/code&gt; and &lt;code&gt;PalmImagePlugin&lt;/code&gt;. We also
 have &lt;code&gt;preinit&lt;/code&gt; importing &lt;code&gt;GifImagePlugin&lt;/code&gt;, &lt;code&gt;BmpImagePlugin&lt;/code&gt; and &lt;code&gt;PngImagePlugin&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Again, why import &lt;em&gt;even more&lt;/em&gt; plugins when we only care about WebP?&lt;/p&gt;
-&lt;h2 id="preinit--init" class="relative group"&gt;&lt;code&gt;preinit&lt;/code&gt; + &lt;code&gt;init&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#preinit--init" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s enough profiling, let&amp;rsquo;s look at the code.&lt;/p&gt;
+&lt;h2 id="loading-all-the-plugins" class="relative group"&gt;Loading all the plugins? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#loading-all-the-plugins" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s enough profiling, let&amp;rsquo;s look at the code.&lt;/p&gt;
 &lt;p&gt;When
 &lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/Image.py#L3525"&gt;&lt;code&gt;open()&lt;/code&gt;&lt;/a&gt;ing
 or
