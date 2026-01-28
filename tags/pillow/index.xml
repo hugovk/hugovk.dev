@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pillow on Hugo van Kemenade</title><link>https://hugovk.dev/tags/pillow/</link><description>Recent content in pillow on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 28 Jan 2026 10:29:04 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/pillow/index.xml" rel="self" type="application/rss+xml"/><item><title>Speeding up Pillow's open and save</title><link>https://hugovk.dev/blog/2026/faster-pillow/</link><pubDate>Wed, 28 Jan 2026 10:29:04 +0000</pubDate><guid>https://hugovk.dev/blog/2026/faster-pillow/</guid><description>&lt;h2 id="tachyon" class="relative group"&gt;Tachyon &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tachyon" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I tried out
+&lt;a href="https://docs.python.org/3.15/whatsnew/3.15.html#whatsnew315-sampling-profiler"&gt;Tachyon&lt;/a&gt;,
+the new &amp;ldquo;high-frequency statistical sampling profiler&amp;rdquo; coming in
+&lt;a href="https://www.python.org/downloads/latest/python3.15/"&gt;Python 3.15&lt;/a&gt;, to see if we can
+speed up the Pillow imaging library. I started with a simple script to open an image:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;PIL&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Image&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;im&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Image&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Tests/images/hopper.&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then ran:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gp"&gt;$&lt;/span&gt; python3.15 -m profiling.sampling run --flamegraph /tmp/1.py png
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Captured 35 samples in 0.04 seconds
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Sample rate: 1,000.00 samples/sec
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Error rate: 25.71
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Flamegraph data: 1 root functions, total samples: 26, 169 unique strings
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Flamegraph saved to: flamegraph_97927.html
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Which generates this flame graph:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="mx-auto my-0 rounded-md" &gt;
+ &lt;img
+ src="https://hugovk.dev/blog/2026/faster-pillow/flamegraph-png.svg"
+ width="1158"
+ height="620"
+ class="mx-auto my-0 rounded-md"
+ alt="Flame graph for opening a PNG with Pillow"
+ loading="lazy" decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The whole thing took 40 milliseconds, with half in &lt;code&gt;Image.py&lt;/code&gt;&amp;rsquo;s &lt;code&gt;open()&lt;/code&gt;. If you visit
+the &lt;a href="flamegraph_97927.html"&gt;interactive HTML page&lt;/a&gt; we can see &lt;code&gt;open()&lt;/code&gt; calls
+&lt;code&gt;preinit()&lt;/code&gt;, which in turn imports &lt;code&gt;GifImagePlugin&lt;/code&gt;, &lt;code&gt;BmpImagePlugin&lt;/code&gt;, &lt;code&gt;PngImagePlugin&lt;/code&gt;
+and &lt;code&gt;JpegImagePlugin&lt;/code&gt; (hover over the &lt;code&gt;&amp;lt;module&amp;gt;&lt;/code&gt; boxes to see them).&lt;/p&gt;
+&lt;p&gt;Do we really need to import all those plugins when we&amp;rsquo;re only interested in PNG?&lt;/p&gt;
+&lt;p&gt;Okay, let&amp;rsquo;s try another kind of image:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gp"&gt;$&lt;/span&gt; python3.15 -m profiling.sampling run --flamegraph /tmp/1.py webp
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Captured 59 samples in 0.06 seconds
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Sample rate: 1,000.00 samples/sec
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Error rate: 22.03
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Flamegraph data: 1 root functions, total samples: 46, 256 unique strings
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Flamegraph saved to: flamegraph_98028.html
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="mx-auto my-0 rounded-md" &gt;
+ &lt;img
+ src="https://hugovk.dev/blog/2026/faster-pillow/flamegraph-webp.svg"
+ width="1158"
+ height="620"
+ class="mx-auto my-0 rounded-md"
+ alt="Flame graph for opening a WebP with Pillow"
+ loading="lazy" decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hmm, 60 milliseconds with 80% in &lt;code&gt;open()&lt;/code&gt; and most of that in &lt;code&gt;init()&lt;/code&gt;. The
+&lt;a href="flamegraph_98028.html"&gt;HTML page&lt;/a&gt; shows it imports &lt;code&gt;AvifImagePlugin&lt;/code&gt;, &lt;code&gt;PdfImagePlugin&lt;/code&gt;,
+&lt;code&gt;WebpImagePlugin&lt;/code&gt;, &lt;code&gt;DcxImagePlugin&lt;/code&gt;, &lt;code&gt;DdsImagePlugin&lt;/code&gt; and &lt;code&gt;PalmImagePlugin&lt;/code&gt;. We also
+have &lt;code&gt;preinit&lt;/code&gt; importing &lt;code&gt;GifImagePlugin&lt;/code&gt;, &lt;code&gt;BmpImagePlugin&lt;/code&gt; and &lt;code&gt;PngImagePlugin&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Again, why import &lt;em&gt;even more&lt;/em&gt; plugins when we only care about WebP?&lt;/p&gt;
+&lt;h2 id="preinit--init" class="relative group"&gt;&lt;code&gt;preinit&lt;/code&gt; + &lt;code&gt;init&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#preinit--init" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s enough profiling, let&amp;rsquo;s look at the code.&lt;/p&gt;
+&lt;p&gt;When
+&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/Image.py#L3525"&gt;&lt;code&gt;open()&lt;/code&gt;&lt;/a&gt;ing
+or
+&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/Image.py#L2536"&gt;&lt;code&gt;save()&lt;/code&gt;&lt;/a&gt;ing
+an image, if Pillow isn&amp;rsquo;t yet initialised, we call a
+&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/Image.py#L327-L369"&gt;&lt;code&gt;preinit()&lt;/code&gt;&lt;/a&gt;
+function. This loads five drivers for five formats by importing their plugins: BMP, GIF,
+JPEG, PPM and PNG.&lt;/p&gt;
+&lt;p&gt;During import, each plugin
+&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/GifImagePlugin.py#L1204-L1211"&gt;registers&lt;/a&gt;
+its file extensions, MIME types and some methods used for opening and saving.&lt;/p&gt;
+&lt;p&gt;Then we check each of these plugins in turn to see if one will accept the image. Most of
+Pillow&amp;rsquo;s plugins detect an image by opening the file and checking if the first few bytes
+match a magic prefix. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/GifImagePlugin.py#L73-L74"&gt;GIF&lt;/a&gt;
+starts with &lt;code&gt;b&amp;quot;GIF87a&amp;quot;&lt;/code&gt; or &lt;code&gt;b&amp;quot;GIF89a&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/PngImagePlugin.py#L66"&gt;PNG&lt;/a&gt;
+starts with &lt;code&gt;b&amp;quot;\211PNG\r\n\032\n&amp;quot;&lt;/code&gt;
+(&lt;a href="https://www.w3.org/TR/PNG-Rationale.html#R.PNG-file-signature"&gt;reference&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/JpegImagePlugin.py#L334-L336"&gt;JPEG&lt;/a&gt;
+starts with &lt;code&gt;b&amp;quot;\xff\xd8\xff&amp;quot;&lt;/code&gt;, where &lt;code&gt;\xff\xd8&lt;/code&gt; means &amp;ldquo;Start of Image&amp;rdquo;, and &lt;code&gt;\xff&lt;/code&gt; is
+the start of the next marker
+(&lt;a href="https://en.wikipedia.org/wiki/JPEG#Syntax_and_structure"&gt;reference&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If none of these five match, we call
+&lt;a href="https://github.com/python-pillow/Pillow/blob/12.1.0/src/PIL/Image.py#L372-L396"&gt;&lt;code&gt;init()&lt;/code&gt;&lt;/a&gt;,
+which imports the remaining 42 plugins. We then check each of these for a match.&lt;/p&gt;
+&lt;p&gt;This has been the case since at least
+&lt;a href="https://github.com/hugovk/pil-svn.effbot.org/blame/master/PIL/Image.py#L290"&gt;PIL 1.1.1&lt;/a&gt;
+released in 2000 (this is the oldest version I have to check). There were 33 builtin
+plugins then and 47 now.&lt;/p&gt;
+&lt;h2 id="lazy-loading" class="relative group"&gt;Lazy loading &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#lazy-loading" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This is all a bit wasteful if we only need one or two image formats during a program&amp;rsquo;s
+lifetime, especially for things like CLIs. Longer running programs may need a few more,
+but unlikely all 47.&lt;/p&gt;
+&lt;p&gt;A benefit of the plugin system is third parties can
+&lt;a href="https://pillow.readthedocs.io/en/stable/handbook/third-party-plugins.html"&gt;create their own plugins&lt;/a&gt;,
+but we can be more efficient with our builtins.&lt;/p&gt;
+&lt;p&gt;I opened a &lt;a href="https://github.com/python-pillow/Pillow/pull/9398"&gt;PR&lt;/a&gt; to add a mapping of
+file extensions to plugins. Before calling &lt;code&gt;preinit()&lt;/code&gt; or &lt;code&gt;init()&lt;/code&gt;, we can instead do a
+cheap lookup, which may save us importing, registering, and checking all those plugins.&lt;/p&gt;
+&lt;p&gt;Of course, we may have an image without an extension, or with the &amp;ldquo;wrong&amp;rdquo; extension, but
+that&amp;rsquo;s fine; I expect it&amp;rsquo;s rare and anyway we&amp;rsquo;ll fall back to the original &lt;code&gt;preinit()&lt;/code&gt;
+-&amp;gt; &lt;code&gt;init()&lt;/code&gt; flow.&lt;/p&gt;
+&lt;p&gt;After merging the PR, here&amp;rsquo;s a new flame graph for opening PNG
+(&lt;a href="flamegraph_27477.html"&gt;HTML page&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="mx-auto my-0 rounded-md" &gt;
+ &lt;img
+ src="https://hugovk.dev/blog/2026/faster-pillow/flamegraph-png2.svg"
+ width="1158"
+ height="580"
+ class="mx-auto my-0 rounded-md"
+ alt="Much less compressed flame graph showing less work"
+ loading="lazy" decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;And for WebP (&lt;a href="flamegraph_26821.html"&gt;HTML page&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="mx-auto my-0 rounded-md" &gt;
+ &lt;img
+ src="https://hugovk.dev/blog/2026/faster-pillow/flamegraph-webp2.svg"
+ width="1158"
+ height="420"
+ class="mx-auto my-0 rounded-md"
+ alt="Much less compressed for WebP"
+ loading="lazy" decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The flame graphs are scaled to the same width, but there&amp;rsquo;s far fewer boxes meaning
+there&amp;rsquo;s much less work now. We&amp;rsquo;re down from 40 and 60 milliseconds to 20 and 20
+milliseconds.&lt;/p&gt;
+&lt;p&gt;The PR has a bunch of benchmarks which show opening a PNG (that previously loaded five
+plugins) is now 2.6 times faster. Opening a WebP (that previously loaded all 47
+plugins), is now 14 times faster. Similarly, Saving PNG is improved by 2.2 times and
+WebP by 7.9 times. Success! This will be in Pillow 12.2.0.&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Henry Schreiner on
+&lt;a href="https://iscinumpy.dev/post/packaging-faster/"&gt;making packaging faster&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Adam Johnson&amp;rsquo;s &lt;a href="https://adamj.eu/tech/2026/01/14/python-introducing-tprof/"&gt;tprof&lt;/a&gt; is
+another new tool which is useful for things like this.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
