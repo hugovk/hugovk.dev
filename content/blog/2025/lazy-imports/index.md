@@ -10,6 +10,7 @@ tags:
     "hyperfine",
     "pypistats",
     "pipdeptree",
+    "performance",
   ]
 featureAlt: "A fishing rod with a bell on it propped up over water"
 ---
