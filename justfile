@@ -1,3 +1,9 @@
+# Show all available recipes
+help:
+    @just --list
+
+@_default: help
+
 # Create a new blog post
 new title:
     #!/usr/bin/env bash
