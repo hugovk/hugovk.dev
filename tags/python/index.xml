@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 28 Jan 2026 10:29:04 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Speeding up Pillow's open and save</title><link>https://hugovk.dev/blog/2026/faster-pillow/</link><pubDate>Wed, 28 Jan 2026 10:29:04 +0000</pubDate><guid>https://hugovk.dev/blog/2026/faster-pillow/</guid><description>&lt;h2 id="tachyon" class="relative group"&gt;Tachyon &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tachyon" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I tried out
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 18 Feb 2026 13:35:25 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>A CLI to fight GitHub spam</title><link>https://hugovk.dev/blog/2026/gh-triage/</link><pubDate>Wed, 18 Feb 2026 13:35:25 +0000</pubDate><guid>https://hugovk.dev/blog/2026/gh-triage/</guid><description>&lt;h2 id="gh-triage-spam" class="relative group"&gt;&lt;code&gt;gh triage spam&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#gh-triage-spam" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://github.com/python/cpython/issues?q=sort%3Aupdated-desc%20state%3Aclosed%20label%3Ainvalid"&gt;We&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/issues/144900"&gt;get&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/issues/144899"&gt;a&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/pull/144806"&gt;lot&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/issues/144671"&gt;of&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/issues/144654"&gt;spam&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/issues/144468"&gt;in&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/pull/144352"&gt;the&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/issues/144344"&gt;CPython&lt;/a&gt;
+&lt;a href="https://github.com/python/cpython/issues/144296"&gt;project&lt;/a&gt;&lt;a href="https://github.com/python/cpython/issues/144275"&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A lot of it isn&amp;rsquo;t even &lt;a href="https://en.wiktionary.org/wiki/AI_slop#English"&gt;slop&lt;/a&gt;, but
+mostly worthless &amp;ldquo;nothing&amp;rdquo; issues and PRs that barely fill in the issue template, or add
+a line of nonsense to some arbitrary file.&lt;/p&gt;
+&lt;p&gt;They&amp;rsquo;re often from new accounts with usernames like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;za9066559-wq&lt;/li&gt;
+&lt;li&gt;quanghuynh10111-png&lt;/li&gt;
+&lt;li&gt;riffocristobal579-cmd&lt;/li&gt;
+&lt;li&gt;sajjad5giot&lt;/li&gt;
+&lt;li&gt;satyamchoudhary1430-boop&lt;/li&gt;
+&lt;li&gt;SilaMey&lt;/li&gt;
+&lt;li&gt;standaell1234-maker&lt;/li&gt;
+&lt;li&gt;eedamhmd2005-ui&lt;/li&gt;
+&lt;li&gt;ksdmyanmar-lighter&lt;/li&gt;
+&lt;li&gt;experments-studios&lt;/li&gt;
+&lt;li&gt;madurangarathanayaka5-art&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A new issue from a username following the pattern &lt;code&gt;nameNNNN-short_suffix&lt;/code&gt; is a dead
+giveaway. I think they&amp;rsquo;re trying to farm &amp;ldquo;realistic&amp;rdquo; accounts: open a PR, open an issue,
+comment on something, make a fake review.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s easy but tedious to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;close the PR/issue as not planned&lt;/li&gt;
+&lt;li&gt;retitle to &amp;ldquo;spam&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;apply the &amp;ldquo;invalid&amp;rdquo; label&lt;/li&gt;
+&lt;li&gt;remove other labels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I use the GitHub CLI &lt;code&gt;gh&lt;/code&gt; a lot (for example, &lt;code&gt;gh co NNN&lt;/code&gt; to check out a PR locally),
+and it&amp;rsquo;s straightforward to write your own Python-based extensions, so I wrote
+&lt;a href="https://github.com/hugovk/gh-triage"&gt;&lt;code&gt;gh triage&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Install:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gp"&gt;$&lt;/span&gt; gh extension install hugovk/gh-triage
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Cloning into &amp;#39;/Users/hugo/.local/share/gh/extensions/gh-triage&amp;#39;...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;remote: Enumerating objects: 15, done.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;remote: Counting objects: 100% (15/15), done.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;remote: Compressing objects: 100% (13/13), done.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;remote: Total 15 (delta 5), reused 12 (delta 2), pack-reused 0 (from 0)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Receiving objects: 100% (15/15), 5.09 KiB | 5.09 MiB/s, done.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;Resolving deltas: 100% (5/5), done.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;✓ Installed extension hugovk/gh-triage
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then run like &lt;code&gt;gh triage spam &amp;lt;issue-or-pr-number-or-url&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gp"&gt;$&lt;/span&gt; gh triage spam https://github.com/python/cpython/issues/144900
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;✅ Removed labels: type-bug
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;✅ Added labels: invalid
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;✅ Changed title: spam
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="go"&gt;✅ Closed
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This can be used for any repo that you have permissions for: it applies the &amp;ldquo;invalid&amp;rdquo; or
+&amp;ldquo;spam&amp;rdquo; labels, but only if they exist in the repo.&lt;/p&gt;
+&lt;p&gt;Next step: perhaps it could print out the URL to make it easy to report the account to
+GitHub (usually for &amp;ldquo;Spam or inauthentic Activity&amp;rdquo;).&lt;/p&gt;
+&lt;h2 id="gh-triage-unassign" class="relative group"&gt;&lt;code&gt;gh triage unassign&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#gh-triage-unassign" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Not spam, but another triage helper.&lt;/p&gt;
+&lt;p&gt;A less common occurrence is a rebase or merge from &lt;code&gt;main&lt;/code&gt; or change of PR base branch
+that ends up bringing in lots of code changes. This often assigns the PR to dozens of
+people via
+&lt;a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners"&gt;&lt;code&gt;CODEOWNERS&lt;/code&gt;&lt;/a&gt;,
+for example:
+&lt;a href="https://github.com/python/cpython/pull/142564#event-21644515910"&gt;python/cpython#142564&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Everyone&amp;rsquo;s already been pinged and subscribed to the PR, so it&amp;rsquo;s too late to help that,
+but we can automate unassigning them all so at least the PR is not in their &amp;ldquo;assigned
+to&amp;rdquo; list.&lt;/p&gt;
+&lt;p&gt;Run &lt;code&gt;gh triage unassign &amp;lt;issue-or-pr-number-or-url&amp;gt;&lt;/code&gt; to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;remove all assignees (issues and PRs)&lt;/li&gt;
+&lt;li&gt;remove all requested reviewers (PRs only)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gh unassign &lt;span class="m"&gt;142564&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/hugovk/gh-triage"&gt;&lt;code&gt;gh triage&lt;/code&gt; homepage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Adam Johnson&amp;rsquo;s
+&lt;a href="https://adamj.eu/tech/2025/11/24/github-top-gh-cli-commands/"&gt;top &lt;code&gt;gh&lt;/code&gt; commands&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo:
+&lt;a href="https://archive.org/details/ottoofsilverhand00pylerich/page/55/mode/1up"&gt;&lt;i&gt;Otto of the Silver Hand&lt;/i&gt; written and illustrated by William Pyle&lt;/a&gt;,
+originally published 1888, from the
+&lt;a href="https://archive.org/details/university_of_california_libraries"&gt;University of California Libraries&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item><item><title>Speeding up Pillow's open and save</title><link>https://hugovk.dev/blog/2026/faster-pillow/</link><pubDate>Wed, 28 Jan 2026 10:29:04 +0000</pubDate><guid>https://hugovk.dev/blog/2026/faster-pillow/</guid><description>&lt;h2 id="tachyon" class="relative group"&gt;Tachyon &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tachyon" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;I tried out
 &lt;a href="https://docs.python.org/3.15/whatsnew/3.15.html#whatsnew315-sampling-profiler"&gt;Tachyon&lt;/a&gt;,
 the new &amp;ldquo;high-frequency statistical sampling profiler&amp;rdquo; coming in
 &lt;a href="https://www.python.org/downloads/latest/python3.15/"&gt;Python 3.15&lt;/a&gt;, to see if we can
