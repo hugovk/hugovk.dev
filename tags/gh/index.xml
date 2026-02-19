@@ -74,7 +74,7 @@ to&amp;rdquo; list.&lt;/p&gt;
 &lt;li&gt;remove all requested reviewers (PRs only)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For example:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gh unassign &lt;span class="m"&gt;142564&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gh triage unassign &lt;span class="m"&gt;142564&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/hugovk/gh-triage"&gt;&lt;code&gt;gh triage&lt;/code&gt; homepage&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Adam Johnson&amp;rsquo;s
