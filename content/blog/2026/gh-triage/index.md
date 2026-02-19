@@ -104,7 +104,7 @@ Run `gh triage unassign <issue-or-pr-number-or-url>` to:
 For example:
 
 ```sh
-gh unassign 142564
+gh triage unassign 142564
 ```
 
 ## See also
