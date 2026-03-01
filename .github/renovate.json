@@ -22,6 +22,11 @@
     {
       "groupName": "go",
       "matchManagers": ["gomod"]
+    },
+    {
+      "matchDepTypes": ["indirect"],
+      "matchManagers": ["gomod"],
+      "enabled": true
     }
   ],
   "schedule": ["on the first day of the month"]
